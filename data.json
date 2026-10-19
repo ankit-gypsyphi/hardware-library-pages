@@ -50,7 +50,8 @@
           "sha256": "a9958dc4cbb34664c42799ed79b2e08c5e536d176f371610089f8af730265c67"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/xiao-esp32s3-seeed/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/xiao-esp32s3-seeed/README.md",
+      "contents": null
     },
     {
       "id": "hlk-ld2450-radar",
@@ -94,7 +95,8 @@
           "sha256": "4cfff572202df01d75177d705429403ba90348da0eb76e0bfaa46f7fc4030c60"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/hlk-ld2450-radar/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/hlk-ld2450-radar/README.md",
+      "contents": null
     },
     {
       "id": "waveshare-213-epaper-hat-plus",
@@ -144,7 +146,8 @@
           "sha256": "3e76e37836a76d093e7e8a5aa11d6fd6e55b1c31bf4ca2c9b4f81494865a3c41"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/waveshare-213-epaper-hat-plus/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/waveshare-213-epaper-hat-plus/README.md",
+      "contents": null
     },
     {
       "id": "sht41-7semi",
@@ -200,7 +203,8 @@
           "sha256": "b7db78c1e8a80000411c258b9a86b2c588fbf6ee5b315cc05c728f3ab2a20662"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/sht41-7semi/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/sht41-7semi/README.md",
+      "contents": null
     },
     {
       "id": "xiao-esp32s3-plus-seeed",
@@ -226,7 +230,8 @@
       "quantityBasis": "recorded",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/xiao-esp32s3-plus-seeed/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/xiao-esp32s3-plus-seeed/README.md",
+      "contents": null
     },
     {
       "id": "bambu-x2d-combo-eu",
@@ -252,7 +257,8 @@
       "quantityBasis": "unreconciled",
       "incoming": 1,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-x2d-combo-eu/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-x2d-combo-eu/README.md",
+      "contents": null
     },
     {
       "id": "raspberry-pi-5",
@@ -284,7 +290,8 @@
           "sha256": "10583c80f867e05af185742bb0f80448458c606a32dd3dbefbbcfca480b59ead"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/raspberry-pi-5/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/raspberry-pi-5/README.md",
+      "contents": null
     },
     {
       "catalogueId": "esp32-devkit-7semi",
@@ -335,7 +342,8 @@
           "sha256": "a7917e6b47528c9dcab06837a49d452e582751335797db879f1cf2d17cd29adf"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/esp32-devkit-7semi/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/esp32-devkit-7semi/README.md",
+      "contents": null
     },
     {
       "catalogueId": "esp32-devkit-7semi",
@@ -386,7 +394,8 @@
           "sha256": "a7917e6b47528c9dcab06837a49d452e582751335797db879f1cf2d17cd29adf"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/esp32-devkit-7semi/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/esp32-devkit-7semi/README.md",
+      "contents": null
     },
     {
       "catalogueId": "esp32-devkit-7semi",
@@ -412,7 +421,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/esp32-devkit-7semi/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/esp32-devkit-7semi/README.md",
+      "contents": null
     },
     {
       "id": "bh1750-gy302-lux",
@@ -444,7 +454,8 @@
           "sha256": "aa7dfcb9f97a0a3a9e7298fd17a69f1a587188ac96a78d1a95d1849cae10b80c"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bh1750-gy302-lux/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bh1750-gy302-lux/README.md",
+      "contents": null
     },
     {
       "id": "hlk-ld2410c-radar",
@@ -482,7 +493,8 @@
           "sha256": "3910e3088cdd589a31b2c6f09cecf0d04fb7a18c4256763f4371deb2d6d1dcf0"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/hlk-ld2410c-radar/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/hlk-ld2410c-radar/README.md",
+      "contents": null
     },
     {
       "id": "dht22-am2302",
@@ -514,7 +526,8 @@
           "sha256": "c91441a385cdf58f5f0ae50b194f294d5d1f0faeaac9a010efacb7ecf21be448"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/dht22-am2302/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/dht22-am2302/README.md",
+      "contents": null
     },
     {
       "id": "waveshare-101-dsi-lcd-c",
@@ -545,7 +558,8 @@
       "quantityBasis": "recorded",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/waveshare-101-dsi-lcd-c/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/waveshare-101-dsi-lcd-c/README.md",
+      "contents": null
     },
     {
       "catalogueId": "oled-displays",
@@ -589,7 +603,8 @@
           "sha256": "15ec98b4576273d86c6298523c862ed1bef91436a36651dcaf189086d9d1d6bf"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/oled-displays/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/oled-displays/README.md",
+      "contents": null
     },
     {
       "catalogueId": "oled-displays",
@@ -633,7 +648,8 @@
           "sha256": "15ec98b4576273d86c6298523c862ed1bef91436a36651dcaf189086d9d1d6bf"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/oled-displays/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/oled-displays/README.md",
+      "contents": null
     },
     {
       "catalogueId": "oled-displays",
@@ -677,7 +693,8 @@
           "sha256": "15ec98b4576273d86c6298523c862ed1bef91436a36651dcaf189086d9d1d6bf"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/oled-displays/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/oled-displays/README.md",
+      "contents": null
     },
     {
       "catalogueId": "aliexpress-displays",
@@ -700,7 +717,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-displays/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-displays/README.md",
+      "contents": null
     },
     {
       "catalogueId": "aliexpress-displays",
@@ -725,7 +743,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-displays/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-displays/README.md",
+      "contents": null
     },
     {
       "catalogueId": "aliexpress-displays",
@@ -750,7 +769,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-displays/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-displays/README.md",
+      "contents": null
     },
     {
       "id": "wly104050-lipo",
@@ -775,7 +795,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/wly104050-lipo/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/wly104050-lipo/README.md",
+      "contents": null
     },
     {
       "id": "tp4056-charger",
@@ -807,7 +828,8 @@
           "sha256": "59191d7c302d2944b98cb290f733a89faf89103615db487e2903bffd3fcc63a2"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tp4056-charger/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tp4056-charger/README.md",
+      "contents": null
     },
     {
       "catalogueId": "bambu-filaments",
@@ -846,7 +868,8 @@
           "sha256": "c876cfda30ba2740b6ea4d0bd9e0f61df24e73041b57e345042b2660f5a97e58"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "contents": null
     },
     {
       "catalogueId": "bambu-filaments",
@@ -885,7 +908,8 @@
           "sha256": "895a2a5f72f18176740873e8891edf9430637f46bfb44a7228398bac9ad6ffa8"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "contents": null
     },
     {
       "catalogueId": "bambu-filaments",
@@ -924,7 +948,8 @@
           "sha256": "895a2a5f72f18176740873e8891edf9430637f46bfb44a7228398bac9ad6ffa8"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "contents": null
     },
     {
       "catalogueId": "bambu-filaments",
@@ -963,7 +988,8 @@
           "sha256": "529d94788df5efb7f572ff88711037072f66906dce71847dd7c8851f71b8fbe7"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "contents": null
     },
     {
       "catalogueId": "bambu-filaments",
@@ -1002,7 +1028,8 @@
           "sha256": "f17cd99df8d79566a40e6f0909ca83193efe9ba20a2087025c332931d85e67c5"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "contents": null
     },
     {
       "catalogueId": "yihua-workshop-tools",
@@ -1032,7 +1059,8 @@
           "sha256": "eb789f0c1c89b6733d4b990a47a5879f3aabe3bc92e29f60cc3de6eec8ef72fb"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/yihua-workshop-tools/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/yihua-workshop-tools/README.md",
+      "contents": null
     },
     {
       "catalogueId": "yihua-workshop-tools",
@@ -1068,7 +1096,8 @@
           "sha256": "99af75524a9eb0e035c23b35a7a99330ebd143c613cac81450ed28b7f3e49d00"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/yihua-workshop-tools/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/yihua-workshop-tools/README.md",
+      "contents": null
     },
     {
       "catalogueId": "yihua-workshop-tools",
@@ -1098,7 +1127,8 @@
           "sha256": "8aeeef8ba17b690928fe99488dcc726d2cfdea7c35e59651e4bdb62370b5a729"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/yihua-workshop-tools/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/yihua-workshop-tools/README.md",
+      "contents": null
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
@@ -1121,7 +1151,40 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "contents": {
+        "total": 300,
+        "coverage": "partial",
+        "basis": "Purchased M2/M2.5/M3/M4 selection; advertised 300-piece kit. Brass/copper is the seller description.",
+        "rows": [
+          {
+            "part": "M2 insert",
+            "detail": "Heat-set threaded insert; length and outer diameter not recorded",
+            "quantity": null
+          },
+          {
+            "part": "M2.5 insert",
+            "detail": "Heat-set threaded insert; length and outer diameter not recorded",
+            "quantity": null
+          },
+          {
+            "part": "M3 insert",
+            "detail": "Heat-set threaded insert; length and outer diameter not recorded",
+            "quantity": null
+          },
+          {
+            "part": "M4 insert",
+            "detail": "Heat-set threaded insert; length and outer diameter not recorded",
+            "quantity": null
+          }
+        ],
+        "missing": [
+          "Quantity for each thread size",
+          "Lengths and outer diameters",
+          "Exact alloy and physical material"
+        ],
+        "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
+      }
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
@@ -1144,7 +1207,30 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "contents": {
+        "total": 600,
+        "coverage": "unitemized",
+        "basis": "Purchased 600-piece selection from a screws/nuts listing. Other family-title counts do not apply.",
+        "rows": [
+          {
+            "part": "Screws",
+            "detail": "Thread, length and head not recorded",
+            "quantity": null
+          },
+          {
+            "part": "Nuts",
+            "detail": "Thread and dimensions not recorded",
+            "quantity": null
+          }
+        ],
+        "missing": [
+          "Screw/nut split",
+          "Thread sizes, lengths and head types",
+          "Material and quantity per compartment"
+        ],
+        "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
+      }
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
@@ -1167,7 +1253,40 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "contents": {
+        "total": 1160,
+        "coverage": "partial",
+        "basis": "Purchased black 1,160-piece selection. Listed thread family is known; compartment contents have not been recorded.",
+        "rows": [
+          {
+            "part": "M2 screws / bolts / nuts",
+            "detail": "Black; seller describes nylon Phillips pan/round heads",
+            "quantity": null
+          },
+          {
+            "part": "M2.5 screws / bolts / nuts",
+            "detail": "Black; seller describes nylon Phillips pan/round heads",
+            "quantity": null
+          },
+          {
+            "part": "M3 screws / bolts / nuts",
+            "detail": "Black; seller describes nylon Phillips pan/round heads",
+            "quantity": null
+          },
+          {
+            "part": "M4 screws / bolts / nuts",
+            "detail": "Black; seller describes nylon Phillips pan/round heads",
+            "quantity": null
+          }
+        ],
+        "missing": [
+          "Screw/nut split for each thread",
+          "Screw lengths and per-size counts",
+          "Physical material and actual head types"
+        ],
+        "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
+      }
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
@@ -1190,7 +1309,25 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "contents": {
+        "total": 300,
+        "coverage": "unitemized",
+        "basis": "Purchased 300-piece selection. The broader title says 1/4 W and 30 kinds/600 pieces; it does not establish the contents of this selection.",
+        "rows": [
+          {
+            "part": "Through-hole resistors",
+            "detail": "Resistance values and quantity per value not recorded",
+            "quantity": null
+          }
+        ],
+        "missing": [
+          "Resistance values and per-value counts",
+          "Tolerance and construction",
+          "Actual rated power"
+        ],
+        "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
+      }
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
@@ -1215,7 +1352,24 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "contents": {
+        "total": 660,
+        "coverage": "unitemized",
+        "basis": "Purchased 660-piece 1206 selection. The broader listing title mentions 0603, which is not the selected package.",
+        "rows": [
+          {
+            "part": "SMD resistors",
+            "detail": "Selected package: 1206; individual resistance values not recorded",
+            "quantity": null
+          }
+        ],
+        "missing": [
+          "Resistance values and per-value counts",
+          "Tolerance and rated power"
+        ],
+        "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
+      }
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
@@ -1236,7 +1390,25 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "contents": {
+        "total": 225,
+        "coverage": "unitemized",
+        "basis": "Purchased 225-piece selection. The 16–50 V range is a family-title claim, not a rating for every capacitor.",
+        "rows": [
+          {
+            "part": "Aluminum electrolytic capacitors",
+            "detail": "Individual capacitances and voltage ratings not recorded",
+            "quantity": null
+          }
+        ],
+        "missing": [
+          "Capacitance / voltage combinations",
+          "Quantity per value",
+          "Series, dimensions and actual ratings"
+        ],
+        "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
+      }
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
@@ -1259,7 +1431,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "contents": null
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
@@ -1280,7 +1453,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "contents": null
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
@@ -1305,7 +1479,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "contents": null
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
@@ -1330,7 +1505,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "contents": null
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
@@ -1355,7 +1531,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "contents": null
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
@@ -1378,7 +1555,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "contents": null
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
@@ -1401,7 +1579,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "contents": null
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
@@ -1424,7 +1603,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "contents": null
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
@@ -1447,7 +1627,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "contents": null
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
@@ -1470,7 +1651,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "contents": null
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
@@ -1495,7 +1677,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "contents": null
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
@@ -1520,7 +1703,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "contents": null
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
@@ -1545,7 +1729,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -1572,7 +1757,56 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": {
+        "total": 250,
+        "coverage": "complete",
+        "basis": "OnlyScrews supplier breakdown for one box. Receipt and physical counts are unconfirmed.",
+        "rows": [
+          {
+            "part": "Pan-head screw",
+            "detail": "M2.5 × 6 mm · SS304 · Phillips",
+            "quantity": 30
+          },
+          {
+            "part": "Pan-head screw",
+            "detail": "M2.5 × 8 mm · SS304 · Phillips",
+            "quantity": 30
+          },
+          {
+            "part": "Pan-head screw",
+            "detail": "M2.5 × 10 mm · SS304 · Phillips",
+            "quantity": 30
+          },
+          {
+            "part": "Pan-head screw",
+            "detail": "M2.5 × 12 mm · SS304 · Phillips",
+            "quantity": 20
+          },
+          {
+            "part": "Pan-head screw",
+            "detail": "M2.5 × 15 mm · SS304 · Phillips",
+            "quantity": 20
+          },
+          {
+            "part": "Pan-head screw",
+            "detail": "M2.5 × 20 mm · SS304 · Phillips",
+            "quantity": 20
+          },
+          {
+            "part": "Nut",
+            "detail": "M2.5 · SS304",
+            "quantity": 50
+          },
+          {
+            "part": "Washer",
+            "detail": "For M2.5 · SS304",
+            "quantity": 50
+          }
+        ],
+        "missing": [],
+        "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      }
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -1599,7 +1833,56 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": {
+        "total": 100,
+        "coverage": "complete",
+        "basis": "OnlyScrews supplier breakdown for one box. Receipt and physical counts are unconfirmed.",
+        "rows": [
+          {
+            "part": "Pan-head screw",
+            "detail": "M3 × 8 mm · SS304 · Phillips",
+            "quantity": 10
+          },
+          {
+            "part": "Pan-head screw",
+            "detail": "M3 × 10 mm · SS304 · Phillips",
+            "quantity": 10
+          },
+          {
+            "part": "Pan-head screw",
+            "detail": "M3 × 12 mm · SS304 · Phillips",
+            "quantity": 10
+          },
+          {
+            "part": "Pan-head screw",
+            "detail": "M3 × 16 mm · SS304 · Phillips",
+            "quantity": 10
+          },
+          {
+            "part": "Pan-head screw",
+            "detail": "M3 × 20 mm · SS304 · Phillips",
+            "quantity": 10
+          },
+          {
+            "part": "Pan-head screw",
+            "detail": "M3 × 25 mm · SS304 · Phillips",
+            "quantity": 10
+          },
+          {
+            "part": "Nut",
+            "detail": "M3 · SS304",
+            "quantity": 20
+          },
+          {
+            "part": "Washer",
+            "detail": "For M3 · SS304",
+            "quantity": 20
+          }
+        ],
+        "missing": [],
+        "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      }
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -1626,7 +1909,56 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": {
+        "total": 100,
+        "coverage": "complete",
+        "basis": "OnlyScrews supplier breakdown for one box. Receipt and physical counts are unconfirmed.",
+        "rows": [
+          {
+            "part": "Pan-head screw",
+            "detail": "M4 × 8 mm · SS304 · Phillips",
+            "quantity": 10
+          },
+          {
+            "part": "Pan-head screw",
+            "detail": "M4 × 10 mm · SS304 · Phillips",
+            "quantity": 10
+          },
+          {
+            "part": "Pan-head screw",
+            "detail": "M4 × 12 mm · SS304 · Phillips",
+            "quantity": 10
+          },
+          {
+            "part": "Pan-head screw",
+            "detail": "M4 × 16 mm · SS304 · Phillips",
+            "quantity": 10
+          },
+          {
+            "part": "Pan-head screw",
+            "detail": "M4 × 20 mm · SS304 · Phillips",
+            "quantity": 10
+          },
+          {
+            "part": "Pan-head screw",
+            "detail": "M4 × 25 mm · SS304 · Phillips",
+            "quantity": 10
+          },
+          {
+            "part": "Nut",
+            "detail": "M4 · SS304",
+            "quantity": 20
+          },
+          {
+            "part": "Washer",
+            "detail": "For M4 · SS304",
+            "quantity": 20
+          }
+        ],
+        "missing": [],
+        "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      }
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -1653,7 +1985,56 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": {
+        "total": 100,
+        "coverage": "complete",
+        "basis": "OnlyScrews supplier breakdown for one box. Receipt and physical counts are unconfirmed.",
+        "rows": [
+          {
+            "part": "Countersunk screw",
+            "detail": "M3 × 8 mm · SS304 · Phillips",
+            "quantity": 10
+          },
+          {
+            "part": "Countersunk screw",
+            "detail": "M3 × 10 mm · SS304 · Phillips",
+            "quantity": 10
+          },
+          {
+            "part": "Countersunk screw",
+            "detail": "M3 × 12 mm · SS304 · Phillips",
+            "quantity": 10
+          },
+          {
+            "part": "Countersunk screw",
+            "detail": "M3 × 16 mm · SS304 · Phillips",
+            "quantity": 10
+          },
+          {
+            "part": "Countersunk screw",
+            "detail": "M3 × 20 mm · SS304 · Phillips",
+            "quantity": 10
+          },
+          {
+            "part": "Countersunk screw",
+            "detail": "M3 × 25 mm · SS304 · Phillips",
+            "quantity": 10
+          },
+          {
+            "part": "Nut",
+            "detail": "M3 · SS304",
+            "quantity": 20
+          },
+          {
+            "part": "Washer",
+            "detail": "For M3 · SS304",
+            "quantity": 20
+          }
+        ],
+        "missing": [],
+        "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      }
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -1679,7 +2060,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -1705,7 +2087,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -1730,7 +2113,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -1756,7 +2140,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -1782,7 +2167,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -1808,7 +2194,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -1832,7 +2219,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -1857,7 +2245,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -1881,7 +2270,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -1904,7 +2294,31 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": {
+        "total": 120,
+        "coverage": "complete",
+        "basis": "Recorded original set: 40 wires of each connector type. Additional F-F purchases are separate entries.",
+        "rows": [
+          {
+            "part": "Male-to-male jumpers",
+            "detail": "M-M",
+            "quantity": 40
+          },
+          {
+            "part": "Male-to-female jumpers",
+            "detail": "M-F",
+            "quantity": 40
+          },
+          {
+            "part": "Female-to-female jumpers",
+            "detail": "F-F",
+            "quantity": 40
+          }
+        ],
+        "missing": [],
+        "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      }
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -1929,7 +2343,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -1954,7 +2369,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -1979,7 +2395,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2004,7 +2421,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2029,7 +2447,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2054,7 +2473,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2079,7 +2499,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2102,7 +2523,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2125,7 +2547,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2150,7 +2573,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2175,7 +2599,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2200,7 +2625,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2223,7 +2649,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2248,7 +2675,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2271,7 +2699,23 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": {
+        "total": 140,
+        "coverage": "unitemized",
+        "basis": "Recorded 140-piece set. The supplier breakdown by jumper length is absent from the source record.",
+        "rows": [
+          {
+            "part": "Preformed U-shaped jumpers",
+            "detail": "Individual lengths and quantities not recorded",
+            "quantity": null
+          }
+        ],
+        "missing": [
+          "Jumper lengths and quantity per length"
+        ],
+        "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      }
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2296,7 +2740,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2321,7 +2766,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2346,7 +2792,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2371,7 +2818,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2396,7 +2844,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2421,7 +2870,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2446,7 +2896,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2471,7 +2922,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2494,7 +2946,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2518,7 +2971,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2543,7 +2997,33 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": {
+        "total": 3,
+        "coverage": "partial",
+        "basis": "Recorded three-piece I/B/K pack. Shape codes are known; no individual physical count is recorded.",
+        "rows": [
+          {
+            "part": "900M I tip",
+            "detail": "Recorded shape code; individual dimensions not recorded",
+            "quantity": null
+          },
+          {
+            "part": "900M B tip",
+            "detail": "Recorded shape code; individual dimensions not recorded",
+            "quantity": null
+          },
+          {
+            "part": "900M K tip",
+            "detail": "Recorded shape code; individual dimensions not recorded",
+            "quantity": null
+          }
+        ],
+        "missing": [
+          "Per-shape count and dimensions"
+        ],
+        "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      }
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2566,7 +3046,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2589,7 +3070,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2613,7 +3095,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2638,7 +3121,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2662,7 +3146,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2685,7 +3170,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2708,7 +3194,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2732,7 +3219,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2755,7 +3243,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2778,7 +3267,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2801,7 +3291,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2824,7 +3315,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2847,7 +3339,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2867,7 +3360,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2890,7 +3384,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2913,7 +3408,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2937,7 +3433,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2962,7 +3459,128 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": {
+        "total": 34,
+        "coverage": "complete",
+        "basis": "Recorded supplier list for Bosch 2607010608. Listed quantities total 34; physical contents have not been recounted.",
+        "rows": [
+          {
+            "part": "Wood drill bits",
+            "detail": "4–8 mm range",
+            "quantity": 5
+          },
+          {
+            "part": "HSS metal drill bits",
+            "detail": "2–5 mm range",
+            "quantity": 5
+          },
+          {
+            "part": "Masonry drill bits",
+            "detail": "5–8 mm range",
+            "quantity": 5
+          },
+          {
+            "part": "Nutsetter",
+            "detail": "7 mm",
+            "quantity": 1
+          },
+          {
+            "part": "Nutsetter",
+            "detail": "8 mm",
+            "quantity": 1
+          },
+          {
+            "part": "Nutsetter",
+            "detail": "10 mm",
+            "quantity": 1
+          },
+          {
+            "part": "Nutsetter adapter",
+            "detail": "Adapter for the nutsetters",
+            "quantity": 1
+          },
+          {
+            "part": "Magnetic universal bit holder",
+            "detail": "Bit holder",
+            "quantity": 1
+          },
+          {
+            "part": "Countersink bit",
+            "detail": "Countersink",
+            "quantity": 1
+          },
+          {
+            "part": "Screwdriver bit",
+            "detail": "PH1 · 25 mm length",
+            "quantity": 1
+          },
+          {
+            "part": "Screwdriver bit",
+            "detail": "PH2 · 25 mm length",
+            "quantity": 1
+          },
+          {
+            "part": "Screwdriver bit",
+            "detail": "PH3 · 25 mm length",
+            "quantity": 1
+          },
+          {
+            "part": "Screwdriver bit",
+            "detail": "PZ1 · 25 mm length",
+            "quantity": 1
+          },
+          {
+            "part": "Screwdriver bit",
+            "detail": "PZ2 · 25 mm length",
+            "quantity": 1
+          },
+          {
+            "part": "Screwdriver bit",
+            "detail": "PZ3 · 25 mm length",
+            "quantity": 1
+          },
+          {
+            "part": "Screwdriver bit",
+            "detail": "S4 · 25 mm length",
+            "quantity": 1
+          },
+          {
+            "part": "Screwdriver bit",
+            "detail": "S6 · 25 mm length",
+            "quantity": 1
+          },
+          {
+            "part": "Screwdriver bit",
+            "detail": "S7 · 25 mm length",
+            "quantity": 1
+          },
+          {
+            "part": "Screwdriver bit",
+            "detail": "T15 · 25 mm length",
+            "quantity": 1
+          },
+          {
+            "part": "Screwdriver bit",
+            "detail": "T20 · 25 mm length",
+            "quantity": 1
+          },
+          {
+            "part": "Screwdriver bit",
+            "detail": "T25 · 25 mm length",
+            "quantity": 1
+          },
+          {
+            "part": "Screwdriver bit",
+            "detail": "T30 · 25 mm length",
+            "quantity": 1
+          }
+        ],
+        "missing": [
+          "Individual drill diameters within the three published ranges"
+        ],
+        "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      }
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -2987,7 +3605,28 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": {
+        "total": 32,
+        "coverage": "complete",
+        "basis": "Recorded supplier breakdown: 31 bits + 1 holder. The count is complete; the bit-by-bit size list is not recorded.",
+        "rows": [
+          {
+            "part": "Colour-coded screwdriver bits",
+            "detail": "25 mm · Phillips, Pozidriv, slotted, Torx, hex and tamper-proof types",
+            "quantity": 31
+          },
+          {
+            "part": "Magnetic quick-change holder",
+            "detail": "Universal holder with locking collar",
+            "quantity": 1
+          }
+        ],
+        "missing": [
+          "Individual bit sizes and quantity per profile"
+        ],
+        "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      }
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -3012,7 +3651,95 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": {
+        "total": 154,
+        "coverage": "partial",
+        "basis": "Partial recorded supplier lists for BMT154C. The advertised 154-piece total cannot be reconciled from the named contents; no balancing quantity is invented.",
+        "rows": [
+          {
+            "part": "Pliers",
+            "detail": "Water-pump · carbon steel",
+            "quantity": 1
+          },
+          {
+            "part": "Pliers",
+            "detail": "Combination · carbon steel",
+            "quantity": 1
+          },
+          {
+            "part": "Pliers",
+            "detail": "Diagonal · carbon steel",
+            "quantity": 1
+          },
+          {
+            "part": "Screwdrivers",
+            "detail": "Slotted and Phillips · 6150 CRV blades",
+            "quantity": 5
+          },
+          {
+            "part": "Screwdriver bits",
+            "detail": "CRV; individual profiles not itemized",
+            "quantity": 30
+          },
+          {
+            "part": "Bit driver",
+            "detail": "Driver for the bits",
+            "quantity": 1
+          },
+          {
+            "part": "Hex keys",
+            "detail": "Individual sizes not itemized",
+            "quantity": 9
+          },
+          {
+            "part": "Ratchet",
+            "detail": "1/4-inch drive",
+            "quantity": 1
+          },
+          {
+            "part": "Sockets",
+            "detail": "9 sockets in the 5–13 mm range",
+            "quantity": 9
+          },
+          {
+            "part": "Claw hammer",
+            "detail": "Size not recorded",
+            "quantity": null
+          },
+          {
+            "part": "Utility knife and spare blades",
+            "detail": "Snap-off type; blade count not recorded",
+            "quantity": null
+          },
+          {
+            "part": "Tape measure",
+            "detail": "5 m",
+            "quantity": null
+          },
+          {
+            "part": "Torpedo spirit level",
+            "detail": "Dimensions not recorded",
+            "quantity": null
+          },
+          {
+            "part": "Steel ruler",
+            "detail": "Length not recorded",
+            "quantity": null
+          },
+          {
+            "part": "Hardware assortment",
+            "detail": "Fixings are not itemized",
+            "quantity": null
+          }
+        ],
+        "missing": [
+          "Fixing types, sizes and counts",
+          "Exact hex-key, socket, screwdriver and bit sizes",
+          "Unlisted pieces needed to reconcile the 154-piece headline"
+        ],
+        "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      }
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -3037,7 +3764,23 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": {
+        "total": 6,
+        "coverage": "unitemized",
+        "basis": "Recorded six-piece BDHT22148 set. The photographed pack was sealed; individual shapes were not documented.",
+        "rows": [
+          {
+            "part": "Needle files",
+            "detail": "174 mm; six shapes not recorded",
+            "quantity": 6
+          }
+        ],
+        "missing": [
+          "The six file shapes"
+        ],
+        "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      }
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -3062,7 +3805,41 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": {
+        "total": 5,
+        "coverage": "complete",
+        "basis": "Recorded supplier list: five powder-coated stainless-steel tweezer types. ESD performance is not certified by this record.",
+        "rows": [
+          {
+            "part": "No. 9",
+            "detail": "Slim tip, point straight · 5.2 in",
+            "quantity": 1
+          },
+          {
+            "part": "No. 2A",
+            "detail": "Pointed round · 4.7 in",
+            "quantity": 1
+          },
+          {
+            "part": "No. 5",
+            "detail": "Pin point · 4.7 in",
+            "quantity": 1
+          },
+          {
+            "part": "No. AA",
+            "detail": "Highly elastic tip point · 4.8 in",
+            "quantity": 1
+          },
+          {
+            "part": "No. 7A",
+            "detail": "Curved point, angled · about 4.7 in",
+            "quantity": 1
+          }
+        ],
+        "missing": [],
+        "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      }
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -3087,7 +3864,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -3112,7 +3890,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -3135,7 +3914,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -3156,7 +3936,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -3181,7 +3962,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -3204,7 +3986,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -3227,7 +4010,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -3252,7 +4036,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "catalogueId": "input-controls",
@@ -3284,7 +4069,8 @@
           "sha256": "3d26320148f7cbddd2149fa7cce567003315dcf46c3fd9387f2c59286b9a50e4"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/input-controls/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/input-controls/README.md",
+      "contents": null
     },
     {
       "catalogueId": "input-controls",
@@ -3309,7 +4095,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/input-controls/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/input-controls/README.md",
+      "contents": null
     },
     {
       "catalogueId": "input-controls",
@@ -3332,7 +4119,25 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/input-controls/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/input-controls/README.md",
+      "contents": {
+        "total": 125,
+        "coverage": "unitemized",
+        "basis": "Listing advertises 125 pieces. The selected size assortment was not captured in the source evidence.",
+        "rows": [
+          {
+            "part": "Miniature tactile push buttons",
+            "detail": "Individual switch sizes and pin layouts not recorded",
+            "quantity": null
+          }
+        ],
+        "missing": [
+          "Body dimensions and actuator heights",
+          "Contact arrangement and ratings",
+          "Quantity per switch type"
+        ],
+        "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/input-controls/README.md"
+      }
     },
     {
       "id": "seeed-a02-antenna",
@@ -3364,7 +4169,8 @@
           "sha256": "10a89ebbeab31e97e21f7aa81e3c8cbca87fe249598ff9c9a61028b8edbfa6fb"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/seeed-a02-antenna/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/seeed-a02-antenna/README.md",
+      "contents": null
     },
     {
       "id": "seeed-xiao-heatsink",
@@ -3389,7 +4195,8 @@
       "quantityBasis": "expected",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/seeed-xiao-heatsink/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/seeed-xiao-heatsink/README.md",
+      "contents": null
     },
     {
       "catalogueId": "netgear-orbi-rbr50",
@@ -3419,7 +4226,8 @@
           "sha256": "75ade4b4537356f06474f2e7c88b86011984240fee9fbe05b6f551087ff55ec7"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/netgear-orbi-rbr50/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/netgear-orbi-rbr50/README.md",
+      "contents": null
     },
     {
       "catalogueId": "netgear-orbi-rbr50",
@@ -3444,7 +4252,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/netgear-orbi-rbr50/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/netgear-orbi-rbr50/README.md",
+      "contents": null
     },
     {
       "catalogueId": "wiz-neo-b22",
@@ -3469,7 +4278,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/wiz-neo-b22/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/wiz-neo-b22/README.md",
+      "contents": null
     },
     {
       "catalogueId": "wiz-neo-b22",
@@ -3494,7 +4304,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/wiz-neo-b22/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/wiz-neo-b22/README.md",
+      "contents": null
     },
     {
       "id": "tuya-amazon-basics-bulbs",
@@ -3519,7 +4330,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tuya-amazon-basics-bulbs/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tuya-amazon-basics-bulbs/README.md",
+      "contents": null
     },
     {
       "catalogueId": "qubo-smart-devices",
@@ -3545,7 +4357,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/qubo-smart-devices/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/qubo-smart-devices/README.md",
+      "contents": null
     },
     {
       "catalogueId": "qubo-smart-devices",
@@ -3571,7 +4384,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/qubo-smart-devices/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/qubo-smart-devices/README.md",
+      "contents": null
     }
   ],
   "families": [
@@ -3623,7 +4437,8 @@
           "sha256": "a9958dc4cbb34664c42799ed79b2e08c5e536d176f371610089f8af730265c67"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/xiao-esp32s3-seeed/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/xiao-esp32s3-seeed/README.md",
+      "contents": null
     },
     {
       "id": "hlk-ld2450-radar",
@@ -3667,7 +4482,8 @@
           "sha256": "4cfff572202df01d75177d705429403ba90348da0eb76e0bfaa46f7fc4030c60"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/hlk-ld2450-radar/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/hlk-ld2450-radar/README.md",
+      "contents": null
     },
     {
       "id": "waveshare-213-epaper-hat-plus",
@@ -3717,7 +4533,8 @@
           "sha256": "3e76e37836a76d093e7e8a5aa11d6fd6e55b1c31bf4ca2c9b4f81494865a3c41"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/waveshare-213-epaper-hat-plus/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/waveshare-213-epaper-hat-plus/README.md",
+      "contents": null
     },
     {
       "id": "sht41-7semi",
@@ -3773,7 +4590,8 @@
           "sha256": "b7db78c1e8a80000411c258b9a86b2c588fbf6ee5b315cc05c728f3ab2a20662"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/sht41-7semi/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/sht41-7semi/README.md",
+      "contents": null
     },
     {
       "id": "xiao-esp32s3-plus-seeed",
@@ -3799,7 +4617,8 @@
       "quantityBasis": "recorded",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/xiao-esp32s3-plus-seeed/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/xiao-esp32s3-plus-seeed/README.md",
+      "contents": null
     },
     {
       "id": "bambu-x2d-combo-eu",
@@ -3825,7 +4644,8 @@
       "quantityBasis": "unreconciled",
       "incoming": 1,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-x2d-combo-eu/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-x2d-combo-eu/README.md",
+      "contents": null
     },
     {
       "id": "raspberry-pi-5",
@@ -3857,7 +4677,8 @@
           "sha256": "10583c80f867e05af185742bb0f80448458c606a32dd3dbefbbcfca480b59ead"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/raspberry-pi-5/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/raspberry-pi-5/README.md",
+      "contents": null
     },
     {
       "id": "esp32-devkit-7semi",
@@ -3908,7 +4729,8 @@
           "sha256": "a7917e6b47528c9dcab06837a49d452e582751335797db879f1cf2d17cd29adf"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/esp32-devkit-7semi/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/esp32-devkit-7semi/README.md",
+      "contents": null
     },
     {
       "id": "bh1750-gy302-lux",
@@ -3940,7 +4762,8 @@
           "sha256": "aa7dfcb9f97a0a3a9e7298fd17a69f1a587188ac96a78d1a95d1849cae10b80c"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bh1750-gy302-lux/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bh1750-gy302-lux/README.md",
+      "contents": null
     },
     {
       "id": "hlk-ld2410c-radar",
@@ -3978,7 +4801,8 @@
           "sha256": "3910e3088cdd589a31b2c6f09cecf0d04fb7a18c4256763f4371deb2d6d1dcf0"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/hlk-ld2410c-radar/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/hlk-ld2410c-radar/README.md",
+      "contents": null
     },
     {
       "id": "dht22-am2302",
@@ -4010,7 +4834,8 @@
           "sha256": "c91441a385cdf58f5f0ae50b194f294d5d1f0faeaac9a010efacb7ecf21be448"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/dht22-am2302/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/dht22-am2302/README.md",
+      "contents": null
     },
     {
       "id": "waveshare-101-dsi-lcd-c",
@@ -4041,7 +4866,8 @@
       "quantityBasis": "recorded",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/waveshare-101-dsi-lcd-c/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/waveshare-101-dsi-lcd-c/README.md",
+      "contents": null
     },
     {
       "id": "oled-displays",
@@ -4085,7 +4911,8 @@
           "sha256": "15ec98b4576273d86c6298523c862ed1bef91436a36651dcaf189086d9d1d6bf"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/oled-displays/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/oled-displays/README.md",
+      "contents": null
     },
     {
       "id": "aliexpress-displays",
@@ -4110,7 +4937,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-displays/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-displays/README.md",
+      "contents": null
     },
     {
       "id": "wly104050-lipo",
@@ -4135,7 +4963,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/wly104050-lipo/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/wly104050-lipo/README.md",
+      "contents": null
     },
     {
       "id": "tp4056-charger",
@@ -4167,7 +4996,8 @@
           "sha256": "59191d7c302d2944b98cb290f733a89faf89103615db487e2903bffd3fcc63a2"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tp4056-charger/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tp4056-charger/README.md",
+      "contents": null
     },
     {
       "id": "bambu-filaments",
@@ -4241,7 +5071,8 @@
           "sha256": "529d94788df5efb7f572ff88711037072f66906dce71847dd7c8851f71b8fbe7"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "contents": null
     },
     {
       "id": "yihua-workshop-tools",
@@ -4291,7 +5122,8 @@
           "sha256": "99af75524a9eb0e035c23b35a7a99330ebd143c613cac81450ed28b7f3e49d00"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/yihua-workshop-tools/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/yihua-workshop-tools/README.md",
+      "contents": null
     },
     {
       "id": "aliexpress-prototyping-stock",
@@ -4316,7 +5148,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "contents": null
     },
     {
       "id": "tools-and-consumables",
@@ -4340,7 +5173,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "contents": null
     },
     {
       "id": "input-controls",
@@ -4372,7 +5206,8 @@
           "sha256": "3d26320148f7cbddd2149fa7cce567003315dcf46c3fd9387f2c59286b9a50e4"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/input-controls/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/input-controls/README.md",
+      "contents": null
     },
     {
       "id": "seeed-a02-antenna",
@@ -4404,7 +5239,8 @@
           "sha256": "10a89ebbeab31e97e21f7aa81e3c8cbca87fe249598ff9c9a61028b8edbfa6fb"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/seeed-a02-antenna/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/seeed-a02-antenna/README.md",
+      "contents": null
     },
     {
       "id": "seeed-xiao-heatsink",
@@ -4429,7 +5265,8 @@
       "quantityBasis": "expected",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/seeed-xiao-heatsink/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/seeed-xiao-heatsink/README.md",
+      "contents": null
     },
     {
       "id": "netgear-orbi-rbr50",
@@ -4461,7 +5298,8 @@
           "sha256": "75ade4b4537356f06474f2e7c88b86011984240fee9fbe05b6f551087ff55ec7"
         }
       ],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/netgear-orbi-rbr50/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/netgear-orbi-rbr50/README.md",
+      "contents": null
     },
     {
       "id": "wiz-neo-b22",
@@ -4486,7 +5324,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/wiz-neo-b22/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/wiz-neo-b22/README.md",
+      "contents": null
     },
     {
       "id": "tuya-amazon-basics-bulbs",
@@ -4511,7 +5350,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tuya-amazon-basics-bulbs/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tuya-amazon-basics-bulbs/README.md",
+      "contents": null
     },
     {
       "id": "qubo-smart-devices",
@@ -4534,7 +5374,8 @@
       "quantityBasis": "unreconciled",
       "incoming": null,
       "documents": [],
-      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/qubo-smart-devices/README.md"
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/qubo-smart-devices/README.md",
+      "contents": null
     }
   ]
 }

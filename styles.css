@@ -362,3 +362,34 @@ dialog{overflow:hidden}
 }
 
 @media(max-width:370px){.brand{font-size:14px;gap:7px}.brand-mark{width:31px;height:31px}.hero h1{font-size:30px}.hero-copy{padding-left:22px;padding-right:22px}.component-grid:not(.component-list){grid-template-columns:1fr}.card-art{height:150px}.card-art svg{height:148px}.card-description{min-height:0}.toolbar{display:grid;grid-template-columns:1fr auto}.search-field{grid-column:1/-1}.toolbar>.filter{grid-column:1}.toolbar>.sort{grid-row:3}.view-toggle{grid-column:2;grid-row:2/4;align-self:center}.view-toggle button{padding:10px}}
+
+
+/* Pack contents stay prominent and separate from the inventory balance. */
+.contents-preview{display:flex;align-items:center;justify-content:space-between;gap:8px;width:100%;margin-top:16px;padding:11px 0 1px;color:#2458b7;font:inherit;font-size:12px;font-weight:600;text-align:left;border:0;background:transparent;cursor:pointer}
+.contents-preview svg{width:16px;height:16px;flex:none}
+.contents-preview:hover{color:#123c8c}
+.contents-preview:focus-visible{outline:2px solid #2359dc;outline-offset:4px;border-radius:3px}
+.kit-contents{margin:24px 0 28px;border:1px solid #d7e2f0;border-radius:14px;overflow:hidden;background:#fff}
+.contents-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 20px 15px;background:#f2f6fd}
+.contents-kicker{margin:0 0 4px;color:#526f9c;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px}
+.detail-main .contents-heading h3{margin:0;font-size:21px;color:#223b60}
+.contents-total{font-size:25px;font-weight:700;text-align:right;color:#2458b7;line-height:1.2;font-variant-numeric:tabular-nums}
+.contents-total small{display:block;margin-top:4px;font-size:10px;font-weight:500;color:#566f93}
+.contents-basis{padding:0 20px 18px;margin:0;background:#f2f6fd;color:#516581;font-size:12px;line-height:1.7}
+.contents-coverage{display:block;font-weight:700;margin-bottom:5px;color:#334e75}
+.contents-table{border-collapse:collapse;table-layout:fixed;width:100%;font-size:12px;line-height:1.6;text-align:left}
+.contents-table th,.contents-table td{padding:12px 15px;border-bottom:1px solid #e7edf5;vertical-align:top;overflow-wrap:anywhere}
+.contents-table thead th{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#526781;background:#fafbfd}
+.contents-table thead th:first-child{width:29%}
+.contents-table thead th:last-child{width:19%;text-align:right}
+.contents-table tbody th{font-weight:600;color:#304767}
+.contents-table td{color:#526581}
+.contents-quantity{text-align:right;font-variant-numeric:tabular-nums;font-weight:700}
+.quantity-unknown{font-size:11px;font-weight:400;color:#62738b}
+.contents-gaps{margin:17px 20px;padding:14px 16px;background:#faf7ee;border-radius:8px;color:#725b2f;font-size:12px;line-height:1.65}
+.contents-gaps h4{margin:0 0 5px;font-size:12px}
+.contents-gaps ul{margin:0;padding-left:17px}
+.contents-source{margin:17px 20px;color:#5a6d88;font-size:11px;line-height:1.7}
+.contents-source a{display:block;color:#335f9d;margin-top:5px}
+.contents-source svg{width:12px;height:12px;vertical-align:middle}
+@media(max-width:560px){.contents-heading{padding:16px 14px 12px}.contents-basis{padding:0 14px 14px}.contents-table th,.contents-table td{padding:10px 9px}.contents-table{font-size:11px}.contents-table thead th:last-child{width:22%}.contents-gaps,.contents-source{margin-left:14px;margin-right:14px}.contents-total{font-size:23px}.contents-total small{font-size:9px}.contents-preview{font-size:11px}.detail-main .contents-heading h3{font-size:19px}}
