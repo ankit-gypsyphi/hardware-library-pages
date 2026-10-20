@@ -384,6 +384,8 @@ dialog{overflow:hidden}
 .product-link-note{margin:8px 2px 14px}
 .product-link-caption{margin:12px 0 0}
 .product-link-missing{margin:0}
+.purchase-source-local{display:inline-block;margin:14px 0 0;font-size:12px;line-height:1.6;font-weight:600;color:#4b637d}
+.product-links .purchase-source-local{margin:0 0 4px}
 .kit-contents{margin:24px 0 28px;border:1px solid #d7e2f0;border-radius:14px;overflow:hidden;background:#fff}
 .contents-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 20px 15px;background:#f2f6fd}
 .contents-kicker{margin:0 0 4px;color:#526f9c;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px}
