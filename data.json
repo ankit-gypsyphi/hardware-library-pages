@@ -1584,15 +1584,18 @@
       "catalogueId": "aliexpress-prototyping-stock",
       "name": "M2–M4 heat-set insert kit",
       "category": "Fasteners",
-      "summary": "HZYUEGOU brass/copper insert assortment",
+      "summary": "HZYUEGOU brass insert kit: 10 advertised sizes, 300 pieces.",
       "tags": [
         "Assortment"
       ],
       "specs": {
-        "Format": "Assortment",
-        "Purchased": "1 kit / advertised 300 pieces"
+        "Format": "10-size heat-set threaded insert assortment",
+        "Purchased": "1 kit / advertised 300 pieces",
+        "Thread sizes": "M2 / M2.5 / M3 / M4",
+        "Advertised split": "M2: 120 · M2.5: 40 · M3: 110 · M4: 30",
+        "Material (seller image)": "Brass; exact alloy unverified"
       },
-      "note": "Receipt confirmed 19 October. Per-size counts, lengths and physical material remain unverified.",
+      "note": "Receipt confirmed 19 October. Matching seller image supplied 20 October itemizes all 300 advertised pieces. Size labels are copied as shown; physical quantities, measured dimensions and alloy remain unverified. The separate 1,300-piece image is not this purchased variant.",
       "id": "aliexpress-prototyping-stock--heat-inserts",
       "links": [],
       "status": "unreconciled",
@@ -1613,33 +1616,63 @@
       "purchaseSource": null,
       "contents": {
         "total": 300,
-        "coverage": "partial",
-        "basis": "Purchased M2/M2.5/M3/M4 selection; advertised 300-piece kit. Brass/copper is the seller description.",
+        "coverage": "complete",
+        "basis": "Matching 300-piece / 10-size seller image supplied by the owner on 20 October. Quantities are advertised per kit; size labels are reproduced as shown.",
         "rows": [
           {
-            "part": "M2 insert",
-            "detail": "Heat-set threaded insert; length and outer diameter not recorded",
-            "quantity": null
+            "part": "M2 brass insert",
+            "detail": "M2 × 2 × 3.2 · seller size label",
+            "quantity": 50
           },
           {
-            "part": "M2.5 insert",
-            "detail": "Heat-set threaded insert; length and outer diameter not recorded",
-            "quantity": null
+            "part": "M2 brass insert",
+            "detail": "M2 × 3 × 3.2 · seller size label",
+            "quantity": 40
           },
           {
-            "part": "M3 insert",
-            "detail": "Heat-set threaded insert; length and outer diameter not recorded",
-            "quantity": null
+            "part": "M2 brass insert",
+            "detail": "M2 × 4 × 3.2 · seller size label",
+            "quantity": 30
           },
           {
-            "part": "M4 insert",
-            "detail": "Heat-set threaded insert; length and outer diameter not recorded",
-            "quantity": null
+            "part": "M2.5 brass insert",
+            "detail": "M2.5 × 3 × 3.5 · seller size label",
+            "quantity": 20
+          },
+          {
+            "part": "M2.5 brass insert",
+            "detail": "M2.5 × 4 × 3.5 · seller size label",
+            "quantity": 20
+          },
+          {
+            "part": "M3 brass insert",
+            "detail": "M3 × 3 × 4.2 · seller size label",
+            "quantity": 50
+          },
+          {
+            "part": "M3 brass insert",
+            "detail": "M3 × 4 × 4.2 · seller size label",
+            "quantity": 40
+          },
+          {
+            "part": "M3 brass insert",
+            "detail": "M3 × 6 × 4.2 · seller size label",
+            "quantity": 20
+          },
+          {
+            "part": "M4 brass insert",
+            "detail": "M4 × 4 × 5 · seller size label",
+            "quantity": 20
+          },
+          {
+            "part": "M4 brass insert",
+            "detail": "M4 × 6 × 5 · seller size label",
+            "quantity": 10
           }
         ],
         "missing": [
-          "Quantity for each thread size",
-          "Lengths and outer diameters",
+          "Physical compartment counts and current remaining stock",
+          "Measured dimensions / tolerances and confirmation of the size-label dimension order",
           "Exact alloy and physical material"
         ],
         "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
@@ -1704,15 +1737,19 @@
       "catalogueId": "aliexpress-prototyping-stock",
       "name": "M2–M4 black nylon screw kit",
       "category": "Fasteners",
-      "summary": "M2 / M2.5 / M3 / M4 screws, bolts and nuts",
+      "summary": "Black nylon kit: 810 screws across 20 sizes and 350 nuts across four sizes.",
       "tags": [
         "Assortment"
       ],
       "specs": {
-        "Format": "Assortment",
-        "Purchased": "1 box / advertised 1,160 pieces"
+        "Format": "20 screw sizes + 4 nut sizes",
+        "Purchased": "1 box / advertised 1,160 pieces",
+        "Thread sizes": "M2 / M2.5 / M3 / M4",
+        "Advertised split": "810 screws + 350 nuts",
+        "Screw head": "Phillips pan/round head, seller-described",
+        "Material / colour": "Nylon, seller-described / black"
       },
-      "note": "Receipt confirmed 19 October. Per-size counts, lengths and physical material remain unverified.",
+      "note": "Receipt confirmed 19 October. Matching seller image supplied 20 October itemizes all 1,160 advertised pieces. Physical counts, dimensions, material and ratings remain unverified. The separate white 700-piece attempt is excluded.",
       "id": "aliexpress-prototyping-stock--nylon-kit",
       "links": [],
       "status": "unreconciled",
@@ -1733,34 +1770,134 @@
       "purchaseSource": null,
       "contents": {
         "total": 1160,
-        "coverage": "partial",
-        "basis": "Purchased black 1,160-piece selection. Listed thread family is known; compartment contents have not been recorded.",
+        "coverage": "complete",
+        "basis": "Matching black 1,160-piece seller image supplied by the owner on 20 October: 20 screw sizes and four nut sizes. Advertised counts per box, not a physical recount.",
         "rows": [
           {
-            "part": "M2 screws / bolts / nuts",
-            "detail": "Black; seller describes nylon Phillips pan/round heads",
-            "quantity": null
+            "part": "Screw",
+            "detail": "M2 × 5 · black · Phillips pan/round head",
+            "quantity": 50
           },
           {
-            "part": "M2.5 screws / bolts / nuts",
-            "detail": "Black; seller describes nylon Phillips pan/round heads",
-            "quantity": null
+            "part": "Screw",
+            "detail": "M2 × 6 · black · Phillips pan/round head",
+            "quantity": 50
           },
           {
-            "part": "M3 screws / bolts / nuts",
-            "detail": "Black; seller describes nylon Phillips pan/round heads",
-            "quantity": null
+            "part": "Screw",
+            "detail": "M2 × 8 · black · Phillips pan/round head",
+            "quantity": 50
           },
           {
-            "part": "M4 screws / bolts / nuts",
-            "detail": "Black; seller describes nylon Phillips pan/round heads",
-            "quantity": null
+            "part": "Screw",
+            "detail": "M2 × 10 · black · Phillips pan/round head",
+            "quantity": 50
+          },
+          {
+            "part": "Screw",
+            "detail": "M2 × 12 · black · Phillips pan/round head",
+            "quantity": 50
+          },
+          {
+            "part": "Screw",
+            "detail": "M2.5 × 6 · black · Phillips pan/round head",
+            "quantity": 50
+          },
+          {
+            "part": "Screw",
+            "detail": "M2.5 × 8 · black · Phillips pan/round head",
+            "quantity": 50
+          },
+          {
+            "part": "Screw",
+            "detail": "M2.5 × 10 · black · Phillips pan/round head",
+            "quantity": 50
+          },
+          {
+            "part": "Screw",
+            "detail": "M2.5 × 12 · black · Phillips pan/round head",
+            "quantity": 50
+          },
+          {
+            "part": "Screw",
+            "detail": "M2.5 × 15 · black · Phillips pan/round head",
+            "quantity": 25
+          },
+          {
+            "part": "Screw",
+            "detail": "M3 × 6 · black · Phillips pan/round head",
+            "quantity": 50
+          },
+          {
+            "part": "Screw",
+            "detail": "M3 × 8 · black · Phillips pan/round head",
+            "quantity": 50
+          },
+          {
+            "part": "Screw",
+            "detail": "M3 × 10 · black · Phillips pan/round head",
+            "quantity": 50
+          },
+          {
+            "part": "Screw",
+            "detail": "M3 × 12 · black · Phillips pan/round head",
+            "quantity": 50
+          },
+          {
+            "part": "Screw",
+            "detail": "M3 × 15 · black · Phillips pan/round head",
+            "quantity": 25
+          },
+          {
+            "part": "Screw",
+            "detail": "M4 × 8 · black · Phillips pan/round head",
+            "quantity": 25
+          },
+          {
+            "part": "Screw",
+            "detail": "M4 × 10 · black · Phillips pan/round head",
+            "quantity": 25
+          },
+          {
+            "part": "Screw",
+            "detail": "M4 × 12 · black · Phillips pan/round head",
+            "quantity": 25
+          },
+          {
+            "part": "Screw",
+            "detail": "M4 × 15 · black · Phillips pan/round head",
+            "quantity": 20
+          },
+          {
+            "part": "Screw",
+            "detail": "M4 × 20 · black · Phillips pan/round head",
+            "quantity": 15
+          },
+          {
+            "part": "Nut",
+            "detail": "M2 · black · hex nut",
+            "quantity": 100
+          },
+          {
+            "part": "Nut",
+            "detail": "M2.5 · black · hex nut",
+            "quantity": 100
+          },
+          {
+            "part": "Nut",
+            "detail": "M3 · black · hex nut",
+            "quantity": 100
+          },
+          {
+            "part": "Nut",
+            "detail": "M4 · black · hex nut",
+            "quantity": 50
           }
         ],
         "missing": [
-          "Screw/nut split for each thread",
-          "Screw lengths and per-size counts",
-          "Physical material and actual head types"
+          "Physical compartment counts and current remaining stock",
+          "Measured dimensions, thread pitch and tolerances",
+          "Physical material and mechanical / thermal / electrical ratings"
         ],
         "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
       }
