@@ -2203,7 +2203,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
-      "productLinks": [],
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005009736484053.html",
+          "kind": "original",
+          "note": "Purchased variant: 1.5MM. The same listing also offers other braid widths; check the selected option."
+        }
+      ],
       "contents": null
     },
     {
