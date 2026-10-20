@@ -905,17 +905,21 @@
       "catalogueId": "aliexpress-displays",
       "name": "Estardyn ESP32 3.2″ TFT board",
       "category": "Displays",
-      "summary": "Display development boards with an unidentified exact variant.",
+      "summary": "3.2-inch TFT board; pictured PCB marked ESP32-24S032 with XPT2046 touch.",
       "tags": [
-        "Unverified",
-        "Unverified"
+        "ESP32-24S032",
+        "XPT2046 touch"
       ],
       "specs": {
-        "Purchased": "2 boards",
-        "Controller / touch / pinout": "Unverified",
-        "ESP32 variant": "Unverified"
+        "Purchased": "2 boards; one pictured",
+        "PCB marking (photo)": "ESP32-24S032",
+        "Display (packing label)": "3.2″ TFT, 240 × 320",
+        "Touch IC (photo)": "XPT2046; function untested",
+        "Connections (photo)": "USB-C + micro-USB, TF slot, SPEAK, BOOT / RST",
+        "LCD driver / exact pin map": "Unverified",
+        "ESP32 module / memory": "ESP-32 shield marking; exact SKU and memory unverified"
       },
-      "note": "Receipt confirmed 19 October. Identify the exact board before selecting a driver.",
+      "note": "Photo identification recorded 20 October for one board. The PDF is a related ESP32-2432S032 family reference with a different PCB layout; its ST7789, memory, battery and wiring claims are not verified for this unit. No functional test.",
       "id": "aliexpress-displays--esp32-tft32",
       "links": [],
       "status": "unreconciled",
@@ -923,7 +927,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "ESP32 2432S032 Related family Specifications EN",
+          "url": "https://raw.githubusercontent.com/kpeeem/3.2inch_ESP32-2432S032/419a6c62641b57d16fe4c52511cfe3cd63b77540/2-Specification/ESP32-2432S032%20Specifications-EN.pdf",
+          "kind": "PDF",
+          "sha256": "9ee9d0c6391cfd171f4131c54b6a06d940982cf5bba17a463d9a3e31f040c8a6"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-displays/README.md",
       "productLinks": [
         {
@@ -6305,14 +6316,14 @@
       "summary": "1.9-inch IPS, 0.91-inch OLED and 3.2-inch ESP32 display boards.",
       "tags": [
         "TFT + OLED",
-        "Board ID pending"
+        "Partial photo ID"
       ],
       "specs": {
         "Recorded selections": "1.9″ IPS / 0.91″ OLED / 3.2″ ESP32",
         "Receipt": "Confirmed",
-        "Controller and pinout": "Unverified"
+        "Controller and pinout": "3.2″ touch IC marked XPT2046; LCD drivers and pin maps unverified"
       },
-      "note": "The board titles do not establish controller, resolution, touch hardware or ESP32 variant. Exact module documents are not yet matched.",
+      "note": "One 3.2″ PCB is photo-identified as ESP32-24S032 with an XPT2046 touch chip. Its related-family PDF is not an exact schematic match. The other display types still need identification.",
       "links": [],
       "catalogueId": "aliexpress-displays",
       "status": "unreconciled",
@@ -6320,7 +6331,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "ESP32 2432S032 Related family Specifications EN",
+          "url": "https://raw.githubusercontent.com/kpeeem/3.2inch_ESP32-2432S032/419a6c62641b57d16fe4c52511cfe3cd63b77540/2-Specification/ESP32-2432S032%20Specifications-EN.pdf",
+          "kind": "PDF",
+          "sha256": "9ee9d0c6391cfd171f4131c54b6a06d940982cf5bba17a463d9a3e31f040c8a6"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-displays/README.md",
       "productLinks": [],
       "purchaseSource": null,
