@@ -899,7 +899,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-displays/README.md",
-      "productLinks": [],
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005012592355497.html",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -1724,7 +1731,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
-      "productLinks": [],
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005006186890215.html",
+          "kind": "original",
+          "note": "Purchased 300-piece selection; the same listing also advertises a 600-piece kit."
+        }
+      ],
       "contents": {
         "total": 300,
         "coverage": "unitemized",
