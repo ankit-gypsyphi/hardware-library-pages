@@ -9,7 +9,9 @@
       "summary": "A tiny, native-USB board for connected projects. The regular S3 variant.",
       "tags": [
         "Wi-Fi + BLE",
-        "USB-C"
+        "USB-C",
+        "Robocraze",
+        "Brand: Seeed Studio"
       ],
       "specs": {
         "Processor": "ESP32-S3R8",
@@ -69,7 +71,9 @@
       "summary": "Track position and movement for up to three targets with 24 GHz radar.",
       "tags": [
         "24 GHz",
-        "UART"
+        "UART",
+        "AliExpress",
+        "Brand: Hi-Link"
       ],
       "specs": {
         "Targets": "Up to 3 (manufacturer)",
@@ -123,7 +127,9 @@
       "summary": "A reflective monochrome display with an RTC and Raspberry Pi header.",
       "tags": [
         "SPI",
-        "250 × 122"
+        "250 × 122",
+        "Robu",
+        "Brand: Waveshare"
       ],
       "specs": {
         "Panel": "2.13-inch black / white",
@@ -183,7 +189,9 @@
       "summary": "Temperature and humidity sensing on a compact Qwiic breakout.",
       "tags": [
         "I²C",
-        "Temperature + RH"
+        "Temperature + RH",
+        "Robocraze",
+        "Brand: 7Semi"
       ],
       "specs": {
         "Sensor": "Sensirion SHT41",
@@ -249,7 +257,9 @@
       "summary": "The separately catalogued Plus board from Seeed Studio.",
       "tags": [
         "Wi-Fi + BLE",
-        "Plus variant"
+        "Plus variant",
+        "Seeed Studio",
+        "Brand: Seeed Studio"
       ],
       "specs": {
         "Manufacturer": "Seeed Studio",
@@ -285,7 +295,9 @@
       "summary": "Incoming workshop 3D printer, recorded under its invoiced model name.",
       "tags": [
         "3D printing",
-        "Incoming"
+        "Incoming",
+        "WOL3D",
+        "Brand: Bambu Lab"
       ],
       "specs": {
         "Ordered": "1 printer",
@@ -314,7 +326,9 @@
       "summary": "A single-board computer for host applications and connected hardware.",
       "tags": [
         "SBC",
-        "GPIO"
+        "GPIO",
+        "From a friend",
+        "Brand: Raspberry Pi"
       ],
       "specs": {
         "Family": "Raspberry Pi 5",
@@ -349,7 +363,9 @@
       "summary": "A separately identified 38-pin ESP32 development-board variant.",
       "tags": [
         "ESP32-WROOM-32E",
-        "16 MB"
+        "16 MB",
+        "Robocraze",
+        "Brand: 7Semi"
       ],
       "specs": {
         "Module": "ESP32-WROOM-32E",
@@ -410,7 +426,9 @@
       "summary": "A separately identified 38-pin ESP32 development-board variant.",
       "tags": [
         "ESP32-WROOM-32UE",
-        "16 MB"
+        "16 MB",
+        "Robocraze",
+        "Brand: 7Semi"
       ],
       "specs": {
         "Module": "ESP32-WROOM-32UE",
@@ -477,7 +495,8 @@
       "summary": "Separate antenna and pigtail recorded with the external-antenna DevKit.",
       "tags": [
         "2.4 GHz",
-        "U.FL / IPEX"
+        "U.FL / IPEX",
+        "Local store"
       ],
       "specs": {
         "Band": "2.4 GHz",
@@ -506,7 +525,9 @@
       "summary": "Ambient light measurements from a small ROHM-based breakout.",
       "tags": [
         "I²C",
-        "Light"
+        "Light",
+        "Robocraze",
+        "Robu"
       ],
       "specs": {
         "Sensor": "BH1750FVI",
@@ -554,7 +575,9 @@
       "summary": "24 GHz presence sensing with moving and stationary detection.",
       "tags": [
         "24 GHz",
-        "UART"
+        "UART",
+        "Robu",
+        "Brand: Hi-Link"
       ],
       "specs": {
         "Recorded board": "V1.1",
@@ -602,7 +625,8 @@
       "summary": "Temperature and humidity sensor modules with a digital interface.",
       "tags": [
         "Temperature + RH",
-        "Digital"
+        "Digital",
+        "Local store"
       ],
       "specs": {
         "Family": "DHT22 / AM2302",
@@ -644,7 +668,9 @@
       "summary": "An IPS touchscreen with optical bonding and capacitive touch.",
       "tags": [
         "DSI",
-        "1280 × 800"
+        "1280 × 800",
+        "Gift",
+        "Brand: Waveshare"
       ],
       "specs": {
         "Panel": "10.1-inch IPS",
@@ -678,7 +704,8 @@
       "summary": "Separate recorded OLED selection with controller identification still pending.",
       "tags": [
         "128 × 64",
-        "Four-pin I²C"
+        "Four-pin I²C",
+        "Robocraze"
       ],
       "specs": {
         "Purchased": "2 displays",
@@ -732,7 +759,8 @@
       "summary": "Separate recorded OLED selection with controller identification still pending.",
       "tags": [
         "SSD1315 / SSD1306 conflict",
-        "Four-pin"
+        "Four-pin",
+        "Robocraze"
       ],
       "specs": {
         "Purchased": "1 display",
@@ -786,7 +814,8 @@
       "summary": "Separate recorded OLED selection with controller identification still pending.",
       "tags": [
         "128 × 64",
-        "SPI/I²C; inspect actual board"
+        "SPI/I²C; inspect actual board",
+        "Amazon"
       ],
       "specs": {
         "Purchased": "1 display",
@@ -839,7 +868,8 @@
       "category": "Displays",
       "summary": "Selected 1.9-inch panel from a mixed-size listing.",
       "tags": [
-        "Unverified"
+        "Unverified",
+        "AliExpress"
       ],
       "specs": {
         "Purchased": "2 displays",
@@ -873,7 +903,8 @@
       "summary": "A separate small white OLED module.",
       "tags": [
         "I²C",
-        "Unverified"
+        "Unverified",
+        "AliExpress"
       ],
       "specs": {
         "Purchased": "1 display",
@@ -908,7 +939,9 @@
       "summary": "3.2-inch TFT board; pictured PCB marked ESP32-24S032 with XPT2046 touch.",
       "tags": [
         "ESP32-24S032",
-        "XPT2046 touch"
+        "XPT2046 touch",
+        "AliExpress",
+        "Brand: Estardyn"
       ],
       "specs": {
         "Purchased": "2 boards; one pictured",
@@ -954,7 +987,8 @@
       "summary": "Single-cell lithium polymer packs with an advertised 2500 mAh capacity.",
       "tags": [
         "1S LiPo",
-        "3.7 V nominal"
+        "3.7 V nominal",
+        "Robu"
       ],
       "specs": {
         "Advertised capacity": "2500 mAh",
@@ -989,7 +1023,8 @@
       "summary": "Lithium-ion charger carrier boards, with a chip-level reference.",
       "tags": [
         "Charger IC",
-        "Module ID pending"
+        "Module ID pending",
+        "AliExpress"
       ],
       "specs": {
         "IC family": "TP4056",
@@ -1031,7 +1066,9 @@
       "summary": "Bambu Lab filament, recorded as its exact material and colour selection.",
       "tags": [
         "1.75 mm",
-        "Glow Yellow"
+        "Glow Yellow",
+        "Robu",
+        "Brand: Bambu Lab"
       ],
       "specs": {
         "Diameter": "1.75 mm",
@@ -1080,7 +1117,9 @@
       "summary": "Bambu Lab filament, recorded as its exact material and colour selection.",
       "tags": [
         "1.75 mm",
-        "Beige"
+        "Beige",
+        "Robu",
+        "Brand: Bambu Lab"
       ],
       "specs": {
         "Diameter": "1.75 mm",
@@ -1129,7 +1168,9 @@
       "summary": "Bambu Lab filament, recorded as its exact material and colour selection.",
       "tags": [
         "1.75 mm",
-        "Gray"
+        "Gray",
+        "Robu",
+        "Brand: Bambu Lab"
       ],
       "specs": {
         "Diameter": "1.75 mm",
@@ -1178,7 +1219,9 @@
       "summary": "Bambu Lab filament, recorded as its exact material and colour selection.",
       "tags": [
         "1.75 mm",
-        "White"
+        "White",
+        "Robu",
+        "Brand: Bambu Lab"
       ],
       "specs": {
         "Diameter": "1.75 mm",
@@ -1227,7 +1270,9 @@
       "summary": "Bambu Lab filament, recorded as its exact material and colour selection.",
       "tags": [
         "1.75 mm",
-        "Clear"
+        "Clear",
+        "Robu",
+        "Brand: Bambu Lab"
       ],
       "specs": {
         "Diameter": "1.75 mm",
@@ -1277,7 +1322,9 @@
       "tags": [
         "PETG HF",
         "Red",
-        "Reusable spool"
+        "Reusable spool",
+        "Ideal3D",
+        "Brand: Bambu Lab"
       ],
       "specs": {
         "Material": "PETG HF",
@@ -1314,7 +1361,9 @@
       "tags": [
         "PETG HF",
         "Yellow",
-        "Reusable spool"
+        "Reusable spool",
+        "Ideal3D",
+        "Brand: Bambu Lab"
       ],
       "specs": {
         "Material": "PETG HF",
@@ -1351,7 +1400,9 @@
       "tags": [
         "PETG HF",
         "Orange",
-        "Reusable spool"
+        "Reusable spool",
+        "Ideal3D",
+        "Brand: Bambu Lab"
       ],
       "specs": {
         "Material": "PETG HF",
@@ -1388,7 +1439,9 @@
       "tags": [
         "PETG HF",
         "White",
-        "Reusable spool"
+        "Reusable spool",
+        "Ideal3D",
+        "Brand: Bambu Lab"
       ],
       "specs": {
         "Material": "PETG HF",
@@ -1425,7 +1478,9 @@
       "tags": [
         "PETG HF",
         "Black",
-        "Reusable spool"
+        "Reusable spool",
+        "Ideal3D",
+        "Brand: Bambu Lab"
       ],
       "specs": {
         "Material": "PETG HF",
@@ -1460,7 +1515,9 @@
       "category": "Workshop",
       "summary": "Hot-air rework tool; SET1 contents and actual ratings need inspection.",
       "tags": [
-        "Unverified"
+        "Unverified",
+        "AliExpress",
+        "Brand: YIHUA"
       ],
       "specs": {
         "Purchased": "1 tool / set",
@@ -1500,7 +1557,9 @@
       "category": "Workshop",
       "summary": "Electrically heated desoldering tool with manually charged piston.",
       "tags": [
-        "Unverified"
+        "Unverified",
+        "AliExpress",
+        "Brand: YIHUA"
       ],
       "specs": {
         "Purchased": "1 tool / set",
@@ -1546,7 +1605,9 @@
       "category": "Workshop",
       "summary": "Standalone fume extractor; not the 200 W soldering-station model.",
       "tags": [
-        "Unverified"
+        "Unverified",
+        "AliExpress",
+        "Brand: YIHUA"
       ],
       "specs": {
         "Purchased": "1 tool / set",
@@ -1586,22 +1647,26 @@
       "category": "Fasteners",
       "summary": "HZYUEGOU brass insert kit: 10 advertised sizes, 300 pieces.",
       "tags": [
-        "Assortment"
+        "Assortment",
+        "100% in stock",
+        "AliExpress",
+        "Brand: HZYUEGOU"
       ],
       "specs": {
         "Format": "10-size heat-set threaded insert assortment",
         "Purchased": "1 kit / advertised 300 pieces",
         "Thread sizes": "M2 / M2.5 / M3 / M4",
         "Advertised split": "M2: 120 · M2.5: 40 · M3: 110 · M4: 30",
-        "Material (seller image)": "Brass; exact alloy unverified"
+        "Material (seller image)": "Brass; exact alloy unverified",
+        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October"
       },
-      "note": "Receipt confirmed 19 October. Matching seller image supplied 20 October itemizes all 300 advertised pieces. Size labels are copied as shown; physical quantities, measured dimensions and alloy remain unverified. The separate 1,300-piece image is not this purchased variant.",
+      "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified. The 300-piece table matches the purchased kit; the 1,300-piece image remains a separate reference.",
       "id": "aliexpress-prototyping-stock--heat-inserts",
       "links": [],
-      "status": "unreconciled",
-      "remaining": null,
-      "available": null,
-      "quantityBasis": "unreconciled",
+      "status": "recorded",
+      "remaining": 300,
+      "available": 300,
+      "quantityBasis": "recorded",
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
@@ -1617,7 +1682,7 @@
       "contents": {
         "total": 300,
         "coverage": "complete",
-        "basis": "Matching 300-piece / 10-size seller image supplied by the owner on 20 October. Quantities are advertised per kit; size labels are reproduced as shown.",
+        "basis": "Matching 300-piece / 10-size seller image supplied by the owner on 20 October. Quantities are advertised per kit; size labels are reproduced as shown. Owner confirms 100% of the recorded kit is in stock on 20 October.",
         "rows": [
           {
             "part": "M2 brass insert",
@@ -1671,7 +1736,7 @@
           }
         ],
         "missing": [
-          "Physical compartment counts and current remaining stock",
+          "Independent compartment recount (owner confirms full stock)",
           "Measured dimensions / tolerances and confirmation of the size-label dimension order",
           "Exact alloy and physical material"
         ],
@@ -1684,19 +1749,22 @@
       "category": "Fasteners",
       "summary": "Selected 600-piece kit; exact thread sizes unknown",
       "tags": [
-        "Assortment"
+        "Assortment",
+        "100% in stock",
+        "AliExpress"
       ],
       "specs": {
         "Format": "Assortment",
-        "Purchased": "1 kit / advertised 600 pieces"
+        "Purchased": "1 kit / advertised 600 pieces",
+        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October"
       },
-      "note": "Receipt confirmed 19 October. Per-size counts, lengths and physical material remain unverified.",
+      "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified. Per-size contents of this 600-piece kit remain unknown.",
       "id": "aliexpress-prototyping-stock--screw-kit",
       "links": [],
-      "status": "unreconciled",
-      "remaining": null,
-      "available": null,
-      "quantityBasis": "unreconciled",
+      "status": "recorded",
+      "remaining": 600,
+      "available": 600,
+      "quantityBasis": "recorded",
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
@@ -1712,7 +1780,7 @@
       "contents": {
         "total": 600,
         "coverage": "unitemized",
-        "basis": "Purchased 600-piece selection from a screws/nuts listing. Other family-title counts do not apply.",
+        "basis": "Purchased 600-piece selection from a screws/nuts listing. Other family-title counts do not apply. Owner confirms 100% of the recorded kit is in stock on 20 October.",
         "rows": [
           {
             "part": "Screws",
@@ -1739,7 +1807,9 @@
       "category": "Fasteners",
       "summary": "Black nylon kit: 810 screws across 20 sizes and 350 nuts across four sizes.",
       "tags": [
-        "Assortment"
+        "Assortment",
+        "100% in stock",
+        "AliExpress"
       ],
       "specs": {
         "Format": "20 screw sizes + 4 nut sizes",
@@ -1747,15 +1817,16 @@
         "Thread sizes": "M2 / M2.5 / M3 / M4",
         "Advertised split": "810 screws + 350 nuts",
         "Screw head": "Phillips pan/round head, seller-described",
-        "Material / colour": "Nylon, seller-described / black"
+        "Material / colour": "Nylon, seller-described / black",
+        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October"
       },
-      "note": "Receipt confirmed 19 October. Matching seller image supplied 20 October itemizes all 1,160 advertised pieces. Physical counts, dimensions, material and ratings remain unverified. The separate white 700-piece attempt is excluded.",
+      "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified. The black 1,160-piece selection excludes the abandoned white 700-piece attempt.",
       "id": "aliexpress-prototyping-stock--nylon-kit",
       "links": [],
-      "status": "unreconciled",
-      "remaining": null,
-      "available": null,
-      "quantityBasis": "unreconciled",
+      "status": "recorded",
+      "remaining": 1160,
+      "available": 1160,
+      "quantityBasis": "recorded",
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
@@ -1771,7 +1842,7 @@
       "contents": {
         "total": 1160,
         "coverage": "complete",
-        "basis": "Matching black 1,160-piece seller image supplied by the owner on 20 October: 20 screw sizes and four nut sizes. Advertised counts per box, not a physical recount.",
+        "basis": "Matching black 1,160-piece seller image supplied by the owner on 20 October: 20 screw sizes and four nut sizes. Advertised counts per box, not a physical recount. Owner confirms 100% of the recorded kit is in stock on 20 October.",
         "rows": [
           {
             "part": "Screw",
@@ -1895,7 +1966,7 @@
           }
         ],
         "missing": [
-          "Physical compartment counts and current remaining stock",
+          "Independent compartment recount (owner confirms full stock)",
           "Measured dimensions, thread pitch and tolerances",
           "Physical material and mechanical / thermal / electrical ratings"
         ],
@@ -1908,7 +1979,8 @@
       "category": "Prototyping",
       "summary": "Selected 300-piece set; no verified value-by-value inventory.",
       "tags": [
-        "Unverified"
+        "Unverified",
+        "AliExpress"
       ],
       "specs": {
         "Purchased": "1 kit / advertised 300 resistors",
@@ -1959,7 +2031,8 @@
       "summary": "The selected package is 1206, separate from the family-title 0603.",
       "tags": [
         "1206",
-        "Unverified"
+        "Unverified",
+        "AliExpress"
       ],
       "specs": {
         "Package": "1206",
@@ -2008,7 +2081,9 @@
       "name": "Electrolytic capacitor assortment",
       "category": "Prototyping",
       "summary": "Aluminum electrolytic capacitor kit.",
-      "tags": [],
+      "tags": [
+        "AliExpress"
+      ],
       "specs": {
         "Purchased": "1 kit / advertised 225 capacitors",
         "Listed family range": "16–50 V; exact parts unverified"
@@ -2057,7 +2132,8 @@
       "category": "Cables & connectors",
       "summary": "Connector boards with pin headers; no assumed USB-PD function.",
       "tags": [
-        "Unverified"
+        "Unverified",
+        "AliExpress"
       ],
       "specs": {
         "Purchased": "1 pack / advertised 5 boards",
@@ -2089,7 +2165,9 @@
       "name": "Single-sided copper-clad boards",
       "category": "Prototyping",
       "summary": "Copper-clad board stock; distinct from the perfboards.",
-      "tags": [],
+      "tags": [
+        "AliExpress"
+      ],
       "specs": {
         "Purchased": "1 pack / advertised 5 boards",
         "Listed size": "7 × 10 cm; physical size unverified"
@@ -2122,7 +2200,8 @@
       "summary": "Double-sided prototyping PCB selection.",
       "tags": [
         "7 × 9 cm",
-        "Unverified"
+        "Unverified",
+        "AliExpress"
       ],
       "specs": {
         "Selected size": "7 × 9 cm",
@@ -2157,7 +2236,8 @@
       "summary": "Additional blue double-sided prototype-board selection.",
       "tags": [
         "3 × 7 cm",
-        "Unverified"
+        "Unverified",
+        "AliExpress"
       ],
       "specs": {
         "Selected size": "3 × 7 cm",
@@ -2192,7 +2272,8 @@
       "summary": "Selected DC50V12A600W meter; terminal/current-path details unresolved.",
       "tags": [
         "DC50V12A600W",
-        "Unverified"
+        "Unverified",
+        "AliExpress"
       ],
       "specs": {
         "Seller selection": "DC50V12A600W",
@@ -2226,7 +2307,8 @@
       "category": "Workshop",
       "summary": "A separate generic assembly hand tool.",
       "tags": [
-        "Unknown"
+        "Unknown",
+        "AliExpress"
       ],
       "specs": {
         "Purchased": "1 tool",
@@ -2259,7 +2341,8 @@
       "category": "Workshop",
       "summary": "Generic pliers, separate from the electrician pair.",
       "tags": [
-        "Unconfirmed"
+        "Unconfirmed",
+        "AliExpress"
       ],
       "specs": {
         "Purchased": "1 tool",
@@ -2292,7 +2375,8 @@
       "category": "Workshop",
       "summary": "Silver precision tweezers; ESD language is a seller claim.",
       "tags": [
-        "13 cm"
+        "13 cm",
+        "AliExpress"
       ],
       "specs": {
         "Advertised length": "13 cm",
@@ -2325,7 +2409,8 @@
       "category": "Workshop",
       "summary": "Cosmetic/blackhead tweezers, not verified electronics-grade tools.",
       "tags": [
-        "Unverified"
+        "Unverified",
+        "AliExpress"
       ],
       "specs": {
         "Purchased": "1 pack / advertised 3 pieces",
@@ -2358,7 +2443,9 @@
       "category": "Workshop",
       "summary": "Tin-positioning tweezers.",
       "tags": [
-        "Aax-17"
+        "Aax-17",
+        "AliExpress",
+        "Brand: MECHANIC"
       ],
       "specs": {
         "Model": "Aax-17",
@@ -2392,7 +2479,9 @@
       "summary": "Separate narrow desoldering-braid reel.",
       "tags": [
         "1.5 mm",
-        "Unknown"
+        "Unknown",
+        "AliExpress",
+        "Brand: MECHANIC"
       ],
       "specs": {
         "Width": "1.5 mm",
@@ -2427,7 +2516,9 @@
       "summary": "Separate wider desoldering-braid reel.",
       "tags": [
         "3.5 mm",
-        "Unknown"
+        "Unknown",
+        "AliExpress",
+        "Brand: MECHANIC"
       ],
       "specs": {
         "Width": "3.5 mm",
@@ -2462,7 +2553,8 @@
       "summary": "Generic adhesive tape; not identified as Kapton.",
       "tags": [
         "30 mm × 33 m",
-        "Unknown"
+        "Unknown",
+        "AliExpress"
       ],
       "specs": {
         "Advertised size": "30 mm × 33 m",
@@ -2497,22 +2589,25 @@
       "summary": "Phillips pan-head screws, matching nuts and washers in one assortment.",
       "tags": [
         "M2.5",
-        "SS304"
+        "SS304",
+        "100% in stock",
+        "OnlyScrews"
       ],
       "specs": {
         "Thread": "M2.5",
         "Material": "SS304, supplier description",
         "Ordered": "1 box",
         "Advertised contents": "150 screws + 50 nuts + 50 washers",
-        "Screw lengths": "30 each at 6 / 8 / 10 mm; 20 each at 12 / 15 / 20 mm"
+        "Screw lengths": "30 each at 6 / 8 / 10 mm; 20 each at 12 / 15 / 20 mm",
+        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October"
       },
-      "note": "Paid order recorded. Receipt of this box is unconfirmed; advertised piece counts are not a physical count.",
+      "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified.",
       "id": "tools-and-consumables--ss304-m2-5-pan",
       "links": [],
-      "status": "unreconciled",
-      "remaining": null,
-      "available": null,
-      "quantityBasis": "unreconciled",
+      "status": "recorded",
+      "remaining": 250,
+      "available": 250,
+      "quantityBasis": "recorded",
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
@@ -2528,7 +2623,7 @@
       "contents": {
         "total": 250,
         "coverage": "complete",
-        "basis": "OnlyScrews supplier breakdown for one box. Receipt and physical counts are unconfirmed.",
+        "basis": "OnlyScrews supplier breakdown for one box. Owner confirms complete new/unused stock on 20 October; individual pieces have not been recounted. Owner confirms 100% of the recorded kit is in stock on 20 October.",
         "rows": [
           {
             "part": "Pan-head screw",
@@ -2582,22 +2677,25 @@
       "summary": "Phillips pan-head screws, matching nuts and washers in one assortment.",
       "tags": [
         "M3",
-        "SS304"
+        "SS304",
+        "100% in stock",
+        "OnlyScrews"
       ],
       "specs": {
         "Thread": "M3",
         "Material": "SS304, supplier description",
         "Ordered": "1 box",
         "Advertised contents": "60 screws + 20 nuts + 20 washers",
-        "Screw lengths": "10 each at 8 / 10 / 12 / 16 / 20 / 25 mm"
+        "Screw lengths": "10 each at 8 / 10 / 12 / 16 / 20 / 25 mm",
+        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October"
       },
-      "note": "Paid order recorded. Receipt of this box is unconfirmed; advertised piece counts are not a physical count.",
+      "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified.",
       "id": "tools-and-consumables--ss304-m3-pan",
       "links": [],
-      "status": "unreconciled",
-      "remaining": null,
-      "available": null,
-      "quantityBasis": "unreconciled",
+      "status": "recorded",
+      "remaining": 100,
+      "available": 100,
+      "quantityBasis": "recorded",
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
@@ -2613,7 +2711,7 @@
       "contents": {
         "total": 100,
         "coverage": "complete",
-        "basis": "OnlyScrews supplier breakdown for one box. Receipt and physical counts are unconfirmed.",
+        "basis": "OnlyScrews supplier breakdown for one box. Owner confirms complete new/unused stock on 20 October; individual pieces have not been recounted. Owner confirms 100% of the recorded kit is in stock on 20 October.",
         "rows": [
           {
             "part": "Pan-head screw",
@@ -2667,22 +2765,25 @@
       "summary": "Phillips pan-head screws, matching nuts and washers in one assortment.",
       "tags": [
         "M4",
-        "SS304"
+        "SS304",
+        "100% in stock",
+        "OnlyScrews"
       ],
       "specs": {
         "Thread": "M4",
         "Material": "SS304, supplier description",
         "Ordered": "1 box",
         "Advertised contents": "60 screws + 20 nuts + 20 washers",
-        "Screw lengths": "10 each at 8 / 10 / 12 / 16 / 20 / 25 mm"
+        "Screw lengths": "10 each at 8 / 10 / 12 / 16 / 20 / 25 mm",
+        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October"
       },
-      "note": "Paid order recorded. Receipt of this box is unconfirmed; advertised piece counts are not a physical count.",
+      "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified.",
       "id": "tools-and-consumables--ss304-m4-pan",
       "links": [],
-      "status": "unreconciled",
-      "remaining": null,
-      "available": null,
-      "quantityBasis": "unreconciled",
+      "status": "recorded",
+      "remaining": 100,
+      "available": 100,
+      "quantityBasis": "recorded",
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
@@ -2698,7 +2799,7 @@
       "contents": {
         "total": 100,
         "coverage": "complete",
-        "basis": "OnlyScrews supplier breakdown for one box. Receipt and physical counts are unconfirmed.",
+        "basis": "OnlyScrews supplier breakdown for one box. Owner confirms complete new/unused stock on 20 October; individual pieces have not been recounted. Owner confirms 100% of the recorded kit is in stock on 20 October.",
         "rows": [
           {
             "part": "Pan-head screw",
@@ -2752,22 +2853,25 @@
       "summary": "Phillips countersunk screws with matching nuts and washers.",
       "tags": [
         "M3",
-        "SS304"
+        "SS304",
+        "100% in stock",
+        "OnlyScrews"
       ],
       "specs": {
         "Thread": "M3",
         "Material": "SS304, supplier description",
         "Ordered": "1 box",
         "Advertised contents": "60 screws + 20 nuts + 20 washers",
-        "Screw lengths": "10 each at 8 / 10 / 12 / 16 / 20 / 25 mm"
+        "Screw lengths": "10 each at 8 / 10 / 12 / 16 / 20 / 25 mm",
+        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October"
       },
-      "note": "Receipt of this box is unconfirmed. Supplier quantities are not a stocktake.",
+      "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified.",
       "id": "tools-and-consumables--ss304-m3-countersunk",
       "links": [],
-      "status": "unreconciled",
-      "remaining": null,
-      "available": null,
-      "quantityBasis": "unreconciled",
+      "status": "recorded",
+      "remaining": 100,
+      "available": 100,
+      "quantityBasis": "recorded",
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
@@ -2783,7 +2887,7 @@
       "contents": {
         "total": 100,
         "coverage": "complete",
-        "basis": "OnlyScrews supplier breakdown for one box. Receipt and physical counts are unconfirmed.",
+        "basis": "OnlyScrews supplier breakdown for one box. Owner confirms complete new/unused stock on 20 October; individual pieces have not been recounted. Owner confirms 100% of the recorded kit is in stock on 20 October.",
         "rows": [
           {
             "part": "Countersunk screw",
@@ -2837,21 +2941,24 @@
       "summary": "Brass slant-knurled threaded inserts for 3D-printed parts.",
       "tags": [
         "M3",
-        "6 mm"
+        "6 mm",
+        "100% in stock",
+        "OnlyScrews"
       ],
       "specs": {
         "Thread": "M3",
         "Length": "6 mm",
         "Ordered": "35 inserts",
-        "Type": "Slant-knurled brass"
+        "Type": "Slant-knurled brass",
+        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October"
       },
-      "note": "Arrival of the 3D-printing inserts was reported as a group on 19 September. This exact size and piece count remain unverified.",
+      "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified.",
       "id": "tools-and-consumables--m3-6-slant-inserts",
       "links": [],
-      "status": "unreconciled",
-      "remaining": null,
-      "available": null,
-      "quantityBasis": "unreconciled",
+      "status": "recorded",
+      "remaining": 35,
+      "available": 35,
+      "quantityBasis": "recorded",
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
@@ -2873,21 +2980,24 @@
       "summary": "Brass slant-knurled threaded inserts for 3D-printed parts.",
       "tags": [
         "M3",
-        "4 mm"
+        "4 mm",
+        "100% in stock",
+        "OnlyScrews"
       ],
       "specs": {
         "Thread": "M3",
         "Length": "4 mm",
         "Ordered": "25 inserts",
-        "Type": "Slant-knurled brass"
+        "Type": "Slant-knurled brass",
+        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October"
       },
-      "note": "Arrival of the 3D-printing inserts was reported as a group on 19 September. This exact size and piece count remain unverified.",
+      "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified.",
       "id": "tools-and-consumables--m3-4-slant-inserts",
       "links": [],
-      "status": "unreconciled",
-      "remaining": null,
-      "available": null,
-      "quantityBasis": "unreconciled",
+      "status": "recorded",
+      "remaining": 25,
+      "available": 25,
+      "quantityBasis": "recorded",
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
@@ -2909,20 +3019,23 @@
       "summary": "A separate generic threaded insert, distinct from the slant-knurled type.",
       "tags": [
         "M3",
-        "4 mm"
+        "4 mm",
+        "100% in stock",
+        "OnlyScrews"
       ],
       "specs": {
         "Thread": "M3",
         "Length": "4 mm",
-        "Ordered": "1 insert"
+        "Ordered": "1 insert",
+        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October"
       },
-      "note": "Receipt and outer geometry are unconfirmed. Do not merge this with the 25 slant-knurled inserts.",
+      "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified. This is separate from the 25 slant-knurled M3 × 4 mm inserts.",
       "id": "tools-and-consumables--m3-4-standard-insert",
       "links": [],
-      "status": "unreconciled",
-      "remaining": null,
-      "available": null,
-      "quantityBasis": "unreconciled",
+      "status": "recorded",
+      "remaining": 1,
+      "available": 1,
+      "quantityBasis": "recorded",
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
@@ -2944,21 +3057,24 @@
       "summary": "White nylon screws for lightweight mechanical assembly.",
       "tags": [
         "M3",
-        "5 mm"
+        "5 mm",
+        "100% in stock",
+        "Robu"
       ],
       "specs": {
         "Thread": "M3",
         "Shaft length": "5 mm",
         "Purchased": "3 packs × 10 bolts",
-        "Material": "Nylon"
+        "Material": "Nylon",
+        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October"
       },
-      "note": "Owner confirmed M3 nylon screws on hand. The purchased 30-piece total is not a current count; do not substitute a 20 mm length.",
+      "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified.",
       "id": "tools-and-consumables--nylon-m3-5-bolts",
       "links": [],
-      "status": "unreconciled",
-      "remaining": null,
-      "available": null,
-      "quantityBasis": "unreconciled",
+      "status": "recorded",
+      "remaining": 30,
+      "available": 30,
+      "quantityBasis": "recorded",
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
@@ -2980,21 +3096,24 @@
       "summary": "White nylon hex nuts for M3 fasteners.",
       "tags": [
         "M3",
-        "5.5 mm"
+        "5.5 mm",
+        "100% in stock",
+        "Robu"
       ],
       "specs": {
         "Thread": "M3",
         "Purchased": "1 pack / 25 nuts",
         "Nominal flats": "5.5 mm",
-        "Nominal thickness": "2.4 mm"
+        "Nominal thickness": "2.4 mm",
+        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October"
       },
-      "note": "Shipment was delivered. Physical quantity and remaining stock have not been recounted.",
+      "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified.",
       "id": "tools-and-consumables--nylon-m3-nuts",
       "links": [],
-      "status": "unreconciled",
-      "remaining": null,
-      "available": null,
-      "quantityBasis": "unreconciled",
+      "status": "recorded",
+      "remaining": 25,
+      "available": 25,
+      "quantityBasis": "recorded",
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
@@ -3016,21 +3135,24 @@
       "summary": "Black double-pass hexagonal PCB spacers.",
       "tags": [
         "M3",
-        "9 mm"
+        "9 mm",
+        "100% in stock",
+        "Robocraze"
       ],
       "specs": {
         "Thread": "M3",
         "Length": "9 mm",
         "Purchased": "3 packs × 10 standoffs",
-        "Material": "Nylon"
+        "Material": "Nylon",
+        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October"
       },
-      "note": "Recorded on hand 14 September. Remaining quantity is not reconciled.",
+      "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified.",
       "id": "tools-and-consumables--nylon-m3-9-standoffs",
       "links": [],
-      "status": "unreconciled",
-      "remaining": null,
-      "available": null,
-      "quantityBasis": "unreconciled",
+      "status": "recorded",
+      "remaining": 30,
+      "available": 30,
+      "quantityBasis": "recorded",
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
@@ -3051,7 +3173,8 @@
       "category": "Cables & connectors",
       "summary": "Flexible wire in six colours.",
       "tags": [
-        "22 AWG"
+        "22 AWG",
+        "Robu"
       ],
       "specs": {
         "Gauge": "22 AWG",
@@ -3115,7 +3238,8 @@
       "category": "Cables & connectors",
       "summary": "Five-colour packets and separate black wire.",
       "tags": [
-        "Unverified"
+        "Unverified",
+        "Robocraze"
       ],
       "specs": {
         "Construction": "Seller-described solid-core / PVC",
@@ -3156,7 +3280,8 @@
       "category": "Cables & connectors",
       "summary": "Ten-conductor ribbon cable.",
       "tags": [
-        "10"
+        "10",
+        "Robocraze"
       ],
       "specs": {
         "Conductors": "10",
@@ -3190,7 +3315,8 @@
       "category": "Cables & connectors",
       "summary": "Male-to-male, male-to-female and female-to-female jumpers.",
       "tags": [
-        "2.54 mm Dupont family"
+        "2.54 mm Dupont family",
+        "Robocraze"
       ],
       "specs": {
         "Connector": "2.54 mm Dupont family",
@@ -3247,7 +3373,9 @@
       "summary": "Additional local and Robu female jumper-wire purchases.",
       "tags": [
         "Female-to-female",
-        "10 cm"
+        "10 cm",
+        "Robu",
+        "Local store"
       ],
       "specs": {
         "Connector": "Female-to-female",
@@ -3282,7 +3410,8 @@
       "summary": "Alligator clips with male jumper ends.",
       "tags": [
         "Alligator / male",
-        "20 cm"
+        "20 cm",
+        "Robocraze"
       ],
       "specs": {
         "Connector": "Alligator / male",
@@ -3317,7 +3446,8 @@
       "summary": "Alligator clips with female jumper ends.",
       "tags": [
         "Alligator / female",
-        "20 cm"
+        "20 cm",
+        "Robocraze"
       ],
       "specs": {
         "Connector": "Alligator / female",
@@ -3352,7 +3482,8 @@
       "summary": "Single-row berg strips from two recorded batches.",
       "tags": [
         "2.54 mm",
-        "40 × 1"
+        "40 × 1",
+        "Robocraze"
       ],
       "specs": {
         "Pitch": "2.54 mm",
@@ -3387,7 +3518,8 @@
       "summary": "Single-row female headers with unresolved order-unit packing.",
       "tags": [
         "2.54 mm",
-        "5 + 4 across two batches"
+        "5 + 4 across two batches",
+        "Robu"
       ],
       "specs": {
         "Pitch": "2.54 mm",
@@ -3422,7 +3554,8 @@
       "summary": "A 20-pin right-angle header strip.",
       "tags": [
         "2.54 mm",
-        "1 × 20"
+        "1 × 20",
+        "Robu"
       ],
       "specs": {
         "Pitch": "2.54 mm",
@@ -3457,7 +3590,8 @@
       "summary": "Reusable USB cables recorded in the bench supplies.",
       "tags": [
         "USB-C / micro-USB",
-        "Unrecorded"
+        "Unrecorded",
+        "Various sources"
       ],
       "specs": {
         "Types": "USB-C / micro-USB",
@@ -3484,7 +3618,8 @@
       "category": "Cables & connectors",
       "summary": "Black heat-shrink tube for assembly.",
       "tags": [
-        "4 mm"
+        "4 mm",
+        "Robocraze"
       ],
       "specs": {
         "Listed diameter": "4 mm",
@@ -3517,7 +3652,8 @@
       "category": "Cables & connectors",
       "summary": "A separate smaller-diameter heat-shrink selection.",
       "tags": [
-        "2.5 mm"
+        "2.5 mm",
+        "Robocraze"
       ],
       "specs": {
         "Listed diameter": "2.5 mm",
@@ -3551,7 +3687,8 @@
       "summary": "Local-market prototype boards.",
       "tags": [
         "5 × 7 cm",
-        "Double-sided"
+        "Double-sided",
+        "Local store"
       ],
       "specs": {
         "Size": "5 × 7 cm",
@@ -3579,7 +3716,8 @@
       "summary": "Prototype boards from two Robu purchases.",
       "tags": [
         "6 × 8 cm",
-        "Single-sided"
+        "Single-sided",
+        "Robu"
       ],
       "specs": {
         "Size": "6 × 8 cm",
@@ -3614,7 +3752,8 @@
       "summary": "Small boards from the earlier Robu purchase.",
       "tags": [
         "3 × 7 cm",
-        "Double-sided"
+        "Double-sided",
+        "Robu"
       ],
       "specs": {
         "Size": "3 × 7 cm",
@@ -3648,7 +3787,9 @@
       "category": "Prototyping",
       "summary": "Small solderless breadboards.",
       "tags": [
-        "170"
+        "170",
+        "Robocraze",
+        "Robu"
       ],
       "specs": {
         "Tie points": "170",
@@ -3706,7 +3847,8 @@
       "summary": "Full-size solderless breadboard.",
       "tags": [
         "MB102",
-        "830"
+        "830",
+        "ThinkRobotics"
       ],
       "specs": {
         "Model": "MB102",
@@ -3740,7 +3882,8 @@
       "category": "Prototyping",
       "summary": "Preformed jumpers for solderless breadboards.",
       "tags": [
-        "U-shaped jumper set"
+        "U-shaped jumper set",
+        "Robocraze"
       ],
       "specs": {
         "Format": "U-shaped jumper set",
@@ -3789,7 +3932,8 @@
       "summary": "Mini-USB serial adapter with a voltage-selection jumper.",
       "tags": [
         "FT232RL",
-        "Mini-USB"
+        "Mini-USB",
+        "Amazon"
       ],
       "specs": {
         "Chip": "FT232RL",
@@ -3824,7 +3968,8 @@
       "summary": "Voltage regulator modules recorded in the shared purchase index.",
       "tags": [
         "3.3 V",
-        "Unverified"
+        "Unverified",
+        "Robocraze"
       ],
       "specs": {
         "Output description": "3.3 V",
@@ -3859,7 +4004,8 @@
       "summary": "A separate ESP8266 Wi-Fi module.",
       "tags": [
         "ESP8266-12F",
-        "Unverified"
+        "Unverified",
+        "Robocraze"
       ],
       "specs": {
         "Family": "ESP8266-12F",
@@ -3894,7 +4040,8 @@
       "summary": "Separate PCB antenna with an IPEX U.FL connector.",
       "tags": [
         "2.4 GHz",
-        "PCB; separate from Seeed A-02"
+        "PCB; separate from Seeed A-02",
+        "Robocraze"
       ],
       "specs": {
         "Band": "2.4 GHz",
@@ -3929,7 +4076,9 @@
       "summary": "Professional dual-slot card reader in the shared library.",
       "tags": [
         "USB-C",
-        "Dual-slot"
+        "Dual-slot",
+        "From a friend",
+        "Brand: Lexar"
       ],
       "specs": {
         "Connector": "USB-C",
@@ -3957,7 +4106,9 @@
       "summary": "Storage card recorded with the Raspberry Pi.",
       "tags": [
         "256 GB",
-        "SanDisk Ultra"
+        "SanDisk Ultra",
+        "From a friend",
+        "Brand: SanDisk"
       ],
       "specs": {
         "Capacity": "256 GB",
@@ -3985,7 +4136,9 @@
       "summary": "Digital caliper for dimensional measurements.",
       "tags": [
         "TH-M61",
-        "0–150 mm / 6 inch"
+        "0–150 mm / 6 inch",
+        "Amazon",
+        "Brand: Themisto"
       ],
       "specs": {
         "Model": "TH-M61",
@@ -4020,7 +4173,9 @@
       "summary": "Auto-ranging digital multimeter.",
       "tags": [
         "TH-M100",
-        "Auto-range"
+        "Auto-range",
+        "Amazon",
+        "Brand: Themisto"
       ],
       "specs": {
         "Model": "TH-M100",
@@ -4054,7 +4209,9 @@
       "category": "Workshop",
       "summary": "Adjustable soldering iron with temperature control.",
       "tags": [
-        "90 W"
+        "90 W",
+        "Robocraze",
+        "Brand: Noel"
       ],
       "specs": {
         "Listed power": "90 W",
@@ -4088,7 +4245,8 @@
       "summary": "Separate local-market iron stand.",
       "tags": [
         "Soldering stand",
-        "1"
+        "1",
+        "Local store"
       ],
       "specs": {
         "Type": "Soldering stand",
@@ -4115,7 +4273,9 @@
       "summary": "Three soldering-tip shapes.",
       "tags": [
         "900M",
-        "I / B / K"
+        "I / B / K",
+        "Robu",
+        "Brand: YIHUA"
       ],
       "specs": {
         "Series": "900M",
@@ -4174,7 +4334,9 @@
       "category": "Workshop",
       "summary": "Additional fine soldering tip.",
       "tags": [
-        "900M-T-I"
+        "900M-T-I",
+        "Robu",
+        "Brand: BAKON"
       ],
       "specs": {
         "Model": "900M-T-I",
@@ -4207,7 +4369,8 @@
       "category": "Workshop",
       "summary": "Solder wire from the recorded bench purchase.",
       "tags": [
-        "Unrecorded"
+        "Unrecorded",
+        "Robocraze"
       ],
       "specs": {
         "Purchased": "45 g pack",
@@ -4241,7 +4404,9 @@
       "summary": "Pure-copper desoldering wick per the listing.",
       "tags": [
         "Noel",
-        "Unknown"
+        "Unknown",
+        "Robocraze",
+        "Brand: Noel"
       ],
       "specs": {
         "Brand": "Noel",
@@ -4275,7 +4440,9 @@
       "summary": "Labelled local-shop desoldering braid.",
       "tags": [
         "2.0 mm",
-        "1.5 m"
+        "1.5 m",
+        "Local store",
+        "Brand: RELIFE"
       ],
       "specs": {
         "Width": "2.0 mm",
@@ -4303,7 +4470,9 @@
       "summary": "Syringe of soldering flux paste.",
       "tags": [
         "10 cc",
-        "Unverified"
+        "Unverified",
+        "Local store",
+        "Brand: MECHANIC"
       ],
       "specs": {
         "Labelled volume": "10 cc",
@@ -4329,7 +4498,9 @@
       "category": "Workshop",
       "summary": "Wire stripper and cutter.",
       "tags": [
-        "MT-111-SS"
+        "MT-111-SS",
+        "Robocraze",
+        "Brand: Multitec"
       ],
       "specs": {
         "Model": "MT-111-SS",
@@ -4362,7 +4533,8 @@
       "category": "Workshop",
       "summary": "Tip-tinning and oxide-cleaning product.",
       "tags": [
-        "Unknown"
+        "Unknown",
+        "ThinkRobotics"
       ],
       "specs": {
         "Purchased": "1 container",
@@ -4396,7 +4568,8 @@
       "summary": "E-9 silicone-style work pad; seller-described ESD-safe.",
       "tags": [
         "30 × 20 cm",
-        "Unverified"
+        "Unverified",
+        "ThinkRobotics"
       ],
       "specs": {
         "Listed size": "30 × 20 cm",
@@ -4429,7 +4602,8 @@
       "category": "Workshop",
       "summary": "Wool/sponge soldering-tip cleaner.",
       "tags": [
-        "YH 08C"
+        "YH 08C",
+        "ThinkRobotics"
       ],
       "specs": {
         "Model": "YH 08C",
@@ -4462,7 +4636,8 @@
       "category": "Workshop",
       "summary": "Separate cleaning ball and stainless-steel holder.",
       "tags": [
-        "Unverified"
+        "Unverified",
+        "ThinkRobotics"
       ],
       "specs": {
         "Purchased": "1 cleaner",
@@ -4495,7 +4670,8 @@
       "category": "Workshop",
       "summary": "Servicing clip with a light and magnifier.",
       "tags": [
-        "TE-800"
+        "TE-800",
+        "Robu"
       ],
       "specs": {
         "Model": "TE-800",
@@ -4528,7 +4704,8 @@
       "category": "Workshop",
       "summary": "Multipurpose printed-circuit-board ruler.",
       "tags": [
-        "15 cm"
+        "15 cm",
+        "Robocraze"
       ],
       "specs": {
         "Length": "15 cm",
@@ -4561,7 +4738,9 @@
       "category": "Workshop",
       "summary": "Green flexible cutting mat.",
       "tags": [
-        "A3"
+        "A3",
+        "Robocraze",
+        "Brand: GripX"
       ],
       "specs": {
         "Size": "A3",
@@ -4593,7 +4772,9 @@
       "name": "Soldering-tip holder stand",
       "category": "Workshop",
       "summary": "Small holder for spare soldering tips.",
-      "tags": [],
+      "tags": [
+        "Robocraze"
+      ],
       "specs": {
         "Purchased": "1 stand"
       },
@@ -4624,7 +4805,8 @@
       "category": "Workshop",
       "summary": "Soldering-tool cleaning sponges.",
       "tags": [
-        "5.5 × 5.5 cm"
+        "5.5 × 5.5 cm",
+        "Robocraze"
       ],
       "specs": {
         "Listed size": "5.5 × 5.5 cm",
@@ -4657,7 +4839,8 @@
       "category": "Workshop",
       "summary": "Separate rectangular cleaning-sponges selection.",
       "tags": [
-        "7 × 5.5 cm"
+        "7 × 5.5 cm",
+        "Robocraze"
       ],
       "specs": {
         "Listed size": "7 × 5.5 cm",
@@ -4691,7 +4874,9 @@
       "summary": "Cordless drill/driver reported owned.",
       "tags": [
         "GSB 183-LI",
-        "Not itemized"
+        "Not itemized",
+        "Amazon",
+        "Brand: Bosch"
       ],
       "specs": {
         "Model": "GSB 183-LI",
@@ -4725,7 +4910,9 @@
       "summary": "Wood, metal and masonry bits, nutsetters and screwdriver bits.",
       "tags": [
         "2607010608",
-        "34 pieces"
+        "34 pieces",
+        "Amazon",
+        "Brand: Bosch"
       ],
       "specs": {
         "Part number": "2607010608",
@@ -4880,7 +5067,9 @@
       "summary": "Colour-coded screwdriver bits and magnetic quick-change holder.",
       "tags": [
         "2607017063",
-        "Not itemized"
+        "Not itemized",
+        "Amazon",
+        "Brand: Bosch"
       ],
       "specs": {
         "Part number": "2607017063",
@@ -4935,7 +5124,9 @@
       "summary": "Pliers, screwdrivers, bits, hex keys, ratchet, sockets and hand tools.",
       "tags": [
         "BMT154C",
-        "154 pieces"
+        "154 pieces",
+        "Amazon",
+        "Brand: BLACK+DECKER"
       ],
       "specs": {
         "Model": "BMT154C",
@@ -5057,7 +5248,9 @@
       "summary": "Six-piece needle-file set.",
       "tags": [
         "BDHT22148",
-        "174 mm"
+        "174 mm",
+        "Amazon",
+        "Brand: BLACK+DECKER"
       ],
       "specs": {
         "Model": "BDHT22148",
@@ -5107,7 +5300,9 @@
       "summary": "Powder-coated stainless-steel tweezer set.",
       "tags": [
         "No. 9 / 2A / 5 / AA / 7A",
-        "Unverified"
+        "Unverified",
+        "Amazon",
+        "Brand: Themisto"
       ],
       "specs": {
         "Types": "No. 9 / 2A / 5 / AA / 7A",
@@ -5175,7 +5370,9 @@
       "summary": "Separate branded isopropyl alcohol purchase.",
       "tags": [
         "99.9%",
-        "Unknown"
+        "Unknown",
+        "Amazon",
+        "Brand: QUARANT"
       ],
       "specs": {
         "Advertised concentration": "99.9%",
@@ -5210,7 +5407,8 @@
       "summary": "Separate unlabelled local-shop IPA purchase.",
       "tags": [
         "Unspecified",
-        "Unknown"
+        "Unknown",
+        "Local store"
       ],
       "specs": {
         "Purchased": "500 ml",
@@ -5237,7 +5435,9 @@
       "category": "Workshop",
       "summary": "Paper-stick cotton swabs in two shapes.",
       "tags": [
-        "Not established"
+        "Not established",
+        "Amazon",
+        "Brand: Majestique"
       ],
       "specs": {
         "Purchased": "1 pack / 200 sticks",
@@ -5269,7 +5469,10 @@
       "name": "Aadvay foam cleaning swabs",
       "category": "Workshop",
       "summary": "Seller-described anti-static foam swabs.",
-      "tags": [],
+      "tags": [
+        "Amazon",
+        "Brand: Aadvay"
+      ],
       "specs": {
         "Purchased": "1 pack / 50 swabs",
         "Receipt": "Unconfirmed; an estimate is not delivery evidence"
@@ -5302,7 +5505,8 @@
       "summary": "Seller-described ESD dust-free cleaning wipes.",
       "tags": [
         "4 × 4 inch",
-        "Unconfirmed"
+        "Unconfirmed",
+        "Amazon"
       ],
       "specs": {
         "Listed size": "4 × 4 inch",
@@ -5336,7 +5540,8 @@
       "category": "Workshop",
       "summary": "Local-shop liquid for adhesive removal.",
       "tags": [
-        "Unspecified"
+        "Unspecified",
+        "Local store"
       ],
       "specs": {
         "Purchased": "500 ml",
@@ -5362,7 +5567,8 @@
       "category": "Workshop",
       "summary": "Separate bottle for dispensing glue remover.",
       "tags": [
-        "Unverified"
+        "Unverified",
+        "Local store"
       ],
       "specs": {
         "Purchased": "1 bottle",
@@ -5389,7 +5595,8 @@
       "summary": "Double-ended cleaning and repair brush.",
       "tags": [
         "BS-02",
-        "Unverified"
+        "Unverified",
+        "Local store"
       ],
       "specs": {
         "Model": "BS-02",
@@ -5417,7 +5624,8 @@
       "summary": "Quadrature rotary-encoder modules.",
       "tags": [
         "KY-040",
-        "Unverified"
+        "Unverified",
+        "AliExpress"
       ],
       "specs": {
         "Model family": "KY-040",
@@ -5459,7 +5667,8 @@
       "summary": "Pack of red push-button switches.",
       "tags": [
         "Momentary push button",
-        "Unverified"
+        "Unverified",
+        "AliExpress"
       ],
       "specs": {
         "Type": "Momentary push button",
@@ -5493,7 +5702,8 @@
       "category": "Accessories",
       "summary": "Assorted miniature tactile switches.",
       "tags": [
-        "Unverified"
+        "Unverified",
+        "AliExpress"
       ],
       "specs": {
         "Purchased": "1 kit / advertised 125 switches",
@@ -5544,7 +5754,9 @@
       "summary": "A 2.4 GHz FPC antenna, recorded separately from board bundles.",
       "tags": [
         "2.4 GHz",
-        "FPC"
+        "FPC",
+        "Seeed Studio",
+        "Brand: Seeed Studio"
       ],
       "specs": {
         "Family": "Seeed A-02",
@@ -5586,7 +5798,9 @@
       "summary": "Small aluminum heat sinks purchased in two-piece packs.",
       "tags": [
         "Aluminum",
-        "Thermal"
+        "Thermal",
+        "Seeed Studio",
+        "Brand: Seeed Studio"
       ],
       "specs": {
         "Ordered": "2 packs",
@@ -5620,7 +5834,9 @@
       "category": "Connected devices",
       "summary": "The router in the recorded Orbi mesh system.",
       "tags": [
-        "RBR50"
+        "RBR50",
+        "From a friend",
+        "Brand: NETGEAR"
       ],
       "specs": {
         "Model": "RBR50",
@@ -5654,7 +5870,9 @@
       "summary": "The two satellites recorded alongside the Orbi router.",
       "tags": [
         "NETGEAR Orbi",
-        "Unconfirmed"
+        "Unconfirmed",
+        "From a friend",
+        "Brand: NETGEAR"
       ],
       "specs": {
         "Product family": "NETGEAR Orbi",
@@ -5682,7 +5900,9 @@
       "summary": "The confirmed B22 variant of the recorded WiZ bulbs.",
       "tags": [
         "B22",
-        "RGB"
+        "RGB",
+        "Amazon",
+        "Brand: WiZ"
       ],
       "specs": {
         "Base": "B22",
@@ -5717,7 +5937,9 @@
       "summary": "Two additional WiZ bulbs whose retail model and base were not recorded.",
       "tags": [
         "Philips WiZ",
-        "Unconfirmed"
+        "Unconfirmed",
+        "Source not recorded",
+        "Brand: WiZ"
       ],
       "specs": {
         "Brand": "Philips WiZ",
@@ -5745,7 +5967,9 @@
       "summary": "Wi-Fi smart bulbs from the Tuya device family.",
       "tags": [
         "Wi-Fi",
-        "Tuya"
+        "Tuya",
+        "Amazon",
+        "Brand: Amazon Basics"
       ],
       "specs": {
         "Brand": "Amazon Basics",
@@ -5780,7 +6004,9 @@
       "summary": "Qubo plugs listed in the historical device inventory.",
       "tags": [
         "Qubo",
-        "Smart plug"
+        "Smart plug",
+        "Source not recorded",
+        "Brand: Qubo"
       ],
       "specs": {
         "Brand": "Qubo",
@@ -5809,7 +6035,9 @@
       "summary": "Qubo bulbs listed in the historical device inventory.",
       "tags": [
         "Qubo",
-        "Smart bulb"
+        "Smart bulb",
+        "Source not recorded",
+        "Brand: Qubo"
       ],
       "specs": {
         "Brand": "Qubo",
@@ -5840,7 +6068,9 @@
       "summary": "A tiny, native-USB board for connected projects. The regular S3 variant.",
       "tags": [
         "Wi-Fi + BLE",
-        "USB-C"
+        "USB-C",
+        "Robocraze",
+        "Brand: Seeed Studio"
       ],
       "specs": {
         "Processor": "ESP32-S3R8",
@@ -5900,7 +6130,9 @@
       "summary": "Track position and movement for up to three targets with 24 GHz radar.",
       "tags": [
         "24 GHz",
-        "UART"
+        "UART",
+        "AliExpress",
+        "Brand: Hi-Link"
       ],
       "specs": {
         "Targets": "Up to 3 (manufacturer)",
@@ -5954,7 +6186,9 @@
       "summary": "A reflective monochrome display with an RTC and Raspberry Pi header.",
       "tags": [
         "SPI",
-        "250 × 122"
+        "250 × 122",
+        "Robu",
+        "Brand: Waveshare"
       ],
       "specs": {
         "Panel": "2.13-inch black / white",
@@ -6014,7 +6248,9 @@
       "summary": "Temperature and humidity sensing on a compact Qwiic breakout.",
       "tags": [
         "I²C",
-        "Temperature + RH"
+        "Temperature + RH",
+        "Robocraze",
+        "Brand: 7Semi"
       ],
       "specs": {
         "Sensor": "Sensirion SHT41",
@@ -6080,7 +6316,9 @@
       "summary": "The separately catalogued Plus board from Seeed Studio.",
       "tags": [
         "Wi-Fi + BLE",
-        "Plus variant"
+        "Plus variant",
+        "Seeed Studio",
+        "Brand: Seeed Studio"
       ],
       "specs": {
         "Manufacturer": "Seeed Studio",
@@ -6116,7 +6354,9 @@
       "summary": "Incoming workshop 3D printer, recorded under its invoiced model name.",
       "tags": [
         "3D printing",
-        "Incoming"
+        "Incoming",
+        "WOL3D",
+        "Brand: Bambu Lab"
       ],
       "specs": {
         "Ordered": "1 printer",
@@ -6145,7 +6385,9 @@
       "summary": "A single-board computer for host applications and connected hardware.",
       "tags": [
         "SBC",
-        "GPIO"
+        "GPIO",
+        "From a friend",
+        "Brand: Raspberry Pi"
       ],
       "specs": {
         "Family": "Raspberry Pi 5",
@@ -6234,7 +6476,9 @@
       "summary": "Ambient light measurements from a small ROHM-based breakout.",
       "tags": [
         "I²C",
-        "Light"
+        "Light",
+        "Robocraze",
+        "Robu"
       ],
       "specs": {
         "Sensor": "BH1750FVI",
@@ -6282,7 +6526,9 @@
       "summary": "24 GHz presence sensing with moving and stationary detection.",
       "tags": [
         "24 GHz",
-        "UART"
+        "UART",
+        "Robu",
+        "Brand: Hi-Link"
       ],
       "specs": {
         "Recorded board": "V1.1",
@@ -6330,7 +6576,8 @@
       "summary": "Temperature and humidity sensor modules with a digital interface.",
       "tags": [
         "Temperature + RH",
-        "Digital"
+        "Digital",
+        "Local store"
       ],
       "specs": {
         "Family": "DHT22 / AM2302",
@@ -6372,7 +6619,9 @@
       "summary": "An IPS touchscreen with optical bonding and capacitive touch.",
       "tags": [
         "DSI",
-        "1280 × 800"
+        "1280 × 800",
+        "Gift",
+        "Brand: Waveshare"
       ],
       "specs": {
         "Panel": "10.1-inch IPS",
@@ -6488,7 +6737,8 @@
       "summary": "Single-cell lithium polymer packs with an advertised 2500 mAh capacity.",
       "tags": [
         "1S LiPo",
-        "3.7 V nominal"
+        "3.7 V nominal",
+        "Robu"
       ],
       "specs": {
         "Advertised capacity": "2500 mAh",
@@ -6523,7 +6773,8 @@
       "summary": "Lithium-ion charger carrier boards, with a chip-level reference.",
       "tags": [
         "Charger IC",
-        "Module ID pending"
+        "Module ID pending",
+        "AliExpress"
       ],
       "specs": {
         "IC family": "TP4056",
@@ -6785,7 +7036,9 @@
       "summary": "A 2.4 GHz FPC antenna, recorded separately from board bundles.",
       "tags": [
         "2.4 GHz",
-        "FPC"
+        "FPC",
+        "Seeed Studio",
+        "Brand: Seeed Studio"
       ],
       "specs": {
         "Family": "Seeed A-02",
@@ -6827,7 +7080,9 @@
       "summary": "Small aluminum heat sinks purchased in two-piece packs.",
       "tags": [
         "Aluminum",
-        "Thermal"
+        "Thermal",
+        "Seeed Studio",
+        "Brand: Seeed Studio"
       ],
       "specs": {
         "Ordered": "2 packs",
@@ -6925,7 +7180,9 @@
       "summary": "Wi-Fi smart bulbs from the Tuya device family.",
       "tags": [
         "Wi-Fi",
-        "Tuya"
+        "Tuya",
+        "Amazon",
+        "Brand: Amazon Basics"
       ],
       "specs": {
         "Brand": "Amazon Basics",
