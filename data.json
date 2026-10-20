@@ -1900,7 +1900,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
-      "productLinks": [],
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005010576891577.html",
+          "kind": "original",
+          "note": "Original listing supplied and identified by the owner."
+        }
+      ],
       "contents": null
     },
     {
