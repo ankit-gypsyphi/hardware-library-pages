@@ -263,7 +263,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/xiao-esp32s3-plus-seeed/README.md",
-      "productLinks": [],
+      "productLinks": [
+        {
+          "title": "Seeed Studio",
+          "url": "https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32S3-Plus-p-6361.html",
+          "kind": "original",
+          "note": "Official seller listing matched to the purchased SKU 102010671."
+        }
+      ],
       "contents": null
     },
     {
@@ -5286,7 +5293,14 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/seeed-a02-antenna/README.md",
-      "productLinks": [],
+      "productLinks": [
+        {
+          "title": "Seeed Studio",
+          "url": "https://www.seeedstudio.com/2-4GHz-FPC-Antenna-1-16dBi-for-XIAO-ESP32S3-p-6440.html",
+          "kind": "original",
+          "note": "Official seller listing matched to the purchased SKU 318020968."
+        }
+      ],
       "contents": null
     },
     {
@@ -5313,7 +5327,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/seeed-xiao-heatsink/README.md",
-      "productLinks": [],
+      "productLinks": [
+        {
+          "title": "Seeed Studio",
+          "url": "https://www.seeedstudio.com/Aluminum-Heat-Sink-For-XIAO-2pcs-p-5972.html",
+          "kind": "original",
+          "note": "Official seller listing matched to the purchased SKU 114010001."
+        }
+      ],
       "contents": null
     },
     {
@@ -5789,7 +5810,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/xiao-esp32s3-plus-seeed/README.md",
-      "productLinks": [],
+      "productLinks": [
+        {
+          "title": "Seeed Studio",
+          "url": "https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32S3-Plus-p-6361.html",
+          "kind": "original",
+          "note": "Official seller listing matched to the purchased SKU 102010671."
+        }
+      ],
       "contents": null
     },
     {
@@ -6469,7 +6497,14 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/seeed-a02-antenna/README.md",
-      "productLinks": [],
+      "productLinks": [
+        {
+          "title": "Seeed Studio",
+          "url": "https://www.seeedstudio.com/2-4GHz-FPC-Antenna-1-16dBi-for-XIAO-ESP32S3-p-6440.html",
+          "kind": "original",
+          "note": "Official seller listing matched to the purchased SKU 318020968."
+        }
+      ],
       "contents": null
     },
     {
@@ -6496,7 +6531,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/seeed-xiao-heatsink/README.md",
-      "productLinks": [],
+      "productLinks": [
+        {
+          "title": "Seeed Studio",
+          "url": "https://www.seeedstudio.com/Aluminum-Heat-Sink-For-XIAO-2pcs-p-5972.html",
+          "kind": "original",
+          "note": "Official seller listing matched to the purchased SKU 114010001."
+        }
+      ],
       "contents": null
     },
     {
