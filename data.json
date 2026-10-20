@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-19",
+  "asOf": "2026-10-20",
   "familyCount": 27,
   "components": [
     {
@@ -51,6 +51,14 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/xiao-esp32s3-seeed/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/seeed-studio-xiao-esp32-s3-development-board-supports-wi-fi-bluetooth-5-0?variant=47775391645920",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -96,6 +104,14 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/hlk-ld2450-radar/README.md",
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005006121923099.html",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -147,6 +163,14 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/waveshare-213-epaper-hat-plus/README.md",
+      "productLinks": [
+        {
+          "title": "Robu",
+          "url": "https://robu.in/product/waveshare-2-13inch-e-paper-hat-for-raspberry-pi-e-ink-display-250x122-immersion-gold-process-spi-interface-hat-standard-with-pwnagotchi-tutorial/",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -204,6 +228,14 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/sht41-7semi/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/7semi-sht41-temperature-humidity-sensor-breakout-with-i2c-qwiic-interface?variant=48177236836576",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -231,6 +263,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/xiao-esp32s3-plus-seeed/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -258,6 +291,7 @@
       "incoming": 1,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-x2d-combo-eu/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -291,6 +325,7 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/raspberry-pi-5/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -343,6 +378,14 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/esp32-devkit-7semi/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/7semi-esp32-devkit-e-n16-wifi-ble-development-board",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -395,6 +438,20 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/esp32-devkit-7semi/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/7semi-esp32-devkit-ue-esp32-wifi-ble-development-board-with-ipex-antenna-usb-uart",
+          "kind": "original",
+          "note": ""
+        },
+        {
+          "title": "Robocraze · order-linked listing",
+          "url": "https://robocraze.com/products/7semi-esp32-devkit-ue-n16-wifi-ble-development-board?variant=53686990110944",
+          "kind": "original",
+          "note": "The account now uses a generic DevKitC title. The received board identity remains UE-N16; confirm the current listing variant before reordering."
+        }
+      ],
       "contents": null
     },
     {
@@ -422,6 +479,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/esp32-devkit-7semi/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -455,6 +513,20 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bh1750-gy302-lux/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/gy-302-bh1750-light-intensity-module?variant=42268132016352",
+          "kind": "original",
+          "note": ""
+        },
+        {
+          "title": "Robu",
+          "url": "https://robu.in/product/gy-302-bh1750-light-intensity-module/",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -494,6 +566,14 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/hlk-ld2410c-radar/README.md",
+      "productLinks": [
+        {
+          "title": "Robu",
+          "url": "https://robu.in/product/hi-link-hlk-ld2410c-p-24ghz-human-presence-radar-sensor/",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -527,6 +607,14 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/dht22-am2302/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/dht22-humidity-and-temperature-sensor-module-am2302",
+          "kind": "reference",
+          "note": "Owner-supplied product reference. These modules were bought locally, not from this listing."
+        }
+      ],
       "contents": null
     },
     {
@@ -559,6 +647,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/waveshare-101-dsi-lcd-c/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -604,6 +693,14 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/oled-displays/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/1-3in-oled-display?variant=40192586842265",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -649,6 +746,14 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/oled-displays/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/0-96in-oled-display-module-4pin?variant=40192586645657",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -694,6 +799,14 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/oled-displays/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon",
+          "url": "https://www.amazon.in/dp/B07Q7VZ716",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -718,6 +831,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-displays/README.md",
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005010094030749.html",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -744,6 +865,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-displays/README.md",
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005009394412923.html",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -770,6 +899,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-displays/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -796,6 +926,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/wly104050-lipo/README.md",
+      "productLinks": [
+        {
+          "title": "Robu",
+          "url": "https://robu.in/product/wly104050-2500mah-3-7v-single-cell-rechargeable-lipo-battery/",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -829,6 +967,14 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tp4056-charger/README.md",
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005012104722935.html",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -869,6 +1015,14 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "productLinks": [
+        {
+          "title": "Robu",
+          "url": "https://robu.in/product/bambu-lab-pla-glow-1-75mm-filament-glow-yellow/",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -909,6 +1063,14 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "productLinks": [
+        {
+          "title": "Robu",
+          "url": "https://robu.in/product/bambu-lab-pla-basic-3d-printer-filament-2/",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -949,6 +1111,14 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "productLinks": [
+        {
+          "title": "Robu",
+          "url": "https://robu.in/product/bambu-lab-pla-basic-3d-printer-filament-gray-1-75mm-with-reusable-spool/",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -989,6 +1159,14 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "productLinks": [
+        {
+          "title": "Robu",
+          "url": "https://robu.in/product/bambu-lab-asa-3d-printer-filament-white-1-75mm-with-reusable-spool/",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -1029,6 +1207,194 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "productLinks": [
+        {
+          "title": "Robu",
+          "url": "https://robu.in/product/bambu-lab-petg-1-75mm-filament-clear-2/",
+          "kind": "original",
+          "note": ""
+        }
+      ],
+      "contents": null
+    },
+    {
+      "catalogueId": "bambu-filaments",
+      "name": "PETG HF · Red",
+      "category": "Fabrication",
+      "summary": "Bambu Lab PETG HF with a reusable spool, ordered in this exact colour. Awaiting delivery.",
+      "tags": [
+        "PETG HF",
+        "Red",
+        "Reusable spool"
+      ],
+      "specs": {
+        "Material": "PETG HF",
+        "Colour": "Red",
+        "Format": "Reusable spool",
+        "Ordered": "1 spool; net mass not verified"
+      },
+      "note": "Not yet received, confirmed 20 October. Physical labels, net mass and print performance remain unverified. PETG Translucent documents do not describe this material.",
+      "id": "bambu-filaments--petg-hf-red",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": 0,
+      "quantityBasis": "unreconciled",
+      "incoming": 1,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "productLinks": [
+        {
+          "title": "Ideal3D · red",
+          "url": "https://ideal3d.in/products/bambu-petg-hf-with-bambu-reusable-spool?variant=52345868714304",
+          "kind": "original",
+          "note": "Exact colour variant from the order."
+        }
+      ],
+      "contents": null
+    },
+    {
+      "catalogueId": "bambu-filaments",
+      "name": "PETG HF · Yellow",
+      "category": "Fabrication",
+      "summary": "Bambu Lab PETG HF with a reusable spool, ordered in this exact colour. Awaiting delivery.",
+      "tags": [
+        "PETG HF",
+        "Yellow",
+        "Reusable spool"
+      ],
+      "specs": {
+        "Material": "PETG HF",
+        "Colour": "Yellow",
+        "Format": "Reusable spool",
+        "Ordered": "1 spool; net mass not verified"
+      },
+      "note": "Not yet received, confirmed 20 October. Physical labels, net mass and print performance remain unverified. PETG Translucent documents do not describe this material.",
+      "id": "bambu-filaments--petg-hf-yellow",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": 0,
+      "quantityBasis": "unreconciled",
+      "incoming": 1,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "productLinks": [
+        {
+          "title": "Ideal3D · yellow",
+          "url": "https://ideal3d.in/products/bambu-petg-hf-with-bambu-reusable-spool?variant=52345868747072",
+          "kind": "original",
+          "note": "Exact colour variant from the order."
+        }
+      ],
+      "contents": null
+    },
+    {
+      "catalogueId": "bambu-filaments",
+      "name": "PETG HF · Orange",
+      "category": "Fabrication",
+      "summary": "Bambu Lab PETG HF with a reusable spool, ordered in this exact colour. Awaiting delivery.",
+      "tags": [
+        "PETG HF",
+        "Orange",
+        "Reusable spool"
+      ],
+      "specs": {
+        "Material": "PETG HF",
+        "Colour": "Orange",
+        "Format": "Reusable spool",
+        "Ordered": "1 spool; net mass not verified"
+      },
+      "note": "Not yet received, confirmed 20 October. Physical labels, net mass and print performance remain unverified. PETG Translucent documents do not describe this material.",
+      "id": "bambu-filaments--petg-hf-orange",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": 0,
+      "quantityBasis": "unreconciled",
+      "incoming": 1,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "productLinks": [
+        {
+          "title": "Ideal3D · orange",
+          "url": "https://ideal3d.in/products/bambu-petg-hf-with-bambu-reusable-spool?variant=51077029364032",
+          "kind": "original",
+          "note": "Exact colour variant from the order."
+        }
+      ],
+      "contents": null
+    },
+    {
+      "catalogueId": "bambu-filaments",
+      "name": "PETG HF · White",
+      "category": "Fabrication",
+      "summary": "Bambu Lab PETG HF with a reusable spool, ordered in this exact colour. Awaiting delivery.",
+      "tags": [
+        "PETG HF",
+        "White",
+        "Reusable spool"
+      ],
+      "specs": {
+        "Material": "PETG HF",
+        "Colour": "White",
+        "Format": "Reusable spool",
+        "Ordered": "1 spool; net mass not verified"
+      },
+      "note": "Not yet received, confirmed 20 October. Physical labels, net mass and print performance remain unverified. PETG Translucent documents do not describe this material.",
+      "id": "bambu-filaments--petg-hf-white",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": 0,
+      "quantityBasis": "unreconciled",
+      "incoming": 1,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "productLinks": [
+        {
+          "title": "Ideal3D · white",
+          "url": "https://ideal3d.in/products/bambu-petg-hf-with-bambu-reusable-spool?variant=51077029495104",
+          "kind": "original",
+          "note": "Exact colour variant from the order."
+        }
+      ],
+      "contents": null
+    },
+    {
+      "catalogueId": "bambu-filaments",
+      "name": "PETG HF · Black",
+      "category": "Fabrication",
+      "summary": "Bambu Lab PETG HF with a reusable spool, ordered in this exact colour. Awaiting delivery.",
+      "tags": [
+        "PETG HF",
+        "Black",
+        "Reusable spool"
+      ],
+      "specs": {
+        "Material": "PETG HF",
+        "Colour": "Black",
+        "Format": "Reusable spool",
+        "Ordered": "1 spool; net mass not verified"
+      },
+      "note": "Not yet received, confirmed 20 October. Physical labels, net mass and print performance remain unverified. PETG Translucent documents do not describe this material.",
+      "id": "bambu-filaments--petg-hf-black",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": 0,
+      "quantityBasis": "unreconciled",
+      "incoming": 1,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "productLinks": [
+        {
+          "title": "Ideal3D · black",
+          "url": "https://ideal3d.in/products/bambu-petg-hf-with-bambu-reusable-spool?variant=51077029298496",
+          "kind": "original",
+          "note": "Exact colour variant from the order."
+        }
+      ],
       "contents": null
     },
     {
@@ -1060,6 +1426,14 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/yihua-workshop-tools/README.md",
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005006284776301.html",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -1097,6 +1471,14 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/yihua-workshop-tools/README.md",
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005005921671495.html",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -1128,6 +1510,14 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/yihua-workshop-tools/README.md",
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005007216896771.html",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -1152,6 +1542,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005007830343925.html",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": {
         "total": 300,
         "coverage": "partial",
@@ -1208,6 +1606,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005008562859400.html",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": {
         "total": 600,
         "coverage": "unitemized",
@@ -1254,6 +1660,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005004798200965.html",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": {
         "total": 1160,
         "coverage": "partial",
@@ -1310,6 +1724,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "productLinks": [],
       "contents": {
         "total": 300,
         "coverage": "unitemized",
@@ -1353,6 +1768,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005008308969439.html",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": {
         "total": 660,
         "coverage": "unitemized",
@@ -1391,6 +1814,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005009745115802.html",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": {
         "total": 225,
         "coverage": "unitemized",
@@ -1432,6 +1863,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -1454,6 +1886,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -1480,6 +1913,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005007024264426.html",
+          "kind": "original",
+          "note": "Original order-linked listing; the purchased size is recorded here, but the link does not select a size."
+        }
+      ],
       "contents": null
     },
     {
@@ -1506,6 +1947,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005007024264426.html",
+          "kind": "original",
+          "note": "Original order-linked listing; the purchased size is recorded here, but the link does not select a size."
+        }
+      ],
       "contents": null
     },
     {
@@ -1532,6 +1981,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005006848187940.html",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -1556,6 +2013,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005008677580557.html",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -1580,6 +2045,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005011991771851.html",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -1604,6 +2077,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005010327365864.html",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -1628,6 +2109,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005005581347677.html",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -1652,6 +2141,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005006008634653.html",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -1678,6 +2175,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -1704,6 +2202,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005009736484053.html",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -1730,6 +2236,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005012086062231.html",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -1758,6 +2272,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "OnlyScrews",
+          "url": "https://onlyscrews.in/products/m2-5-phillips-pan-head-ss304-assorted-box",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": {
         "total": 250,
         "coverage": "complete",
@@ -1834,6 +2356,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "OnlyScrews",
+          "url": "https://onlyscrews.in/products/m3-phillips-pan-head-ss304-assorted-box",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": {
         "total": 100,
         "coverage": "complete",
@@ -1910,6 +2440,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "OnlyScrews",
+          "url": "https://onlyscrews.in/products/m4-phillips-pan-head-ss304-assorted-box",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": {
         "total": 100,
         "coverage": "complete",
@@ -1986,6 +2524,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "OnlyScrews",
+          "url": "https://onlyscrews.in/products/m3-phillips-countersunk-ss304-assorted-box",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": {
         "total": 100,
         "coverage": "complete",
@@ -2061,6 +2607,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "OnlyScrews",
+          "url": "https://onlyscrews.in/products/m3-x-6mm-3d-printing-brass-threaded-inserts-dia-3mm-length-6mm",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -2088,6 +2642,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "OnlyScrews",
+          "url": "https://onlyscrews.in/products/m3-x-4mm-3d-printing-brass-threaded-inserts-dia-3mm-length-4mm",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -2114,6 +2676,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "OnlyScrews",
+          "url": "https://onlyscrews.in/products/m4-x-4mm-brass-threaded-inserts",
+          "kind": "original",
+          "note": "The seller email names this M3 × 4 mm; its original URL contains “m4”. Confirm the listing variant before reordering."
+        }
+      ],
       "contents": null
     },
     {
@@ -2141,6 +2711,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robu",
+          "url": "https://robu.in/product/white-nylon-bolt-m35mm-pack-of-10/",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -2168,6 +2746,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robu",
+          "url": "https://robu.in/product/white-nylon-nut-m3/",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -2195,6 +2781,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/m3-9mm-black-nylon-double-pass-hexagonal-column-isolation-column-pack-of-10?variant=44589823099104",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -2220,6 +2814,44 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robu · red",
+          "url": "https://robu.in/product/high-quality-ultra-flexible-22awg-silicone-wire-1000m-red/",
+          "kind": "original",
+          "note": ""
+        },
+        {
+          "title": "Robu · black",
+          "url": "https://robu.in/product/high-quality-ultra-flexible-22awg-silicone-wire-1000m-black/",
+          "kind": "original",
+          "note": ""
+        },
+        {
+          "title": "Robu · blue",
+          "url": "https://robu.in/product/high-quality-ultra-flexible-22awg-silicone-wire-1000m-blue/",
+          "kind": "original",
+          "note": ""
+        },
+        {
+          "title": "Robu · green",
+          "url": "https://robu.in/product/high-quality-ultra-flexible-22awg-silicone-wire-1000m-green/",
+          "kind": "original",
+          "note": ""
+        },
+        {
+          "title": "Robu · white",
+          "url": "https://robu.in/product/high-quality-ultra-flexible-22awg-silicone-wire-1000m-white/",
+          "kind": "original",
+          "note": ""
+        },
+        {
+          "title": "Robu · yellow",
+          "url": "https://robu.in/product/high-quality-ultra-flexible-22awg-silicone-wire-1000m-yellow/",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -2246,6 +2878,20 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze · five-colour pack",
+          "url": "https://robocraze.com/products/single-stranded-hook-up-wires-1m-each-5-colors?variant=40193905590425",
+          "kind": "original",
+          "note": ""
+        },
+        {
+          "title": "Robocraze · black wire",
+          "url": "https://robocraze.com/products/single-strand-wire?variant=40192581238937",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -2271,6 +2917,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/ribbon-cable-10-wire-1-meter?variant=40192376012953",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -2295,6 +2949,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/jumper-wire-set-m2m-m2f-f2f-40-pcs-each",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": {
         "total": 120,
         "coverage": "complete",
@@ -2344,6 +3006,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robu",
+          "url": "https://robu.in/product/10cm-female-female-breadboard-jumper-dupont-2-54mm-1p-1p-cable-40-pcs/",
+          "kind": "original",
+          "note": "Robu 40-wire packs; the separate local-market set has no recorded product URL."
+        }
+      ],
       "contents": null
     },
     {
@@ -2370,6 +3040,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/10-pin-alligator-clip-to-male-jumper-wire-for-test-lead-20-cm?variant=43031310008544",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -2396,6 +3074,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/alligator-clip-to-female-jumper-cable-20cm-10pin?variant=52806374981856",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -2422,6 +3108,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/40x1-pin-2-54mm-pitch-male-berg-strip?variant=43046522650848",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -2448,6 +3142,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robu",
+          "url": "https://robu.in/product/2-54mm-1x40-pin-female-single-row-header-strip-pack-of-10/",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -2474,6 +3176,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robu",
+          "url": "https://robu.in/product/2-54mm-1x20-right-angle-male-header-strip-pack-of-10/",
+          "kind": "original",
+          "note": "The order names one header strip; the URL says pack of 10. Physical pack contents remain unconfirmed."
+        }
+      ],
       "contents": null
     },
     {
@@ -2500,6 +3210,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -2524,6 +3235,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/4mm-heat-shrink-tube-black-1-meter?variant=43173635686624",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -2548,6 +3267,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/2-5mm-heat-shrink-tube-black-1-meter?variant=43271505608928",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -2574,6 +3301,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -2600,6 +3328,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robu",
+          "url": "https://robu.in/product/6-x-8-cm-universal-pcb-prototype-board-single-sided-2-54mm-hole-pitch/",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -2626,6 +3362,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robu",
+          "url": "https://robu.in/product/37-cm-universal-pcb-prototype-board-double-sided/",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -2650,6 +3394,38 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/mini-breadboard?variant=40192580026521",
+          "kind": "original",
+          "note": ""
+        },
+        {
+          "title": "Robu · white",
+          "url": "https://robu.in/product/170-pts-mini-breadboard-syb-170-white/",
+          "kind": "original",
+          "note": ""
+        },
+        {
+          "title": "Robu · yellow",
+          "url": "https://robu.in/product/170-pts-mini-breadboard-syb-170-yellow/",
+          "kind": "original",
+          "note": ""
+        },
+        {
+          "title": "Robu · green",
+          "url": "https://robu.in/product/170-pts-mini-breadboard-syb-170-green/",
+          "kind": "original",
+          "note": ""
+        },
+        {
+          "title": "Robu · transparent",
+          "url": "https://robu.in/product/170-pts-mini-breadboard-syb-170-transparent/",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -2676,6 +3452,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "ThinkRobotics",
+          "url": "https://thinkrobotics.com/products/standard-breadboard-17cm-x-5-5cm",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -2700,6 +3484,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/solderless-breadboard-jumper-wire-connectors-140pcs?variant=40192642318489",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": {
         "total": 140,
         "coverage": "unitemized",
@@ -2741,6 +3533,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon",
+          "url": "https://www.amazon.in/dp/B072NDZL9K",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -2767,6 +3567,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/ams1117-3-3v-voltage-regulator?variant=40192597852313",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -2793,6 +3601,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/esp8266-12f?variant=40192690552985",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -2819,6 +3635,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/2-4ghz-wireless-pcb-antenna-with-ipex-u-fl-connector?variant=53343850660064",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -2845,6 +3669,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -2871,6 +3696,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -2897,6 +3723,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon",
+          "url": "https://www.amazon.in/dp/B09XBGQXQ2",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -2923,6 +3757,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon",
+          "url": "https://www.amazon.in/dp/B0CP5566QD",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -2947,6 +3789,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/noel-adjustable-90w-soldering-iron-with-temperature-control?variant=47302827507936",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -2972,6 +3822,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -2998,6 +3849,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robu",
+          "url": "https://robu.in/product/yihua-900m-soldering-iron-tip-set/",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": {
         "total": 3,
         "coverage": "partial",
@@ -3047,6 +3906,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robu",
+          "url": "https://robu.in/product/bakon-soldering-iron-tip-900m-t-i/",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -3071,6 +3938,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/solder-wire-45gm?variant=40192460488857",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -3096,6 +3971,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/noel-pure-copper-desoldering-wick-wire?variant=47302954909920",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -3122,6 +4005,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -3147,6 +4031,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -3171,6 +4056,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/multitec-mt-111-ss-cutter?variant=43193886605536",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -3195,6 +4088,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "ThinkRobotics",
+          "url": "https://thinkrobotics.com/products/soldering-iron-tip-refresher-non-stick-tip-tinner-oxide-cleaner",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -3220,6 +4121,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "ThinkRobotics",
+          "url": "https://thinkrobotics.com/products/heat-resistant-soldering-insulation-pad",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -3244,6 +4153,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "ThinkRobotics",
+          "url": "https://thinkrobotics.com/products/soldering-iron-tip-cleaning-ball-wool-sponge",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -3268,6 +4185,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "ThinkRobotics",
+          "url": "https://thinkrobotics.com/products/soldering-iron-tip-cleaner-with-stainless-steel-holder-lead-free-cleaning-ball",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -3292,6 +4217,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robu",
+          "url": "https://robu.in/product/te-800-servicing-auxiliary-clip-with-led-and-magnifier/",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -3316,6 +4249,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/15cm-multipurpose-pcb-measuring-ruler?variant=48144366960864",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -3340,6 +4281,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/gripx-a3-flexible-cutting-mat-green?variant=52777372483808",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -3361,6 +4310,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/basic-soldering-iron-tip-holder-stand?variant=48462287339744",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -3385,6 +4342,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/5-5x5-5cm-soldering-cleaning-sponge?variant=47303387152608",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -3409,6 +4374,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/7cmx5-5cm-soldering-cleaning-sponge-for-soldering-irons-work-stands?variant=47303371227360",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -3434,6 +4407,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon",
+          "url": "https://www.amazon.in/dp/B0D2NPKD8G",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -3460,6 +4441,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon",
+          "url": "https://www.amazon.in/dp/B002UHKARY",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": {
         "total": 34,
         "coverage": "complete",
@@ -3606,6 +4595,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon",
+          "url": "https://www.amazon.in/dp/B00403M7OU",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": {
         "total": 32,
         "coverage": "complete",
@@ -3652,6 +4649,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon",
+          "url": "https://www.amazon.in/dp/B0744KT9LT",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": {
         "total": 154,
         "coverage": "partial",
@@ -3765,6 +4770,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon",
+          "url": "https://www.amazon.in/dp/B07L8G24DD",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": {
         "total": 6,
         "coverage": "unitemized",
@@ -3806,6 +4819,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon",
+          "url": "https://www.amazon.in/dp/B07P9R8PP3",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": {
         "total": 5,
         "coverage": "complete",
@@ -3865,6 +4886,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon",
+          "url": "https://www.amazon.in/dp/B0DXL9BVPR",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -3891,6 +4920,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -3915,6 +4945,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon",
+          "url": "https://www.amazon.in/dp/B081PTYLX2",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -3937,6 +4975,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon",
+          "url": "https://www.amazon.in/dp/B0DXVWFBZS",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -3963,6 +5009,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon",
+          "url": "https://www.amazon.in/dp/B097T2L8BY",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -3987,6 +5041,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -4011,6 +5066,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -4037,6 +5093,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -4070,6 +5127,14 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/input-controls/README.md",
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005009578504178.html",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -4096,6 +5161,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/input-controls/README.md",
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005007783283991.html",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -4120,6 +5193,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/input-controls/README.md",
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005006066621804.html",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": {
         "total": 125,
         "coverage": "unitemized",
@@ -4170,6 +5251,7 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/seeed-a02-antenna/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -4196,6 +5278,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/seeed-xiao-heatsink/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -4227,6 +5310,7 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/netgear-orbi-rbr50/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -4253,6 +5337,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/netgear-orbi-rbr50/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -4279,6 +5364,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/wiz-neo-b22/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon",
+          "url": "https://www.amazon.in/dp/B0CHYDWZ77",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -4305,6 +5398,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/wiz-neo-b22/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -4331,6 +5425,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tuya-amazon-basics-bulbs/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon",
+          "url": "https://www.amazon.in/dp/B0BBMRZW5N",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -4358,6 +5460,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/qubo-smart-devices/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -4385,6 +5488,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/qubo-smart-devices/README.md",
+      "productLinks": [],
       "contents": null
     }
   ],
@@ -4438,6 +5542,14 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/xiao-esp32s3-seeed/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/seeed-studio-xiao-esp32-s3-development-board-supports-wi-fi-bluetooth-5-0?variant=47775391645920",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -4483,6 +5595,14 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/hlk-ld2450-radar/README.md",
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005006121923099.html",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -4534,6 +5654,14 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/waveshare-213-epaper-hat-plus/README.md",
+      "productLinks": [
+        {
+          "title": "Robu",
+          "url": "https://robu.in/product/waveshare-2-13inch-e-paper-hat-for-raspberry-pi-e-ink-display-250x122-immersion-gold-process-spi-interface-hat-standard-with-pwnagotchi-tutorial/",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -4591,6 +5719,14 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/sht41-7semi/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/7semi-sht41-temperature-humidity-sensor-breakout-with-i2c-qwiic-interface?variant=48177236836576",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -4618,6 +5754,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/xiao-esp32s3-plus-seeed/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -4645,6 +5782,7 @@
       "incoming": 1,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-x2d-combo-eu/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -4678,6 +5816,7 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/raspberry-pi-5/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -4730,6 +5869,7 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/esp32-devkit-7semi/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -4763,6 +5903,20 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bh1750-gy302-lux/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/gy-302-bh1750-light-intensity-module?variant=42268132016352",
+          "kind": "original",
+          "note": ""
+        },
+        {
+          "title": "Robu",
+          "url": "https://robu.in/product/gy-302-bh1750-light-intensity-module/",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -4802,6 +5956,14 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/hlk-ld2410c-radar/README.md",
+      "productLinks": [
+        {
+          "title": "Robu",
+          "url": "https://robu.in/product/hi-link-hlk-ld2410c-p-24ghz-human-presence-radar-sensor/",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -4835,6 +5997,14 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/dht22-am2302/README.md",
+      "productLinks": [
+        {
+          "title": "Robocraze",
+          "url": "https://robocraze.com/products/dht22-humidity-and-temperature-sensor-module-am2302",
+          "kind": "reference",
+          "note": "Owner-supplied product reference. These modules were bought locally, not from this listing."
+        }
+      ],
       "contents": null
     },
     {
@@ -4867,6 +6037,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/waveshare-101-dsi-lcd-c/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -4912,6 +6083,7 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/oled-displays/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -4938,6 +6110,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-displays/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -4964,6 +6137,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/wly104050-lipo/README.md",
+      "productLinks": [
+        {
+          "title": "Robu",
+          "url": "https://robu.in/product/wly104050-2500mah-3-7v-single-cell-rechargeable-lipo-battery/",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -4997,23 +6178,31 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tp4056-charger/README.md",
+      "productLinks": [
+        {
+          "title": "AliExpress",
+          "url": "https://www.aliexpress.com/item/1005012104722935.html",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
       "id": "bambu-filaments",
       "name": "Bambu Lab filaments",
       "category": "Fabrication",
-      "summary": "PLA Basic, PLA Glow, PETG Translucent and ASA material references.",
+      "summary": "PLA Basic, PLA Glow, PETG Translucent and ASA on hand; five PETG HF colours awaiting delivery.",
       "tags": [
-        "1.75 mm",
-        "4 material families"
+        "Filament",
+        "5 material families"
       ],
       "specs": {
-        "Selections": "PLA Glow yellow; PLA Basic beige / gray; ASA white; PETG clear",
-        "Format": "4 spool lines + 1 refill line",
+        "Selections": "PLA Glow yellow; PLA Basic beige / gray; ASA white; PETG Translucent clear; PETG HF red / yellow / orange / white / black",
+        "Format": "9 reusable-spool order lines + 1 refill line",
         "Remaining mass": "Unknown"
       },
-      "note": "Receipt is confirmed. Net mass, remaining material and print performance are not verified. The PETG selection is Translucent, not Basic or HF.",
+      "note": "The five Robu selections were received. The five Ideal3D PETG HF spools are not yet received, confirmed 20 October. Net mass and print performance remain unverified.",
       "links": [],
       "catalogueId": "bambu-filaments",
       "status": "unreconciled",
@@ -5072,6 +6261,7 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -5123,6 +6313,7 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/yihua-workshop-tools/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -5149,6 +6340,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -5174,6 +6366,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -5207,6 +6400,7 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/input-controls/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -5240,6 +6434,7 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/seeed-a02-antenna/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -5266,6 +6461,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/seeed-xiao-heatsink/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -5299,6 +6495,7 @@
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/netgear-orbi-rbr50/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -5325,6 +6522,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/wiz-neo-b22/README.md",
+      "productLinks": [],
       "contents": null
     },
     {
@@ -5351,6 +6549,14 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tuya-amazon-basics-bulbs/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon",
+          "url": "https://www.amazon.in/dp/B0BBMRZW5N",
+          "kind": "original",
+          "note": ""
+        }
+      ],
       "contents": null
     },
     {
@@ -5375,6 +6581,7 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/qubo-smart-devices/README.md",
+      "productLinks": [],
       "contents": null
     }
   ]
