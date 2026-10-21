@@ -1513,7 +1513,7 @@
       "catalogueId": "bambu-filaments",
       "name": "PLA Basic · Black",
       "category": "Fabrication",
-      "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in black. Delivery unconfirmed.",
+      "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in black. Awaiting delivery.",
       "tags": [
         "PLA Basic",
         "Black",
@@ -1527,16 +1527,16 @@
         "Format": "Reusable spool",
         "Purchased quantity": "1 spool",
         "Advertised net mass": "1 kg; not independently weighed",
-        "Receipt status": "Unconfirmed"
+        "Receipt status": "Not yet received; owner-confirmed"
       },
-      "note": "Purchase recorded from seller payment receipt. Physical receipt, exact delivery date, remaining mass and print performance are unverified.",
+      "note": "Owner confirms not yet received on 22 October. One incoming spool, zero received and zero available. Exact delivery date, remaining mass and print performance are unverified.",
       "id": "bambu-filaments--pla-black",
       "links": [],
-      "status": "unreconciled",
+      "status": "incoming",
       "remaining": null,
-      "available": null,
+      "available": 0,
       "quantityBasis": "unreconciled",
-      "incoming": null,
+      "incoming": 1,
       "documents": [
         {
           "title": "Bambu PLA Basic TDS V3.0",
@@ -1567,7 +1567,7 @@
       "catalogueId": "bambu-filaments",
       "name": "PLA Basic · Blue",
       "category": "Fabrication",
-      "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in blue. Delivery unconfirmed.",
+      "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in blue. Awaiting delivery.",
       "tags": [
         "PLA Basic",
         "Blue",
@@ -1581,16 +1581,16 @@
         "Format": "Reusable spool",
         "Purchased quantity": "1 spool",
         "Advertised net mass": "1 kg; not independently weighed",
-        "Receipt status": "Unconfirmed"
+        "Receipt status": "Not yet received; owner-confirmed"
       },
-      "note": "Purchase recorded from seller payment receipt. Physical receipt, exact delivery date, remaining mass and print performance are unverified.",
+      "note": "Owner confirms not yet received on 22 October. One incoming spool, zero received and zero available. Exact delivery date, remaining mass and print performance are unverified.",
       "id": "bambu-filaments--pla-blue",
       "links": [],
-      "status": "unreconciled",
+      "status": "incoming",
       "remaining": null,
-      "available": null,
+      "available": 0,
       "quantityBasis": "unreconciled",
-      "incoming": null,
+      "incoming": 1,
       "documents": [
         {
           "title": "Bambu PLA Basic TDS V3.0",
@@ -1621,7 +1621,7 @@
       "catalogueId": "bambu-filaments",
       "name": "PLA Basic · Gold",
       "category": "Fabrication",
-      "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in gold. Delivery unconfirmed.",
+      "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in gold. Awaiting delivery.",
       "tags": [
         "PLA Basic",
         "Gold",
@@ -1635,16 +1635,16 @@
         "Format": "Reusable spool",
         "Purchased quantity": "1 spool",
         "Advertised net mass": "1 kg; not independently weighed",
-        "Receipt status": "Unconfirmed"
+        "Receipt status": "Not yet received; owner-confirmed"
       },
-      "note": "Purchase recorded from seller payment receipt. Physical receipt, exact delivery date, remaining mass and print performance are unverified.",
+      "note": "Owner confirms not yet received on 22 October. One incoming spool, zero received and zero available. Exact delivery date, remaining mass and print performance are unverified.",
       "id": "bambu-filaments--pla-gold",
       "links": [],
-      "status": "unreconciled",
+      "status": "incoming",
       "remaining": null,
-      "available": null,
+      "available": 0,
       "quantityBasis": "unreconciled",
-      "incoming": null,
+      "incoming": 1,
       "documents": [
         {
           "title": "Bambu PLA Basic TDS V3.0",
@@ -1675,7 +1675,7 @@
       "catalogueId": "bambu-filaments",
       "name": "PLA Basic · Bambu Green",
       "category": "Fabrication",
-      "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in bambu green. Delivery unconfirmed.",
+      "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in bambu green. Awaiting delivery.",
       "tags": [
         "PLA Basic",
         "Bambu Green",
@@ -1689,16 +1689,16 @@
         "Format": "Reusable spool",
         "Purchased quantity": "1 spool",
         "Advertised net mass": "1 kg; not independently weighed",
-        "Receipt status": "Unconfirmed"
+        "Receipt status": "Not yet received; owner-confirmed"
       },
-      "note": "Purchase recorded from seller payment receipt. Physical receipt, exact delivery date, remaining mass and print performance are unverified.",
+      "note": "Owner confirms not yet received on 22 October. One incoming spool, zero received and zero available. Exact delivery date, remaining mass and print performance are unverified.",
       "id": "bambu-filaments--pla-bambu-green",
       "links": [],
-      "status": "unreconciled",
+      "status": "incoming",
       "remaining": null,
-      "available": null,
+      "available": 0,
       "quantityBasis": "unreconciled",
-      "incoming": null,
+      "incoming": 1,
       "documents": [
         {
           "title": "Bambu PLA Basic TDS V3.0",
@@ -1729,7 +1729,7 @@
       "catalogueId": "bambu-filaments",
       "name": "PLA Basic · Indigo Purple",
       "category": "Fabrication",
-      "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in indigo purple. Delivery unconfirmed.",
+      "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in indigo purple. Awaiting delivery.",
       "tags": [
         "PLA Basic",
         "Indigo Purple",
@@ -1743,16 +1743,16 @@
         "Format": "Reusable spool",
         "Purchased quantity": "1 spool",
         "Advertised net mass": "1 kg; not independently weighed",
-        "Receipt status": "Unconfirmed"
+        "Receipt status": "Not yet received; owner-confirmed"
       },
-      "note": "Purchase recorded from seller payment receipt. Physical receipt, exact delivery date, remaining mass and print performance are unverified.",
+      "note": "Owner confirms not yet received on 22 October. One incoming spool, zero received and zero available. Exact delivery date, remaining mass and print performance are unverified.",
       "id": "bambu-filaments--pla-indigo-purple",
       "links": [],
-      "status": "unreconciled",
+      "status": "incoming",
       "remaining": null,
-      "available": null,
+      "available": 0,
       "quantityBasis": "unreconciled",
-      "incoming": null,
+      "incoming": 1,
       "documents": [
         {
           "title": "Bambu PLA Basic TDS V3.0",
@@ -1783,7 +1783,7 @@
       "catalogueId": "bambu-filaments",
       "name": "PLA Matte · Dark Red",
       "category": "Fabrication",
-      "summary": "Bambu Lab PLA Matte with a reusable spool, purchased in dark red. Delivery unconfirmed.",
+      "summary": "Bambu Lab PLA Matte with a reusable spool, purchased in dark red. Awaiting delivery.",
       "tags": [
         "PLA Matte",
         "Dark Red",
@@ -1797,16 +1797,16 @@
         "Format": "Reusable spool",
         "Purchased quantity": "1 spool",
         "Advertised net mass": "1 kg; not independently weighed",
-        "Receipt status": "Unconfirmed"
+        "Receipt status": "Not yet received; owner-confirmed"
       },
-      "note": "Purchase recorded from seller payment receipt. Physical receipt, exact delivery date, remaining mass and print performance are unverified.",
+      "note": "Owner confirms not yet received on 22 October. One incoming spool, zero received and zero available. Exact delivery date, remaining mass and print performance are unverified.",
       "id": "bambu-filaments--pla-matte-dark-red",
       "links": [],
-      "status": "unreconciled",
+      "status": "incoming",
       "remaining": null,
-      "available": null,
+      "available": 0,
       "quantityBasis": "unreconciled",
-      "incoming": null,
+      "incoming": 1,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
       "productLinks": [
@@ -7211,7 +7211,7 @@
         "Format": "15 reusable-spool purchase lines + 1 refill line",
         "Remaining mass": "Unknown"
       },
-      "note": "Robu and Ideal3D selections are owner-confirmed received. Six Hydrotech PLA purchases have unconfirmed physical receipt. Remaining mass and print performance are unverified.",
+      "note": "Robu and Ideal3D selections are owner-confirmed received. Six Hydrotech PLA spools are awaiting delivery, owner-confirmed on 22 October. Remaining mass and print performance are unverified.",
       "links": [],
       "catalogueId": "bambu-filaments",
       "status": "unreconciled",
