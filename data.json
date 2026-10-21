@@ -1510,6 +1510,317 @@
       "contents": null
     },
     {
+      "catalogueId": "bambu-filaments",
+      "name": "PLA Basic · Black",
+      "category": "Fabrication",
+      "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in black. Delivery unconfirmed.",
+      "tags": [
+        "PLA Basic",
+        "Black",
+        "Reusable spool",
+        "Hydrotech 3D Chennai",
+        "Brand: Bambu Lab"
+      ],
+      "specs": {
+        "Material": "PLA Basic",
+        "Colour": "Black",
+        "Format": "Reusable spool",
+        "Purchased quantity": "1 spool",
+        "Advertised net mass": "1 kg; not independently weighed",
+        "Receipt status": "Unconfirmed"
+      },
+      "note": "Purchase recorded from seller payment receipt. Physical receipt, exact delivery date, remaining mass and print performance are unverified.",
+      "id": "bambu-filaments--pla-black",
+      "links": [],
+      "status": "unreconciled",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": null,
+      "documents": [
+        {
+          "title": "Bambu PLA Basic TDS V3.0",
+          "url": "https://store.bblcdn.com/s7/default/b189de92249a4b9ebed28b8ea1f080f0/Bambu_PLA_Basic_Technical_Data_Sheet.pdf",
+          "kind": "PDF",
+          "sha256": "05b504148050e17c02d2f20f1a4b718b4e35d43af1c406da34127711762ff939"
+        },
+        {
+          "title": "Bambu PLA Basic SDS 2025 07 24",
+          "url": "https://store.bblcdn.com/s7/default/6e47ce4e48b54b20b3afd3be7539ac27/SDS20250724A00_Bambu_PLA_Basic.pdf",
+          "kind": "PDF",
+          "sha256": "895a2a5f72f18176740873e8891edf9430637f46bfb44a7228398bac9ad6ffa8"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "productLinks": [
+        {
+          "title": "Hydrotech 3D Chennai",
+          "url": "https://www.hydrotech3dchennai.com/product-page/bambu-lab-pla-basic-with-reusable-spool-1kg",
+          "kind": "original",
+          "note": "Seller listing matched to the purchased material; select black and the reusable-spool option."
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "bambu-filaments",
+      "name": "PLA Basic · Blue",
+      "category": "Fabrication",
+      "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in blue. Delivery unconfirmed.",
+      "tags": [
+        "PLA Basic",
+        "Blue",
+        "Reusable spool",
+        "Hydrotech 3D Chennai",
+        "Brand: Bambu Lab"
+      ],
+      "specs": {
+        "Material": "PLA Basic",
+        "Colour": "Blue",
+        "Format": "Reusable spool",
+        "Purchased quantity": "1 spool",
+        "Advertised net mass": "1 kg; not independently weighed",
+        "Receipt status": "Unconfirmed"
+      },
+      "note": "Purchase recorded from seller payment receipt. Physical receipt, exact delivery date, remaining mass and print performance are unverified.",
+      "id": "bambu-filaments--pla-blue",
+      "links": [],
+      "status": "unreconciled",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": null,
+      "documents": [
+        {
+          "title": "Bambu PLA Basic TDS V3.0",
+          "url": "https://store.bblcdn.com/s7/default/b189de92249a4b9ebed28b8ea1f080f0/Bambu_PLA_Basic_Technical_Data_Sheet.pdf",
+          "kind": "PDF",
+          "sha256": "05b504148050e17c02d2f20f1a4b718b4e35d43af1c406da34127711762ff939"
+        },
+        {
+          "title": "Bambu PLA Basic SDS 2025 07 24",
+          "url": "https://store.bblcdn.com/s7/default/6e47ce4e48b54b20b3afd3be7539ac27/SDS20250724A00_Bambu_PLA_Basic.pdf",
+          "kind": "PDF",
+          "sha256": "895a2a5f72f18176740873e8891edf9430637f46bfb44a7228398bac9ad6ffa8"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "productLinks": [
+        {
+          "title": "Hydrotech 3D Chennai",
+          "url": "https://www.hydrotech3dchennai.com/product-page/bambu-lab-pla-basic-with-reusable-spool-1kg",
+          "kind": "original",
+          "note": "Seller listing matched to the purchased material; select Blue and the reusable-spool option."
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "bambu-filaments",
+      "name": "PLA Basic · Gold",
+      "category": "Fabrication",
+      "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in gold. Delivery unconfirmed.",
+      "tags": [
+        "PLA Basic",
+        "Gold",
+        "Reusable spool",
+        "Hydrotech 3D Chennai",
+        "Brand: Bambu Lab"
+      ],
+      "specs": {
+        "Material": "PLA Basic",
+        "Colour": "Gold",
+        "Format": "Reusable spool",
+        "Purchased quantity": "1 spool",
+        "Advertised net mass": "1 kg; not independently weighed",
+        "Receipt status": "Unconfirmed"
+      },
+      "note": "Purchase recorded from seller payment receipt. Physical receipt, exact delivery date, remaining mass and print performance are unverified.",
+      "id": "bambu-filaments--pla-gold",
+      "links": [],
+      "status": "unreconciled",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": null,
+      "documents": [
+        {
+          "title": "Bambu PLA Basic TDS V3.0",
+          "url": "https://store.bblcdn.com/s7/default/b189de92249a4b9ebed28b8ea1f080f0/Bambu_PLA_Basic_Technical_Data_Sheet.pdf",
+          "kind": "PDF",
+          "sha256": "05b504148050e17c02d2f20f1a4b718b4e35d43af1c406da34127711762ff939"
+        },
+        {
+          "title": "Bambu PLA Basic SDS 2025 07 24",
+          "url": "https://store.bblcdn.com/s7/default/6e47ce4e48b54b20b3afd3be7539ac27/SDS20250724A00_Bambu_PLA_Basic.pdf",
+          "kind": "PDF",
+          "sha256": "895a2a5f72f18176740873e8891edf9430637f46bfb44a7228398bac9ad6ffa8"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "productLinks": [
+        {
+          "title": "Hydrotech 3D Chennai",
+          "url": "https://www.hydrotech3dchennai.com/product-page/bambu-lab-pla-basic-with-reusable-spool-1kg",
+          "kind": "original",
+          "note": "Seller listing matched to the purchased material; select gold and the reusable-spool option."
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "bambu-filaments",
+      "name": "PLA Basic · Bambu Green",
+      "category": "Fabrication",
+      "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in bambu green. Delivery unconfirmed.",
+      "tags": [
+        "PLA Basic",
+        "Bambu Green",
+        "Reusable spool",
+        "Hydrotech 3D Chennai",
+        "Brand: Bambu Lab"
+      ],
+      "specs": {
+        "Material": "PLA Basic",
+        "Colour": "Bambu Green",
+        "Format": "Reusable spool",
+        "Purchased quantity": "1 spool",
+        "Advertised net mass": "1 kg; not independently weighed",
+        "Receipt status": "Unconfirmed"
+      },
+      "note": "Purchase recorded from seller payment receipt. Physical receipt, exact delivery date, remaining mass and print performance are unverified.",
+      "id": "bambu-filaments--pla-bambu-green",
+      "links": [],
+      "status": "unreconciled",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": null,
+      "documents": [
+        {
+          "title": "Bambu PLA Basic TDS V3.0",
+          "url": "https://store.bblcdn.com/s7/default/b189de92249a4b9ebed28b8ea1f080f0/Bambu_PLA_Basic_Technical_Data_Sheet.pdf",
+          "kind": "PDF",
+          "sha256": "05b504148050e17c02d2f20f1a4b718b4e35d43af1c406da34127711762ff939"
+        },
+        {
+          "title": "Bambu PLA Basic SDS 2025 07 24",
+          "url": "https://store.bblcdn.com/s7/default/6e47ce4e48b54b20b3afd3be7539ac27/SDS20250724A00_Bambu_PLA_Basic.pdf",
+          "kind": "PDF",
+          "sha256": "895a2a5f72f18176740873e8891edf9430637f46bfb44a7228398bac9ad6ffa8"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "productLinks": [
+        {
+          "title": "Hydrotech 3D Chennai",
+          "url": "https://www.hydrotech3dchennai.com/product-page/bambu-lab-pla-basic-with-reusable-spool-1kg",
+          "kind": "original",
+          "note": "Seller listing matched to the purchased material; select Bambu green and the reusable-spool option."
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "bambu-filaments",
+      "name": "PLA Basic · Indigo Purple",
+      "category": "Fabrication",
+      "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in indigo purple. Delivery unconfirmed.",
+      "tags": [
+        "PLA Basic",
+        "Indigo Purple",
+        "Reusable spool",
+        "Hydrotech 3D Chennai",
+        "Brand: Bambu Lab"
+      ],
+      "specs": {
+        "Material": "PLA Basic",
+        "Colour": "Indigo Purple",
+        "Format": "Reusable spool",
+        "Purchased quantity": "1 spool",
+        "Advertised net mass": "1 kg; not independently weighed",
+        "Receipt status": "Unconfirmed"
+      },
+      "note": "Purchase recorded from seller payment receipt. Physical receipt, exact delivery date, remaining mass and print performance are unverified.",
+      "id": "bambu-filaments--pla-indigo-purple",
+      "links": [],
+      "status": "unreconciled",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": null,
+      "documents": [
+        {
+          "title": "Bambu PLA Basic TDS V3.0",
+          "url": "https://store.bblcdn.com/s7/default/b189de92249a4b9ebed28b8ea1f080f0/Bambu_PLA_Basic_Technical_Data_Sheet.pdf",
+          "kind": "PDF",
+          "sha256": "05b504148050e17c02d2f20f1a4b718b4e35d43af1c406da34127711762ff939"
+        },
+        {
+          "title": "Bambu PLA Basic SDS 2025 07 24",
+          "url": "https://store.bblcdn.com/s7/default/6e47ce4e48b54b20b3afd3be7539ac27/SDS20250724A00_Bambu_PLA_Basic.pdf",
+          "kind": "PDF",
+          "sha256": "895a2a5f72f18176740873e8891edf9430637f46bfb44a7228398bac9ad6ffa8"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "productLinks": [
+        {
+          "title": "Hydrotech 3D Chennai",
+          "url": "https://www.hydrotech3dchennai.com/product-page/bambulab-pla-basic-with-reusable-spool-1kg",
+          "kind": "original",
+          "note": "Seller listing matched to the purchased material; select Indigo Purple and the reusable-spool option."
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "bambu-filaments",
+      "name": "PLA Matte · Dark Red",
+      "category": "Fabrication",
+      "summary": "Bambu Lab PLA Matte with a reusable spool, purchased in dark red. Delivery unconfirmed.",
+      "tags": [
+        "PLA Matte",
+        "Dark Red",
+        "Reusable spool",
+        "Hydrotech 3D Chennai",
+        "Brand: Bambu Lab"
+      ],
+      "specs": {
+        "Material": "PLA Matte",
+        "Colour": "Dark Red",
+        "Format": "Reusable spool",
+        "Purchased quantity": "1 spool",
+        "Advertised net mass": "1 kg; not independently weighed",
+        "Receipt status": "Unconfirmed"
+      },
+      "note": "Purchase recorded from seller payment receipt. Physical receipt, exact delivery date, remaining mass and print performance are unverified.",
+      "id": "bambu-filaments--pla-matte-dark-red",
+      "links": [],
+      "status": "unreconciled",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "productLinks": [
+        {
+          "title": "Hydrotech 3D Chennai",
+          "url": "https://www.hydrotech3dchennai.com/product-page/bambu-pla-matte-with-bambu-reusable-spool-1kg",
+          "kind": "original",
+          "note": "Seller listing matched to the purchased material; select Matte Dark Red and the reusable-spool option."
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
       "catalogueId": "yihua-workshop-tools",
       "name": "YIHUA 8858-IV",
       "category": "Workshop",
@@ -6890,17 +7201,17 @@
       "id": "bambu-filaments",
       "name": "Bambu Lab filaments",
       "category": "Fabrication",
-      "summary": "PLA Basic, PLA Glow, PETG Translucent and ASA on hand; five PETG HF colours awaiting delivery.",
+      "summary": "Bambu filament purchases across PLA, PETG and ASA, recorded by exact material, colour and format.",
       "tags": [
         "Filament",
-        "5 material families"
+        "6 material families"
       ],
       "specs": {
-        "Selections": "PLA Glow yellow; PLA Basic beige / gray; ASA white; PETG Translucent clear; PETG HF red / yellow / orange / white / black",
-        "Format": "9 reusable-spool order lines + 1 refill line",
+        "Selections": "PLA Glow yellow; PLA Basic beige / gray / black / blue / gold / Bambu green / indigo purple; PLA Matte dark red; ASA white; PETG Translucent clear; PETG HF red / yellow / orange / white / black",
+        "Format": "15 reusable-spool purchase lines + 1 refill line",
         "Remaining mass": "Unknown"
       },
-      "note": "The five Robu selections and five Ideal3D PETG HF spools are received, owner-confirmed. Exact receipt dates, remaining net mass and print performance remain unverified.",
+      "note": "Robu and Ideal3D selections are owner-confirmed received. Six Hydrotech PLA purchases have unconfirmed physical receipt. Remaining mass and print performance are unverified.",
       "links": [],
       "catalogueId": "bambu-filaments",
       "status": "unreconciled",
@@ -7038,7 +7349,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "hdc 085c product manual",
+          "url": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/hdc-085c-product-manual.pdf",
+          "kind": "Archive",
+          "sha256": "0a8cf8090c210a0582ee53399b02540c7d340c406411bdb4d1b2a75b1fe62bf7"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
       "productLinks": [],
       "purchaseSource": null,
