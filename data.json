@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-10-20",
-  "familyCount": 27,
+  "asOf": "2026-10-22",
+  "familyCount": 29,
   "components": [
     {
       "id": "xiao-esp32s3-seeed",
@@ -292,27 +292,27 @@
       "id": "bambu-x2d-combo-eu",
       "name": "Bambu Lab X2D Combo EU",
       "category": "Fabrication",
-      "summary": "Incoming workshop 3D printer, recorded under its invoiced model name.",
+      "summary": "Received workshop 3D printer, recorded under its invoiced model name.",
       "tags": [
         "3D printing",
-        "Incoming",
+        "Received",
         "WOL3D",
         "Brand: Bambu Lab"
       ],
       "specs": {
         "Ordered": "1 printer",
-        "Received": "0",
-        "Available": "0",
+        "Received": "1 printer; owner-confirmed",
+        "Available": "Unconfirmed",
         "Regional description": "EU"
       },
-      "note": "Awaiting delivery. Exact hardware, bundled contents and model specifications have not been established from the invoice name.",
+      "note": "Owner confirms receipt on 22 October. Exact receipt date, hardware identity, bundled contents, condition, setup and function have not been recorded.",
       "links": [],
       "catalogueId": "bambu-x2d-combo-eu",
-      "status": "incoming",
-      "remaining": null,
-      "available": 0,
-      "quantityBasis": "unreconciled",
-      "incoming": 1,
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-x2d-combo-eu/README.md",
       "productLinks": [],
@@ -1318,7 +1318,7 @@
       "catalogueId": "bambu-filaments",
       "name": "PETG HF · Red",
       "category": "Fabrication",
-      "summary": "Bambu Lab PETG HF with a reusable spool, ordered in this exact colour. Awaiting delivery.",
+      "summary": "Bambu Lab PETG HF with a reusable spool, ordered in this exact colour. Received, owner-confirmed.",
       "tags": [
         "PETG HF",
         "Red",
@@ -1332,14 +1332,14 @@
         "Format": "Reusable spool",
         "Ordered": "1 spool; net mass not verified"
       },
-      "note": "Not yet received, confirmed 20 October. Physical labels, net mass and print performance remain unverified. PETG Translucent documents do not describe this material.",
+      "note": "Received, confirmed 22 October. Exact receipt date, physical labels, remaining net mass and print performance remain unverified. PETG Translucent documents do not describe this material.",
       "id": "bambu-filaments--petg-hf-red",
       "links": [],
-      "status": "incoming",
-      "remaining": null,
-      "available": 0,
-      "quantityBasis": "unreconciled",
-      "incoming": 1,
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
       "productLinks": [
@@ -1357,7 +1357,7 @@
       "catalogueId": "bambu-filaments",
       "name": "PETG HF · Yellow",
       "category": "Fabrication",
-      "summary": "Bambu Lab PETG HF with a reusable spool, ordered in this exact colour. Awaiting delivery.",
+      "summary": "Bambu Lab PETG HF with a reusable spool, ordered in this exact colour. Received, owner-confirmed.",
       "tags": [
         "PETG HF",
         "Yellow",
@@ -1371,14 +1371,14 @@
         "Format": "Reusable spool",
         "Ordered": "1 spool; net mass not verified"
       },
-      "note": "Not yet received, confirmed 20 October. Physical labels, net mass and print performance remain unverified. PETG Translucent documents do not describe this material.",
+      "note": "Received, confirmed 22 October. Exact receipt date, physical labels, remaining net mass and print performance remain unverified. PETG Translucent documents do not describe this material.",
       "id": "bambu-filaments--petg-hf-yellow",
       "links": [],
-      "status": "incoming",
-      "remaining": null,
-      "available": 0,
-      "quantityBasis": "unreconciled",
-      "incoming": 1,
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
       "productLinks": [
@@ -1396,7 +1396,7 @@
       "catalogueId": "bambu-filaments",
       "name": "PETG HF · Orange",
       "category": "Fabrication",
-      "summary": "Bambu Lab PETG HF with a reusable spool, ordered in this exact colour. Awaiting delivery.",
+      "summary": "Bambu Lab PETG HF with a reusable spool, ordered in this exact colour. Received, owner-confirmed.",
       "tags": [
         "PETG HF",
         "Orange",
@@ -1410,14 +1410,14 @@
         "Format": "Reusable spool",
         "Ordered": "1 spool; net mass not verified"
       },
-      "note": "Not yet received, confirmed 20 October. Physical labels, net mass and print performance remain unverified. PETG Translucent documents do not describe this material.",
+      "note": "Received, confirmed 22 October. Exact receipt date, physical labels, remaining net mass and print performance remain unverified. PETG Translucent documents do not describe this material.",
       "id": "bambu-filaments--petg-hf-orange",
       "links": [],
-      "status": "incoming",
-      "remaining": null,
-      "available": 0,
-      "quantityBasis": "unreconciled",
-      "incoming": 1,
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
       "productLinks": [
@@ -1435,7 +1435,7 @@
       "catalogueId": "bambu-filaments",
       "name": "PETG HF · White",
       "category": "Fabrication",
-      "summary": "Bambu Lab PETG HF with a reusable spool, ordered in this exact colour. Awaiting delivery.",
+      "summary": "Bambu Lab PETG HF with a reusable spool, ordered in this exact colour. Received, owner-confirmed.",
       "tags": [
         "PETG HF",
         "White",
@@ -1449,14 +1449,14 @@
         "Format": "Reusable spool",
         "Ordered": "1 spool; net mass not verified"
       },
-      "note": "Not yet received, confirmed 20 October. Physical labels, net mass and print performance remain unverified. PETG Translucent documents do not describe this material.",
+      "note": "Received, confirmed 22 October. Exact receipt date, physical labels, remaining net mass and print performance remain unverified. PETG Translucent documents do not describe this material.",
       "id": "bambu-filaments--petg-hf-white",
       "links": [],
-      "status": "incoming",
-      "remaining": null,
-      "available": 0,
-      "quantityBasis": "unreconciled",
-      "incoming": 1,
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
       "productLinks": [
@@ -1474,7 +1474,7 @@
       "catalogueId": "bambu-filaments",
       "name": "PETG HF · Black",
       "category": "Fabrication",
-      "summary": "Bambu Lab PETG HF with a reusable spool, ordered in this exact colour. Awaiting delivery.",
+      "summary": "Bambu Lab PETG HF with a reusable spool, ordered in this exact colour. Received, owner-confirmed.",
       "tags": [
         "PETG HF",
         "Black",
@@ -1488,14 +1488,14 @@
         "Format": "Reusable spool",
         "Ordered": "1 spool; net mass not verified"
       },
-      "note": "Not yet received, confirmed 20 October. Physical labels, net mass and print performance remain unverified. PETG Translucent documents do not describe this material.",
+      "note": "Received, confirmed 22 October. Exact receipt date, physical labels, remaining net mass and print performance remain unverified. PETG Translucent documents do not describe this material.",
       "id": "bambu-filaments--petg-hf-black",
       "links": [],
-      "status": "incoming",
-      "remaining": null,
-      "available": 0,
-      "quantityBasis": "unreconciled",
-      "incoming": 1,
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
       "productLinks": [
@@ -6058,6 +6058,83 @@
       "productLinks": [],
       "purchaseSource": null,
       "contents": null
+    },
+    {
+      "id": "cilicant-silica-gel-5g",
+      "name": "CILICAnT 5 g silica-gel sachets",
+      "category": "Fabrication",
+      "summary": "Orange indicating silica-gel sachets for moisture absorption, supplied as one 200-sachet pack.",
+      "tags": [
+        "Desiccant",
+        "Silica gel",
+        "200-sachet pack",
+        "Amazon",
+        "Brand: CILICAnT"
+      ],
+      "specs": {
+        "Pack contents": "Advertised 200 sachets × 5 g; 1 kg total",
+        "Recorded unit": "1 received pack",
+        "Colour / type": "Orange indicating silica gel; supplier description"
+      },
+      "note": "Owner confirms receipt on 22 October. Exact receipt date, condition, individual pack/set count and tested function are not recorded. Availability is unknown.",
+      "links": [],
+      "catalogueId": "cilicant-silica-gel-5g",
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/cilicant-silica-gel-5g/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon",
+          "url": "https://www.amazon.in/dp/B091C7CT7W",
+          "kind": "original",
+          "note": "Original purchased-item link recovered from the order email."
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "id": "lifelong-lletk09",
+      "name": "Lifelong LLETK09 precision screwdriver set",
+      "category": "Workshop",
+      "summary": "A magnetic precision screwdriver set with extendable and flexible shafts, sold as a 62-in-1 kit.",
+      "tags": [
+        "Precision tools",
+        "Magnetic screwdriver",
+        "62-in-1",
+        "Amazon",
+        "Brand: Lifelong"
+      ],
+      "specs": {
+        "Model": "LLETK09",
+        "Set designation": "62-in-1; exact bit/accessory breakdown unverified",
+        "Shafts": "Extendable and flexible; order title",
+        "Recorded unit": "1 received set"
+      },
+      "note": "Owner confirms receipt on 22 October. Exact receipt date, condition, individual pack/set count and tested function are not recorded. Availability is unknown.",
+      "links": [],
+      "catalogueId": "lifelong-lletk09",
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/lifelong-lletk09/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon",
+          "url": "https://www.amazon.in/dp/B0DFMG5ZLF",
+          "kind": "original",
+          "note": "Original purchased-item link recovered from the order email."
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null
     }
   ],
   "families": [
@@ -6351,27 +6428,27 @@
       "id": "bambu-x2d-combo-eu",
       "name": "Bambu Lab X2D Combo EU",
       "category": "Fabrication",
-      "summary": "Incoming workshop 3D printer, recorded under its invoiced model name.",
+      "summary": "Received workshop 3D printer, recorded under its invoiced model name.",
       "tags": [
         "3D printing",
-        "Incoming",
+        "Received",
         "WOL3D",
         "Brand: Bambu Lab"
       ],
       "specs": {
         "Ordered": "1 printer",
-        "Received": "0",
-        "Available": "0",
+        "Received": "1 printer; owner-confirmed",
+        "Available": "Unconfirmed",
         "Regional description": "EU"
       },
-      "note": "Awaiting delivery. Exact hardware, bundled contents and model specifications have not been established from the invoice name.",
+      "note": "Owner confirms receipt on 22 October. Exact receipt date, hardware identity, bundled contents, condition, setup and function have not been recorded.",
       "links": [],
       "catalogueId": "bambu-x2d-combo-eu",
-      "status": "incoming",
-      "remaining": null,
-      "available": 0,
-      "quantityBasis": "unreconciled",
-      "incoming": 1,
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-x2d-combo-eu/README.md",
       "productLinks": [],
@@ -6823,7 +6900,7 @@
         "Format": "9 reusable-spool order lines + 1 refill line",
         "Remaining mass": "Unknown"
       },
-      "note": "The five Robu selections were received. The five Ideal3D PETG HF spools are not yet received, confirmed 20 October. Net mass and print performance remain unverified.",
+      "note": "The five Robu selections and five Ideal3D PETG HF spools are received, owner-confirmed. Exact receipt dates, remaining net mass and print performance remain unverified.",
       "links": [],
       "catalogueId": "bambu-filaments",
       "status": "unreconciled",
@@ -7233,6 +7310,83 @@
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/qubo-smart-devices/README.md",
       "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "id": "cilicant-silica-gel-5g",
+      "name": "CILICAnT 5 g silica-gel sachets",
+      "category": "Fabrication",
+      "summary": "Orange indicating silica-gel sachets for moisture absorption, supplied as one 200-sachet pack.",
+      "tags": [
+        "Desiccant",
+        "Silica gel",
+        "200-sachet pack",
+        "Amazon",
+        "Brand: CILICAnT"
+      ],
+      "specs": {
+        "Pack contents": "Advertised 200 sachets × 5 g; 1 kg total",
+        "Recorded unit": "1 received pack",
+        "Colour / type": "Orange indicating silica gel; supplier description"
+      },
+      "note": "Owner confirms receipt on 22 October. Exact receipt date, condition, individual pack/set count and tested function are not recorded. Availability is unknown.",
+      "links": [],
+      "catalogueId": "cilicant-silica-gel-5g",
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/cilicant-silica-gel-5g/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon",
+          "url": "https://www.amazon.in/dp/B091C7CT7W",
+          "kind": "original",
+          "note": "Original purchased-item link recovered from the order email."
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "id": "lifelong-lletk09",
+      "name": "Lifelong LLETK09 precision screwdriver set",
+      "category": "Workshop",
+      "summary": "A magnetic precision screwdriver set with extendable and flexible shafts, sold as a 62-in-1 kit.",
+      "tags": [
+        "Precision tools",
+        "Magnetic screwdriver",
+        "62-in-1",
+        "Amazon",
+        "Brand: Lifelong"
+      ],
+      "specs": {
+        "Model": "LLETK09",
+        "Set designation": "62-in-1; exact bit/accessory breakdown unverified",
+        "Shafts": "Extendable and flexible; order title",
+        "Recorded unit": "1 received set"
+      },
+      "note": "Owner confirms receipt on 22 October. Exact receipt date, condition, individual pack/set count and tested function are not recorded. Availability is unknown.",
+      "links": [],
+      "catalogueId": "lifelong-lletk09",
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/lifelong-lletk09/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon",
+          "url": "https://www.amazon.in/dp/B0DFMG5ZLF",
+          "kind": "original",
+          "note": "Original purchased-item link recovered from the order email."
+        }
+      ],
       "purchaseSource": null,
       "contents": null
     }
