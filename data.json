@@ -673,16 +673,40 @@
         "Brand: Waveshare"
       ],
       "specs": {
-        "Panel": "10.1-inch IPS",
-        "Touch": "Capacitive, up to 10 points",
+        "Panel": "10.1-inch IPS; 178° viewing angle",
+        "Resolution / refresh": "1280 × 800; up to 60 Hz",
+        "Touch": "Capacitive, up to 10 points; I²C interface; OS-dependent",
         "Display interface": "Raspberry Pi DSI",
-        "Manufacturer SKU": "23450"
+        "Cover": "Optical bonding; toughened glass up to 6H",
+        "Supply voltage": "5 V nominal; 4.75–5.30 V",
+        "Supply current": "0.88 A standard table value; maximum not specified",
+        "Operating / storage": "0–60 °C / −10–70 °C",
+        "Lens outline": "239 × 147 mm (drawing LENS OD)",
+        "Backlight": "Software brightness control",
+        "Manufacturer SKU": "23450",
+        "Bare-panel datasheet / schematic": "Not located; model manual and mechanical drawings available"
       },
-      "note": "One received unit is recorded. Physical revision, accessories, allocation and display/touch function have not been verified.",
+      "note": "One received gift is recorded. Specifications describe the manufacturer model; physical revision, accessories and function are unverified. Manual current table and typical-current FAQ differ; see source notes. Retailer link is an identity reference, not proof of purchase source.",
       "links": [
         {
           "title": "Waveshare product reference",
           "url": "https://www.waveshare.com/10.1inch-dsi-lcd-c.htm"
+        },
+        {
+          "title": "Current Waveshare model wiki / setup guide",
+          "url": "https://www.waveshare.com/wiki/10.1inch_DSI_LCD_%28C%29"
+        },
+        {
+          "title": "2D mechanical drawings · official PDF/DXF RAR archive",
+          "url": "https://files.waveshare.com/wiki/10.1inch%20DSI%20LCD%20(C)/10_1inch-dsi-lcd_c-2D.rar"
+        },
+        {
+          "title": "3D STEP model · official ZIP archive",
+          "url": "https://files.waveshare.com/wiki/10.1inch%20DSI%20LCD%20(C)/10_1inch-dsi-lcd_c_New.zip"
+        },
+        {
+          "title": "Legacy Waveshare DSI driver repository",
+          "url": "https://github.com/waveshare/Waveshare-DSI-LCD"
         }
       ],
       "catalogueId": "waveshare-101-dsi-lcd-c",
@@ -691,9 +715,29 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "waveshare 101 dsi lcd c user guide",
+          "url": "https://m.media-amazon.com/images/I/B1p6-bhPdyL.pdf",
+          "kind": "PDF",
+          "sha256": "047629564e3c617777171b512be583fa11a9ce6593f793a0202cb7458964a37b"
+        },
+        {
+          "title": "waveshare 101 dsi lcd c mechanical drawing",
+          "url": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/waveshare-101-dsi-lcd-c/waveshare-101-dsi-lcd-c-mechanical-drawing.pdf",
+          "kind": "Archive",
+          "sha256": "749a35a7755381a1aa537551c9d2f255ac1899663424597296dc119089becb70"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/waveshare-101-dsi-lcd-c/README.md",
-      "productLinks": [],
+      "productLinks": [
+        {
+          "title": "Robocraze · Waveshare 10.1-inch DSI LCD (C)",
+          "url": "https://robocraze.com/products/waveshare-10-1-inch-1280-800-ips-touchscreen-lcd-c-display?variant=54401038647520",
+          "kind": "reference",
+          "note": "Owner-supplied model reference. Gift received; original purchase vendor is unknown."
+        }
+      ],
       "purchaseSource": null,
       "contents": null
     },
@@ -7012,16 +7056,40 @@
         "Brand: Waveshare"
       ],
       "specs": {
-        "Panel": "10.1-inch IPS",
-        "Touch": "Capacitive, up to 10 points",
+        "Panel": "10.1-inch IPS; 178° viewing angle",
+        "Resolution / refresh": "1280 × 800; up to 60 Hz",
+        "Touch": "Capacitive, up to 10 points; I²C interface; OS-dependent",
         "Display interface": "Raspberry Pi DSI",
-        "Manufacturer SKU": "23450"
+        "Cover": "Optical bonding; toughened glass up to 6H",
+        "Supply voltage": "5 V nominal; 4.75–5.30 V",
+        "Supply current": "0.88 A standard table value; maximum not specified",
+        "Operating / storage": "0–60 °C / −10–70 °C",
+        "Lens outline": "239 × 147 mm (drawing LENS OD)",
+        "Backlight": "Software brightness control",
+        "Manufacturer SKU": "23450",
+        "Bare-panel datasheet / schematic": "Not located; model manual and mechanical drawings available"
       },
-      "note": "One received unit is recorded. Physical revision, accessories, allocation and display/touch function have not been verified.",
+      "note": "One received gift is recorded. Specifications describe the manufacturer model; physical revision, accessories and function are unverified. Manual current table and typical-current FAQ differ; see source notes. Retailer link is an identity reference, not proof of purchase source.",
       "links": [
         {
           "title": "Waveshare product reference",
           "url": "https://www.waveshare.com/10.1inch-dsi-lcd-c.htm"
+        },
+        {
+          "title": "Current Waveshare model wiki / setup guide",
+          "url": "https://www.waveshare.com/wiki/10.1inch_DSI_LCD_%28C%29"
+        },
+        {
+          "title": "2D mechanical drawings · official PDF/DXF RAR archive",
+          "url": "https://files.waveshare.com/wiki/10.1inch%20DSI%20LCD%20(C)/10_1inch-dsi-lcd_c-2D.rar"
+        },
+        {
+          "title": "3D STEP model · official ZIP archive",
+          "url": "https://files.waveshare.com/wiki/10.1inch%20DSI%20LCD%20(C)/10_1inch-dsi-lcd_c_New.zip"
+        },
+        {
+          "title": "Legacy Waveshare DSI driver repository",
+          "url": "https://github.com/waveshare/Waveshare-DSI-LCD"
         }
       ],
       "catalogueId": "waveshare-101-dsi-lcd-c",
@@ -7030,9 +7098,29 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "waveshare 101 dsi lcd c user guide",
+          "url": "https://m.media-amazon.com/images/I/B1p6-bhPdyL.pdf",
+          "kind": "PDF",
+          "sha256": "047629564e3c617777171b512be583fa11a9ce6593f793a0202cb7458964a37b"
+        },
+        {
+          "title": "waveshare 101 dsi lcd c mechanical drawing",
+          "url": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/waveshare-101-dsi-lcd-c/waveshare-101-dsi-lcd-c-mechanical-drawing.pdf",
+          "kind": "Archive",
+          "sha256": "749a35a7755381a1aa537551c9d2f255ac1899663424597296dc119089becb70"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/waveshare-101-dsi-lcd-c/README.md",
-      "productLinks": [],
+      "productLinks": [
+        {
+          "title": "Robocraze · Waveshare 10.1-inch DSI LCD (C)",
+          "url": "https://robocraze.com/products/waveshare-10-1-inch-1280-800-ips-touchscreen-lcd-c-display?variant=54401038647520",
+          "kind": "reference",
+          "note": "Owner-supplied model reference. Gift received; original purchase vendor is unknown."
+        }
+      ],
       "purchaseSource": null,
       "contents": null
     },
