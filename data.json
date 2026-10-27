@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-10-22",
-  "familyCount": 29,
+  "asOf": "2026-10-27",
+  "familyCount": 30,
   "components": [
     {
       "id": "xiao-esp32s3-seeed",
@@ -6490,6 +6490,655 @@
       ],
       "purchaseSource": null,
       "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "PU-coated black safety gloves",
+      "category": "Workshop",
+      "summary": "Black coated workshop gloves; ordered-unit pack basis is unconfirmed.",
+      "tags": [
+        "Safety gloves",
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Supplier description": "PU coated; titled cut resistant black latex industrial safety gloves",
+        "Sizing / pack basis": "Not specified; whether one ordered unit is a glove or pair is unconfirmed",
+        "Protection rating": "No certified cut, chemical or electrical protection rating supplied",
+        "Supplier SKU": "PUCBSG",
+        "Ordered quantity": "2 ordered glove units",
+        "Receipt": "Received; owner confirmed 27 October 2026"
+      },
+      "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
+      "id": "onlyscrews-workshop-supplies--pu-gloves",
+      "links": [],
+      "status": "recorded",
+      "remaining": 2,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "Prima polycarbonate safety goggles",
+      "category": "Workshop",
+      "summary": "Polycarbonate protective eyewear sold under the Prima name.",
+      "tags": [
+        "Safety goggles",
+        "OnlyScrews",
+        "Brand: Prima"
+      ],
+      "specs": {
+        "Brand": "Prima",
+        "Material": "Polycarbonate; supplier description",
+        "Protection rating": "No certification or impact rating supplied",
+        "Supplier SKU": "PRPCSG",
+        "Ordered quantity": "1 goggle unit",
+        "Receipt": "Received; owner confirmed 27 October 2026"
+      },
+      "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
+      "id": "onlyscrews-workshop-supplies--prima-goggles",
+      "links": [],
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "SS304 compression spring · 10 × 20 mm",
+      "category": "Fabrication",
+      "summary": "Stainless-steel compression springs in the recorded supplier dimensions.",
+      "tags": [
+        "Compression spring",
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Outer diameter": "10 mm",
+        "Free length": "20 mm",
+        "Wire diameter": "1.2 mm",
+        "Material": "Stainless steel 304; supplier description",
+        "Spring rate / load": "Not supplied",
+        "Supplier SKU": "CS10201.2SS",
+        "Ordered quantity": "10 springs",
+        "Receipt": "Received; owner confirmed 27 October 2026"
+      },
+      "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
+      "id": "onlyscrews-workshop-supplies--spring-10-20-1p2",
+      "links": [],
+      "status": "recorded",
+      "remaining": 10,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "SS304 compression spring · 8 × 15 mm",
+      "category": "Fabrication",
+      "summary": "Stainless-steel compression springs in the recorded supplier dimensions.",
+      "tags": [
+        "Compression spring",
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Outer diameter": "8 mm",
+        "Free length": "15 mm",
+        "Wire diameter": "1 mm",
+        "Material": "Stainless steel 304; supplier description",
+        "Spring rate / load": "Not supplied",
+        "Supplier SKU": "CS08151SS",
+        "Ordered quantity": "10 springs",
+        "Receipt": "Received; owner confirmed 27 October 2026"
+      },
+      "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
+      "id": "onlyscrews-workshop-supplies--spring-8-15-1",
+      "links": [],
+      "status": "recorded",
+      "remaining": 10,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "SS304 compression spring · 6 × 15 mm",
+      "category": "Fabrication",
+      "summary": "Stainless-steel compression springs in the recorded supplier dimensions.",
+      "tags": [
+        "Compression spring",
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Outer diameter": "6 mm",
+        "Free length": "15 mm",
+        "Wire diameter": "0.8 mm",
+        "Material": "Stainless steel 304; supplier description",
+        "Spring rate / load": "Not supplied",
+        "Supplier SKU": "CS06150.8SS",
+        "Ordered quantity": "10 springs",
+        "Receipt": "Received; owner confirmed 27 October 2026"
+      },
+      "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
+      "id": "onlyscrews-workshop-supplies--spring-6-15-0p8",
+      "links": [],
+      "status": "recorded",
+      "remaining": 10,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "SS304 compression spring · 5 × 10 mm",
+      "category": "Fabrication",
+      "summary": "Stainless-steel compression springs in the recorded supplier dimensions.",
+      "tags": [
+        "Compression spring",
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Outer diameter": "5 mm",
+        "Free length": "10 mm",
+        "Wire diameter": "0.6 mm",
+        "Material": "Stainless steel 304; supplier description",
+        "Spring rate / load": "Not supplied",
+        "Supplier SKU": "CS05100.6SS",
+        "Ordered quantity": "10 springs",
+        "Receipt": "Received; owner confirmed 27 October 2026"
+      },
+      "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
+      "id": "onlyscrews-workshop-supplies--spring-5-10-0p6",
+      "links": [],
+      "status": "recorded",
+      "remaining": 10,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "SS304 compression spring · 4 × 10 mm",
+      "category": "Fabrication",
+      "summary": "Stainless-steel compression springs in the recorded supplier dimensions.",
+      "tags": [
+        "Compression spring",
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Outer diameter": "4 mm",
+        "Free length": "10 mm",
+        "Wire diameter": "0.5 mm",
+        "Material": "Stainless steel 304; supplier description",
+        "Spring rate / load": "Not supplied",
+        "Supplier SKU": "CS04100.5SS",
+        "Ordered quantity": "10 springs",
+        "Receipt": "Received; owner confirmed 27 October 2026"
+      },
+      "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
+      "id": "onlyscrews-workshop-supplies--spring-4-10-0p5",
+      "links": [],
+      "status": "recorded",
+      "remaining": 10,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "White nylon cable ties · 3.6 × 300 mm",
+      "category": "Cables & connectors",
+      "summary": "White self-locking nylon ties for cable management.",
+      "tags": [
+        "Cable ties",
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Width": "3.6 mm",
+        "Length": "300 mm",
+        "Material / colour": "Self-locking nylon; white",
+        "Load rating": "Not supplied",
+        "Supplier SKU": "NZT3003.6",
+        "Ordered quantity": "25 cable ties",
+        "Receipt": "Received; owner confirmed 27 October 2026"
+      },
+      "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
+      "id": "onlyscrews-workshop-supplies--cable-tie-3p6-300",
+      "links": [],
+      "status": "recorded",
+      "remaining": 25,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "White nylon cable ties · 3.6 × 250 mm",
+      "category": "Cables & connectors",
+      "summary": "White self-locking nylon ties for cable management.",
+      "tags": [
+        "Cable ties",
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Width": "3.6 mm",
+        "Length": "250 mm",
+        "Material / colour": "Self-locking nylon; white",
+        "Load rating": "Not supplied",
+        "Supplier SKU": "NZT2503.6",
+        "Ordered quantity": "25 cable ties",
+        "Receipt": "Received; owner confirmed 27 October 2026"
+      },
+      "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
+      "id": "onlyscrews-workshop-supplies--cable-tie-3p6-250",
+      "links": [],
+      "status": "recorded",
+      "remaining": 25,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "White nylon cable ties · 3.6 × 200 mm",
+      "category": "Cables & connectors",
+      "summary": "White self-locking nylon ties for cable management.",
+      "tags": [
+        "Cable ties",
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Width": "3.6 mm",
+        "Length": "200 mm",
+        "Material / colour": "Self-locking nylon; white",
+        "Load rating": "Not supplied",
+        "Supplier SKU": "NZT2003.6",
+        "Ordered quantity": "25 cable ties",
+        "Receipt": "Received; owner confirmed 27 October 2026"
+      },
+      "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
+      "id": "onlyscrews-workshop-supplies--cable-tie-3p6-200",
+      "links": [],
+      "status": "recorded",
+      "remaining": 25,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "White nylon cable ties · 3.6 × 150 mm",
+      "category": "Cables & connectors",
+      "summary": "White self-locking nylon ties for cable management.",
+      "tags": [
+        "Cable ties",
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Width": "3.6 mm",
+        "Length": "150 mm",
+        "Material / colour": "Self-locking nylon; white",
+        "Load rating": "Not supplied",
+        "Supplier SKU": "NZT1503.6",
+        "Ordered quantity": "50 cable ties",
+        "Receipt": "Received; owner confirmed 27 October 2026"
+      },
+      "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
+      "id": "onlyscrews-workshop-supplies--cable-tie-3p6-150",
+      "links": [],
+      "status": "recorded",
+      "remaining": 50,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "White nylon cable ties · 2.5 × 100 mm",
+      "category": "Cables & connectors",
+      "summary": "White self-locking nylon ties for cable management.",
+      "tags": [
+        "Cable ties",
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Width": "2.5 mm",
+        "Length": "100 mm",
+        "Material / colour": "Self-locking nylon; white",
+        "Load rating": "Not supplied",
+        "Supplier SKU": "NZT1002.5",
+        "Ordered quantity": "50 cable ties",
+        "Receipt": "Received; owner confirmed 27 October 2026"
+      },
+      "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
+      "id": "onlyscrews-workshop-supplies--cable-tie-2p5-100",
+      "links": [],
+      "status": "recorded",
+      "remaining": 50,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "N35 bar magnets · 10 × 10 × 2 mm",
+      "category": "Fabrication",
+      "summary": "Rectangular neodymium magnets, supplier grade N35.",
+      "tags": [
+        "N35",
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Shape": "Rectangular bar",
+        "Dimensions": "10 × 10 × 2 mm",
+        "Material / grade": "Neodymium N35; supplier description",
+        "Pull force / coating / magnetization": "Not supplied",
+        "Supplier SKU": "NDM10102",
+        "Ordered quantity": "10 magnets",
+        "Receipt": "Received; owner confirmed 27 October 2026"
+      },
+      "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
+      "id": "onlyscrews-workshop-supplies--magnet-bar-10-10-2",
+      "links": [],
+      "status": "recorded",
+      "remaining": 10,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "N35 bar magnets · 20 × 10 × 2 mm",
+      "category": "Fabrication",
+      "summary": "Rectangular neodymium magnets, supplier grade N35.",
+      "tags": [
+        "N35",
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Shape": "Rectangular bar",
+        "Dimensions": "20 × 10 × 2 mm",
+        "Material / grade": "Neodymium N35; supplier description",
+        "Pull force / coating / magnetization": "Not supplied",
+        "Supplier SKU": "NDM20102",
+        "Ordered quantity": "10 magnets",
+        "Receipt": "Received; owner confirmed 27 October 2026"
+      },
+      "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
+      "id": "onlyscrews-workshop-supplies--magnet-bar-20-10-2",
+      "links": [],
+      "status": "recorded",
+      "remaining": 10,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "N35 bar magnets · 10 × 5 × 2 mm",
+      "category": "Fabrication",
+      "summary": "Rectangular neodymium magnets, supplier grade N35.",
+      "tags": [
+        "N35",
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Shape": "Rectangular bar",
+        "Dimensions": "10 × 5 × 2 mm",
+        "Material / grade": "Neodymium N35; supplier description",
+        "Pull force / coating / magnetization": "Not supplied",
+        "Supplier SKU": "NDM1052",
+        "Ordered quantity": "15 magnets",
+        "Receipt": "Received; owner confirmed 27 October 2026"
+      },
+      "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
+      "id": "onlyscrews-workshop-supplies--magnet-bar-10-5-2",
+      "links": [],
+      "status": "recorded",
+      "remaining": 15,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "N35 disc magnets · Ø4 × 2 mm",
+      "category": "Fabrication",
+      "summary": "Disc-shaped neodymium magnets, supplier grade N35.",
+      "tags": [
+        "N35",
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Shape": "Disc",
+        "Diameter": "4 mm",
+        "Thickness": "2 mm",
+        "Material / grade": "Neodymium N35; supplier description",
+        "Pull force / coating / magnetization": "Not supplied",
+        "Supplier SKU": "NDM42",
+        "Ordered quantity": "10 magnets",
+        "Receipt": "Received; owner confirmed 27 October 2026"
+      },
+      "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
+      "id": "onlyscrews-workshop-supplies--magnet-disc-4-2",
+      "links": [],
+      "status": "recorded",
+      "remaining": 10,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "N35 disc magnets · Ø5 × 3 mm",
+      "category": "Fabrication",
+      "summary": "Disc-shaped neodymium magnets, supplier grade N35.",
+      "tags": [
+        "N35",
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Shape": "Disc",
+        "Diameter": "5 mm",
+        "Thickness": "3 mm",
+        "Material / grade": "Neodymium N35; supplier description",
+        "Pull force / coating / magnetization": "Not supplied",
+        "Supplier SKU": "NDM53",
+        "Ordered quantity": "20 magnets",
+        "Receipt": "Received; owner confirmed 27 October 2026"
+      },
+      "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
+      "id": "onlyscrews-workshop-supplies--magnet-disc-5-3",
+      "links": [],
+      "status": "recorded",
+      "remaining": 20,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "N35 disc magnets · Ø10 × 2 mm",
+      "category": "Fabrication",
+      "summary": "Disc-shaped neodymium magnets, supplier grade N35.",
+      "tags": [
+        "N35",
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Shape": "Disc",
+        "Diameter": "10 mm",
+        "Thickness": "2 mm",
+        "Material / grade": "Neodymium N35; supplier description",
+        "Pull force / coating / magnetization": "Not supplied",
+        "Supplier SKU": "NDM102",
+        "Ordered quantity": "30 magnets",
+        "Receipt": "Received; owner confirmed 27 October 2026"
+      },
+      "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
+      "id": "onlyscrews-workshop-supplies--magnet-disc-10-2",
+      "links": [],
+      "status": "recorded",
+      "remaining": 30,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "N35 disc magnets · Ø8 × 3 mm",
+      "category": "Fabrication",
+      "summary": "Disc-shaped neodymium magnets, supplier grade N35.",
+      "tags": [
+        "N35",
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Shape": "Disc",
+        "Diameter": "8 mm",
+        "Thickness": "3 mm",
+        "Material / grade": "Neodymium N35; supplier description",
+        "Pull force / coating / magnetization": "Not supplied",
+        "Supplier SKU": "NDM83",
+        "Ordered quantity": "20 magnets",
+        "Receipt": "Received; owner confirmed 27 October 2026"
+      },
+      "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
+      "id": "onlyscrews-workshop-supplies--magnet-disc-8-3",
+      "links": [],
+      "status": "recorded",
+      "remaining": 20,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "N35 disc magnets · Ø6 × 3 mm",
+      "category": "Fabrication",
+      "summary": "Disc-shaped neodymium magnets, supplier grade N35.",
+      "tags": [
+        "N35",
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Shape": "Disc",
+        "Diameter": "6 mm",
+        "Thickness": "3 mm",
+        "Material / grade": "Neodymium N35; supplier description",
+        "Pull force / coating / magnetization": "Not supplied",
+        "Supplier SKU": "NDM63",
+        "Ordered quantity": "30 magnets",
+        "Receipt": "Received; owner confirmed 27 October 2026"
+      },
+      "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
+      "id": "onlyscrews-workshop-supplies--magnet-disc-6-3",
+      "links": [],
+      "status": "recorded",
+      "remaining": 30,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
     }
   ],
   "families": [
@@ -7793,6 +8442,32 @@
           "note": "Original purchased-item link recovered from the order email."
         }
       ],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "id": "onlyscrews-workshop-supplies",
+      "name": "OnlyScrews workshop supplies",
+      "category": "Workshop",
+      "summary": "Magnets, compression springs, cable ties and protective workshop supplies.",
+      "tags": [
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Receipt": "Owner confirmed 27 October 2026",
+        "Variants": "20 exact purchase lines; no aggregate mixed-unit balance"
+      },
+      "note": "Receipt, order units, availability and tested performance remain separate.",
+      "links": [],
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "status": "unreconciled",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
       "purchaseSource": null,
       "contents": null
     }

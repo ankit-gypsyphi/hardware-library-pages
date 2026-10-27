@@ -48,24 +48,14 @@ button:hover{color:var(--blue)}
 .snapshot{display:flex;gap:7px;align-items:center;color:#7e8ca0}
 .snapshot-dot{height:6px;width:6px;border-radius:50%;background:#5c9a80}
 main{max-width:1490px;margin:0 auto;padding:32px 42px 0}
-.hero{position:relative;display:grid;grid-template-columns:1.08fr 1fr;background:#f1f5fd;border:1px solid #e4ebf8;border-radius:16px;overflow:hidden}
-.hero-copy{padding:35px 0 30px 35px;position:relative;z-index:1}
-.hero-kicker{display:flex;align-items:center;gap:7px;color:#5777aa;font-size:11px;margin:0 0 17px;font-weight:500}
-.tiny-chip{color:#6386c0;font-size:17px}
-h1{font-size:clamp(29px,3.1vw,46px);line-height:1.15;letter-spacing:-1.8px;font-weight:650;margin:0 0 18px;max-width:550px}
-.hero-description{max-width:350px;font-size:12px;line-height:1.85;color:#6d7c96;margin:0 0 23px}
+
 .primary-button{display:inline-flex;align-items:center;justify-content:center;gap:20px;background:var(--blue);color:#fff;font-size:11px;font-weight:600;padding:12px 17px;border-radius:7px;min-height:40px}
 .primary-button:hover{background:var(--blue-dark);color:white}
 .primary-button svg{width:16px;height:16px}
-.hero-visual{display:flex;align-items:center;padding:0 12px 0 0}
-.hero-visual svg{width:100%;height:auto;max-height:340px}
-.hero-bottom{grid-column:1/-1;display:flex;gap:30px;border-top:1px solid #e1e9f6;padding:16px 35px;color:#7286a6;font-size:10px}
-.hero-bottom>span{display:flex;gap:7px;align-items:center}
-.hero-bottom b{font-weight:600;color:#45638f}
-.hero-bottom svg{width:14px;height:14px}
-.catalogue{scroll-margin-top:24px;padding-top:38px}
+
+.catalogue{scroll-margin-top:24px}
 .section-heading{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:24px}
-h2{margin:0;font-size:22px;letter-spacing:-.7px;font-weight:650}
+.section-heading h1,h2{margin:0;font-size:22px;letter-spacing:-.7px;font-weight:650}
 .section-heading p{color:#8290a4;font-size:11px;margin:8px 0 0}
 .text-button{display:inline-flex;align-items:center;justify-content:center;gap:7px;color:#6f8099;font-size:11px;min-height:36px;padding:8px 0}
 .text-button svg{width:15px;height:15px}
@@ -177,8 +167,7 @@ body:has(dialog[open]){overflow:hidden}
 
 @media(min-width:1600px){:root{--sidebar:250px}
 .component-grid:not(.component-list){grid-template-columns:repeat(4,minmax(0,1fr))}
-.hero-copy{padding:45px}
-.hero-description{font-size:14px;max-width:440px}
+
 .card-title{font-size:16px}
 .card-description{font-size:12px}
 .card-category,.tag,.card-footer{font-size:10px}
@@ -189,10 +178,7 @@ body:has(dialog[open]){overflow:hidden}
 .sidebar{padding-left:10px;padding-right:10px}
 main{padding:25px 26px 0}
 .topbar{padding:0 26px}
-.hero-copy{padding:28px 0 27px 26px}
-.hero-description{max-width:280px}
-.hero-bottom{padding:14px 26px;gap:18px}
-.hero-bottom>span:last-child{display:none}
+
 .toolbar{flex-wrap:wrap}
 .search-field{flex-basis:100%}
 .filter{flex:1}
@@ -226,12 +212,9 @@ footer{padding-left:26px;padding-right:26px}
 .category-button .count{margin-left:3px;font-size:10px}
 .workspace{margin-left:0}
 .topbar{height:54px;padding:0 24px}
-.hero-copy{padding:30px 0 30px 28px}
+
 main{padding:24px 24px 0}
-.hero h1{font-size:36px}
-.hero-description{font-size:12px}
-.hero-visual{padding-right:5px}
-.hero-bottom{padding-left:28px}
+
 .card-title{font-size:14px}
 .component-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}
 .card-art{height:150px}
@@ -251,19 +234,9 @@ footer{padding:22px 24px}
 .breadcrumb>span,.breadcrumb>strong{display:none}
 .snapshot{font-size:9px}
 main{padding:18px 16px 0}
-.hero{grid-template-columns:1fr;isolation:isolate}
-.hero-copy{padding:29px 25px 25px}
-.hero h1{font-size:34px;letter-spacing:-1.3px}
-.hero-description{max-width:270px}
-.hero-visual{display:none}
-.hero-kicker{font-size:10px}
-.hero-bottom{padding:13px 22px;gap:15px;font-size:9px}
-.hero-bottom>span:nth-child(2){font-size:0;gap:0}
-.hero-bottom>span:nth-child(2)::after{content:'Technical references';font-size:9px}
-.hero-bottom>span:nth-child(2)>span{display:none}
-.catalogue{padding-top:28px}
+
 .section-heading{margin-bottom:18px}
-h2{font-size:20px}
+.section-heading h1,h2{font-size:20px}
 .section-heading p{font-size:10px;line-height:1.6;max-width:230px}
 .section-heading>.text-button{font-size:0;padding:10px}
 .section-heading>.text-button svg{width:19px;height:19px}
@@ -311,9 +284,7 @@ footer{padding:18px 16px;font-size:9px}
 
 /* Readable metadata at every density; the detail close control stays visible. */
 .topbar{font-size:12px}
-.hero-description{font-size:14px;max-width:380px;color:#60728e}
-.hero-kicker{font-size:12px}
-.hero-bottom{font-size:11px;color:#5f7391}
+
 .nav-label{font-size:12px;color:#68788e}
 .sidebar-note p{color:#697b93}
 .category-button .count,.snapshot,.breadcrumb{color:#69788e}
@@ -345,9 +316,7 @@ dialog{overflow:hidden}
 #detail-content{max-height:calc(90dvh - 2px);overflow:auto;overscroll-behavior:contain}
 .dialog-close{z-index:3}
 
-@media(max-width:560px){.hero-description{font-size:13px}
-.hero-kicker{font-size:11px}
-.hero-bottom{font-size:10px}
+@media(max-width:560px){
 .card-title{font-size:14px}
 .card-description{font-size:11px}
 .card-category{font-size:10px}
@@ -361,8 +330,7 @@ dialog{overflow:hidden}
 .save-button{width:34px;height:34px}
 }
 
-@media(max-width:370px){.brand{font-size:14px;gap:7px}.brand-mark{width:31px;height:31px}.hero h1{font-size:30px}.hero-copy{padding-left:22px;padding-right:22px}.component-grid:not(.component-list){grid-template-columns:1fr}.card-art{height:150px}.card-art svg{height:148px}.card-description{min-height:0}.toolbar{display:grid;grid-template-columns:1fr auto}.search-field{grid-column:1/-1}.toolbar>.filter{grid-column:1}.toolbar>.sort{grid-row:3}.view-toggle{grid-column:2;grid-row:2/4;align-self:center}.view-toggle button{padding:10px}}
-
+@media(max-width:370px){.brand{font-size:14px;gap:7px}.brand-mark{width:31px;height:31px}.component-grid:not(.component-list){grid-template-columns:1fr}.card-art{height:150px}.card-art svg{height:148px}.card-description{min-height:0}.toolbar{display:grid;grid-template-columns:1fr auto}.search-field{grid-column:1/-1}.toolbar>.filter{grid-column:1}.toolbar>.sort{grid-row:3}.view-toggle{grid-column:2;grid-row:2/4;align-self:center}.view-toggle button{padding:10px}}
 
 /* Pack contents stay prominent and separate from the inventory balance. */
 .contents-preview{display:flex;align-items:center;justify-content:space-between;gap:8px;width:100%;margin-top:16px;padding:11px 0 1px;color:#2458b7;font:inherit;font-size:12px;font-weight:600;text-align:left;border:0;background:transparent;cursor:pointer}
