@@ -1,5 +1,5 @@
-import {filterComponents,stockLabel,csvExport,viewItems} from './catalogue.mjs?v=9e379ef8378b';
-import {icon,artwork,categoryIcons} from './art.mjs?v=9e379ef8378b';
+import {filterComponents,stockLabel,csvExport,viewItems} from './catalogue.mjs?v=08cc238afec4';
+import {icon,artwork,categoryIcons} from './art.mjs?v=08cc238afec4';
 const $=s=>document.querySelector(s);
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const hydrateIcons=(root=document)=>root.querySelectorAll('[data-icon]').forEach(el=>el.innerHTML=icon(el.dataset.icon));
@@ -26,8 +26,8 @@ function render(){
  if(!data)return;
  const collection=viewItems(data.components,data.families,state.scope,saved);
  shown=filterComponents(collection,{...state,saved});
- const titles={catalogue:'The component collection',saved:'Your saved components',references:'The reference shelf'};
- const descriptions={catalogue:'Find a familiar part. Discover a new possibility.',saved:'A shortlist for your next idea. Saved in this browser.',references:'Parts and equipment with linked technical documents.'};
+ const titles={catalogue:'All components',saved:'Saved components',references:'Reference shelf'};
+ const descriptions={catalogue:'Components, specifications and source links.',saved:'Saved in this browser for your next build.',references:'Parts and equipment with linked technical documents.'};
  $('#catalogue-title').textContent=state.category||titles[state.scope];$('#scope-description').textContent=descriptions[state.scope];
  $('#results').className=state.layout==='list'?'component-grid component-list':'component-grid';
  $('#results').innerHTML=shown.map(item=>`<article class="component-card" data-category="${escape(item.category)}"><div class="card-art">${artwork(item.category,item.id)}</div><button class="save-button" data-save="${item.id}" aria-label="${saved.includes(item.id)?'Unsave':'Save'} ${escape(item.name)}" aria-pressed="${saved.includes(item.id)}">${icon('bookmark')}</button><div class="card-body"><div class="card-category">${escape(item.category)}</div><h3 class="card-title"><button data-open="${item.id}">${escape(item.name)}</button></h3><p class="card-description">${escape(item.summary)}</p><div class="tags">${item.tags.map(tag=>`<span class="tag">${escape(tag)}</span>`).join('')}</div>${item.purchaseSource==='local'?'<p class="purchase-source-local">Bought locally</p>':''}${item.productLinks.some(link=>link.kind==='original')?`<a class="product-preview" href="${escape(item.productLinks.find(link=>link.kind==='original').url)}" target="_blank" rel="noopener noreferrer" aria-label="Original product page for ${escape(item.name)}"><span>Original product page</span>${icon('external')}</a>`:''}${item.contents?`<button class="contents-preview" data-open="${item.id}" aria-label="See what’s inside ${escape(item.name)}"><span>See what’s inside</span>${icon('arrow')}</button>`:''}<div class="card-footer"><span class="stock ${item.status}">${stockLabel(item)}</span><span class="doc-count">${icon('book')}${item.documents.length?`${item.documents.length} ref${item.documents.length===1?'':'s'}`:'Notes'}</span></div></div></article>`).join('');
