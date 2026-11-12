@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-27",
+  "asOf": "2026-11-06",
   "familyCount": 30,
   "components": [
     {
@@ -712,7 +712,7 @@
       "catalogueId": "waveshare-101-dsi-lcd-c",
       "status": "recorded",
       "remaining": 1,
-      "available": null,
+      "available": 0,
       "quantityBasis": "recorded",
       "incoming": null,
       "documents": [
@@ -1214,6 +1214,7 @@
         "1.75 mm",
         "Gray",
         "Robu",
+        "WOL3D",
         "Brand: Bambu Lab"
       ],
       "specs": {
@@ -1225,10 +1226,10 @@
       "note": "Receipt confirmed 19 October. Remaining mass and printing performance are not measured.",
       "id": "bambu-filaments--pla-gray",
       "links": [],
-      "status": "unreconciled",
-      "remaining": null,
+      "status": "recorded",
+      "remaining": 1,
       "available": null,
-      "quantityBasis": "unreconciled",
+      "quantityBasis": "recorded",
       "incoming": null,
       "documents": [
         {
@@ -1497,7 +1498,7 @@
       "id": "bambu-filaments--petg-hf-white",
       "links": [],
       "status": "recorded",
-      "remaining": 1,
+      "remaining": 2,
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
@@ -1536,7 +1537,7 @@
       "id": "bambu-filaments--petg-hf-black",
       "links": [],
       "status": "recorded",
-      "remaining": 1,
+      "remaining": 2,
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
@@ -1563,6 +1564,7 @@
         "Black",
         "Reusable spool",
         "Hydrotech 3D Chennai",
+        "WOL3D",
         "Brand: Bambu Lab"
       ],
       "specs": {
@@ -1573,14 +1575,14 @@
         "Advertised net mass": "1 kg; not independently weighed",
         "Receipt status": "Not yet received; owner-confirmed"
       },
-      "note": "Owner confirms not yet received on 22 October. One incoming spool, zero received and zero available. Exact delivery date, remaining mass and print performance are unverified.",
+      "note": "Owner confirmed receipt November 5. Exact delivery date and remaining mass unknown. One PLA Basic Black spool exhausted; its source lot is unknown.",
       "id": "bambu-filaments--pla-black",
       "links": [],
-      "status": "incoming",
-      "remaining": null,
-      "available": 0,
-      "quantityBasis": "unreconciled",
-      "incoming": 1,
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
       "documents": [
         {
           "title": "Bambu PLA Basic TDS V3.0",
@@ -1627,14 +1629,14 @@
         "Advertised net mass": "1 kg; not independently weighed",
         "Receipt status": "Not yet received; owner-confirmed"
       },
-      "note": "Owner confirms not yet received on 22 October. One incoming spool, zero received and zero available. Exact delivery date, remaining mass and print performance are unverified.",
+      "note": "Owner confirmed receipt November 5. Exact delivery date and remaining mass unknown. One PLA Basic Black spool exhausted; its source lot is unknown.",
       "id": "bambu-filaments--pla-blue",
       "links": [],
-      "status": "incoming",
-      "remaining": null,
-      "available": 0,
-      "quantityBasis": "unreconciled",
-      "incoming": 1,
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
       "documents": [
         {
           "title": "Bambu PLA Basic TDS V3.0",
@@ -1681,14 +1683,14 @@
         "Advertised net mass": "1 kg; not independently weighed",
         "Receipt status": "Not yet received; owner-confirmed"
       },
-      "note": "Owner confirms not yet received on 22 October. One incoming spool, zero received and zero available. Exact delivery date, remaining mass and print performance are unverified.",
+      "note": "Owner confirmed receipt November 5. Exact delivery date and remaining mass unknown. One PLA Basic Black spool exhausted; its source lot is unknown.",
       "id": "bambu-filaments--pla-gold",
       "links": [],
-      "status": "incoming",
-      "remaining": null,
-      "available": 0,
-      "quantityBasis": "unreconciled",
-      "incoming": 1,
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
       "documents": [
         {
           "title": "Bambu PLA Basic TDS V3.0",
@@ -1735,14 +1737,14 @@
         "Advertised net mass": "1 kg; not independently weighed",
         "Receipt status": "Not yet received; owner-confirmed"
       },
-      "note": "Owner confirms not yet received on 22 October. One incoming spool, zero received and zero available. Exact delivery date, remaining mass and print performance are unverified.",
+      "note": "Owner confirmed receipt November 5. Exact delivery date and remaining mass unknown. One PLA Basic Black spool exhausted; its source lot is unknown.",
       "id": "bambu-filaments--pla-bambu-green",
       "links": [],
-      "status": "incoming",
-      "remaining": null,
-      "available": 0,
-      "quantityBasis": "unreconciled",
-      "incoming": 1,
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
       "documents": [
         {
           "title": "Bambu PLA Basic TDS V3.0",
@@ -1789,14 +1791,14 @@
         "Advertised net mass": "1 kg; not independently weighed",
         "Receipt status": "Not yet received; owner-confirmed"
       },
-      "note": "Owner confirms not yet received on 22 October. One incoming spool, zero received and zero available. Exact delivery date, remaining mass and print performance are unverified.",
+      "note": "Owner confirmed receipt November 5. Exact delivery date and remaining mass unknown. One PLA Basic Black spool exhausted; its source lot is unknown.",
       "id": "bambu-filaments--pla-indigo-purple",
       "links": [],
-      "status": "incoming",
-      "remaining": null,
-      "available": 0,
-      "quantityBasis": "unreconciled",
-      "incoming": 1,
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
       "documents": [
         {
           "title": "Bambu PLA Basic TDS V3.0",
@@ -1843,14 +1845,14 @@
         "Advertised net mass": "1 kg; not independently weighed",
         "Receipt status": "Not yet received; owner-confirmed"
       },
-      "note": "Owner confirms not yet received on 22 October. One incoming spool, zero received and zero available. Exact delivery date, remaining mass and print performance are unverified.",
+      "note": "Owner confirmed receipt November 5. Exact delivery date and remaining mass unknown. One PLA Basic Black spool exhausted; its source lot is unknown.",
       "id": "bambu-filaments--pla-matte-dark-red",
       "links": [],
-      "status": "incoming",
-      "remaining": null,
-      "available": 0,
-      "quantityBasis": "unreconciled",
-      "incoming": 1,
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
       "productLinks": [
@@ -1861,6 +1863,46 @@
           "note": "Seller listing matched to the purchased material; select Matte Dark Red and the reusable-spool option."
         }
       ],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "bambu-filaments",
+      "name": "PLA Basic · Jade White",
+      "category": "Fabrication",
+      "summary": "PLA Basic · Jade White",
+      "tags": [
+        "WOL3D"
+      ],
+      "specs": {
+        "Material": "PLA Basic",
+        "Colour": "Jade White",
+        "Spool format / net mass": "Not specified in order evidence"
+      },
+      "note": "Receipt does not establish an independent physical recount, current availability, remaining material mass or tested function.",
+      "id": "bambu-filaments--pla-jade-white",
+      "links": [],
+      "status": "recorded",
+      "remaining": 2,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [
+        {
+          "title": "Bambu PLA Basic TDS V3.0",
+          "url": "https://store.bblcdn.com/s7/default/b189de92249a4b9ebed28b8ea1f080f0/Bambu_PLA_Basic_Technical_Data_Sheet.pdf",
+          "kind": "PDF",
+          "sha256": "05b504148050e17c02d2f20f1a4b718b4e35d43af1c406da34127711762ff939"
+        },
+        {
+          "title": "Bambu PLA Basic SDS 2025 07 24",
+          "url": "https://store.bblcdn.com/s7/default/6e47ce4e48b54b20b3afd3be7539ac27/SDS20250724A00_Bambu_PLA_Basic.pdf",
+          "kind": "PDF",
+          "sha256": "895a2a5f72f18176740873e8891edf9430637f46bfb44a7228398bac9ad6ffa8"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "productLinks": [],
       "purchaseSource": null,
       "contents": null
     },
@@ -1876,7 +1918,8 @@
       ],
       "specs": {
         "Purchased": "1 tool / set",
-        "Exact nameplate and accessories": "Unverified"
+        "Exact nameplate and accessories": "Unverified",
+        "Subcategory": "Soldering and hot-air tools"
       },
       "note": "Receipt confirmed 19 October. Published manuals are model references; no unit performance test is implied.",
       "id": "yihua-workshop-tools--8858",
@@ -1918,7 +1961,8 @@
       ],
       "specs": {
         "Purchased": "1 tool / set",
-        "Exact nameplate and accessories": "Unverified"
+        "Exact nameplate and accessories": "Unverified",
+        "Subcategory": "Desoldering"
       },
       "note": "Receipt confirmed 19 October. Published manuals are model references; no unit performance test is implied.",
       "id": "yihua-workshop-tools--929",
@@ -1966,7 +2010,8 @@
       ],
       "specs": {
         "Purchased": "1 tool / set",
-        "Exact nameplate and accessories": "Unverified"
+        "Exact nameplate and accessories": "Unverified",
+        "Subcategory": "Desoldering"
       },
       "note": "Receipt confirmed 19 October. Published manuals are model references; no unit performance test is implied.",
       "id": "yihua-workshop-tools--948",
@@ -2013,7 +2058,8 @@
         "Thread sizes": "M2 / M2.5 / M3 / M4",
         "Advertised split": "M2: 120 · M2.5: 40 · M3: 110 · M4: 30",
         "Material (seller image)": "Brass; exact alloy unverified",
-        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October"
+        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October",
+        "Subcategory": "Threaded inserts"
       },
       "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified. The 300-piece table matches the purchased kit; the 1,300-piece image remains a separate reference.",
       "id": "aliexpress-prototyping-stock--heat-inserts",
@@ -2102,7 +2148,7 @@
       "catalogueId": "aliexpress-prototyping-stock",
       "name": "Small screw & nut assortment",
       "category": "Fasteners",
-      "summary": "Selected 600-piece kit; exact thread sizes unknown",
+      "summary": "600-piece miniature screw and nut kit in a round case; 12 listed groups.",
       "tags": [
         "Assortment",
         "100% in stock",
@@ -2111,9 +2157,16 @@
       "specs": {
         "Format": "Assortment",
         "Purchased": "1 kit / advertised 600 pieces",
-        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October"
+        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October",
+        "Subcategory": "Fastener assortments",
+        "Advertised screw sizes": "M1 × 3.6; M1.2 × 3.6; M1.4 × 2.4 / 2.6 / 2.8 / 3.0 / 4.0 / 4.5 / 6; M1.6 × 4.5 mm",
+        "Advertised nuts": "M1.2 × 50; M1.4 × 50",
+        "Listed quantity": "500 screws + 100 nuts; 50 per group",
+        "Case": "Round compartment tray; advertised 8 × 8 cm",
+        "Drive": "Phillips; seller specification",
+        "Material": "Conflicting nickel-plated iron / steel / stainless wording; alloy unverified"
       },
-      "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified. Per-size contents of this 600-piece kit remain unknown.",
+      "note": "Seller screenshot itemizes 500 screws and 100 nuts, 50 per listed group. Existing 600-piece owner-confirmed baseline retained; no fresh recount. Description also says 400pcs and includes a separate 1000PCS variant; those are not added. Material and measured geometry remain unverified.",
       "id": "aliexpress-prototyping-stock--screw-kit",
       "links": [],
       "status": "recorded",
@@ -2134,24 +2187,73 @@
       "purchaseSource": null,
       "contents": {
         "total": 600,
-        "coverage": "unitemized",
-        "basis": "Purchased 600-piece selection from a screws/nuts listing. Other family-title counts do not apply. Owner confirms 100% of the recorded kit is in stock on 20 October.",
+        "coverage": "complete",
+        "basis": "Selected 600PCS Screws listing screenshot supplied November 6: 12 listed groups × 50 = 600 (500 screws + 100 nuts). Count fully itemized means seller table reconciles, not a physical recount. Owner October 20 stock confirmation retained.",
         "rows": [
           {
-            "part": "Screws",
-            "detail": "Thread, length and head not recorded",
-            "quantity": null
+            "part": "Hex nut",
+            "detail": "M1.2",
+            "quantity": 50
           },
           {
-            "part": "Nuts",
-            "detail": "Thread and dimensions not recorded",
-            "quantity": null
+            "part": "Hex nut",
+            "detail": "M1.4",
+            "quantity": 50
+          },
+          {
+            "part": "Small screw",
+            "detail": "M1 × 3.6 mm · seller size label; pitch/head geometry unverified",
+            "quantity": 50
+          },
+          {
+            "part": "Small screw",
+            "detail": "M1.2 × 3.6 mm · seller size label; pitch/head geometry unverified",
+            "quantity": 50
+          },
+          {
+            "part": "Small screw",
+            "detail": "M1.4 × 2.4 mm · seller size label; pitch/head geometry unverified",
+            "quantity": 50
+          },
+          {
+            "part": "Small screw",
+            "detail": "M1.4 × 2.6 mm · seller size label; pitch/head geometry unverified",
+            "quantity": 50
+          },
+          {
+            "part": "Small screw",
+            "detail": "M1.4 × 2.8 mm · seller size label; pitch/head geometry unverified",
+            "quantity": 50
+          },
+          {
+            "part": "Small screw",
+            "detail": "M1.4 × 3.0 mm · seller size label; pitch/head geometry unverified",
+            "quantity": 50
+          },
+          {
+            "part": "Small screw",
+            "detail": "M1.4 × 4.0 mm · seller size label; pitch/head geometry unverified",
+            "quantity": 50
+          },
+          {
+            "part": "Small screw",
+            "detail": "M1.4 × 4.5 mm · seller size label; pitch/head geometry unverified",
+            "quantity": 50
+          },
+          {
+            "part": "Rivet-head screw",
+            "detail": "M1.4 × 6 mm · seller wording; physical head profile unverified",
+            "quantity": 50
+          },
+          {
+            "part": "Small screw",
+            "detail": "M1.6 × 4.5 mm · seller size label; pitch/head geometry unverified",
+            "quantity": 50
           }
         ],
         "missing": [
-          "Screw/nut split",
-          "Thread sizes, lengths and head types",
-          "Material and quantity per compartment"
+          "Thread pitch, measured dimensions and actual alloy/plating remain unverified.",
+          "Conflicting package-included text says 400pcs; purchased 600PCS selection and itemized table retained."
         ],
         "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
       }
@@ -2173,7 +2275,8 @@
         "Advertised split": "810 screws + 350 nuts",
         "Screw head": "Phillips pan/round head, seller-described",
         "Material / colour": "Nylon, seller-described / black",
-        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October"
+        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October",
+        "Subcategory": "Fastener assortments"
       },
       "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified. The black 1,160-piece selection excludes the abandoned white 700-piece attempt.",
       "id": "aliexpress-prototyping-stock--nylon-kit",
@@ -2339,7 +2442,8 @@
       ],
       "specs": {
         "Purchased": "1 kit / advertised 300 resistors",
-        "Values / tolerance": "Unverified"
+        "Values / tolerance": "Unverified",
+        "Subcategory": "Passive components"
       },
       "note": "Receipt confirmed 19 October. Pack quantities and ratings are advertised, not physically verified.",
       "id": "aliexpress-prototyping-stock--resistors-th",
@@ -2392,7 +2496,8 @@
       "specs": {
         "Package": "1206",
         "Purchased": "1 kit / advertised 660 resistors",
-        "Ratings": "Unverified"
+        "Ratings": "Unverified",
+        "Subcategory": "Passive components"
       },
       "note": "Receipt confirmed 19 October. Pack quantities and ratings are advertised, not physically verified.",
       "id": "aliexpress-prototyping-stock--resistors-smd",
@@ -2441,7 +2546,8 @@
       ],
       "specs": {
         "Purchased": "1 kit / advertised 225 capacitors",
-        "Listed family range": "16–50 V; exact parts unverified"
+        "Listed family range": "16–50 V; exact parts unverified",
+        "Subcategory": "Passive components"
       },
       "note": "Receipt confirmed 19 October. Pack quantities and ratings are advertised, not physically verified.",
       "id": "aliexpress-prototyping-stock--capacitors",
@@ -2492,7 +2598,8 @@
       ],
       "specs": {
         "Purchased": "1 pack / advertised 5 boards",
-        "CC resistors / pinout": "Unverified"
+        "CC resistors / pinout": "Unverified",
+        "Subcategory": "Interface adapters and breakouts"
       },
       "note": "Receipt confirmed 19 October. Pack quantities and ratings are advertised, not physically verified.",
       "id": "aliexpress-prototyping-stock--usb-breakouts",
@@ -2525,7 +2632,8 @@
       ],
       "specs": {
         "Purchased": "1 pack / advertised 5 boards",
-        "Listed size": "7 × 10 cm; physical size unverified"
+        "Listed size": "7 × 10 cm; physical size unverified",
+        "Subcategory": "Copper-clad boards"
       },
       "note": "Receipt confirmed 19 October. Pack quantities and ratings are advertised, not physically verified.",
       "id": "aliexpress-prototyping-stock--copper-boards",
@@ -2561,7 +2669,8 @@
       "specs": {
         "Selected size": "7 × 9 cm",
         "Purchased": "1 pack / advertised 5 boards",
-        "Hole pitch / continuity": "Unverified"
+        "Hole pitch / continuity": "Unverified",
+        "Subcategory": "Perfboards"
       },
       "note": "Receipt confirmed 19 October. Pack quantities and ratings are advertised, not physically verified.",
       "id": "aliexpress-prototyping-stock--blue-pcb-79",
@@ -2597,7 +2706,8 @@
       "specs": {
         "Selected size": "3 × 7 cm",
         "Purchased": "1 pack / advertised 5 boards",
-        "Hole pitch / continuity": "Unverified"
+        "Hole pitch / continuity": "Unverified",
+        "Subcategory": "Perfboards"
       },
       "note": "Receipt confirmed 19 October. Pack quantities and ratings are advertised, not physically verified.",
       "id": "aliexpress-prototyping-stock--blue-pcb-37",
@@ -2633,7 +2743,8 @@
       "specs": {
         "Seller selection": "DC50V12A600W",
         "Purchased": "1 meter",
-        "Actual ratings": "Unverified"
+        "Actual ratings": "Unverified",
+        "Subcategory": "Measurement and inspection"
       },
       "note": "Receipt confirmed 19 October. Pack counts, exact variants and performance remain unverified.",
       "id": "aliexpress-prototyping-stock--dc-meter",
@@ -2667,7 +2778,8 @@
       ],
       "specs": {
         "Purchased": "1 tool",
-        "Insulation certification": "Unknown"
+        "Insulation certification": "Unknown",
+        "Subcategory": "Cutting and finishing"
       },
       "note": "Receipt confirmed 19 October. Pack counts, exact variants and performance remain unverified.",
       "id": "aliexpress-prototyping-stock--electrician-pliers",
@@ -2701,7 +2813,8 @@
       ],
       "specs": {
         "Purchased": "1 tool",
-        "Exact model": "Unconfirmed"
+        "Exact model": "Unconfirmed",
+        "Subcategory": "Cutting and finishing"
       },
       "note": "Receipt confirmed 19 October. Pack counts, exact variants and performance remain unverified.",
       "id": "aliexpress-prototyping-stock--universal-pliers",
@@ -2735,7 +2848,8 @@
       ],
       "specs": {
         "Advertised length": "13 cm",
-        "Purchased": "1 tool"
+        "Purchased": "1 tool",
+        "Subcategory": "Precision handling"
       },
       "note": "Receipt confirmed 19 October. Pack counts, exact variants and performance remain unverified.",
       "id": "aliexpress-prototyping-stock--silver-tweezers",
@@ -2769,7 +2883,8 @@
       ],
       "specs": {
         "Purchased": "1 pack / advertised 3 pieces",
-        "ESD certification": "Unverified"
+        "ESD certification": "Unverified",
+        "Subcategory": "Precision handling"
       },
       "note": "Receipt confirmed 19 October. Pack counts, exact variants and performance remain unverified.",
       "id": "aliexpress-prototyping-stock--cosmetic-tweezers",
@@ -2804,7 +2919,8 @@
       ],
       "specs": {
         "Model": "Aax-17",
-        "Purchased": "1 tool"
+        "Purchased": "1 tool",
+        "Subcategory": "Precision handling"
       },
       "note": "Receipt confirmed 19 October. Pack counts, exact variants and performance remain unverified.",
       "id": "aliexpress-prototyping-stock--mechanic-tweezers",
@@ -2841,7 +2957,8 @@
       "specs": {
         "Width": "1.5 mm",
         "Purchased": "1 reel",
-        "Length / flux chemistry": "Unknown"
+        "Length / flux chemistry": "Unknown",
+        "Subcategory": "Desoldering"
       },
       "note": "Receipt confirmed 19 October. Pack counts, exact variants and performance remain unverified.",
       "id": "aliexpress-prototyping-stock--braid-15",
@@ -2878,7 +2995,8 @@
       "specs": {
         "Width": "3.5 mm",
         "Purchased": "1 reel",
-        "Length / flux chemistry": "Unknown"
+        "Length / flux chemistry": "Unknown",
+        "Subcategory": "Desoldering"
       },
       "note": "Receipt confirmed 19 October. Pack counts, exact variants and performance remain unverified.",
       "id": "aliexpress-prototyping-stock--braid-35",
@@ -2914,7 +3032,8 @@
       "specs": {
         "Advertised size": "30 mm × 33 m",
         "Purchased": "1 roll",
-        "Thermal / electrical rating": "Unknown"
+        "Thermal / electrical rating": "Unknown",
+        "Subcategory": "Adhesives and applicators"
       },
       "note": "Receipt confirmed 19 October. Pack counts, exact variants and performance remain unverified.",
       "id": "aliexpress-prototyping-stock--adhesive-tape",
@@ -2954,7 +3073,8 @@
         "Ordered": "1 box",
         "Advertised contents": "150 screws + 50 nuts + 50 washers",
         "Screw lengths": "30 each at 6 / 8 / 10 mm; 20 each at 12 / 15 / 20 mm",
-        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October"
+        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October",
+        "Subcategory": "Fastener assortments"
       },
       "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified.",
       "id": "tools-and-consumables--ss304-m2-5-pan",
@@ -3042,7 +3162,8 @@
         "Ordered": "1 box",
         "Advertised contents": "60 screws + 20 nuts + 20 washers",
         "Screw lengths": "10 each at 8 / 10 / 12 / 16 / 20 / 25 mm",
-        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October"
+        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October",
+        "Subcategory": "Fastener assortments"
       },
       "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified.",
       "id": "tools-and-consumables--ss304-m3-pan",
@@ -3130,7 +3251,8 @@
         "Ordered": "1 box",
         "Advertised contents": "60 screws + 20 nuts + 20 washers",
         "Screw lengths": "10 each at 8 / 10 / 12 / 16 / 20 / 25 mm",
-        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October"
+        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October",
+        "Subcategory": "Fastener assortments"
       },
       "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified.",
       "id": "tools-and-consumables--ss304-m4-pan",
@@ -3218,7 +3340,8 @@
         "Ordered": "1 box",
         "Advertised contents": "60 screws + 20 nuts + 20 washers",
         "Screw lengths": "10 each at 8 / 10 / 12 / 16 / 20 / 25 mm",
-        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October"
+        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October",
+        "Subcategory": "Fastener assortments"
       },
       "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified.",
       "id": "tools-and-consumables--ss304-m3-countersunk",
@@ -3305,7 +3428,8 @@
         "Length": "6 mm",
         "Ordered": "35 inserts",
         "Type": "Slant-knurled brass",
-        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October"
+        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October",
+        "Subcategory": "Threaded inserts"
       },
       "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified.",
       "id": "tools-and-consumables--m3-6-slant-inserts",
@@ -3344,7 +3468,8 @@
         "Length": "4 mm",
         "Ordered": "25 inserts",
         "Type": "Slant-knurled brass",
-        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October"
+        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October",
+        "Subcategory": "Threaded inserts"
       },
       "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified.",
       "id": "tools-and-consumables--m3-4-slant-inserts",
@@ -3382,7 +3507,8 @@
         "Thread": "M3",
         "Length": "4 mm",
         "Ordered": "1 insert",
-        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October"
+        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October",
+        "Subcategory": "Threaded inserts"
       },
       "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified. This is separate from the 25 slant-knurled M3 × 4 mm inserts.",
       "id": "tools-and-consumables--m3-4-standard-insert",
@@ -3421,7 +3547,8 @@
         "Shaft length": "5 mm",
         "Purchased": "3 packs × 10 bolts",
         "Material": "Nylon",
-        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October"
+        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October",
+        "Subcategory": "Screws and bolts"
       },
       "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified.",
       "id": "tools-and-consumables--nylon-m3-5-bolts",
@@ -3460,7 +3587,8 @@
         "Purchased": "1 pack / 25 nuts",
         "Nominal flats": "5.5 mm",
         "Nominal thickness": "2.4 mm",
-        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October"
+        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October",
+        "Subcategory": "Nuts"
       },
       "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified.",
       "id": "tools-and-consumables--nylon-m3-nuts",
@@ -3499,7 +3627,8 @@
         "Length": "9 mm",
         "Purchased": "3 packs × 10 standoffs",
         "Material": "Nylon",
-        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October"
+        "Stock confirmation": "100% new / unused stock · owner confirmed 20 October",
+        "Subcategory": "Standoffs"
       },
       "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified.",
       "id": "tools-and-consumables--nylon-m3-9-standoffs",
@@ -3534,7 +3663,8 @@
       "specs": {
         "Gauge": "22 AWG",
         "Purchased": "11 m",
-        "Colours": "2 m each black / blue / green / red / yellow; 1 m white"
+        "Colours": "2 m each black / blue / green / red / yellow; 1 m white",
+        "Subcategory": "Hook-up wire and ribbon cable"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--silicone-wire",
@@ -3600,7 +3730,8 @@
         "Construction": "Seller-described solid-core / PVC",
         "Purchased": "15 m total",
         "Pack basis": "2 × five-colour 1 m packets + 5 m black",
-        "Gauge": "Unverified"
+        "Gauge": "Unverified",
+        "Subcategory": "Hook-up wire and ribbon cable"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--hookup-wire",
@@ -3641,7 +3772,8 @@
       "specs": {
         "Conductors": "10",
         "Purchased": "1 m",
-        "Gauge": "Seller-described 22 AWG; unmeasured"
+        "Gauge": "Seller-described 22 AWG; unmeasured",
+        "Subcategory": "Hook-up wire and ribbon cable"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--ribbon-cable",
@@ -3675,7 +3807,8 @@
       ],
       "specs": {
         "Connector": "2.54 mm Dupont family",
-        "Purchased": "40 each M-M / M-F / F-F"
+        "Purchased": "40 each M-M / M-F / F-F",
+        "Subcategory": "Jumper wires"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--dupont-set",
@@ -3735,7 +3868,8 @@
       "specs": {
         "Connector": "Female-to-female",
         "Purchased": "40 local wires + 2 × 40-wire Robu packs",
-        "Robu length": "10 cm"
+        "Robu length": "10 cm",
+        "Subcategory": "Jumper wires"
       },
       "note": "Mixed purchases: includes 40 wires bought locally and two 40-wire Robu packs. The original product link identifies the Robu packs. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--ff-jumpers",
@@ -3771,7 +3905,8 @@
       "specs": {
         "Connector": "Alligator / male",
         "Purchased": "1 pack / 10 leads",
-        "Listed length": "20 cm"
+        "Listed length": "20 cm",
+        "Subcategory": "Test leads"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--alligator-male",
@@ -3807,7 +3942,8 @@
       "specs": {
         "Connector": "Alligator / female",
         "Purchased": "1 pack / 10 leads",
-        "Listed length": "20 cm"
+        "Listed length": "20 cm",
+        "Subcategory": "Test leads"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--alligator-female",
@@ -3843,7 +3979,8 @@
       "specs": {
         "Pitch": "2.54 mm",
         "Purchased": "2 strips + 4 additional strips",
-        "Format": "40 × 1"
+        "Format": "40 × 1",
+        "Subcategory": "Pin headers"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--male-headers",
@@ -3879,7 +4016,8 @@
       "specs": {
         "Pitch": "2.54 mm",
         "Order units": "5 + 4 across two batches",
-        "Physical strip count": "Unknown; listing pack title conflicts"
+        "Physical strip count": "Unknown; listing pack title conflicts",
+        "Subcategory": "Pin headers"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--female-headers",
@@ -3915,7 +4053,8 @@
       "specs": {
         "Pitch": "2.54 mm",
         "Format": "1 × 20",
-        "Purchased": "1 strip"
+        "Purchased": "1 strip",
+        "Subcategory": "Pin headers"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--angle-header",
@@ -3951,7 +4090,8 @@
       "specs": {
         "Types": "USB-C / micro-USB",
         "Count": "Unrecorded",
-        "Data capability": "Verify each cable"
+        "Data capability": "Verify each cable",
+        "Subcategory": "USB cables"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--usb-data-cables",
@@ -3978,7 +4118,8 @@
       ],
       "specs": {
         "Listed diameter": "4 mm",
-        "Purchased": "2 × 1 m lengths"
+        "Purchased": "2 × 1 m lengths",
+        "Subcategory": "Insulation"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--heatshrink-4",
@@ -4012,7 +4153,8 @@
       ],
       "specs": {
         "Listed diameter": "2.5 mm",
-        "Purchased": "2 × 1 m lengths"
+        "Purchased": "2 × 1 m lengths",
+        "Subcategory": "Insulation"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--heatshrink-25",
@@ -4048,7 +4190,8 @@
       "specs": {
         "Size": "5 × 7 cm",
         "Purchased": "4 boards",
-        "Sides": "Double-sided"
+        "Sides": "Double-sided",
+        "Subcategory": "Perfboards"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--perfboard-57",
@@ -4077,7 +4220,8 @@
       "specs": {
         "Size": "6 × 8 cm",
         "Purchased": "1 + 2 boards",
-        "Sides": "Single-sided"
+        "Sides": "Single-sided",
+        "Subcategory": "Perfboards"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--perfboard-68",
@@ -4113,7 +4257,8 @@
       "specs": {
         "Size": "3 × 7 cm",
         "Purchased": "2 packs × 2 boards",
-        "Sides": "Double-sided"
+        "Sides": "Double-sided",
+        "Subcategory": "Perfboards"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--perfboard-37",
@@ -4148,7 +4293,8 @@
       ],
       "specs": {
         "Tie points": "170",
-        "Purchased": "1 + 5 boards across batches"
+        "Purchased": "1 + 5 boards across batches",
+        "Subcategory": "Solderless breadboards"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--breadboard-mini",
@@ -4208,7 +4354,8 @@
       "specs": {
         "Model": "MB102",
         "Tie points": "830",
-        "Purchased": "1 board"
+        "Purchased": "1 board",
+        "Subcategory": "Solderless breadboards"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--breadboard-830",
@@ -4242,7 +4389,8 @@
       ],
       "specs": {
         "Format": "U-shaped jumper set",
-        "Purchased": "1 set / advertised 140 pieces"
+        "Purchased": "1 set / advertised 140 pieces",
+        "Subcategory": "Breadboard jumpers"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--u-jumpers",
@@ -4293,7 +4441,8 @@
       "specs": {
         "Chip": "FT232RL",
         "USB": "Mini-USB",
-        "Jumper labels": "3.3 / 5 V; verify output"
+        "Jumper labels": "3.3 / 5 V; verify output",
+        "Subcategory": "Interface adapters and breakouts"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--ft232rl",
@@ -4498,7 +4647,8 @@
       "specs": {
         "Model": "TH-M61",
         "Listed range": "0–150 mm / 6 inch",
-        "Accuracy": "Not independently verified"
+        "Accuracy": "Not independently verified",
+        "Subcategory": "Measurement and inspection"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--caliper",
@@ -4535,7 +4685,8 @@
       "specs": {
         "Model": "TH-M100",
         "Type": "Auto-range",
-        "Calibration": "Unverified"
+        "Calibration": "Unverified",
+        "Subcategory": "Measurement and inspection"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--multimeter",
@@ -4570,7 +4721,8 @@
       ],
       "specs": {
         "Listed power": "90 W",
-        "Purchased": "1 iron"
+        "Purchased": "1 iron",
+        "Subcategory": "Soldering and hot-air tools"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--noel-iron",
@@ -4605,7 +4757,8 @@
       ],
       "specs": {
         "Type": "Soldering stand",
-        "Recorded quantity": "1"
+        "Recorded quantity": "1",
+        "Subcategory": "Soldering accessories and consumables"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--iron-stand",
@@ -4635,7 +4788,8 @@
       "specs": {
         "Series": "900M",
         "Shapes": "I / B / K",
-        "Purchased": "3-piece pack"
+        "Purchased": "3-piece pack",
+        "Subcategory": "Soldering accessories and consumables"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--yihua-tips",
@@ -4695,7 +4849,8 @@
       ],
       "specs": {
         "Model": "900M-T-I",
-        "Purchased": "1 tip"
+        "Purchased": "1 tip",
+        "Subcategory": "Soldering accessories and consumables"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--bakon-tip",
@@ -4729,7 +4884,8 @@
       ],
       "specs": {
         "Purchased": "45 g pack",
-        "Alloy / remaining mass": "Unrecorded"
+        "Alloy / remaining mass": "Unrecorded",
+        "Subcategory": "Soldering accessories and consumables"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--solder-wire",
@@ -4765,7 +4921,8 @@
       ],
       "specs": {
         "Brand": "Noel",
-        "Remaining length": "Unknown"
+        "Remaining length": "Unknown",
+        "Subcategory": "Desoldering"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--noel-wick",
@@ -4802,7 +4959,8 @@
       "specs": {
         "Width": "2.0 mm",
         "Original length": "1.5 m",
-        "Model": "RL-20B 2015"
+        "Model": "RL-20B 2015",
+        "Subcategory": "Desoldering"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--relife-wick",
@@ -4831,7 +4989,8 @@
       ],
       "specs": {
         "Labelled volume": "10 cc",
-        "Exact chemistry / class": "Unverified"
+        "Exact chemistry / class": "Unverified",
+        "Subcategory": "Soldering accessories and consumables"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--flux",
@@ -4859,7 +5018,8 @@
       ],
       "specs": {
         "Model": "MT-111-SS",
-        "Purchased": "1 tool"
+        "Purchased": "1 tool",
+        "Subcategory": "Cutting and finishing"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--stripper",
@@ -4893,7 +5053,8 @@
       ],
       "specs": {
         "Purchased": "1 container",
-        "Remaining amount": "Unknown"
+        "Remaining amount": "Unknown",
+        "Subcategory": "Soldering accessories and consumables"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--tip-refresher",
@@ -4928,7 +5089,8 @@
       ],
       "specs": {
         "Listed size": "30 × 20 cm",
-        "ESD certification": "Unverified"
+        "ESD certification": "Unverified",
+        "Subcategory": "Soldering accessories and consumables"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--solder-pad",
@@ -4962,7 +5124,8 @@
       ],
       "specs": {
         "Model": "YH 08C",
-        "Purchased": "1 cleaner"
+        "Purchased": "1 cleaner",
+        "Subcategory": "Soldering accessories and consumables"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--yh08c",
@@ -4996,7 +5159,8 @@
       ],
       "specs": {
         "Purchased": "1 cleaner",
-        "Actual consumable condition": "Unverified"
+        "Actual consumable condition": "Unverified",
+        "Subcategory": "Soldering accessories and consumables"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--steel-tip-cleaner",
@@ -5030,7 +5194,8 @@
       ],
       "specs": {
         "Model": "TE-800",
-        "Purchased": "1 tool"
+        "Purchased": "1 tool",
+        "Subcategory": "Measurement and inspection"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--magnifier",
@@ -5064,7 +5229,8 @@
       ],
       "specs": {
         "Length": "15 cm",
-        "Purchased": "1 ruler"
+        "Purchased": "1 ruler",
+        "Subcategory": "Measurement and inspection"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--pcb-ruler",
@@ -5099,7 +5265,8 @@
       ],
       "specs": {
         "Size": "A3",
-        "Purchased": "1 mat"
+        "Purchased": "1 mat",
+        "Subcategory": "Work surfaces"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--cutting-mat",
@@ -5131,7 +5298,8 @@
         "Robocraze"
       ],
       "specs": {
-        "Purchased": "1 stand"
+        "Purchased": "1 stand",
+        "Subcategory": "Soldering accessories and consumables"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--tip-holder",
@@ -5165,7 +5333,8 @@
       ],
       "specs": {
         "Listed size": "5.5 × 5.5 cm",
-        "Purchased": "4 sponges"
+        "Purchased": "4 sponges",
+        "Subcategory": "Soldering accessories and consumables"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--sponges-small",
@@ -5199,7 +5368,8 @@
       ],
       "specs": {
         "Listed size": "7 × 5.5 cm",
-        "Purchased": "2 sponges"
+        "Purchased": "2 sponges",
+        "Subcategory": "Soldering accessories and consumables"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--sponges-large",
@@ -5235,7 +5405,8 @@
       ],
       "specs": {
         "Model": "GSB 183-LI",
-        "Battery / charger contents": "Not itemized"
+        "Battery / charger contents": "Not itemized",
+        "Subcategory": "Drilling and driving"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--bosch-drill",
@@ -5272,7 +5443,8 @@
       "specs": {
         "Part number": "2607010608",
         "Advertised count": "34 pieces",
-        "Inventory scope": "Owned kit; pieces not recounted"
+        "Inventory scope": "Owned kit; pieces not recounted",
+        "Subcategory": "Drilling and driving"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--bosch-xline",
@@ -5429,7 +5601,8 @@
       "specs": {
         "Part number": "2607017063",
         "Advertised contents": "31 bits + 1 holder",
-        "Exact bit sizes": "Not itemized"
+        "Exact bit sizes": "Not itemized",
+        "Subcategory": "Drilling and driving"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--bosch-bits",
@@ -5486,7 +5659,8 @@
       "specs": {
         "Model": "BMT154C",
         "Advertised count": "154 pieces",
-        "Also listed": "Hammer, utility knife, measuring tools, unitemized fixings"
+        "Also listed": "Hammer, utility knife, measuring tools, unitemized fixings",
+        "Subcategory": "Cutting and finishing"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--blackdecker-kit",
@@ -5610,7 +5784,8 @@
       "specs": {
         "Model": "BDHT22148",
         "Listed length": "174 mm",
-        "Purchased": "1 set / 6 files"
+        "Purchased": "1 set / 6 files",
+        "Subcategory": "Cutting and finishing"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--needle-files",
@@ -5662,7 +5837,8 @@
       "specs": {
         "Types": "No. 9 / 2A / 5 / AA / 7A",
         "Purchased": "1 five-piece set",
-        "ESD certification": "Unverified"
+        "ESD certification": "Unverified",
+        "Subcategory": "Precision handling"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--themisto-tweezers",
@@ -5732,7 +5908,8 @@
       "specs": {
         "Advertised concentration": "99.9%",
         "Purchased": "500 ml bottle",
-        "Remaining volume": "Unknown"
+        "Remaining volume": "Unknown",
+        "Subcategory": "Cleaning supplies"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--quarant-ipa",
@@ -5768,7 +5945,8 @@
       "specs": {
         "Purchased": "500 ml",
         "Concentration": "Unspecified",
-        "Remaining volume": "Unknown"
+        "Remaining volume": "Unknown",
+        "Subcategory": "Cleaning supplies"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--local-ipa",
@@ -5796,7 +5974,8 @@
       ],
       "specs": {
         "Purchased": "1 pack / 200 sticks",
-        "ESD / lint-free certification": "Not established"
+        "ESD / lint-free certification": "Not established",
+        "Subcategory": "Cleaning supplies"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--cotton-swabs",
@@ -5830,7 +6009,8 @@
       ],
       "specs": {
         "Purchased": "1 pack / 50 swabs",
-        "Receipt": "Unconfirmed; an estimate is not delivery evidence"
+        "Receipt": "Unconfirmed; an estimate is not delivery evidence",
+        "Subcategory": "Cleaning supplies"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--foam-swabs",
@@ -5866,7 +6046,8 @@
       "specs": {
         "Listed size": "4 × 4 inch",
         "Purchased": "1 pack / 100 wipes",
-        "Receipt": "Unconfirmed"
+        "Receipt": "Unconfirmed",
+        "Subcategory": "Cleaning supplies"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--cleanroom-wipes",
@@ -5900,7 +6081,8 @@
       ],
       "specs": {
         "Purchased": "500 ml",
-        "Formulation": "Unspecified"
+        "Formulation": "Unspecified",
+        "Subcategory": "Cleaning supplies"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--glue-remover",
@@ -5927,7 +6109,8 @@
       ],
       "specs": {
         "Purchased": "1 bottle",
-        "Capacity / current contents": "Unverified"
+        "Capacity / current contents": "Unverified",
+        "Subcategory": "Cleaning supplies"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--dispenser",
@@ -5956,7 +6139,8 @@
       "specs": {
         "Model": "BS-02",
         "Purchased": "1 brush",
-        "Bristle material": "Unverified"
+        "Bristle material": "Unverified",
+        "Subcategory": "Cleaning supplies"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--repair-brush",
@@ -5970,6 +6154,241 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": "local",
+      "contents": null
+    },
+    {
+      "catalogueId": "tools-and-consumables",
+      "name": "amiciTools heat-insert soldering tip set",
+      "category": "Workshop",
+      "summary": "amiciTools heat-insert soldering tip set",
+      "tags": [
+        "Amazon"
+      ],
+      "specs": {
+        "Unit": "kit / order unit",
+        "Subcategory": "Soldering accessories and consumables",
+        "Disposition": "Kept; 1 recorded"
+      },
+      "note": "Owner corrected the earlier return report: this set was kept. One recorded received order unit; availability unassessed.",
+      "id": "tools-and-consumables--amicitools-insert-tips",
+      "links": [],
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon · amiciTools insert-tip set",
+          "url": "https://www.amazon.in/dp/B0GFDZ5GL9",
+          "kind": "original",
+          "note": "Exact listing recovered from order confirmation."
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "tools-and-consumables",
+      "name": "amiciSense mini thermometer / hygrometer",
+      "category": "Workshop",
+      "summary": "amiciSense mini thermometer / hygrometer",
+      "tags": [
+        "Amazon"
+      ],
+      "specs": {
+        "Unit": "kit / order unit",
+        "Subcategory": "Measurement and inspection"
+      },
+      "note": "Receipt does not establish an independent physical recount, current availability, remaining material mass or tested function.",
+      "id": "tools-and-consumables--amicisense-hygrometer",
+      "links": [],
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "tools-and-consumables",
+      "name": "X1CC / P1P build-plate glue stick",
+      "category": "Workshop",
+      "summary": "X1CC / P1P build-plate glue stick",
+      "tags": [
+        "Amazon"
+      ],
+      "specs": {
+        "Unit": "kit / order unit",
+        "Subcategory": "Adhesives and applicators"
+      },
+      "note": "Receipt does not establish an independent physical recount, current availability, remaining material mass or tested function.",
+      "id": "tools-and-consumables--build-plate-glue",
+      "links": [],
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "tools-and-consumables",
+      "name": "Serplex filament vacuum kit with electric pump",
+      "category": "Workshop",
+      "summary": "Serplex filament vacuum kit with electric pump",
+      "tags": [
+        "Amazon"
+      ],
+      "specs": {
+        "Unit": "kit / order unit",
+        "Subcategory": "Filament storage",
+        "Advertised kit": "Electric pump, 10 bags, 2 sealing clips; no physical recount"
+      },
+      "note": "Receipt does not establish an independent physical recount, current availability, remaining material mass or tested function.",
+      "id": "tools-and-consumables--serplex-electric-vacuum",
+      "links": [],
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "tools-and-consumables",
+      "name": "Serplex heat-set insert tip kit",
+      "category": "Workshop",
+      "summary": "Serplex heat-set insert tip kit",
+      "tags": [
+        "Amazon"
+      ],
+      "specs": {
+        "Unit": "kit / order unit",
+        "Subcategory": "Soldering accessories and consumables"
+      },
+      "note": "Receipt does not establish an independent physical recount, current availability, remaining material mass or tested function.",
+      "id": "tools-and-consumables--serplex-insert-tips",
+      "links": [],
+      "status": "recorded",
+      "remaining": 0,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "tools-and-consumables",
+      "name": "Serplex 10-bag filament vacuum kit with manual pump",
+      "category": "Workshop",
+      "summary": "Serplex 10-bag filament vacuum kit with manual pump",
+      "tags": [
+        "Returned",
+        "Amazon"
+      ],
+      "specs": {
+        "Unit": "kit / order unit",
+        "Subcategory": "Filament storage",
+        "Advertised kit": "Manual pump, 10 bags, 4 sealing clips; returned/refunded",
+        "Disposition": "Returned; 0 remaining / 0 available"
+      },
+      "note": "Owner confirmed returned. Original purchase history retained. Actual return date unknown. Prior refund evidence retained; no duplicate deduction.",
+      "id": "tools-and-consumables--serplex-manual-vacuum",
+      "links": [],
+      "status": "recorded",
+      "remaining": 0,
+      "available": 0,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon · Serplex manual-pump vacuum kit",
+          "url": "https://www.amazon.in/dp/B0D1G6J7DD",
+          "kind": "original",
+          "note": "Listing identified in refund confirmation; item returned."
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "tools-and-consumables",
+      "name": "Sunkizzrs deburring kit with 10 blades",
+      "category": "Workshop",
+      "summary": "Sunkizzrs deburring kit with 10 blades",
+      "tags": [
+        "Amazon"
+      ],
+      "specs": {
+        "Unit": "kit / order unit",
+        "Subcategory": "Cutting and finishing"
+      },
+      "note": "Return requested October 31 as defective. Pickup/refund unconfirmed; availability remains unknown.",
+      "id": "tools-and-consumables--sunkizzrs-deburring",
+      "links": [],
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "tools-and-consumables",
+      "name": "ApTechDeals hot glue gun · B07LDC4ZGK",
+      "category": "Workshop",
+      "summary": "ApTechDeals hot glue gun · B07LDC4ZGK",
+      "tags": [
+        "Gift"
+      ],
+      "specs": {
+        "ASIN": "B07LDC4ZGK",
+        "Listing claim": "100 W with 5 sticks; accessory receipt and electrical rating unverified",
+        "Subcategory": "Adhesives and applicators"
+      },
+      "note": "Receipt does not establish an independent physical recount, current availability, remaining material mass or tested function.",
+      "id": "tools-and-consumables--aptechdeals-glue-gun",
+      "links": [],
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Gift identity reference",
+          "url": "https://www.amazon.in/dp/B07LDC4ZGK",
+          "kind": "reference",
+          "note": ""
+        }
+      ],
+      "purchaseSource": null,
       "contents": null
     },
     {
@@ -6468,7 +6887,8 @@
         "Model": "LLETK09",
         "Set designation": "62-in-1; exact bit/accessory breakdown unverified",
         "Shafts": "Extendable and flexible; order title",
-        "Recorded unit": "1 received set"
+        "Recorded unit": "1 received set",
+        "Subcategory": "Drilling and driving"
       },
       "note": "Owner confirms receipt on 22 October. Exact receipt date, condition, individual pack/set count and tested function are not recorded. Availability is unknown.",
       "links": [],
@@ -6506,7 +6926,8 @@
         "Protection rating": "No certified cut, chemical or electrical protection rating supplied",
         "Supplier SKU": "PUCBSG",
         "Ordered quantity": "2 ordered glove units",
-        "Receipt": "Received; owner confirmed 27 October 2026"
+        "Receipt": "Received; owner confirmed 27 October 2026",
+        "Subcategory": "Personal protection"
       },
       "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
       "id": "onlyscrews-workshop-supplies--pu-gloves",
@@ -6538,7 +6959,8 @@
         "Protection rating": "No certification or impact rating supplied",
         "Supplier SKU": "PRPCSG",
         "Ordered quantity": "1 goggle unit",
-        "Receipt": "Received; owner confirmed 27 October 2026"
+        "Receipt": "Received; owner confirmed 27 October 2026",
+        "Subcategory": "Personal protection"
       },
       "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
       "id": "onlyscrews-workshop-supplies--prima-goggles",
@@ -6735,7 +7157,8 @@
         "Load rating": "Not supplied",
         "Supplier SKU": "NZT3003.6",
         "Ordered quantity": "25 cable ties",
-        "Receipt": "Received; owner confirmed 27 October 2026"
+        "Receipt": "Received; owner confirmed 27 October 2026",
+        "Subcategory": "Cable management"
       },
       "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
       "id": "onlyscrews-workshop-supplies--cable-tie-3p6-300",
@@ -6767,7 +7190,8 @@
         "Load rating": "Not supplied",
         "Supplier SKU": "NZT2503.6",
         "Ordered quantity": "25 cable ties",
-        "Receipt": "Received; owner confirmed 27 October 2026"
+        "Receipt": "Received; owner confirmed 27 October 2026",
+        "Subcategory": "Cable management"
       },
       "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
       "id": "onlyscrews-workshop-supplies--cable-tie-3p6-250",
@@ -6799,7 +7223,8 @@
         "Load rating": "Not supplied",
         "Supplier SKU": "NZT2003.6",
         "Ordered quantity": "25 cable ties",
-        "Receipt": "Received; owner confirmed 27 October 2026"
+        "Receipt": "Received; owner confirmed 27 October 2026",
+        "Subcategory": "Cable management"
       },
       "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
       "id": "onlyscrews-workshop-supplies--cable-tie-3p6-200",
@@ -6831,7 +7256,8 @@
         "Load rating": "Not supplied",
         "Supplier SKU": "NZT1503.6",
         "Ordered quantity": "50 cable ties",
-        "Receipt": "Received; owner confirmed 27 October 2026"
+        "Receipt": "Received; owner confirmed 27 October 2026",
+        "Subcategory": "Cable management"
       },
       "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
       "id": "onlyscrews-workshop-supplies--cable-tie-3p6-150",
@@ -6863,7 +7289,8 @@
         "Load rating": "Not supplied",
         "Supplier SKU": "NZT1002.5",
         "Ordered quantity": "50 cable ties",
-        "Receipt": "Received; owner confirmed 27 October 2026"
+        "Receipt": "Received; owner confirmed 27 October 2026",
+        "Subcategory": "Cable management"
       },
       "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
       "id": "onlyscrews-workshop-supplies--cable-tie-2p5-100",
@@ -6927,9 +7354,13 @@
         "Pull force / coating / magnetization": "Not supplied",
         "Supplier SKU": "NDM20102",
         "Ordered quantity": "10 magnets",
-        "Receipt": "Received; owner confirmed 27 October 2026"
+        "Receipt": "Received; owner confirmed 27 October 2026",
+        "Purchase reconciliation": "10 received previously + 24 incoming = 34 purchased; new receipt unconfirmed",
+        "Project allocation": "8 used in HA display",
+        "Recorded unallocated": "2 magnets from 10 received; independent count unknown",
+        "Incoming purchase": "24; physical receipt unconfirmed"
       },
-      "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
+      "note": "Eight received bars allocated to HA display; two recorded unallocated. All ten remain owned. Twenty-four additional ordered bars await receipt confirmation. No new physical count or functional pass.",
       "id": "onlyscrews-workshop-supplies--magnet-bar-20-10-2",
       "links": [],
       "status": "recorded",
@@ -7134,6 +7565,276 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "M2 SS304 washer · ID 2.1 / OD 5 / T 0.5 mm",
+      "category": "Fasteners",
+      "summary": "M2 SS304 washer · ID 2.1 / OD 5 / T 0.5 mm",
+      "tags": [
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Supplier SKU": "PWM2",
+        "Material": "SS304; supplier description",
+        "Subcategory": "Washers"
+      },
+      "note": "Receipt does not establish an independent physical recount, current availability, remaining material mass or tested function.",
+      "id": "onlyscrews-workshop-supplies--m2-washer",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": 60,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "M2 SS304 hex nut",
+      "category": "Fasteners",
+      "summary": "M2 SS304 hex nut",
+      "tags": [
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Supplier SKU": "HNM2",
+        "Material": "SS304; supplier description",
+        "Subcategory": "Nuts"
+      },
+      "note": "Receipt does not establish an independent physical recount, current availability, remaining material mass or tested function.",
+      "id": "onlyscrews-workshop-supplies--m2-nut",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": 60,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "M2 × 20 mm Phillips pan-head SS304 screw",
+      "category": "Fasteners",
+      "summary": "M2 × 20 mm Phillips pan-head SS304 screw",
+      "tags": [
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Supplier SKU": "PHM220",
+        "Material": "SS304; supplier description",
+        "Subcategory": "Screws and bolts"
+      },
+      "note": "Receipt does not establish an independent physical recount, current availability, remaining material mass or tested function.",
+      "id": "onlyscrews-workshop-supplies--m2-pan-20",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": 36,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "M2 × 16 mm Phillips pan-head SS304 screw",
+      "category": "Fasteners",
+      "summary": "M2 × 16 mm Phillips pan-head SS304 screw",
+      "tags": [
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Supplier SKU": "PHM216",
+        "Material": "SS304; supplier description",
+        "Subcategory": "Screws and bolts"
+      },
+      "note": "Receipt does not establish an independent physical recount, current availability, remaining material mass or tested function.",
+      "id": "onlyscrews-workshop-supplies--m2-pan-16",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": 36,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "M2 × 12 mm Phillips pan-head SS304 screw",
+      "category": "Fasteners",
+      "summary": "M2 × 12 mm Phillips pan-head SS304 screw",
+      "tags": [
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Supplier SKU": "PHM212",
+        "Material": "SS304; supplier description",
+        "Subcategory": "Screws and bolts"
+      },
+      "note": "Receipt does not establish an independent physical recount, current availability, remaining material mass or tested function.",
+      "id": "onlyscrews-workshop-supplies--m2-pan-12",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": 36,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "M2 × 10 mm Phillips pan-head SS304 screw",
+      "category": "Fasteners",
+      "summary": "M2 × 10 mm Phillips pan-head SS304 screw",
+      "tags": [
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Supplier SKU": "PHM210",
+        "Material": "SS304; supplier description",
+        "Subcategory": "Screws and bolts"
+      },
+      "note": "Receipt does not establish an independent physical recount, current availability, remaining material mass or tested function.",
+      "id": "onlyscrews-workshop-supplies--m2-pan-10",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": 36,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "M2 × 8 mm Phillips pan-head SS304 screw",
+      "category": "Fasteners",
+      "summary": "M2 × 8 mm Phillips pan-head SS304 screw",
+      "tags": [
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Supplier SKU": "PHM208",
+        "Material": "SS304; supplier description",
+        "Subcategory": "Screws and bolts"
+      },
+      "note": "Receipt does not establish an independent physical recount, current availability, remaining material mass or tested function.",
+      "id": "onlyscrews-workshop-supplies--m2-pan-8",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": 36,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "M2 × 6 mm Phillips pan-head SS304 screw",
+      "category": "Fasteners",
+      "summary": "M2 × 6 mm Phillips pan-head SS304 screw",
+      "tags": [
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Supplier SKU": "PHM206",
+        "Material": "SS304; supplier description",
+        "Subcategory": "Screws and bolts"
+      },
+      "note": "Receipt does not establish an independent physical recount, current availability, remaining material mass or tested function.",
+      "id": "onlyscrews-workshop-supplies--m2-pan-6",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": 36,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "M2 × 5 mm Phillips pan-head SS304 screw",
+      "category": "Fasteners",
+      "summary": "M2 × 5 mm Phillips pan-head SS304 screw",
+      "tags": [
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Supplier SKU": "PHM205",
+        "Material": "SS304; supplier description",
+        "Subcategory": "Screws and bolts"
+      },
+      "note": "Receipt does not establish an independent physical recount, current availability, remaining material mass or tested function.",
+      "id": "onlyscrews-workshop-supplies--m2-pan-5",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": 36,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "M2 × 4 mm Phillips pan-head SS304 screw",
+      "category": "Fasteners",
+      "summary": "M2 × 4 mm Phillips pan-head SS304 screw",
+      "tags": [
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Supplier SKU": "PHM204",
+        "Material": "SS304; supplier description",
+        "Subcategory": "Screws and bolts"
+      },
+      "note": "Receipt does not establish an independent physical recount, current availability, remaining material mass or tested function.",
+      "id": "onlyscrews-workshop-supplies--m2-pan-4",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": 36,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
@@ -7744,7 +8445,7 @@
       "catalogueId": "waveshare-101-dsi-lcd-c",
       "status": "recorded",
       "remaining": 1,
-      "available": null,
+      "available": 0,
       "quantityBasis": "recorded",
       "incoming": null,
       "documents": [
@@ -8422,7 +9123,8 @@
         "Model": "LLETK09",
         "Set designation": "62-in-1; exact bit/accessory breakdown unverified",
         "Shafts": "Extendable and flexible; order title",
-        "Recorded unit": "1 received set"
+        "Recorded unit": "1 received set",
+        "Subcategory": "Drilling and driving"
       },
       "note": "Owner confirms receipt on 22 October. Exact receipt date, condition, individual pack/set count and tested function are not recorded. Availability is unknown.",
       "links": [],

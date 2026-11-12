@@ -288,7 +288,7 @@ const accessoryProfiles={
  'bambu-filaments--petg-hf-white':['acSpool',{color:'#e9ece8',material:'PETG HF'}],
  'bambu-filaments--petg-hf-black':['acSpool',{color:'#353a3c',material:'PETG HF'}],
  'aliexpress-prototyping-stock--heat-inserts':['acBox',{contents:'inserts'}],
- 'aliexpress-prototyping-stock--screw-kit':['acBox',{}],
+ 'aliexpress-prototyping-stock--screw-kit':['roundScrewTray',{}],
  'aliexpress-prototyping-stock--nylon-kit':['acBox',{black:true}],
  'tools-and-consumables--ss304-m2-5-pan':['acBox',{size:'M2.5'}],
  'tools-and-consumables--ss304-m3-pan':['acBox',{size:'M3'}],
@@ -317,6 +317,11 @@ const accessoryProfiles={
  'qubo-smart-devices--bulbs':['acBulb',{}],
 };
 const accessoryDrawings={
+ roundScrewTray:()=>acEllipse(120,97,71,49,'#bdc7cb','#819299',2)+acEllipse(120,82,71,49,'#e4e9e8','#a4b3b7',2)+Array.from({length:12},(_,i)=>{
+  const a=i*Math.PI/6,x=120+Math.cos(a)*66,y=82+Math.sin(a)*44;
+  const hardware=i<2?acNut({}):acScrew({length:28+(i%4)*6});
+  return acPath(`M120 82L${x} ${y}`,'none','#a4b2b5',1.4)+acGroup(120+Math.cos(a+.25)*43,82+Math.sin(a+.25)*28,.28,i*30,hardware);
+ }).join('')+acEllipse(120,82,13,9,'#e7ebea','#8fa1a7',1.5)+acCircle(120,82,3,'#8b9da4','#6e838b'),
  acBox,
  acInserts:o=>o.single?acGroup(120,66,1.65,-10,acInsert(o)):acGroup(82,55,1.3,-12,acInsert(o))+acGroup(151,84,1.15,13,acInsert(o)),
  acBolts:()=>acGroup(88,50,1.15,-24,acScrew({white:true,length:25}))+acGroup(155,54,1,22,acScrew({white:true,length:25})),
@@ -354,8 +359,29 @@ const supplyDrawings = {
  'gloves':()=>`<g transform="translate(83 81) rotate(-15)"><path d="M-26 47V9L-39-8Q-42-20-33-21L-20-9V-43Q-18-54-10-45V-13L-8-53Q-4-63 2-53V-14L7-49Q12-58 16-48V-12L21-37Q28-45 31-34V15Q28 34 20 47Z" fill="#303a40" stroke="#202c34" stroke-width="2"/><path d="M-26 39H21V58H-26Z" fill="#636f76" stroke="#35434c"/><path d="M-17-11V24M-5-10V27M7-9V26M18-7V22" stroke="#52616a" stroke-width="2"/></g><g transform="translate(156 85) rotate(12)"><path d="M-26 47V9L-39-8Q-42-20-33-21L-20-9V-43Q-18-54-10-45V-13L-8-53Q-4-63 2-53V-14L7-49Q12-58 16-48V-12L21-37Q28-45 31-34V15Q28 34 20 47Z" fill="#3d474e" stroke="#202c34" stroke-width="2"/><path d="M-26 39H21V58H-26Z" fill="#6d787e" stroke="#35434c"/></g>`,
 };
 
-const componentProfiles = {...cableProfiles, ...electronicsProfiles, ...workshopProfiles, ...accessoryProfiles, ...supplyProfiles};
-const componentDrawings = {...cableDrawings, ...electronicsDrawings, ...workshopDrawings, ...accessoryDrawings, ...supplyDrawings};
+const intakeProfiles = {"onlyscrews-workshop-supplies--m2-washer": ["intakeNuts", {"washer": true}], "onlyscrews-workshop-supplies--m2-nut": ["intakeNuts", {"washer": false}], "onlyscrews-workshop-supplies--m2-pan-4": ["intakeScrews", {"length": 4}], "onlyscrews-workshop-supplies--m2-pan-5": ["intakeScrews", {"length": 5}], "onlyscrews-workshop-supplies--m2-pan-6": ["intakeScrews", {"length": 6}], "onlyscrews-workshop-supplies--m2-pan-8": ["intakeScrews", {"length": 8}], "onlyscrews-workshop-supplies--m2-pan-10": ["intakeScrews", {"length": 10}], "onlyscrews-workshop-supplies--m2-pan-12": ["intakeScrews", {"length": 12}], "onlyscrews-workshop-supplies--m2-pan-16": ["intakeScrews", {"length": 16}], "onlyscrews-workshop-supplies--m2-pan-20": ["intakeScrews", {"length": 20}], "tools-and-consumables--amicitools-insert-tips": ["insertTips", {"brass": true}], "tools-and-consumables--serplex-insert-tips": ["insertTips", {"brass": false}], "tools-and-consumables--amicisense-hygrometer": ["hygrometer", {}], "tools-and-consumables--build-plate-glue": ["glueStick", {}], "tools-and-consumables--serplex-electric-vacuum": ["vacuumKit", {"electric": true}], "tools-and-consumables--serplex-manual-vacuum": ["vacuumKit", {"electric": false}], "tools-and-consumables--sunkizzrs-deburring": ["deburring", {}], "tools-and-consumables--aptechdeals-glue-gun": ["glueGun", {}]};
+accessoryProfiles["bambu-filaments--pla-jade-white"] = ["acSpool", {color:"#f1f0e6",material:"PLA Basic"}];
+// Original silhouettes for the newly recorded workshop tools; not photographs or pack counts.
+const intakeDrawings = {
+ intakeScrews:o=>acGroup(92,44,1,-23,acScrew({length:20+o.length*2.5}))+acGroup(159,55,.8,23,acScrew({length:20+o.length*2.5})),
+ intakeNuts:o=>acGroup(88,77,1.4,-12,acNut({washer:o.washer}))+acGroup(156,99,1.2,16,acNut({washer:o.washer})),
+ insertTips:o=>acRect(44,42,151,87,7,'#283b43','#657f88')+acRect(50,48,139,74,3,'#1c2b31','#3e5862')+Array.from({length:5},(_,i)=>{
+  const x=64+i*27,w=7+i*1.5;
+  return acRect(x-7,57,16,49,3,'#17262c','#40545d')+acPath(`M${x-w/2} 59h${w}v25h3v15h-3v10h-${w}V99h-3V84h3Z`,o.brass?'#c6a353':'#b6c5cd',o.brass?'#81652f':'#657d87')+acEllipse(x,59,w/2,2,'#f0dab0','#9b7b3b');
+ }).join('')+acText(72,138,7,o.brass?'BRASS INSERT TIPS':'HEAT-SET TIPS'),
+ hygrometer:()=>acRect(55,39,130,86,10,'#e1e4de','#8e9b97',2)+acRect(65,49,109,58,4,'#aebdad','#7b8e7d')+acText(74,77,22,'26.8','#344d43')+acText(146,66,7,'°C','#344d43')+acText(109,98,16,'48%','#344d43')+acPath('M76 116h20m9 0h20m9 0h20','none','#94a19a',2)+acPath('M184 68c30 0 21 38 35 38','none','#444e50',2)+acRect(210,98,9,21,4,'#e0e3dd','#8b9a94'),
+ glueStick:()=>acGroup(110,84,1,-15,acRect(-23,-50,46,96,7,'#d7e2d7','#768d80')+acRect(-23,-50,46,24,5,'#7aaa74','#526e4f')+acRect(-21,-21,42,44,2,'#eef0e6','#a3b5a3')+acText(-15,-4,9,'BUILD')+acText(-15,10,9,'GLUE')+acRect(-23,39,46,12,3,'#8eaf87','#6b8765')),
+ vacuumKit:o=>{
+  const bags=acPath('M39 43h93l5 88H34Z','#dae6df','#809c95',1.5)+acPath('M42 50h85M42 55h85','none','#779d8c',2)+acPath('M43 66h78v53H41Z','#c5d8ce','#9ab4a8',1)+acCircle(103,86,10,'#a7c6bc','#6c9185')+acCircle(103,86,4,'#dcece4','#6c9185')+acEllipse(73,94,21,21,'#aabdb3','#7b9a8b')+acEllipse(73,94,10,11,'#d6e3da','#7b9a8b');
+  const pump=o.electric?acGroup(175,85,1,15,acRect(-17,-47,34,79,13,'#344e61','#233c4d')+acEllipse(0,-46,15,5,'#7891a0','#38586a')+acRect(-8,31,16,18,4,'#acbbc1','#627e8e')+acCircle(0,-16,6,'#9cb7aa','#638779')+acPath('M-7 10H7','none','#8aa7b3',2)):acGroup(173,82,1,-15,acRect(-12,-26,24,61,6,'#e0e6e4','#7e9694')+acRect(-5,-49,10,24,1,'#91a5a8','#5c777b')+acRect(-23,-57,46,12,5,'#4787a2','#2d637a')+acRect(-16,31,32,14,3,'#4787a2','#2d637a'));
+  return bags+pump;
+ },
+ deburring:()=>acGroup(110,93,1,-35,acRect(-19,-41,38,91,10,'#397dac','#285775')+acRect(-14,-30,28,64,5,'#4995c7','#2e6c96')+acPath('M-9-19v40M0-21v45M9-19v40','none','#82b3cd',2)+acRect(-11,-50,22,17,3,'#afbfc8','#647c89')+acPath('M0-51v-22c0-14 22-17 24-2 1 7-6 12-12 9','none','#c1cdd1',6))+[0,1,2].map(i=>acPath(`M${167+i*10} 112v-27c0-8 12-10 14-2`,'none','#a8bac3',3)).join(''),
+ glueGun:()=>acPath('M51 57h103l22 12-6 30h-41l-11 36H87l9-44H53Z','#3584ad','#255a77',2)+acPath('M69 64h62l-4 21H72Z','#65a4c2','#347b9f')+acPath('M168 69l28 11-27 7Z','#bac7cd','#6d8591')+acPath('M131 96l-6 18h-16l6-23Z','#e6a33d','#ae7328',2)+acRect(26,61,42,12,5,'#e2e9d7','#9cac9a')+acPath('M64 95l-10 33h26','none','#a9bac2',3)+acPath('M91 134c-21 3-18 12-32 12','none','#45585f',3)+acPath('M134 66h13m-16 7h13m-16 7h13','none','#256383',2),
+};
+
+const componentProfiles = { ...intakeProfiles,...cableProfiles, ...electronicsProfiles, ...workshopProfiles, ...accessoryProfiles, ...supplyProfiles};
+const componentDrawings = { ...intakeDrawings,...cableDrawings, ...electronicsDrawings, ...workshopDrawings, ...accessoryDrawings, ...supplyDrawings};
 // Explicit identity selection prevents unrelated parts sharing a category placeholder.
 export function artworkProfile(id) { return componentProfiles[id] || null; }
 export function artwork(_category, id='') {
