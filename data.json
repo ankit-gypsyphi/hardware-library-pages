@@ -5,7 +5,7 @@
     {
       "id": "xiao-esp32s3-seeed",
       "name": "XIAO ESP32-S3",
-      "category": "Compute",
+      "category": "Controllers & computing",
       "summary": "A tiny, native-USB board for connected projects. The regular S3 variant.",
       "tags": [
         "Wi-Fi + BLE",
@@ -62,12 +62,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Microcontrollers",
+      "legacyCategory": "Compute",
+      "categoryPaths": [
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Microcontrollers"
+        }
+      ]
     },
     {
       "id": "hlk-ld2450-radar",
       "name": "HLK-LD2450",
-      "category": "Sensors",
+      "category": "Sensors & input",
       "summary": "Track position and movement for up to three targets with 24 GHz radar.",
       "tags": [
         "24 GHz",
@@ -118,7 +126,15 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Presence & motion",
+      "legacyCategory": "Sensors",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Presence & motion"
+        }
+      ]
     },
     {
       "id": "waveshare-213-epaper-hat-plus",
@@ -180,12 +196,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "E-paper",
+      "legacyCategory": "Displays",
+      "categoryPaths": [
+        {
+          "category": "Displays",
+          "subcategory": "E-paper"
+        }
+      ]
     },
     {
       "id": "sht41-7semi",
       "name": "7Semi SHT41",
-      "category": "Sensors",
+      "category": "Sensors & input",
       "summary": "Temperature and humidity sensing on a compact Qwiic breakout.",
       "tags": [
         "I²C",
@@ -248,12 +272,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Temperature & humidity",
+      "legacyCategory": "Sensors",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Temperature & humidity"
+        }
+      ]
     },
     {
       "id": "xiao-esp32s3-plus-seeed",
       "name": "XIAO ESP32-S3 Plus",
-      "category": "Compute",
+      "category": "Controllers & computing",
       "summary": "The separately catalogued Plus board from Seeed Studio.",
       "tags": [
         "Wi-Fi + BLE",
@@ -286,12 +318,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Microcontrollers",
+      "legacyCategory": "Compute",
+      "categoryPaths": [
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Microcontrollers"
+        }
+      ]
     },
     {
       "id": "bambu-x2d-combo-eu",
       "name": "Bambu Lab X2D Combo EU",
-      "category": "Fabrication",
+      "category": "3D printing",
       "summary": "Received workshop 3D printer, recorded under its invoiced model name.",
       "tags": [
         "3D printing",
@@ -317,12 +357,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-x2d-combo-eu/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Printers",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "Printers"
+        }
+      ]
     },
     {
       "id": "raspberry-pi-5",
       "name": "Raspberry Pi 5",
-      "category": "Compute",
+      "category": "Controllers & computing",
       "summary": "A single-board computer for host applications and connected hardware.",
       "tags": [
         "SBC",
@@ -354,12 +402,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/raspberry-pi-5/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Single-board computers",
+      "legacyCategory": "Compute",
+      "categoryPaths": [
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Single-board computers"
+        }
+      ]
     },
     {
       "catalogueId": "esp32-devkit-7semi",
       "name": "7Semi DEVKIT-E-N16",
-      "category": "Compute",
+      "category": "Controllers & computing",
       "summary": "A separately identified 38-pin ESP32 development-board variant.",
       "tags": [
         "ESP32-WROOM-32E",
@@ -417,12 +473,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Microcontrollers",
+      "legacyCategory": "Compute",
+      "categoryPaths": [
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Microcontrollers"
+        }
+      ]
     },
     {
       "catalogueId": "esp32-devkit-7semi",
       "name": "7Semi DEVKIT-UE-N16",
-      "category": "Compute",
+      "category": "Controllers & computing",
       "summary": "A separately identified 38-pin ESP32 development-board variant.",
       "tags": [
         "ESP32-WROOM-32UE",
@@ -486,12 +550,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Microcontrollers",
+      "legacyCategory": "Compute",
+      "categoryPaths": [
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Microcontrollers"
+        }
+      ]
     },
     {
       "catalogueId": "esp32-devkit-7semi",
       "name": "2.4 GHz external antenna & U.FL pigtail",
-      "category": "Accessories",
+      "category": "Controllers & computing",
       "summary": "Separate antenna and pigtail recorded with the external-antenna DevKit.",
       "tags": [
         "2.4 GHz",
@@ -516,12 +588,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/esp32-devkit-7semi/README.md",
       "productLinks": [],
       "purchaseSource": "local",
-      "contents": null
+      "contents": null,
+      "subcategory": "Antennas",
+      "legacyCategory": "Accessories",
+      "categoryPaths": [
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Antennas"
+        }
+      ]
     },
     {
       "id": "bh1750-gy302-lux",
       "name": "GY-302 / BH1750",
-      "category": "Sensors",
+      "category": "Sensors & input",
       "summary": "Ambient light measurements from a small ROHM-based breakout.",
       "tags": [
         "I²C",
@@ -566,12 +646,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Light sensors",
+      "legacyCategory": "Sensors",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Light sensors"
+        }
+      ]
     },
     {
       "id": "hlk-ld2410c-radar",
       "name": "HLK-LD2410C-P",
-      "category": "Sensors",
+      "category": "Sensors & input",
       "summary": "24 GHz presence sensing with moving and stationary detection.",
       "tags": [
         "24 GHz",
@@ -616,12 +704,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Presence & motion",
+      "legacyCategory": "Sensors",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Presence & motion"
+        }
+      ]
     },
     {
       "id": "dht22-am2302",
       "name": "DHT22 / AM2302",
-      "category": "Sensors",
+      "category": "Sensors & input",
       "summary": "Temperature and humidity sensor modules with a digital interface.",
       "tags": [
         "Temperature + RH",
@@ -659,7 +755,15 @@
         }
       ],
       "purchaseSource": "local",
-      "contents": null
+      "contents": null,
+      "subcategory": "Temperature & humidity",
+      "legacyCategory": "Sensors",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Temperature & humidity"
+        }
+      ]
     },
     {
       "id": "waveshare-101-dsi-lcd-c",
@@ -739,7 +843,15 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "LCD & TFT panels",
+      "legacyCategory": "Displays",
+      "categoryPaths": [
+        {
+          "category": "Displays",
+          "subcategory": "LCD & TFT panels"
+        }
+      ]
     },
     {
       "catalogueId": "oled-displays",
@@ -794,7 +906,15 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "OLED modules",
+      "legacyCategory": "Displays",
+      "categoryPaths": [
+        {
+          "category": "Displays",
+          "subcategory": "OLED modules"
+        }
+      ]
     },
     {
       "catalogueId": "oled-displays",
@@ -849,7 +969,15 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "OLED modules",
+      "legacyCategory": "Displays",
+      "categoryPaths": [
+        {
+          "category": "Displays",
+          "subcategory": "OLED modules"
+        }
+      ]
     },
     {
       "catalogueId": "oled-displays",
@@ -904,7 +1032,15 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "OLED modules",
+      "legacyCategory": "Displays",
+      "categoryPaths": [
+        {
+          "category": "Displays",
+          "subcategory": "OLED modules"
+        }
+      ]
     },
     {
       "catalogueId": "aliexpress-displays",
@@ -938,7 +1074,15 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "LCD & TFT panels",
+      "legacyCategory": "Displays",
+      "categoryPaths": [
+        {
+          "category": "Displays",
+          "subcategory": "LCD & TFT panels"
+        }
+      ]
     },
     {
       "catalogueId": "aliexpress-displays",
@@ -974,7 +1118,15 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "OLED modules",
+      "legacyCategory": "Displays",
+      "categoryPaths": [
+        {
+          "category": "Displays",
+          "subcategory": "OLED modules"
+        }
+      ]
     },
     {
       "catalogueId": "aliexpress-displays",
@@ -1022,7 +1174,15 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Display development boards",
+      "legacyCategory": "Displays",
+      "categoryPaths": [
+        {
+          "category": "Displays",
+          "subcategory": "Display development boards"
+        }
+      ]
     },
     {
       "id": "wly104050-lipo",
@@ -1058,7 +1218,15 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Battery packs",
+      "legacyCategory": "Power",
+      "categoryPaths": [
+        {
+          "category": "Power",
+          "subcategory": "Battery packs"
+        }
+      ]
     },
     {
       "id": "tp4056-charger",
@@ -1101,12 +1269,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Battery chargers",
+      "legacyCategory": "Power",
+      "categoryPaths": [
+        {
+          "category": "Power",
+          "subcategory": "Battery chargers"
+        }
+      ]
     },
     {
       "catalogueId": "bambu-filaments",
       "name": "PLA Glow · Glow Yellow",
-      "category": "Fabrication",
+      "category": "3D printing",
       "summary": "Bambu Lab filament, recorded as its exact material and colour selection.",
       "tags": [
         "1.75 mm",
@@ -1152,12 +1328,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "PLA filament",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "PLA filament"
+        }
+      ]
     },
     {
       "catalogueId": "bambu-filaments",
       "name": "PLA Basic · Beige",
-      "category": "Fabrication",
+      "category": "3D printing",
       "summary": "Bambu Lab filament, recorded as its exact material and colour selection.",
       "tags": [
         "1.75 mm",
@@ -1203,12 +1387,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "PLA filament",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "PLA filament"
+        }
+      ]
     },
     {
       "catalogueId": "bambu-filaments",
       "name": "PLA Basic · Gray",
-      "category": "Fabrication",
+      "category": "3D printing",
       "summary": "Bambu Lab filament, recorded as its exact material and colour selection.",
       "tags": [
         "1.75 mm",
@@ -1255,12 +1447,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "PLA filament",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "PLA filament"
+        }
+      ]
     },
     {
       "catalogueId": "bambu-filaments",
       "name": "ASA · White",
-      "category": "Fabrication",
+      "category": "3D printing",
       "summary": "Bambu Lab filament, recorded as its exact material and colour selection.",
       "tags": [
         "1.75 mm",
@@ -1306,12 +1506,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "ASA filament",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "ASA filament"
+        }
+      ]
     },
     {
       "catalogueId": "bambu-filaments",
       "name": "PETG Translucent · Clear",
-      "category": "Fabrication",
+      "category": "3D printing",
       "summary": "Bambu Lab filament, recorded as its exact material and colour selection.",
       "tags": [
         "1.75 mm",
@@ -1357,12 +1565,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "PETG filament",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "PETG filament"
+        }
+      ]
     },
     {
       "catalogueId": "bambu-filaments",
       "name": "PETG HF · Red",
-      "category": "Fabrication",
+      "category": "3D printing",
       "summary": "Bambu Lab PETG HF with a reusable spool, ordered in this exact colour. Received, owner-confirmed.",
       "tags": [
         "PETG HF",
@@ -1396,12 +1612,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "PETG filament",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "PETG filament"
+        }
+      ]
     },
     {
       "catalogueId": "bambu-filaments",
       "name": "PETG HF · Yellow",
-      "category": "Fabrication",
+      "category": "3D printing",
       "summary": "Bambu Lab PETG HF with a reusable spool, ordered in this exact colour. Received, owner-confirmed.",
       "tags": [
         "PETG HF",
@@ -1435,12 +1659,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "PETG filament",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "PETG filament"
+        }
+      ]
     },
     {
       "catalogueId": "bambu-filaments",
       "name": "PETG HF · Orange",
-      "category": "Fabrication",
+      "category": "3D printing",
       "summary": "Bambu Lab PETG HF with a reusable spool, ordered in this exact colour. Received, owner-confirmed.",
       "tags": [
         "PETG HF",
@@ -1474,12 +1706,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "PETG filament",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "PETG filament"
+        }
+      ]
     },
     {
       "catalogueId": "bambu-filaments",
       "name": "PETG HF · White",
-      "category": "Fabrication",
+      "category": "3D printing",
       "summary": "Bambu Lab PETG HF with a reusable spool, ordered in this exact colour. Received, owner-confirmed.",
       "tags": [
         "PETG HF",
@@ -1513,12 +1753,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "PETG filament",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "PETG filament"
+        }
+      ]
     },
     {
       "catalogueId": "bambu-filaments",
       "name": "PETG HF · Black",
-      "category": "Fabrication",
+      "category": "3D printing",
       "summary": "Bambu Lab PETG HF with a reusable spool, ordered in this exact colour. Received, owner-confirmed.",
       "tags": [
         "PETG HF",
@@ -1552,12 +1800,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "PETG filament",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "PETG filament"
+        }
+      ]
     },
     {
       "catalogueId": "bambu-filaments",
       "name": "PLA Basic · Black",
-      "category": "Fabrication",
+      "category": "3D printing",
       "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in black. Awaiting delivery.",
       "tags": [
         "PLA Basic",
@@ -1607,12 +1863,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "PLA filament",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "PLA filament"
+        }
+      ]
     },
     {
       "catalogueId": "bambu-filaments",
       "name": "PLA Basic · Blue",
-      "category": "Fabrication",
+      "category": "3D printing",
       "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in blue. Awaiting delivery.",
       "tags": [
         "PLA Basic",
@@ -1661,12 +1925,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "PLA filament",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "PLA filament"
+        }
+      ]
     },
     {
       "catalogueId": "bambu-filaments",
       "name": "PLA Basic · Gold",
-      "category": "Fabrication",
+      "category": "3D printing",
       "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in gold. Awaiting delivery.",
       "tags": [
         "PLA Basic",
@@ -1715,12 +1987,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "PLA filament",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "PLA filament"
+        }
+      ]
     },
     {
       "catalogueId": "bambu-filaments",
       "name": "PLA Basic · Bambu Green",
-      "category": "Fabrication",
+      "category": "3D printing",
       "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in bambu green. Awaiting delivery.",
       "tags": [
         "PLA Basic",
@@ -1769,12 +2049,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "PLA filament",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "PLA filament"
+        }
+      ]
     },
     {
       "catalogueId": "bambu-filaments",
       "name": "PLA Basic · Indigo Purple",
-      "category": "Fabrication",
+      "category": "3D printing",
       "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in indigo purple. Awaiting delivery.",
       "tags": [
         "PLA Basic",
@@ -1823,12 +2111,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "PLA filament",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "PLA filament"
+        }
+      ]
     },
     {
       "catalogueId": "bambu-filaments",
       "name": "PLA Matte · Dark Red",
-      "category": "Fabrication",
+      "category": "3D printing",
       "summary": "Bambu Lab PLA Matte with a reusable spool, purchased in dark red. Awaiting delivery.",
       "tags": [
         "PLA Matte",
@@ -1864,12 +2160,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "PLA filament",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "PLA filament"
+        }
+      ]
     },
     {
       "catalogueId": "bambu-filaments",
       "name": "PLA Basic · Jade White",
-      "category": "Fabrication",
+      "category": "3D printing",
       "summary": "PLA Basic · Jade White",
       "tags": [
         "WOL3D"
@@ -1904,12 +2208,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "PLA filament",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "PLA filament"
+        }
+      ]
     },
     {
       "catalogueId": "yihua-workshop-tools",
       "name": "YIHUA 8858-IV",
-      "category": "Workshop",
+      "category": "Soldering & rework",
       "summary": "Hot-air rework tool; SET1 contents and actual ratings need inspection.",
       "tags": [
         "Unverified",
@@ -1947,12 +2259,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Soldering & desoldering equipment",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Soldering & rework",
+          "subcategory": "Soldering & desoldering equipment"
+        }
+      ]
     },
     {
       "catalogueId": "yihua-workshop-tools",
       "name": "YIHUA 929D-V",
-      "category": "Workshop",
+      "category": "Soldering & rework",
       "summary": "Electrically heated desoldering tool with manually charged piston.",
       "tags": [
         "Unverified",
@@ -1996,12 +2316,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Soldering & desoldering equipment",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Soldering & rework",
+          "subcategory": "Soldering & desoldering equipment"
+        }
+      ]
     },
     {
       "catalogueId": "yihua-workshop-tools",
       "name": "YIHUA 948DQ-I",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Standalone fume extractor; not the 200 W soldering-station model.",
       "tags": [
         "Unverified",
@@ -2039,12 +2367,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Safety & extraction",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Safety & extraction"
+        }
+      ]
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
       "name": "M2–M4 heat-set insert kit",
-      "category": "Fasteners",
+      "category": "Mechanical hardware",
       "summary": "HZYUEGOU brass insert kit: 10 advertised sizes, 300 pieces.",
       "tags": [
         "Assortment",
@@ -2142,12 +2478,20 @@
           "Exact alloy and physical material"
         ],
         "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
-      }
+      },
+      "subcategory": "Threaded inserts",
+      "legacyCategory": "Fasteners",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Threaded inserts"
+        }
+      ]
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
       "name": "Small screw & nut assortment",
-      "category": "Fasteners",
+      "category": "Mechanical hardware",
       "summary": "600-piece miniature screw and nut kit in a round case; 12 listed groups.",
       "tags": [
         "Assortment",
@@ -2256,12 +2600,20 @@
           "Conflicting package-included text says 400pcs; purchased 600PCS selection and itemized table retained."
         ],
         "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
-      }
+      },
+      "subcategory": "Mixed fastener kits",
+      "legacyCategory": "Fasteners",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Mixed fastener kits"
+        }
+      ]
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
       "name": "M2–M4 black nylon screw kit",
-      "category": "Fasteners",
+      "category": "Mechanical hardware",
       "summary": "Black nylon kit: 810 screws across 20 sizes and 350 nuts across four sizes.",
       "tags": [
         "Assortment",
@@ -2429,12 +2781,20 @@
           "Physical material and mechanical / thermal / electrical ratings"
         ],
         "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
-      }
+      },
+      "subcategory": "Mixed fastener kits",
+      "legacyCategory": "Fasteners",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Mixed fastener kits"
+        }
+      ]
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
       "name": "Through-hole resistor assortment",
-      "category": "Prototyping",
+      "category": "Components & prototyping",
       "summary": "Selected 300-piece set; no verified value-by-value inventory.",
       "tags": [
         "Unverified",
@@ -2481,12 +2841,20 @@
           "Actual rated power"
         ],
         "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
-      }
+      },
+      "subcategory": "Passive components",
+      "legacyCategory": "Prototyping",
+      "categoryPaths": [
+        {
+          "category": "Components & prototyping",
+          "subcategory": "Passive components"
+        }
+      ]
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
       "name": "1206 SMD resistor assortment",
-      "category": "Prototyping",
+      "category": "Components & prototyping",
       "summary": "The selected package is 1206, separate from the family-title 0603.",
       "tags": [
         "1206",
@@ -2534,12 +2902,20 @@
           "Tolerance and rated power"
         ],
         "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
-      }
+      },
+      "subcategory": "Passive components",
+      "legacyCategory": "Prototyping",
+      "categoryPaths": [
+        {
+          "category": "Components & prototyping",
+          "subcategory": "Passive components"
+        }
+      ]
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
       "name": "Electrolytic capacitor assortment",
-      "category": "Prototyping",
+      "category": "Components & prototyping",
       "summary": "Aluminum electrolytic capacitor kit.",
       "tags": [
         "AliExpress"
@@ -2585,12 +2961,20 @@
           "Series, dimensions and actual ratings"
         ],
         "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md"
-      }
+      },
+      "subcategory": "Passive components",
+      "legacyCategory": "Prototyping",
+      "categoryPaths": [
+        {
+          "category": "Components & prototyping",
+          "subcategory": "Passive components"
+        }
+      ]
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
       "name": "USB-C breakout boards",
-      "category": "Cables & connectors",
+      "category": "Wiring & connections",
       "summary": "Connector boards with pin headers; no assumed USB-PD function.",
       "tags": [
         "Unverified",
@@ -2620,12 +3004,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Connector breakout boards",
+      "legacyCategory": "Cables & connectors",
+      "categoryPaths": [
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Connector breakout boards"
+        }
+      ]
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
       "name": "Single-sided copper-clad boards",
-      "category": "Prototyping",
+      "category": "Components & prototyping",
       "summary": "Copper-clad board stock; distinct from the perfboards.",
       "tags": [
         "AliExpress"
@@ -2654,12 +3046,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Prototype boards & copper-clad",
+      "legacyCategory": "Prototyping",
+      "categoryPaths": [
+        {
+          "category": "Components & prototyping",
+          "subcategory": "Prototype boards & copper-clad"
+        }
+      ]
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
       "name": "7 × 9 cm blue prototype boards",
-      "category": "Prototyping",
+      "category": "Components & prototyping",
       "summary": "Double-sided prototyping PCB selection.",
       "tags": [
         "7 × 9 cm",
@@ -2691,12 +3091,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Prototype boards & copper-clad",
+      "legacyCategory": "Prototyping",
+      "categoryPaths": [
+        {
+          "category": "Components & prototyping",
+          "subcategory": "Prototype boards & copper-clad"
+        }
+      ]
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
       "name": "3 × 7 cm blue prototype boards",
-      "category": "Prototyping",
+      "category": "Components & prototyping",
       "summary": "Additional blue double-sided prototype-board selection.",
       "tags": [
         "3 × 7 cm",
@@ -2728,12 +3136,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Prototype boards & copper-clad",
+      "legacyCategory": "Prototyping",
+      "categoryPaths": [
+        {
+          "category": "Components & prototyping",
+          "subcategory": "Prototype boards & copper-clad"
+        }
+      ]
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
       "name": "13-in-1 DC multifunction meter",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Selected DC50V12A600W meter; terminal/current-path details unresolved.",
       "tags": [
         "DC50V12A600W",
@@ -2765,12 +3181,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Measuring instruments",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Measuring instruments"
+        }
+      ]
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
       "name": "Multifunction electrician pliers",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "A separate generic assembly hand tool.",
       "tags": [
         "Unknown",
@@ -2800,12 +3224,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Hand tools",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Hand tools"
+        }
+      ]
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
       "name": "Universal multifunction pliers",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Generic pliers, separate from the electrician pair.",
       "tags": [
         "Unconfirmed",
@@ -2835,12 +3267,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Hand tools",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Hand tools"
+        }
+      ]
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
       "name": "13 cm precision tweezers",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Silver precision tweezers; ESD language is a seller claim.",
       "tags": [
         "13 cm",
@@ -2870,12 +3310,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Hand tools",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Hand tools"
+        }
+      ]
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
       "name": "Ultra-fine No. 5 tweezers",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Cosmetic/blackhead tweezers, not verified electronics-grade tools.",
       "tags": [
         "Unverified",
@@ -2905,12 +3353,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Hand tools",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Hand tools"
+        }
+      ]
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
       "name": "MECHANIC Aax-17 tweezers",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Tin-positioning tweezers.",
       "tags": [
         "Aax-17",
@@ -2941,12 +3397,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Hand tools",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Hand tools"
+        }
+      ]
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
       "name": "MECHANIC SR20 1.5 mm braid",
-      "category": "Workshop",
+      "category": "Soldering & rework",
       "summary": "Separate narrow desoldering-braid reel.",
       "tags": [
         "1.5 mm",
@@ -2979,12 +3443,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Solder, flux & wick",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Soldering & rework",
+          "subcategory": "Solder, flux & wick"
+        }
+      ]
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
       "name": "MECHANIC SR20 3.5 mm braid",
-      "category": "Workshop",
+      "category": "Soldering & rework",
       "summary": "Separate wider desoldering-braid reel.",
       "tags": [
         "3.5 mm",
@@ -3017,12 +3489,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Solder, flux & wick",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Soldering & rework",
+          "subcategory": "Solder, flux & wick"
+        }
+      ]
     },
     {
       "catalogueId": "aliexpress-prototyping-stock",
       "name": "30 mm self-adhesive tape",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Generic adhesive tape; not identified as Kapton.",
       "tags": [
         "30 mm × 33 m",
@@ -3054,12 +3534,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Adhesives & applicators",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Adhesives & applicators"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "SS304 M2.5 pan-head screw kit",
-      "category": "Fasteners",
+      "category": "Mechanical hardware",
       "summary": "Phillips pan-head screws, matching nuts and washers in one assortment.",
       "tags": [
         "M2.5",
@@ -3143,12 +3631,20 @@
         ],
         "missing": [],
         "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
-      }
+      },
+      "subcategory": "Screws & bolts",
+      "legacyCategory": "Fasteners",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Screws & bolts"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "SS304 M3 pan-head screw kit",
-      "category": "Fasteners",
+      "category": "Mechanical hardware",
       "summary": "Phillips pan-head screws, matching nuts and washers in one assortment.",
       "tags": [
         "M3",
@@ -3232,12 +3728,20 @@
         ],
         "missing": [],
         "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
-      }
+      },
+      "subcategory": "Screws & bolts",
+      "legacyCategory": "Fasteners",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Screws & bolts"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "SS304 M4 pan-head screw kit",
-      "category": "Fasteners",
+      "category": "Mechanical hardware",
       "summary": "Phillips pan-head screws, matching nuts and washers in one assortment.",
       "tags": [
         "M4",
@@ -3321,12 +3825,20 @@
         ],
         "missing": [],
         "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
-      }
+      },
+      "subcategory": "Screws & bolts",
+      "legacyCategory": "Fasteners",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Screws & bolts"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "SS304 M3 countersunk screw kit",
-      "category": "Fasteners",
+      "category": "Mechanical hardware",
       "summary": "Phillips countersunk screws with matching nuts and washers.",
       "tags": [
         "M3",
@@ -3410,12 +3922,20 @@
         ],
         "missing": [],
         "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
-      }
+      },
+      "subcategory": "Screws & bolts",
+      "legacyCategory": "Fasteners",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Screws & bolts"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "M3 × 6 mm heat-set inserts",
-      "category": "Fasteners",
+      "category": "Mechanical hardware",
       "summary": "Brass slant-knurled threaded inserts for 3D-printed parts.",
       "tags": [
         "M3",
@@ -3450,12 +3970,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Threaded inserts",
+      "legacyCategory": "Fasteners",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Threaded inserts"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "M3 × 4 mm heat-set inserts",
-      "category": "Fasteners",
+      "category": "Mechanical hardware",
       "summary": "Brass slant-knurled threaded inserts for 3D-printed parts.",
       "tags": [
         "M3",
@@ -3490,12 +4018,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Threaded inserts",
+      "legacyCategory": "Fasteners",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Threaded inserts"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "M3 × 4 mm standard brass insert",
-      "category": "Fasteners",
+      "category": "Mechanical hardware",
       "summary": "A separate generic threaded insert, distinct from the slant-knurled type.",
       "tags": [
         "M3",
@@ -3529,12 +4065,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Threaded inserts",
+      "legacyCategory": "Fasteners",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Threaded inserts"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "M3 × 5 mm nylon bolts",
-      "category": "Fasteners",
+      "category": "Mechanical hardware",
       "summary": "White nylon screws for lightweight mechanical assembly.",
       "tags": [
         "M3",
@@ -3569,12 +4113,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Screws & bolts",
+      "legacyCategory": "Fasteners",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Screws & bolts"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "M3 nylon nuts",
-      "category": "Fasteners",
+      "category": "Mechanical hardware",
       "summary": "White nylon hex nuts for M3 fasteners.",
       "tags": [
         "M3",
@@ -3609,12 +4161,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Nuts & washers",
+      "legacyCategory": "Fasteners",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Nuts & washers"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "M3 × 9 mm nylon standoffs",
-      "category": "Fasteners",
+      "category": "Mechanical hardware",
       "summary": "Black double-pass hexagonal PCB spacers.",
       "tags": [
         "M3",
@@ -3649,12 +4209,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Standoffs & spacers",
+      "legacyCategory": "Fasteners",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Standoffs & spacers"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "22 AWG silicone wire",
-      "category": "Cables & connectors",
+      "category": "Wiring & connections",
       "summary": "Flexible wire in six colours.",
       "tags": [
         "22 AWG",
@@ -3715,12 +4283,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Wire & ribbon cable",
+      "legacyCategory": "Cables & connectors",
+      "categoryPaths": [
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Wire & ribbon cable"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Solid-core hook-up wire",
-      "category": "Cables & connectors",
+      "category": "Wiring & connections",
       "summary": "Five-colour packets and separate black wire.",
       "tags": [
         "Unverified",
@@ -3758,12 +4334,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Wire & ribbon cable",
+      "legacyCategory": "Cables & connectors",
+      "categoryPaths": [
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Wire & ribbon cable"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "10-wire ribbon cable",
-      "category": "Cables & connectors",
+      "category": "Wiring & connections",
       "summary": "Ten-conductor ribbon cable.",
       "tags": [
         "10",
@@ -3794,12 +4378,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Wire & ribbon cable",
+      "legacyCategory": "Cables & connectors",
+      "categoryPaths": [
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Wire & ribbon cable"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Dupont jumper wire set",
-      "category": "Cables & connectors",
+      "category": "Wiring & connections",
       "summary": "Male-to-male, male-to-female and female-to-female jumpers.",
       "tags": [
         "2.54 mm Dupont family",
@@ -3852,12 +4444,20 @@
         ],
         "missing": [],
         "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
-      }
+      },
+      "subcategory": "Jumper & test leads",
+      "legacyCategory": "Cables & connectors",
+      "categoryPaths": [
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Jumper & test leads"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Extra female-to-female jumpers",
-      "category": "Cables & connectors",
+      "category": "Wiring & connections",
       "summary": "Additional local and Robu female jumper-wire purchases.",
       "tags": [
         "Female-to-female",
@@ -3890,12 +4490,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Jumper & test leads",
+      "legacyCategory": "Cables & connectors",
+      "categoryPaths": [
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Jumper & test leads"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Alligator-to-male test leads",
-      "category": "Cables & connectors",
+      "category": "Wiring & connections",
       "summary": "Alligator clips with male jumper ends.",
       "tags": [
         "Alligator / male",
@@ -3927,12 +4535,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Jumper & test leads",
+      "legacyCategory": "Cables & connectors",
+      "categoryPaths": [
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Jumper & test leads"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Alligator-to-female test leads",
-      "category": "Cables & connectors",
+      "category": "Wiring & connections",
       "summary": "Alligator clips with female jumper ends.",
       "tags": [
         "Alligator / female",
@@ -3964,12 +4580,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Jumper & test leads",
+      "legacyCategory": "Cables & connectors",
+      "categoryPaths": [
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Jumper & test leads"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "40-pin male header strips",
-      "category": "Cables & connectors",
+      "category": "Wiring & connections",
       "summary": "Single-row berg strips from two recorded batches.",
       "tags": [
         "2.54 mm",
@@ -4001,12 +4625,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Pin headers",
+      "legacyCategory": "Cables & connectors",
+      "categoryPaths": [
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Pin headers"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "40-pin female header strips",
-      "category": "Cables & connectors",
+      "category": "Wiring & connections",
       "summary": "Single-row female headers with unresolved order-unit packing.",
       "tags": [
         "2.54 mm",
@@ -4038,12 +4670,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Pin headers",
+      "legacyCategory": "Cables & connectors",
+      "categoryPaths": [
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Pin headers"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Right-angle male header",
-      "category": "Cables & connectors",
+      "category": "Wiring & connections",
       "summary": "A 20-pin right-angle header strip.",
       "tags": [
         "2.54 mm",
@@ -4075,12 +4715,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Pin headers",
+      "legacyCategory": "Cables & connectors",
+      "categoryPaths": [
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Pin headers"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "USB-C & micro-USB data cables",
-      "category": "Cables & connectors",
+      "category": "Wiring & connections",
       "summary": "Reusable USB cables recorded in the bench supplies.",
       "tags": [
         "USB-C / micro-USB",
@@ -4105,12 +4753,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "USB cables",
+      "legacyCategory": "Cables & connectors",
+      "categoryPaths": [
+        {
+          "category": "Wiring & connections",
+          "subcategory": "USB cables"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "4 mm black heat-shrink",
-      "category": "Cables & connectors",
+      "category": "Wiring & connections",
       "summary": "Black heat-shrink tube for assembly.",
       "tags": [
         "4 mm",
@@ -4140,12 +4796,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Insulation & cable management",
+      "legacyCategory": "Cables & connectors",
+      "categoryPaths": [
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Insulation & cable management"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "2.5 mm black heat-shrink",
-      "category": "Cables & connectors",
+      "category": "Wiring & connections",
       "summary": "A separate smaller-diameter heat-shrink selection.",
       "tags": [
         "2.5 mm",
@@ -4175,12 +4839,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Insulation & cable management",
+      "legacyCategory": "Cables & connectors",
+      "categoryPaths": [
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Insulation & cable management"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "5 × 7 cm double-sided perfboard",
-      "category": "Prototyping",
+      "category": "Components & prototyping",
       "summary": "Local-market prototype boards.",
       "tags": [
         "5 × 7 cm",
@@ -4205,12 +4877,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": "local",
-      "contents": null
+      "contents": null,
+      "subcategory": "Prototype boards & copper-clad",
+      "legacyCategory": "Prototyping",
+      "categoryPaths": [
+        {
+          "category": "Components & prototyping",
+          "subcategory": "Prototype boards & copper-clad"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "6 × 8 cm single-sided perfboard",
-      "category": "Prototyping",
+      "category": "Components & prototyping",
       "summary": "Prototype boards from two Robu purchases.",
       "tags": [
         "6 × 8 cm",
@@ -4242,12 +4922,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Prototype boards & copper-clad",
+      "legacyCategory": "Prototyping",
+      "categoryPaths": [
+        {
+          "category": "Components & prototyping",
+          "subcategory": "Prototype boards & copper-clad"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "3 × 7 cm double-sided perfboard",
-      "category": "Prototyping",
+      "category": "Components & prototyping",
       "summary": "Small boards from the earlier Robu purchase.",
       "tags": [
         "3 × 7 cm",
@@ -4279,12 +4967,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Prototype boards & copper-clad",
+      "legacyCategory": "Prototyping",
+      "categoryPaths": [
+        {
+          "category": "Components & prototyping",
+          "subcategory": "Prototype boards & copper-clad"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "170-point mini breadboards",
-      "category": "Prototyping",
+      "category": "Components & prototyping",
       "summary": "Small solderless breadboards.",
       "tags": [
         "170",
@@ -4339,12 +5035,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Breadboards",
+      "legacyCategory": "Prototyping",
+      "categoryPaths": [
+        {
+          "category": "Components & prototyping",
+          "subcategory": "Breadboards"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "MB102 830-point breadboard",
-      "category": "Prototyping",
+      "category": "Components & prototyping",
       "summary": "Full-size solderless breadboard.",
       "tags": [
         "MB102",
@@ -4376,12 +5080,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Breadboards",
+      "legacyCategory": "Prototyping",
+      "categoryPaths": [
+        {
+          "category": "Components & prototyping",
+          "subcategory": "Breadboards"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "140-piece U-jumper set",
-      "category": "Prototyping",
+      "category": "Wiring & connections",
       "summary": "Preformed jumpers for solderless breadboards.",
       "tags": [
         "U-shaped jumper set",
@@ -4426,12 +5138,20 @@
           "Jumper lengths and quantity per length"
         ],
         "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
-      }
+      },
+      "subcategory": "Jumper & test leads",
+      "legacyCategory": "Prototyping",
+      "categoryPaths": [
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Jumper & test leads"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "FT232RL USB-serial adapter",
-      "category": "Cables & connectors",
+      "category": "Controllers & computing",
       "summary": "Mini-USB serial adapter with a voltage-selection jumper.",
       "tags": [
         "FT232RL",
@@ -4463,7 +5183,15 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Programming adapters",
+      "legacyCategory": "Cables & connectors",
+      "categoryPaths": [
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Programming adapters"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
@@ -4499,12 +5227,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Voltage regulators",
+      "legacyCategory": "Power",
+      "categoryPaths": [
+        {
+          "category": "Power",
+          "subcategory": "Voltage regulators"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "ESP8266-12F module",
-      "category": "Compute",
+      "category": "Controllers & computing",
       "summary": "A separate ESP8266 Wi-Fi module.",
       "tags": [
         "ESP8266-12F",
@@ -4535,12 +5271,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Microcontrollers",
+      "legacyCategory": "Compute",
+      "categoryPaths": [
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Microcontrollers"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "2.4 GHz PCB antenna",
-      "category": "Accessories",
+      "category": "Controllers & computing",
       "summary": "Separate PCB antenna with an IPEX U.FL connector.",
       "tags": [
         "2.4 GHz",
@@ -4571,12 +5315,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Antennas",
+      "legacyCategory": "Accessories",
+      "categoryPaths": [
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Antennas"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Lexar USB-C card reader",
-      "category": "Accessories",
+      "category": "Controllers & computing",
       "summary": "Professional dual-slot card reader in the shared library.",
       "tags": [
         "USB-C",
@@ -4601,12 +5353,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Storage & readers",
+      "legacyCategory": "Accessories",
+      "categoryPaths": [
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Storage & readers"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "SanDisk Ultra 256 GB microSD",
-      "category": "Accessories",
+      "category": "Controllers & computing",
       "summary": "Storage card recorded with the Raspberry Pi.",
       "tags": [
         "256 GB",
@@ -4631,12 +5391,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Storage & readers",
+      "legacyCategory": "Accessories",
+      "categoryPaths": [
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Storage & readers"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Themisto TH-M61 digital caliper",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Digital caliper for dimensional measurements.",
       "tags": [
         "TH-M61",
@@ -4669,12 +5437,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Measuring instruments",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Measuring instruments"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Themisto TH-M100 multimeter",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Auto-ranging digital multimeter.",
       "tags": [
         "TH-M100",
@@ -4707,12 +5483,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Measuring instruments",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Measuring instruments"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Noel 90 W soldering iron",
-      "category": "Workshop",
+      "category": "Soldering & rework",
       "summary": "Adjustable soldering iron with temperature control.",
       "tags": [
         "90 W",
@@ -4743,12 +5527,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Soldering & desoldering equipment",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Soldering & rework",
+          "subcategory": "Soldering & desoldering equipment"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Soldering iron stand",
-      "category": "Workshop",
+      "category": "Soldering & rework",
       "summary": "Separate local-market iron stand.",
       "tags": [
         "Soldering stand",
@@ -4772,12 +5564,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": "local",
-      "contents": null
+      "contents": null,
+      "subcategory": "Stands, mats & tip care",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Soldering & rework",
+          "subcategory": "Stands, mats & tip care"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "YIHUA 900M I/B/K tips",
-      "category": "Workshop",
+      "category": "Soldering & rework",
       "summary": "Three soldering-tip shapes.",
       "tags": [
         "900M",
@@ -4835,12 +5635,20 @@
           "Per-shape count and dimensions"
         ],
         "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
-      }
+      },
+      "subcategory": "Tips & attachments",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Soldering & rework",
+          "subcategory": "Tips & attachments"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "BAKON 900M-T-I tip",
-      "category": "Workshop",
+      "category": "Soldering & rework",
       "summary": "Additional fine soldering tip.",
       "tags": [
         "900M-T-I",
@@ -4871,12 +5679,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Tips & attachments",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Soldering & rework",
+          "subcategory": "Tips & attachments"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "45 g solder wire",
-      "category": "Workshop",
+      "category": "Soldering & rework",
       "summary": "Solder wire from the recorded bench purchase.",
       "tags": [
         "Unrecorded",
@@ -4906,12 +5722,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Solder, flux & wick",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Soldering & rework",
+          "subcategory": "Solder, flux & wick"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Noel desoldering wick",
-      "category": "Workshop",
+      "category": "Soldering & rework",
       "summary": "Pure-copper desoldering wick per the listing.",
       "tags": [
         "Noel",
@@ -4943,12 +5767,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Solder, flux & wick",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Soldering & rework",
+          "subcategory": "Solder, flux & wick"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "RELIFE RL-20B 2015 wick",
-      "category": "Workshop",
+      "category": "Soldering & rework",
       "summary": "Labelled local-shop desoldering braid.",
       "tags": [
         "2.0 mm",
@@ -4974,12 +5806,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": "local",
-      "contents": null
+      "contents": null,
+      "subcategory": "Solder, flux & wick",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Soldering & rework",
+          "subcategory": "Solder, flux & wick"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "MECHANIC flux paste",
-      "category": "Workshop",
+      "category": "Soldering & rework",
       "summary": "Syringe of soldering flux paste.",
       "tags": [
         "10 cc",
@@ -5004,12 +5844,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": "local",
-      "contents": null
+      "contents": null,
+      "subcategory": "Solder, flux & wick",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Soldering & rework",
+          "subcategory": "Solder, flux & wick"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Multitec MT-111-SS stripper",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Wire stripper and cutter.",
       "tags": [
         "MT-111-SS",
@@ -5040,12 +5888,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Hand tools",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Hand tools"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Soldering tip refresher",
-      "category": "Workshop",
+      "category": "Soldering & rework",
       "summary": "Tip-tinning and oxide-cleaning product.",
       "tags": [
         "Unknown",
@@ -5075,12 +5931,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Stands, mats & tip care",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Soldering & rework",
+          "subcategory": "Stands, mats & tip care"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Heat-resistant soldering pad",
-      "category": "Workshop",
+      "category": "Soldering & rework",
       "summary": "E-9 silicone-style work pad; seller-described ESD-safe.",
       "tags": [
         "30 × 20 cm",
@@ -5111,12 +5975,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Stands, mats & tip care",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Soldering & rework",
+          "subcategory": "Stands, mats & tip care"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "YH 08C tip cleaner",
-      "category": "Workshop",
+      "category": "Soldering & rework",
       "summary": "Wool/sponge soldering-tip cleaner.",
       "tags": [
         "YH 08C",
@@ -5146,12 +6018,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Stands, mats & tip care",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Soldering & rework",
+          "subcategory": "Stands, mats & tip care"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Tip cleaner with steel holder",
-      "category": "Workshop",
+      "category": "Soldering & rework",
       "summary": "Separate cleaning ball and stainless-steel holder.",
       "tags": [
         "Unverified",
@@ -5181,12 +6061,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Stands, mats & tip care",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Soldering & rework",
+          "subcategory": "Stands, mats & tip care"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "TE-800 LED magnifier clip",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Servicing clip with a light and magnifier.",
       "tags": [
         "TE-800",
@@ -5216,12 +6104,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Bench aids",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Bench aids"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "15 cm PCB measuring ruler",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Multipurpose printed-circuit-board ruler.",
       "tags": [
         "15 cm",
@@ -5251,12 +6147,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Measuring instruments",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Measuring instruments"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "GripX A3 cutting mat",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Green flexible cutting mat.",
       "tags": [
         "A3",
@@ -5287,12 +6191,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Bench aids",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Bench aids"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Soldering-tip holder stand",
-      "category": "Workshop",
+      "category": "Soldering & rework",
       "summary": "Small holder for spare soldering tips.",
       "tags": [
         "Robocraze"
@@ -5320,12 +6232,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Stands, mats & tip care",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Soldering & rework",
+          "subcategory": "Stands, mats & tip care"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "5.5 × 5.5 cm cleaning sponges",
-      "category": "Workshop",
+      "category": "Soldering & rework",
       "summary": "Soldering-tool cleaning sponges.",
       "tags": [
         "5.5 × 5.5 cm",
@@ -5355,12 +6275,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Stands, mats & tip care",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Soldering & rework",
+          "subcategory": "Stands, mats & tip care"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "7 × 5.5 cm cleaning sponges",
-      "category": "Workshop",
+      "category": "Soldering & rework",
       "summary": "Separate rectangular cleaning-sponges selection.",
       "tags": [
         "7 × 5.5 cm",
@@ -5390,12 +6318,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Stands, mats & tip care",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Soldering & rework",
+          "subcategory": "Stands, mats & tip care"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Bosch GSB 183-LI drill",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Cordless drill/driver reported owned.",
       "tags": [
         "GSB 183-LI",
@@ -5427,12 +6363,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Drilling & drill bits",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Drilling & drill bits"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Bosch X-Line 34-piece bit set",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Wood, metal and masonry bits, nutsetters and screwdriver bits.",
       "tags": [
         "2607010608",
@@ -5585,12 +6529,20 @@
           "Individual drill diameters within the three published ranges"
         ],
         "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
-      }
+      },
+      "subcategory": "Drilling & drill bits",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Drilling & drill bits"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Bosch 32-piece screwdriver set",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Colour-coded screwdriver bits and magnetic quick-change holder.",
       "tags": [
         "2607017063",
@@ -5643,12 +6595,20 @@
           "Individual bit sizes and quantity per profile"
         ],
         "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
-      }
+      },
+      "subcategory": "Screwdrivers & toolkits",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Screwdrivers & toolkits"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "BLACK+DECKER BMT154C toolkit",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Pliers, screwdrivers, bits, hex keys, ratchet, sockets and hand tools.",
       "tags": [
         "BMT154C",
@@ -5768,12 +6728,20 @@
           "Unlisted pieces needed to reconcile the 154-piece headline"
         ],
         "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
-      }
+      },
+      "subcategory": "Screwdrivers & toolkits",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Screwdrivers & toolkits"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "BLACK+DECKER needle files",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Six-piece needle-file set.",
       "tags": [
         "BDHT22148",
@@ -5821,12 +6789,20 @@
           "The six file shapes"
         ],
         "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
-      }
+      },
+      "subcategory": "Hand tools",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Hand tools"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Themisto five-piece tweezers",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Powder-coated stainless-steel tweezer set.",
       "tags": [
         "No. 9 / 2A / 5 / AA / 7A",
@@ -5892,12 +6868,20 @@
         ],
         "missing": [],
         "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md"
-      }
+      },
+      "subcategory": "Hand tools",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Hand tools"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "QUARANT 99.9% IPA",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Separate branded isopropyl alcohol purchase.",
       "tags": [
         "99.9%",
@@ -5930,12 +6914,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Cleaning supplies",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Cleaning supplies"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Local isopropyl alcohol",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Separate unlabelled local-shop IPA purchase.",
       "tags": [
         "Unspecified",
@@ -5960,12 +6952,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": "local",
-      "contents": null
+      "contents": null,
+      "subcategory": "Cleaning supplies",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Cleaning supplies"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Majestique cotton swabs",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Paper-stick cotton swabs in two shapes.",
       "tags": [
         "Not established",
@@ -5996,12 +6996,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Cleaning supplies",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Cleaning supplies"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Aadvay foam cleaning swabs",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Seller-described anti-static foam swabs.",
       "tags": [
         "Amazon",
@@ -6031,12 +7039,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Cleaning supplies",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Cleaning supplies"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "4-inch cleanroom wipers",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Seller-described ESD dust-free cleaning wipes.",
       "tags": [
         "4 × 4 inch",
@@ -6068,12 +7084,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Cleaning supplies",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Cleaning supplies"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Glue remover liquid",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Local-shop liquid for adhesive removal.",
       "tags": [
         "Unspecified",
@@ -6096,12 +7120,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": "local",
-      "contents": null
+      "contents": null,
+      "subcategory": "Cleaning supplies",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Cleaning supplies"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Precision dispensing bottle",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Separate bottle for dispensing glue remover.",
       "tags": [
         "Unverified",
@@ -6124,12 +7156,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": "local",
-      "contents": null
+      "contents": null,
+      "subcategory": "Cleaning supplies",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Cleaning supplies"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "BS-02 repair brush",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Double-ended cleaning and repair brush.",
       "tags": [
         "BS-02",
@@ -6154,12 +7194,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": "local",
-      "contents": null
+      "contents": null,
+      "subcategory": "Cleaning supplies",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Cleaning supplies"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "amiciTools heat-insert soldering tip set",
-      "category": "Workshop",
+      "category": "Soldering & rework",
       "summary": "amiciTools heat-insert soldering tip set",
       "tags": [
         "Amazon"
@@ -6188,12 +7236,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Tips & attachments",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Soldering & rework",
+          "subcategory": "Tips & attachments"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "amiciSense mini thermometer / hygrometer",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "amiciSense mini thermometer / hygrometer",
       "tags": [
         "Amazon"
@@ -6214,12 +7270,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Measuring instruments",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Measuring instruments"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "X1CC / P1P build-plate glue stick",
-      "category": "Workshop",
+      "category": "3D printing",
       "summary": "X1CC / P1P build-plate glue stick",
       "tags": [
         "Amazon"
@@ -6240,12 +7304,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Build-plate supplies",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "Build-plate supplies"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Serplex filament vacuum kit with electric pump",
-      "category": "Workshop",
+      "category": "3D printing",
       "summary": "Serplex filament vacuum kit with electric pump",
       "tags": [
         "Amazon"
@@ -6267,12 +7339,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Filament storage",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "Filament storage"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Serplex heat-set insert tip kit",
-      "category": "Workshop",
+      "category": "Soldering & rework",
       "summary": "Serplex heat-set insert tip kit",
       "tags": [
         "Amazon"
@@ -6293,12 +7373,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Tips & attachments",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Soldering & rework",
+          "subcategory": "Tips & attachments"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Serplex 10-bag filament vacuum kit with manual pump",
-      "category": "Workshop",
+      "category": "3D printing",
       "summary": "Serplex 10-bag filament vacuum kit with manual pump",
       "tags": [
         "Returned",
@@ -6329,12 +7417,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Filament storage",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "Filament storage"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "Sunkizzrs deburring kit with 10 blades",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Sunkizzrs deburring kit with 10 blades",
       "tags": [
         "Amazon"
@@ -6355,12 +7451,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Hand tools",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Hand tools"
+        }
+      ]
     },
     {
       "catalogueId": "tools-and-consumables",
       "name": "ApTechDeals hot glue gun · B07LDC4ZGK",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "ApTechDeals hot glue gun · B07LDC4ZGK",
       "tags": [
         "Gift"
@@ -6389,12 +7493,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Adhesives & applicators",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Adhesives & applicators"
+        }
+      ]
     },
     {
       "catalogueId": "input-controls",
       "name": "KY-040 rotary encoders",
-      "category": "Accessories",
+      "category": "Sensors & input",
       "summary": "Quadrature rotary-encoder modules.",
       "tags": [
         "KY-040",
@@ -6432,12 +7544,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Buttons & encoders",
+      "legacyCategory": "Accessories",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Buttons & encoders"
+        }
+      ]
     },
     {
       "catalogueId": "input-controls",
       "name": "Red momentary push buttons",
-      "category": "Accessories",
+      "category": "Sensors & input",
       "summary": "Pack of red push-button switches.",
       "tags": [
         "Momentary push button",
@@ -6468,12 +7588,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Buttons & encoders",
+      "legacyCategory": "Accessories",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Buttons & encoders"
+        }
+      ]
     },
     {
       "catalogueId": "input-controls",
       "name": "Micro push-button assortment",
-      "category": "Accessories",
+      "category": "Sensors & input",
       "summary": "Assorted miniature tactile switches.",
       "tags": [
         "Unverified",
@@ -6519,12 +7647,20 @@
           "Quantity per switch type"
         ],
         "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/input-controls/README.md"
-      }
+      },
+      "subcategory": "Buttons & encoders",
+      "legacyCategory": "Accessories",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Buttons & encoders"
+        }
+      ]
     },
     {
       "id": "seeed-a02-antenna",
       "name": "Seeed A-02 antenna",
-      "category": "Accessories",
+      "category": "Controllers & computing",
       "summary": "A 2.4 GHz FPC antenna, recorded separately from board bundles.",
       "tags": [
         "2.4 GHz",
@@ -6563,12 +7699,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Antennas",
+      "legacyCategory": "Accessories",
+      "categoryPaths": [
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Antennas"
+        }
+      ]
     },
     {
       "id": "seeed-xiao-heatsink",
       "name": "XIAO heat sinks",
-      "category": "Accessories",
+      "category": "Controllers & computing",
       "summary": "Small aluminum heat sinks purchased in two-piece packs.",
       "tags": [
         "Aluminum",
@@ -6600,12 +7744,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Heat sinks",
+      "legacyCategory": "Accessories",
+      "categoryPaths": [
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Heat sinks"
+        }
+      ]
     },
     {
       "catalogueId": "netgear-orbi-rbr50",
       "name": "NETGEAR Orbi RBR50 router",
-      "category": "Connected devices",
+      "category": "Smart home & networking",
       "summary": "The router in the recorded Orbi mesh system.",
       "tags": [
         "RBR50",
@@ -6635,12 +7787,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/netgear-orbi-rbr50/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Routers & mesh nodes",
+      "legacyCategory": "Connected devices",
+      "categoryPaths": [
+        {
+          "category": "Smart home & networking",
+          "subcategory": "Routers & mesh nodes"
+        }
+      ]
     },
     {
       "catalogueId": "netgear-orbi-rbr50",
       "name": "NETGEAR Orbi satellites",
-      "category": "Connected devices",
+      "category": "Smart home & networking",
       "summary": "The two satellites recorded alongside the Orbi router.",
       "tags": [
         "NETGEAR Orbi",
@@ -6665,12 +7825,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/netgear-orbi-rbr50/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Routers & mesh nodes",
+      "legacyCategory": "Connected devices",
+      "categoryPaths": [
+        {
+          "category": "Smart home & networking",
+          "subcategory": "Routers & mesh nodes"
+        }
+      ]
     },
     {
       "catalogueId": "wiz-neo-b22",
       "name": "Philips WiZ Neo B22 RGB bulbs",
-      "category": "Connected devices",
+      "category": "Smart home & networking",
       "summary": "The confirmed B22 variant of the recorded WiZ bulbs.",
       "tags": [
         "B22",
@@ -6702,12 +7870,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Smart lighting",
+      "legacyCategory": "Connected devices",
+      "categoryPaths": [
+        {
+          "category": "Smart home & networking",
+          "subcategory": "Smart lighting"
+        }
+      ]
     },
     {
       "catalogueId": "wiz-neo-b22",
       "name": "Philips WiZ bulbs — model unconfirmed",
-      "category": "Connected devices",
+      "category": "Smart home & networking",
       "summary": "Two additional WiZ bulbs whose retail model and base were not recorded.",
       "tags": [
         "Philips WiZ",
@@ -6732,12 +7908,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/wiz-neo-b22/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Smart lighting",
+      "legacyCategory": "Connected devices",
+      "categoryPaths": [
+        {
+          "category": "Smart home & networking",
+          "subcategory": "Smart lighting"
+        }
+      ]
     },
     {
       "id": "tuya-amazon-basics-bulbs",
       "name": "Amazon Basics smart bulbs",
-      "category": "Connected devices",
+      "category": "Smart home & networking",
       "summary": "Wi-Fi smart bulbs from the Tuya device family.",
       "tags": [
         "Wi-Fi",
@@ -6769,12 +7953,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Smart lighting",
+      "legacyCategory": "Connected devices",
+      "categoryPaths": [
+        {
+          "category": "Smart home & networking",
+          "subcategory": "Smart lighting"
+        }
+      ]
     },
     {
       "catalogueId": "qubo-smart-devices",
       "name": "Qubo smart plugs",
-      "category": "Connected devices",
+      "category": "Smart home & networking",
       "summary": "Qubo plugs listed in the historical device inventory.",
       "tags": [
         "Qubo",
@@ -6800,12 +7992,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/qubo-smart-devices/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Smart plugs",
+      "legacyCategory": "Connected devices",
+      "categoryPaths": [
+        {
+          "category": "Smart home & networking",
+          "subcategory": "Smart plugs"
+        }
+      ]
     },
     {
       "catalogueId": "qubo-smart-devices",
       "name": "Qubo smart bulbs",
-      "category": "Connected devices",
+      "category": "Smart home & networking",
       "summary": "Qubo bulbs listed in the historical device inventory.",
       "tags": [
         "Qubo",
@@ -6831,12 +8031,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/qubo-smart-devices/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Smart lighting",
+      "legacyCategory": "Connected devices",
+      "categoryPaths": [
+        {
+          "category": "Smart home & networking",
+          "subcategory": "Smart lighting"
+        }
+      ]
     },
     {
       "id": "cilicant-silica-gel-5g",
       "name": "CILICAnT 5 g silica-gel sachets",
-      "category": "Fabrication",
+      "category": "3D printing",
       "summary": "Orange indicating silica-gel sachets for moisture absorption, supplied as one 200-sachet pack.",
       "tags": [
         "Desiccant",
@@ -6869,12 +8077,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Filament storage",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "Filament storage"
+        }
+      ]
     },
     {
       "id": "lifelong-lletk09",
       "name": "Lifelong LLETK09 precision screwdriver set",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "A magnetic precision screwdriver set with extendable and flexible shafts, sold as a 62-in-1 kit.",
       "tags": [
         "Precision tools",
@@ -6909,12 +8125,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Screwdrivers & toolkits",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Screwdrivers & toolkits"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "PU-coated black safety gloves",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Black coated workshop gloves; ordered-unit pack basis is unconfirmed.",
       "tags": [
         "Safety gloves",
@@ -6941,12 +8165,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Safety & extraction",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Safety & extraction"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "Prima polycarbonate safety goggles",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "Polycarbonate protective eyewear sold under the Prima name.",
       "tags": [
         "Safety goggles",
@@ -6974,12 +8206,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Safety & extraction",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Safety & extraction"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "SS304 compression spring · 10 × 20 mm",
-      "category": "Fabrication",
+      "category": "Mechanical hardware",
       "summary": "Stainless-steel compression springs in the recorded supplier dimensions.",
       "tags": [
         "Compression spring",
@@ -7007,12 +8247,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Springs",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Springs"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "SS304 compression spring · 8 × 15 mm",
-      "category": "Fabrication",
+      "category": "Mechanical hardware",
       "summary": "Stainless-steel compression springs in the recorded supplier dimensions.",
       "tags": [
         "Compression spring",
@@ -7040,12 +8288,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Springs",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Springs"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "SS304 compression spring · 6 × 15 mm",
-      "category": "Fabrication",
+      "category": "Mechanical hardware",
       "summary": "Stainless-steel compression springs in the recorded supplier dimensions.",
       "tags": [
         "Compression spring",
@@ -7073,12 +8329,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Springs",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Springs"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "SS304 compression spring · 5 × 10 mm",
-      "category": "Fabrication",
+      "category": "Mechanical hardware",
       "summary": "Stainless-steel compression springs in the recorded supplier dimensions.",
       "tags": [
         "Compression spring",
@@ -7106,12 +8370,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Springs",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Springs"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "SS304 compression spring · 4 × 10 mm",
-      "category": "Fabrication",
+      "category": "Mechanical hardware",
       "summary": "Stainless-steel compression springs in the recorded supplier dimensions.",
       "tags": [
         "Compression spring",
@@ -7139,12 +8411,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Springs",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Springs"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "White nylon cable ties · 3.6 × 300 mm",
-      "category": "Cables & connectors",
+      "category": "Wiring & connections",
       "summary": "White self-locking nylon ties for cable management.",
       "tags": [
         "Cable ties",
@@ -7172,12 +8452,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Insulation & cable management",
+      "legacyCategory": "Cables & connectors",
+      "categoryPaths": [
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Insulation & cable management"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "White nylon cable ties · 3.6 × 250 mm",
-      "category": "Cables & connectors",
+      "category": "Wiring & connections",
       "summary": "White self-locking nylon ties for cable management.",
       "tags": [
         "Cable ties",
@@ -7205,12 +8493,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Insulation & cable management",
+      "legacyCategory": "Cables & connectors",
+      "categoryPaths": [
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Insulation & cable management"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "White nylon cable ties · 3.6 × 200 mm",
-      "category": "Cables & connectors",
+      "category": "Wiring & connections",
       "summary": "White self-locking nylon ties for cable management.",
       "tags": [
         "Cable ties",
@@ -7238,12 +8534,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Insulation & cable management",
+      "legacyCategory": "Cables & connectors",
+      "categoryPaths": [
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Insulation & cable management"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "White nylon cable ties · 3.6 × 150 mm",
-      "category": "Cables & connectors",
+      "category": "Wiring & connections",
       "summary": "White self-locking nylon ties for cable management.",
       "tags": [
         "Cable ties",
@@ -7271,12 +8575,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Insulation & cable management",
+      "legacyCategory": "Cables & connectors",
+      "categoryPaths": [
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Insulation & cable management"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "White nylon cable ties · 2.5 × 100 mm",
-      "category": "Cables & connectors",
+      "category": "Wiring & connections",
       "summary": "White self-locking nylon ties for cable management.",
       "tags": [
         "Cable ties",
@@ -7304,12 +8616,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Insulation & cable management",
+      "legacyCategory": "Cables & connectors",
+      "categoryPaths": [
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Insulation & cable management"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "N35 bar magnets · 10 × 10 × 2 mm",
-      "category": "Fabrication",
+      "category": "Mechanical hardware",
       "summary": "Rectangular neodymium magnets, supplier grade N35.",
       "tags": [
         "N35",
@@ -7336,12 +8656,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Magnets",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Magnets"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "N35 bar magnets · 20 × 10 × 2 mm",
-      "category": "Fabrication",
+      "category": "Mechanical hardware",
       "summary": "Rectangular neodymium magnets, supplier grade N35.",
       "tags": [
         "N35",
@@ -7372,12 +8700,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Magnets",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Magnets"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "N35 bar magnets · 10 × 5 × 2 mm",
-      "category": "Fabrication",
+      "category": "Mechanical hardware",
       "summary": "Rectangular neodymium magnets, supplier grade N35.",
       "tags": [
         "N35",
@@ -7404,12 +8740,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Magnets",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Magnets"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "N35 disc magnets · Ø4 × 2 mm",
-      "category": "Fabrication",
+      "category": "Mechanical hardware",
       "summary": "Disc-shaped neodymium magnets, supplier grade N35.",
       "tags": [
         "N35",
@@ -7437,12 +8781,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Magnets",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Magnets"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "N35 disc magnets · Ø5 × 3 mm",
-      "category": "Fabrication",
+      "category": "Mechanical hardware",
       "summary": "Disc-shaped neodymium magnets, supplier grade N35.",
       "tags": [
         "N35",
@@ -7470,12 +8822,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Magnets",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Magnets"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "N35 disc magnets · Ø10 × 2 mm",
-      "category": "Fabrication",
+      "category": "Mechanical hardware",
       "summary": "Disc-shaped neodymium magnets, supplier grade N35.",
       "tags": [
         "N35",
@@ -7503,12 +8863,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Magnets",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Magnets"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "N35 disc magnets · Ø8 × 3 mm",
-      "category": "Fabrication",
+      "category": "Mechanical hardware",
       "summary": "Disc-shaped neodymium magnets, supplier grade N35.",
       "tags": [
         "N35",
@@ -7536,12 +8904,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Magnets",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Magnets"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "N35 disc magnets · Ø6 × 3 mm",
-      "category": "Fabrication",
+      "category": "Mechanical hardware",
       "summary": "Disc-shaped neodymium magnets, supplier grade N35.",
       "tags": [
         "N35",
@@ -7569,12 +8945,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Magnets",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Magnets"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "M2 SS304 washer · ID 2.1 / OD 5 / T 0.5 mm",
-      "category": "Fasteners",
+      "category": "Mechanical hardware",
       "summary": "M2 SS304 washer · ID 2.1 / OD 5 / T 0.5 mm",
       "tags": [
         "OnlyScrews"
@@ -7596,12 +8980,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Nuts & washers",
+      "legacyCategory": "Fasteners",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Nuts & washers"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "M2 SS304 hex nut",
-      "category": "Fasteners",
+      "category": "Mechanical hardware",
       "summary": "M2 SS304 hex nut",
       "tags": [
         "OnlyScrews"
@@ -7623,12 +9015,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Nuts & washers",
+      "legacyCategory": "Fasteners",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Nuts & washers"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "M2 × 20 mm Phillips pan-head SS304 screw",
-      "category": "Fasteners",
+      "category": "Mechanical hardware",
       "summary": "M2 × 20 mm Phillips pan-head SS304 screw",
       "tags": [
         "OnlyScrews"
@@ -7650,12 +9050,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Screws & bolts",
+      "legacyCategory": "Fasteners",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Screws & bolts"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "M2 × 16 mm Phillips pan-head SS304 screw",
-      "category": "Fasteners",
+      "category": "Mechanical hardware",
       "summary": "M2 × 16 mm Phillips pan-head SS304 screw",
       "tags": [
         "OnlyScrews"
@@ -7677,12 +9085,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Screws & bolts",
+      "legacyCategory": "Fasteners",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Screws & bolts"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "M2 × 12 mm Phillips pan-head SS304 screw",
-      "category": "Fasteners",
+      "category": "Mechanical hardware",
       "summary": "M2 × 12 mm Phillips pan-head SS304 screw",
       "tags": [
         "OnlyScrews"
@@ -7704,12 +9120,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Screws & bolts",
+      "legacyCategory": "Fasteners",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Screws & bolts"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "M2 × 10 mm Phillips pan-head SS304 screw",
-      "category": "Fasteners",
+      "category": "Mechanical hardware",
       "summary": "M2 × 10 mm Phillips pan-head SS304 screw",
       "tags": [
         "OnlyScrews"
@@ -7731,12 +9155,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Screws & bolts",
+      "legacyCategory": "Fasteners",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Screws & bolts"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "M2 × 8 mm Phillips pan-head SS304 screw",
-      "category": "Fasteners",
+      "category": "Mechanical hardware",
       "summary": "M2 × 8 mm Phillips pan-head SS304 screw",
       "tags": [
         "OnlyScrews"
@@ -7758,12 +9190,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Screws & bolts",
+      "legacyCategory": "Fasteners",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Screws & bolts"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "M2 × 6 mm Phillips pan-head SS304 screw",
-      "category": "Fasteners",
+      "category": "Mechanical hardware",
       "summary": "M2 × 6 mm Phillips pan-head SS304 screw",
       "tags": [
         "OnlyScrews"
@@ -7785,12 +9225,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Screws & bolts",
+      "legacyCategory": "Fasteners",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Screws & bolts"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "M2 × 5 mm Phillips pan-head SS304 screw",
-      "category": "Fasteners",
+      "category": "Mechanical hardware",
       "summary": "M2 × 5 mm Phillips pan-head SS304 screw",
       "tags": [
         "OnlyScrews"
@@ -7812,12 +9260,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Screws & bolts",
+      "legacyCategory": "Fasteners",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Screws & bolts"
+        }
+      ]
     },
     {
       "catalogueId": "onlyscrews-workshop-supplies",
       "name": "M2 × 4 mm Phillips pan-head SS304 screw",
-      "category": "Fasteners",
+      "category": "Mechanical hardware",
       "summary": "M2 × 4 mm Phillips pan-head SS304 screw",
       "tags": [
         "OnlyScrews"
@@ -7839,12 +9295,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Screws & bolts",
+      "legacyCategory": "Fasteners",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Screws & bolts"
+        }
+      ]
     },
     {
       "id": "zh-04y-4pin-cable",
       "name": "ZH-04Y 4-pin cable, 1.5 mm pitch",
-      "category": "Cables & connectors",
+      "category": "Wiring & connections",
       "summary": "Four-pin female housing with a 300 mm wire harness, advertised 1.5 mm pitch and 28 AWG.",
       "tags": [
         "ZH-04Y",
@@ -7872,7 +9336,15 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/zh-04y-4pin-cable/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Connector harnesses",
+      "legacyCategory": "Cables & connectors",
+      "categoryPaths": [
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Connector harnesses"
+        }
+      ]
     },
     {
       "id": "bonka-1000mah-1s-lipo",
@@ -7905,7 +9377,15 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bonka-1000mah-1s-lipo/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Battery packs",
+      "legacyCategory": "Power",
+      "categoryPaths": [
+        {
+          "category": "Power",
+          "subcategory": "Battery packs"
+        }
+      ]
     },
     {
       "id": "bonka-1500mah-1s-lipo",
@@ -7938,14 +9418,22 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bonka-1500mah-1s-lipo/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Battery packs",
+      "legacyCategory": "Power",
+      "categoryPaths": [
+        {
+          "category": "Power",
+          "subcategory": "Battery packs"
+        }
+      ]
     }
   ],
   "families": [
     {
       "id": "xiao-esp32s3-seeed",
       "name": "XIAO ESP32-S3",
-      "category": "Compute",
+      "category": "Controllers & computing",
       "summary": "A tiny, native-USB board for connected projects. The regular S3 variant.",
       "tags": [
         "Wi-Fi + BLE",
@@ -8002,12 +9490,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Microcontrollers",
+      "legacyCategory": "Compute",
+      "categoryPaths": [
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Microcontrollers"
+        }
+      ]
     },
     {
       "id": "hlk-ld2450-radar",
       "name": "HLK-LD2450",
-      "category": "Sensors",
+      "category": "Sensors & input",
       "summary": "Track position and movement for up to three targets with 24 GHz radar.",
       "tags": [
         "24 GHz",
@@ -8058,7 +9554,15 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Presence & motion",
+      "legacyCategory": "Sensors",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Presence & motion"
+        }
+      ]
     },
     {
       "id": "waveshare-213-epaper-hat-plus",
@@ -8120,12 +9624,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "E-paper",
+      "legacyCategory": "Displays",
+      "categoryPaths": [
+        {
+          "category": "Displays",
+          "subcategory": "E-paper"
+        }
+      ]
     },
     {
       "id": "sht41-7semi",
       "name": "7Semi SHT41",
-      "category": "Sensors",
+      "category": "Sensors & input",
       "summary": "Temperature and humidity sensing on a compact Qwiic breakout.",
       "tags": [
         "I²C",
@@ -8188,12 +9700,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Temperature & humidity",
+      "legacyCategory": "Sensors",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Temperature & humidity"
+        }
+      ]
     },
     {
       "id": "xiao-esp32s3-plus-seeed",
       "name": "XIAO ESP32-S3 Plus",
-      "category": "Compute",
+      "category": "Controllers & computing",
       "summary": "The separately catalogued Plus board from Seeed Studio.",
       "tags": [
         "Wi-Fi + BLE",
@@ -8226,12 +9746,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Microcontrollers",
+      "legacyCategory": "Compute",
+      "categoryPaths": [
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Microcontrollers"
+        }
+      ]
     },
     {
       "id": "bambu-x2d-combo-eu",
       "name": "Bambu Lab X2D Combo EU",
-      "category": "Fabrication",
+      "category": "3D printing",
       "summary": "Received workshop 3D printer, recorded under its invoiced model name.",
       "tags": [
         "3D printing",
@@ -8257,12 +9785,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-x2d-combo-eu/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Printers",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "Printers"
+        }
+      ]
     },
     {
       "id": "raspberry-pi-5",
       "name": "Raspberry Pi 5",
-      "category": "Compute",
+      "category": "Controllers & computing",
       "summary": "A single-board computer for host applications and connected hardware.",
       "tags": [
         "SBC",
@@ -8294,12 +9830,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/raspberry-pi-5/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Single-board computers",
+      "legacyCategory": "Compute",
+      "categoryPaths": [
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Single-board computers"
+        }
+      ]
     },
     {
       "id": "esp32-devkit-7semi",
       "name": "7Semi ESP32 DevKit",
-      "category": "Compute",
+      "category": "Controllers & computing",
       "summary": "Two distinct 38-pin variants with USB-C and a CP2102 serial bridge.",
       "tags": [
         "ESP32",
@@ -8348,12 +9892,24 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/esp32-devkit-7semi/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "legacyCategory": "Compute",
+      "categoryPaths": [
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Microcontrollers"
+        },
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Antennas"
+        }
+      ],
+      "subcategory": null
     },
     {
       "id": "bh1750-gy302-lux",
       "name": "GY-302 / BH1750",
-      "category": "Sensors",
+      "category": "Sensors & input",
       "summary": "Ambient light measurements from a small ROHM-based breakout.",
       "tags": [
         "I²C",
@@ -8398,12 +9954,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Light sensors",
+      "legacyCategory": "Sensors",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Light sensors"
+        }
+      ]
     },
     {
       "id": "hlk-ld2410c-radar",
       "name": "HLK-LD2410C-P",
-      "category": "Sensors",
+      "category": "Sensors & input",
       "summary": "24 GHz presence sensing with moving and stationary detection.",
       "tags": [
         "24 GHz",
@@ -8448,12 +10012,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Presence & motion",
+      "legacyCategory": "Sensors",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Presence & motion"
+        }
+      ]
     },
     {
       "id": "dht22-am2302",
       "name": "DHT22 / AM2302",
-      "category": "Sensors",
+      "category": "Sensors & input",
       "summary": "Temperature and humidity sensor modules with a digital interface.",
       "tags": [
         "Temperature + RH",
@@ -8491,7 +10063,15 @@
         }
       ],
       "purchaseSource": "local",
-      "contents": null
+      "contents": null,
+      "subcategory": "Temperature & humidity",
+      "legacyCategory": "Sensors",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Temperature & humidity"
+        }
+      ]
     },
     {
       "id": "waveshare-101-dsi-lcd-c",
@@ -8571,7 +10151,15 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "LCD & TFT panels",
+      "legacyCategory": "Displays",
+      "categoryPaths": [
+        {
+          "category": "Displays",
+          "subcategory": "LCD & TFT panels"
+        }
+      ]
     },
     {
       "id": "oled-displays",
@@ -8618,7 +10206,15 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/oled-displays/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "legacyCategory": "Displays",
+      "categoryPaths": [
+        {
+          "category": "Displays",
+          "subcategory": "OLED modules"
+        }
+      ],
+      "subcategory": "OLED modules"
     },
     {
       "id": "aliexpress-displays",
@@ -8653,7 +10249,23 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-displays/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "legacyCategory": "Displays",
+      "categoryPaths": [
+        {
+          "category": "Displays",
+          "subcategory": "LCD & TFT panels"
+        },
+        {
+          "category": "Displays",
+          "subcategory": "OLED modules"
+        },
+        {
+          "category": "Displays",
+          "subcategory": "Display development boards"
+        }
+      ],
+      "subcategory": null
     },
     {
       "id": "wly104050-lipo",
@@ -8689,7 +10301,15 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Battery packs",
+      "legacyCategory": "Power",
+      "categoryPaths": [
+        {
+          "category": "Power",
+          "subcategory": "Battery packs"
+        }
+      ]
     },
     {
       "id": "tp4056-charger",
@@ -8732,12 +10352,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Battery chargers",
+      "legacyCategory": "Power",
+      "categoryPaths": [
+        {
+          "category": "Power",
+          "subcategory": "Battery chargers"
+        }
+      ]
     },
     {
       "id": "bambu-filaments",
       "name": "Bambu Lab filaments",
-      "category": "Fabrication",
+      "category": "3D printing",
       "summary": "Bambu filament purchases across PLA, PETG and ASA, recorded by exact material, colour and format.",
       "tags": [
         "Filament",
@@ -8809,12 +10437,28 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "PLA filament"
+        },
+        {
+          "category": "3D printing",
+          "subcategory": "ASA filament"
+        },
+        {
+          "category": "3D printing",
+          "subcategory": "PETG filament"
+        }
+      ],
+      "subcategory": null
     },
     {
       "id": "yihua-workshop-tools",
       "name": "YIHUA workshop tools",
-      "category": "Workshop",
+      "category": "Mixed collection",
       "summary": "Hot-air rework, heated desoldering and a standalone fume extractor.",
       "tags": [
         "Rework",
@@ -8862,12 +10506,24 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/yihua-workshop-tools/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Soldering & rework",
+          "subcategory": "Soldering & desoldering equipment"
+        },
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Safety & extraction"
+        }
+      ],
+      "subcategory": null
     },
     {
       "id": "aliexpress-prototyping-stock",
       "name": "Prototyping supplies",
-      "category": "Workshop",
+      "category": "Mixed collection",
       "summary": "Passives, prototype boards, connector breakouts and fastener assortments.",
       "tags": [
         "Passives",
@@ -8897,12 +10553,52 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Threaded inserts"
+        },
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Mixed fastener kits"
+        },
+        {
+          "category": "Components & prototyping",
+          "subcategory": "Passive components"
+        },
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Connector breakout boards"
+        },
+        {
+          "category": "Components & prototyping",
+          "subcategory": "Prototype boards & copper-clad"
+        },
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Measuring instruments"
+        },
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Hand tools"
+        },
+        {
+          "category": "Soldering & rework",
+          "subcategory": "Solder, flux & wick"
+        },
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Adhesives & applicators"
+        }
+      ],
+      "subcategory": null
     },
     {
       "id": "tools-and-consumables",
       "name": "Bench tools & consumables",
-      "category": "Workshop",
+      "category": "Mixed collection",
       "summary": "Soldering, cleaning, hand tools and assembly supplies.",
       "tags": [
         "Soldering",
@@ -8924,12 +10620,132 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Screws & bolts"
+        },
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Threaded inserts"
+        },
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Nuts & washers"
+        },
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Standoffs & spacers"
+        },
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Wire & ribbon cable"
+        },
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Jumper & test leads"
+        },
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Pin headers"
+        },
+        {
+          "category": "Wiring & connections",
+          "subcategory": "USB cables"
+        },
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Insulation & cable management"
+        },
+        {
+          "category": "Components & prototyping",
+          "subcategory": "Prototype boards & copper-clad"
+        },
+        {
+          "category": "Components & prototyping",
+          "subcategory": "Breadboards"
+        },
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Programming adapters"
+        },
+        {
+          "category": "Power",
+          "subcategory": "Voltage regulators"
+        },
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Microcontrollers"
+        },
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Antennas"
+        },
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Storage & readers"
+        },
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Measuring instruments"
+        },
+        {
+          "category": "Soldering & rework",
+          "subcategory": "Soldering & desoldering equipment"
+        },
+        {
+          "category": "Soldering & rework",
+          "subcategory": "Stands, mats & tip care"
+        },
+        {
+          "category": "Soldering & rework",
+          "subcategory": "Tips & attachments"
+        },
+        {
+          "category": "Soldering & rework",
+          "subcategory": "Solder, flux & wick"
+        },
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Hand tools"
+        },
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Bench aids"
+        },
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Drilling & drill bits"
+        },
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Screwdrivers & toolkits"
+        },
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Cleaning supplies"
+        },
+        {
+          "category": "3D printing",
+          "subcategory": "Build-plate supplies"
+        },
+        {
+          "category": "3D printing",
+          "subcategory": "Filament storage"
+        },
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Adhesives & applicators"
+        }
+      ],
+      "subcategory": null
     },
     {
       "id": "input-controls",
       "name": "Encoders & push buttons",
-      "category": "Accessories",
+      "category": "Sensors & input",
       "summary": "KY-040 rotary encoders and momentary switch assortments.",
       "tags": [
         "Input",
@@ -8959,12 +10775,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/input-controls/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "legacyCategory": "Accessories",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Buttons & encoders"
+        }
+      ],
+      "subcategory": "Buttons & encoders"
     },
     {
       "id": "seeed-a02-antenna",
       "name": "Seeed A-02 antenna",
-      "category": "Accessories",
+      "category": "Controllers & computing",
       "summary": "A 2.4 GHz FPC antenna, recorded separately from board bundles.",
       "tags": [
         "2.4 GHz",
@@ -9003,12 +10827,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Antennas",
+      "legacyCategory": "Accessories",
+      "categoryPaths": [
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Antennas"
+        }
+      ]
     },
     {
       "id": "seeed-xiao-heatsink",
       "name": "XIAO heat sinks",
-      "category": "Accessories",
+      "category": "Controllers & computing",
       "summary": "Small aluminum heat sinks purchased in two-piece packs.",
       "tags": [
         "Aluminum",
@@ -9040,12 +10872,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Heat sinks",
+      "legacyCategory": "Accessories",
+      "categoryPaths": [
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Heat sinks"
+        }
+      ]
     },
     {
       "id": "netgear-orbi-rbr50",
       "name": "NETGEAR Orbi RBR50",
-      "category": "Connected devices",
+      "category": "Smart home & networking",
       "summary": "Router and satellite networking hardware with an archived user manual.",
       "tags": [
         "Networking",
@@ -9075,12 +10915,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/netgear-orbi-rbr50/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "legacyCategory": "Connected devices",
+      "categoryPaths": [
+        {
+          "category": "Smart home & networking",
+          "subcategory": "Routers & mesh nodes"
+        }
+      ],
+      "subcategory": "Routers & mesh nodes"
     },
     {
       "id": "wiz-neo-b22",
       "name": "Philips WiZ Neo",
-      "category": "Connected devices",
+      "category": "Smart home & networking",
       "summary": "B22 RGB smart-lighting hardware.",
       "tags": [
         "WiZ",
@@ -9103,12 +10951,20 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/wiz-neo-b22/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "legacyCategory": "Connected devices",
+      "categoryPaths": [
+        {
+          "category": "Smart home & networking",
+          "subcategory": "Smart lighting"
+        }
+      ],
+      "subcategory": "Smart lighting"
     },
     {
       "id": "tuya-amazon-basics-bulbs",
       "name": "Amazon Basics smart bulbs",
-      "category": "Connected devices",
+      "category": "Smart home & networking",
       "summary": "Wi-Fi smart bulbs from the Tuya device family.",
       "tags": [
         "Wi-Fi",
@@ -9140,12 +10996,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Smart lighting",
+      "legacyCategory": "Connected devices",
+      "categoryPaths": [
+        {
+          "category": "Smart home & networking",
+          "subcategory": "Smart lighting"
+        }
+      ]
     },
     {
       "id": "qubo-smart-devices",
       "name": "Qubo smart plugs & bulbs",
-      "category": "Connected devices",
+      "category": "Smart home & networking",
       "summary": "Plugs and bulbs from the historical device inventory.",
       "tags": [
         "Qubo"
@@ -9166,12 +11030,24 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/qubo-smart-devices/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "legacyCategory": "Connected devices",
+      "categoryPaths": [
+        {
+          "category": "Smart home & networking",
+          "subcategory": "Smart plugs"
+        },
+        {
+          "category": "Smart home & networking",
+          "subcategory": "Smart lighting"
+        }
+      ],
+      "subcategory": null
     },
     {
       "id": "cilicant-silica-gel-5g",
       "name": "CILICAnT 5 g silica-gel sachets",
-      "category": "Fabrication",
+      "category": "3D printing",
       "summary": "Orange indicating silica-gel sachets for moisture absorption, supplied as one 200-sachet pack.",
       "tags": [
         "Desiccant",
@@ -9204,12 +11080,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Filament storage",
+      "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "Filament storage"
+        }
+      ]
     },
     {
       "id": "lifelong-lletk09",
       "name": "Lifelong LLETK09 precision screwdriver set",
-      "category": "Workshop",
+      "category": "Tools & workshop",
       "summary": "A magnetic precision screwdriver set with extendable and flexible shafts, sold as a 62-in-1 kit.",
       "tags": [
         "Precision tools",
@@ -9244,12 +11128,20 @@
         }
       ],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Screwdrivers & toolkits",
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Screwdrivers & toolkits"
+        }
+      ]
     },
     {
       "id": "onlyscrews-workshop-supplies",
       "name": "OnlyScrews workshop supplies",
-      "category": "Workshop",
+      "category": "Mixed collection",
       "summary": "Magnets, compression springs, cable ties and protective workshop supplies.",
       "tags": [
         "OnlyScrews"
@@ -9270,12 +11162,40 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "legacyCategory": "Workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Safety & extraction"
+        },
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Springs"
+        },
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Insulation & cable management"
+        },
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Magnets"
+        },
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Nuts & washers"
+        },
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Screws & bolts"
+        }
+      ],
+      "subcategory": null
     },
     {
       "id": "zh-04y-4pin-cable",
       "name": "ZH-04Y 4-pin cable, 1.5 mm pitch",
-      "category": "Cables & connectors",
+      "category": "Wiring & connections",
       "summary": "Four-pin female housing with a 300 mm wire harness, advertised 1.5 mm pitch and 28 AWG.",
       "tags": [
         "ZH-04Y",
@@ -9303,7 +11223,15 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/zh-04y-4pin-cable/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Connector harnesses",
+      "legacyCategory": "Cables & connectors",
+      "categoryPaths": [
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Connector harnesses"
+        }
+      ]
     },
     {
       "id": "bonka-1000mah-1s-lipo",
@@ -9336,7 +11264,15 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bonka-1000mah-1s-lipo/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Battery packs",
+      "legacyCategory": "Power",
+      "categoryPaths": [
+        {
+          "category": "Power",
+          "subcategory": "Battery packs"
+        }
+      ]
     },
     {
       "id": "bonka-1500mah-1s-lipo",
@@ -9369,7 +11305,140 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bonka-1500mah-1s-lipo/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null
+      "contents": null,
+      "subcategory": "Battery packs",
+      "legacyCategory": "Power",
+      "categoryPaths": [
+        {
+          "category": "Power",
+          "subcategory": "Battery packs"
+        }
+      ]
     }
-  ]
+  ],
+  "taxonomy": {
+    "categories": [
+      {
+        "name": "Controllers & computing",
+        "subcategories": [
+          "Microcontrollers",
+          "Single-board computers",
+          "Programming adapters",
+          "Antennas",
+          "Storage & readers",
+          "Heat sinks"
+        ]
+      },
+      {
+        "name": "Sensors & input",
+        "subcategories": [
+          "Presence & motion",
+          "Temperature & humidity",
+          "Light sensors",
+          "Buttons & encoders"
+        ]
+      },
+      {
+        "name": "Displays",
+        "subcategories": [
+          "OLED modules",
+          "LCD & TFT panels",
+          "E-paper",
+          "Display development boards"
+        ]
+      },
+      {
+        "name": "Power",
+        "subcategories": [
+          "Battery packs",
+          "Battery chargers",
+          "Voltage regulators"
+        ]
+      },
+      {
+        "name": "Wiring & connections",
+        "subcategories": [
+          "Wire & ribbon cable",
+          "Jumper & test leads",
+          "USB cables",
+          "Connector harnesses",
+          "Pin headers",
+          "Connector breakout boards",
+          "Insulation & cable management"
+        ]
+      },
+      {
+        "name": "Components & prototyping",
+        "subcategories": [
+          "Passive components",
+          "Prototype boards & copper-clad",
+          "Breadboards"
+        ]
+      },
+      {
+        "name": "Mechanical hardware",
+        "subcategories": [
+          "Screws & bolts",
+          "Nuts & washers",
+          "Threaded inserts",
+          "Standoffs & spacers",
+          "Mixed fastener kits",
+          "Springs",
+          "Magnets"
+        ]
+      },
+      {
+        "name": "3D printing",
+        "subcategories": [
+          "Printers",
+          "PLA filament",
+          "PETG filament",
+          "ASA filament",
+          "Filament storage",
+          "Build-plate supplies"
+        ]
+      },
+      {
+        "name": "Soldering & rework",
+        "subcategories": [
+          "Soldering & desoldering equipment",
+          "Tips & attachments",
+          "Solder, flux & wick",
+          "Stands, mats & tip care"
+        ]
+      },
+      {
+        "name": "Tools & workshop",
+        "subcategories": [
+          "Measuring instruments",
+          "Hand tools",
+          "Drilling & drill bits",
+          "Screwdrivers & toolkits",
+          "Bench aids",
+          "Cleaning supplies",
+          "Adhesives & applicators",
+          "Safety & extraction"
+        ]
+      },
+      {
+        "name": "Smart home & networking",
+        "subcategories": [
+          "Smart lighting",
+          "Smart plugs",
+          "Routers & mesh nodes"
+        ]
+      }
+    ],
+    "legacyCategories": [
+      "Accessories",
+      "Cables & connectors",
+      "Compute",
+      "Connected devices",
+      "Fabrication",
+      "Fasteners",
+      "Prototyping",
+      "Sensors",
+      "Workshop"
+    ]
+  }
 }

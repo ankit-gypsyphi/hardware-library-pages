@@ -201,3 +201,29 @@ body:has(dialog[open]){overflow:hidden}
 @media(max-width:370px){.primary-nav .nav-button>span[data-icon]{display:none}.primary-nav .nav-button{font-size:11px;gap:5px}.nav-count{padding-inline:3px}.component-grid:not(.component-list){grid-template-columns:1fr}.card-art{height:118px}.card-art>svg{width:174px;height:118px}.card-title{font-size:14px}.toolbar{display:grid;grid-template-columns:1fr auto}.search-field{grid-column:1/-1;min-width:0}.filter{grid-column:1}.view-toggle{grid-column:2;grid-row:2/4}.section-heading .text-button{font-size:10px}.specs{grid-template-columns:1fr}.specs dt{border-bottom:0;padding-bottom:0}.specs dd{padding-left:0;padding-top:4px}.stock-grid{grid-template-columns:1fr 1fr}.stock-grid>div:last-child{grid-column:1/-1}}
 @media(pointer:coarse){.save-button{width:40px;height:40px}.view-toggle button{min-width:38px;min-height:38px}.category-button{min-height:44px}.dialog-close{width:42px;height:42px}.product-link,.reference-link{min-height:44px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+/* Category taxonomy: existing cards and drawer layout, with two browsing levels. */
+.category-button{min-width:0;align-items:flex-start}
+.category-button .count{flex:none;padding-top:1px}
+.category-button svg{margin-top:2px}
+.mobile-category{display:none}
+.category-breadcrumb{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:11px;color:var(--muted);margin:-8px 0 14px;line-height:1.5}
+.category-breadcrumb button{padding:4px 0;color:var(--accent)}
+.subcategory-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:15px;font-size:11px;color:var(--muted)}
+.subcategory-row select,.mobile-category select{min-height:40px;min-width:0;max-width:100%;padding:8px 30px 8px 10px;border:1px solid var(--line);border-radius:var(--radius);background:var(--panel);color:var(--ink);font-size:12px}
+.card-category{line-height:1.5;overflow-wrap:anywhere}
+@media(max-width:680px){
+ .sidebar-content{display:block;overflow:visible;padding:10px 0}
+ .sidebar-content>.category-button,.sidebar-content>#categories{display:none}
+ .mobile-category{display:flex;align-items:center;gap:12px;font-size:12px;color:var(--muted)}
+ .mobile-category select{width:100%;flex:1;min-height:44px;font-size:16px}
+ .subcategory-row{display:grid;grid-template-columns:1fr;margin-bottom:14px;gap:6px}
+ .subcategory-row select{width:100%;min-height:44px;font-size:16px}
+ .subcategory-row>span{font-size:10px}
+ .category-breadcrumb{font-size:11px;gap:6px}
+ .category-breadcrumb button{min-height:36px}
+}
+
+.classification-paths{margin:16px 0;font-size:12px;line-height:1.6;color:var(--muted)}
+.classification-paths summary{cursor:pointer;color:var(--accent);min-height:32px}
+.classification-paths ul{padding-left:20px}

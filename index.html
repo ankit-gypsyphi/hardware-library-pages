@@ -7,8 +7,8 @@
   <meta name="theme-color" content="#1b1e1d">
   <title>Hardware Library — Workshop inventory</title>
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=72b2b6fec7d8">
-  <script type="module" src="./app.mjs?v=72b2b6fec7d8"></script>
+  <link rel="stylesheet" href="./styles.css?v=4e73cf6175c3">
+  <script type="module" src="./app.mjs?v=4e73cf6175c3"></script>
 </head>
 <body id="top">
 <a class="skip" href="#catalogue">Skip to catalogue</a>
@@ -23,9 +23,10 @@
 </header>
 <aside class="sidebar" aria-label="Library navigation">
   <div class="sidebar-content">
-    <p class="nav-label">Drawers</p>
+    <p class="nav-label">Categories · total entries</p>
     <button class="nav-button category-button active" data-category-filter="" aria-pressed="true"><span data-icon="layers"></span>All categories</button>
     <nav id="categories" class="categories" aria-label="Component categories"></nav>
+    <label class="mobile-category">Category<select id="mobile-category"><option value="">All categories</option></select></label>
   </div>
   <a class="repo-link" href="https://github.com/ankit-gypsyphi/hardware-library" target="_blank" rel="noopener"><span data-icon="github"></span>Source record<span data-icon="external"></span></a>
 </aside>
@@ -33,6 +34,8 @@
   <main>
     <section class="catalogue" id="catalogue" aria-labelledby="catalogue-title">
       <div class="section-heading"><div><h1 id="catalogue-title">All components</h1><p id="scope-description">Components, specifications and source links.</p></div><button id="export-button" class="text-button"><span data-icon="download"></span>Export CSV</button></div>
+      <nav id="category-breadcrumb" class="category-breadcrumb" aria-label="Category breadcrumb" hidden></nav>
+      <div id="subcategory-row" class="subcategory-row" hidden><label for="subcategory">Subcategory</label><select id="subcategory"><option value="">All subcategories</option></select><span id="category-total"></span></div>
       <div class="toolbar">
         <div class="search-field"><span data-icon="search"></span><label class="sr-only" for="search">Search components</label><input id="search" type="search" placeholder="Search parts, interfaces, specifications…" autocomplete="off"><kbd>/</kbd></div>
         <label class="filter"><span class="sr-only">Record status</span><select id="status"><option value="">All record statuses</option><option value="recorded">Recorded balance</option><option value="incoming">Incoming</option><option value="unreconciled">Count unconfirmed</option></select></label>

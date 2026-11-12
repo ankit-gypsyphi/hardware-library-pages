@@ -1,5 +1,5 @@
-import {filterComponents,stockLabel,csvExport,viewItems} from './catalogue.mjs?v=72b2b6fec7d8';
-import {icon,artwork,categoryIcons} from './art.mjs?v=72b2b6fec7d8';
+import {filterComponents,stockLabel,csvExport,viewItems,resolveClassification,classificationLabel} from './catalogue.mjs?v=4e73cf6175c3';
+import {icon,artwork,categoryIcons} from './art.mjs?v=4e73cf6175c3';
 const $=s=>document.querySelector(s);
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const hydrateIcons=(root=document)=>root.querySelectorAll('[data-icon]').forEach(el=>el.innerHTML=icon(el.dataset.icon));
@@ -9,18 +9,44 @@ let data,shown=[],toastTimer,openerId;
 const stored=readStorage('hardware-library:saved',[]);
 let saved=Array.isArray(stored)?stored.filter(x=>typeof x==='string'):[];
 const params=new URLSearchParams(location.search);
-const state={query:params.get('q')||'',category:params.get('category')||'',status:params.get('status')||'',scope:params.get('view')||'catalogue',sort:params.get('sort')||'featured',layout:readStorage('hardware-library:layout','grid')};
+const state={query:params.get('q')||'',category:params.get('category')||'',subcategory:params.get('subcategory')||'',legacy:params.get('legacy')||'',status:params.get('status')||'',scope:params.get('view')||'catalogue',sort:params.get('sort')||'featured',layout:readStorage('hardware-library:layout','grid')};
 if(!['catalogue','references','saved'].includes(state.scope))state.scope='catalogue';
 if(!['','recorded','incoming','unreconciled'].includes(state.status))state.status='';
 if(!['featured','name','category'].includes(state.sort))state.sort='featured';
 if(!['grid','list'].includes(state.layout))state.layout='grid';
 function toast(text){$('#toast').textContent=text;$('#toast').classList.add('visible');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').classList.remove('visible'),2600);}
-function updateURL(){const url=new URL(location.href);for(const [key,value] of Object.entries({q:state.query,category:state.category,status:state.status,view:state.scope==='catalogue'?'':state.scope,sort:state.sort==='featured'?'':state.sort})){value?url.searchParams.set(key,value):url.searchParams.delete(key);}history.replaceState(null,'',url);}
+function updateURL(){const url=new URL(location.href);for(const [key,value] of Object.entries({q:state.query,category:state.category,subcategory:state.subcategory,legacy:state.legacy,status:state.status,view:state.scope==='catalogue'?'':state.scope,sort:state.sort==='featured'?'':state.sort})){value?url.searchParams.set(key,value):url.searchParams.delete(key);}history.replaceState(null,'',url);}
 function updateNavigation(){
  document.querySelectorAll('[data-scope]').forEach(b=>{const active=b.dataset.scope===state.scope;b.classList.toggle('active',active);b.setAttribute('aria-pressed',active);});
- document.querySelectorAll('[data-category-filter]').forEach(b=>{const active=b.dataset.categoryFilter===state.category;b.classList.toggle('active',active);b.setAttribute('aria-pressed',active);});
+ document.querySelectorAll('[data-category-filter]').forEach(b=>{const active=!state.legacy&&b.dataset.categoryFilter===state.category;b.classList.toggle('active',active);b.setAttribute('aria-pressed',active);});
  $('#saved-count').textContent=saved.length;
  $('#grid-view').setAttribute('aria-pressed',state.layout==='grid');$('#list-view').setAttribute('aria-pressed',state.layout==='list');
+}
+function selectCategory(category){
+ if(!data)return;
+ Object.assign(state,resolveClassification(data.taxonomy,{category}));render();
+}
+function renderClassification(){
+ const category=data.taxonomy.categories.find(c=>c.name===state.category);
+ $('#subcategory-row').hidden=!category;
+ if(category){
+  // Keep the select node and options stable while typing or changing status.
+  const select=$('#subcategory');
+  if(select.dataset.category!==state.category){
+   select.innerHTML='<option value="">All subcategories</option>'+category.subcategories.map(sub=>{
+    const total=filterComponents(data.components,{category:state.category,subcategory:sub}).length;
+    return `<option value="${escape(sub)}">${escape(sub)} (${total} entries)</option>`;
+   }).join('');
+   select.dataset.category=state.category;
+  }
+  select.value=state.subcategory;
+  $('#category-total').textContent=`${filterComponents(data.components,{category:state.category}).length} total entries in category`;
+ }
+ $('#mobile-category').value=state.legacy?`legacy:${state.legacy}`:state.category;
+ const crumb=$('#category-breadcrumb');crumb.hidden=!(state.category||state.legacy);
+ crumb.innerHTML=state.legacy
+  ? `<button data-category-filter="">All categories</button><span aria-hidden="true">›</span><span aria-current="page">${escape(state.legacy)} · previous collection</span>`
+  : `<button data-category-filter="">All categories</button><span aria-hidden="true">›</span>${state.subcategory?`<button data-breadcrumb-category="${escape(state.category)}">${escape(state.category)}</button><span aria-hidden="true">›</span><span aria-current="page">${escape(state.subcategory)}</span>`:`<span aria-current="page">${escape(state.category)}</span>`}`;
 }
 function render(){
  if(!data)return;
@@ -28,17 +54,18 @@ function render(){
  shown=filterComponents(collection,{...state,saved});
  const titles={catalogue:'All components',saved:'Saved components',references:'Reference shelf'};
  const descriptions={catalogue:'Components, specifications and source links.',saved:'Saved in this browser for your next build.',references:'Parts and equipment with linked technical documents.'};
- $('#catalogue-title').textContent=state.category||titles[state.scope];$('#scope-description').textContent=descriptions[state.scope];
+ $('#catalogue-title').textContent=state.subcategory||state.category||(state.legacy?`${state.legacy} collection`:titles[state.scope]);$('#scope-description').textContent=state.legacy?'Items from the previous category, preserved for this link.':descriptions[state.scope];
+ renderClassification();
  $('#results').className=state.layout==='list'?'component-grid component-list':'component-grid';
- $('#results').innerHTML=shown.map(item=>`<article class="component-card" data-category="${escape(item.category)}"><div class="card-art">${artwork(item.category,item.id)}</div><button class="save-button" data-save="${item.id}" aria-label="${saved.includes(item.id)?'Unsave':'Save'} ${escape(item.name)}" aria-pressed="${saved.includes(item.id)}">${icon('bookmark')}</button><div class="card-body"><div class="card-category">${escape(item.category)}</div><h3 class="card-title"><button data-open="${item.id}">${escape(item.name)}</button></h3><p class="card-description">${escape(item.summary)}</p><div class="tags">${item.tags.map(tag=>`<span class="tag">${escape(tag)}</span>`).join('')}</div>${item.purchaseSource==='local'?'<p class="purchase-source-local">Bought locally</p>':''}${item.productLinks.some(link=>link.kind==='original')?`<a class="product-preview" href="${escape(item.productLinks.find(link=>link.kind==='original').url)}" target="_blank" rel="noopener noreferrer" aria-label="Original product page for ${escape(item.name)}"><span>Original product page</span>${icon('external')}</a>`:''}${item.contents?`<button class="contents-preview" data-open="${item.id}" aria-label="See what’s inside ${escape(item.name)}"><span>See what’s inside</span>${icon('arrow')}</button>`:''}<div class="card-footer"><span class="stock ${item.status}">${stockLabel(item)}</span><span class="doc-count">${icon('book')}${item.documents.length?`${item.documents.length} ref${item.documents.length===1?'':'s'}`:'Notes'}</span></div></div></article>`).join('');
+ $('#results').innerHTML=shown.map(item=>`<article class="component-card" data-category="${escape(item.category)}"><div class="card-art">${artwork(item.category,item.id)}</div><button class="save-button" data-save="${item.id}" aria-label="${saved.includes(item.id)?'Unsave':'Save'} ${escape(item.name)}" aria-pressed="${saved.includes(item.id)}">${icon('bookmark')}</button><div class="card-body"><div class="card-category">${escape(classificationLabel(item))}</div><h3 class="card-title"><button data-open="${item.id}">${escape(item.name)}</button></h3><p class="card-description">${escape(item.summary)}</p><div class="tags">${item.tags.map(tag=>`<span class="tag">${escape(tag)}</span>`).join('')}</div>${item.purchaseSource==='local'?'<p class="purchase-source-local">Bought locally</p>':''}${item.productLinks.some(link=>link.kind==='original')?`<a class="product-preview" href="${escape(item.productLinks.find(link=>link.kind==='original').url)}" target="_blank" rel="noopener noreferrer" aria-label="Original product page for ${escape(item.name)}"><span>Original product page</span>${icon('external')}</a>`:''}${item.contents?`<button class="contents-preview" data-open="${item.id}" aria-label="See what’s inside ${escape(item.name)}"><span>See what’s inside</span>${icon('arrow')}</button>`:''}<div class="card-footer"><span class="stock ${item.status}">${stockLabel(item)}</span><span class="doc-count">${icon('book')}${item.documents.length?`${item.documents.length} ref${item.documents.length===1?'':'s'}`:'Notes'}</span></div></div></article>`).join('');
  $('#result-count').innerHTML=`Showing <b>${shown.length}</b> of ${collection.length} hardware entries${state.scope==='saved'?' · Saved in this browser':''}`;
  const empty=shown.length===0;$('#empty').hidden=!empty;$('#results').hidden=empty;
  $('#empty h3').textContent=state.scope==='saved'&&!saved.length?'Your shortlist starts here':'No matching components';
  $('#empty p').textContent=state.scope==='saved'&&!saved.length?'Use the bookmark button on any component to keep it close.':'Try a model name, an interface like I²C, or a broader category.';
- $('#clear-filters').hidden=!(state.query||state.category||state.status||state.scope!=='catalogue');$('#export-button').disabled=empty;
+ $('#clear-filters').hidden=!(state.query||state.category||state.subcategory||state.legacy||state.status||state.scope!=='catalogue');$('#export-button').disabled=empty;
  updateNavigation();updateURL();
 }
-function reset(){Object.assign(state,{query:'',category:'',status:'',scope:'catalogue'});$('#search').value='';$('#status').value='';render();}
+function reset(){Object.assign(state,{query:'',category:'',subcategory:'',legacy:'',status:'',scope:'catalogue'});$('#search').value='';$('#status').value='';render();}
 function toggleSave(id){saved=saved.includes(id)?saved.filter(x=>x!==id):[...saved,id];const persisted=writeStorage('hardware-library:saved',saved);render();if($('#detail-dialog').open&&$('#detail-content [data-save]')){const b=$('#detail-content [data-save]');b.innerHTML=icon('bookmark')+(saved.includes(id)?'Saved to your shortlist':'Save to shortlist');b.setAttribute('aria-pressed',saved.includes(id));}toast(persisted?(saved.includes(id)?'Saved to your shortlist':'Removed from saved items'):'Saved for this visit; browser storage is unavailable');}
 const number=n=>n==null?'Unknown':escape(n);
 function contentsMarkup(contents){
@@ -53,7 +80,7 @@ function productLinksMarkup(links,purchaseSource){
 }
 function openDetail(id){
  const item=data.components.find(x=>x.id===id)||data.families.find(x=>x.id===id);if(!item)return;openerId=id;
- $('#detail-content').innerHTML=`<div class="detail-top"><div class="detail-art">${artwork(item.category,item.id)}</div><div><p class="card-category">${escape(item.category)}</p><h2 id="detail-title">${escape(item.name)}</h2></div></div><div class="detail-main"><p class="detail-summary">${escape(item.summary)}</p>${productLinksMarkup(item.productLinks,item.purchaseSource)}${contentsMarkup(item.contents)}<dl class="stock-grid"><div><dt>${item.status==='incoming'?'Incoming quantity':'Recorded remaining'}</dt><dd>${number(item.status==='incoming'?item.incoming:item.remaining)}${item.quantityBasis==='expected'?' <small>expected</small>':''}</dd></div><div><dt>Available to use</dt><dd>${number(item.available)}</dd></div><div><dt>Record date</dt><dd><small>${escape(formatDate(data.asOf))}</small></dd></div></dl><p class="detail-note">${escape(item.note)}</p><h3>Specifications & identity</h3><dl class="specs">${Object.entries(item.specs).map(([k,v])=>`<dt>${escape(k)}</dt><dd>${escape(v)}</dd>`).join('')}</dl><p class="detail-note">Product and archive references. These specifications do not establish a functional test of a particular unit.</p><h3>Technical references</h3>${item.documents.length?item.documents.map(doc=>`<a class="reference-link" href="${escape(doc.url)}" target="_blank" rel="noopener">${icon('book')}<span>${escape(doc.title)}</span><small>${doc.kind==='Archive'?'GitHub access required':'PDF'}</small>${icon('external')}</a>`).join(''):'<p class="detail-note">No exact technical document is linked yet. Identification notes remain available in the source record.</p>'}${item.links.map(link=>`<a class="reference-link" href="${escape(link.url)}" target="_blank" rel="noopener">${icon('external')}<span>${escape(link.title)}</span></a>`).join('')}<div class="detail-actions"><button class="primary-button" data-save="${id}" aria-pressed="${saved.includes(id)}">${icon('bookmark')}${saved.includes(id)?'Saved to your shortlist':'Save to shortlist'}</button><a href="${escape(item.recordUrl)}" target="_blank" rel="noopener">Full source record · GitHub access required</a></div><p class="detail-id">${escape(item.id)}</p></div>`;
+ $('#detail-content').innerHTML=`<div class="detail-top"><div class="detail-art">${artwork(item.category,item.id)}</div><div><p class="card-category">${escape(classificationLabel(item))}</p><h2 id="detail-title">${escape(item.name)}</h2></div></div><div class="detail-main"><p class="detail-summary">${escape(item.summary)}</p>${item.categoryPaths.length>1?`<details class="classification-paths"><summary>View ${item.categoryPaths.length} subcategories in this collection</summary><ul>${item.categoryPaths.map(p=>`<li>${escape(p.category)} › ${escape(p.subcategory)}</li>`).join('')}</ul></details>`:''}${productLinksMarkup(item.productLinks,item.purchaseSource)}${contentsMarkup(item.contents)}<dl class="stock-grid"><div><dt>${item.status==='incoming'?'Incoming quantity':'Recorded remaining'}</dt><dd>${number(item.status==='incoming'?item.incoming:item.remaining)}${item.quantityBasis==='expected'?' <small>expected</small>':''}</dd></div><div><dt>Available to use</dt><dd>${number(item.available)}</dd></div><div><dt>Record date</dt><dd><small>${escape(formatDate(data.asOf))}</small></dd></div></dl><p class="detail-note">${escape(item.note)}</p><h3>Specifications & identity</h3><dl class="specs">${Object.entries(item.specs).map(([k,v])=>`<dt>${escape(k)}</dt><dd>${escape(v)}</dd>`).join('')}</dl><p class="detail-note">Product and archive references. These specifications do not establish a functional test of a particular unit.</p><h3>Technical references</h3>${item.documents.length?item.documents.map(doc=>`<a class="reference-link" href="${escape(doc.url)}" target="_blank" rel="noopener">${icon('book')}<span>${escape(doc.title)}</span><small>${doc.kind==='Archive'?'GitHub access required':'PDF'}</small>${icon('external')}</a>`).join(''):'<p class="detail-note">No exact technical document is linked yet. Identification notes remain available in the source record.</p>'}${item.links.map(link=>`<a class="reference-link" href="${escape(link.url)}" target="_blank" rel="noopener">${icon('external')}<span>${escape(link.title)}</span></a>`).join('')}<div class="detail-actions"><button class="primary-button" data-save="${id}" aria-pressed="${saved.includes(id)}">${icon('bookmark')}${saved.includes(id)?'Saved to your shortlist':'Save to shortlist'}</button><a href="${escape(item.recordUrl)}" target="_blank" rel="noopener">Full source record · GitHub access required</a></div><p class="detail-id">${escape(item.id)}</p></div>`;
  if(!$('#detail-dialog').open)$('#detail-dialog').showModal();$('#close-dialog').focus();$('#detail-content').scrollTop=0;
  const url=new URL(location.href);url.hash=id;history.replaceState(null,'',url);
 }
@@ -62,14 +89,17 @@ function formatDate(date){return new Intl.DateTimeFormat('en-GB',{day:'numeric',
 hydrateIcons();$('#search').value=state.query;$('#status').value=state.status;$('#sort').value=state.sort;
 $('#search').addEventListener('input',e=>{state.query=e.target.value;render();});
 $('#status').addEventListener('change',e=>{state.status=e.target.value;render();});
+$('#subcategory').addEventListener('change',e=>{state.subcategory=e.target.value;render();});
+$('#mobile-category').addEventListener('change',e=>{const value=e.target.value;selectCategory(value.startsWith('legacy:')?value.slice(7):value);});
 $('#sort').addEventListener('change',e=>{state.sort=e.target.value;render();});
 $('#clear-filters').addEventListener('click',reset);$('#empty-reset').addEventListener('click',reset);$('#reload').addEventListener('click',()=>location.reload());
 for(const mode of ['grid','list'])$(`#${mode}-view`).addEventListener('click',()=>{state.layout=mode;writeStorage('hardware-library:layout',mode);render();});
 document.addEventListener('click',e=>{
  const save=e.target.closest('[data-save]');if(save){const id=save.dataset.save;const isDialog=Boolean(save.closest('dialog'));toggleSave(id);if(!isDialog){const replacement=document.querySelector(`[data-save="${id}"]`);if(replacement)replacement.focus();else $('#catalogue-title').setAttribute('tabindex','-1'),$('#catalogue-title').focus();}return;}
  const open=e.target.closest('[data-open]');if(open){openDetail(open.dataset.open);return;}
- const scope=e.target.closest('[data-scope]');if(scope){state.scope=scope.dataset.scope;state.category='';state.query='';state.status='';$('#search').value='';$('#status').value='';render();$('#catalogue').scrollIntoView({behavior:'instant'});}
- const category=e.target.closest('[data-category-filter]');if(category){state.category=state.category===category.dataset.categoryFilter?'':category.dataset.categoryFilter;render();$('#catalogue').scrollIntoView({behavior:'instant'});}
+ const scope=e.target.closest('[data-scope]');if(scope){state.scope=scope.dataset.scope;state.category='';state.subcategory='';state.legacy='';state.query='';state.status='';$('#search').value='';$('#status').value='';render();$('#catalogue').scrollIntoView({behavior:'instant'});}
+ const category=e.target.closest('[data-category-filter]');if(category){selectCategory(state.category===category.dataset.categoryFilter?'':category.dataset.categoryFilter);$('#catalogue').scrollIntoView({behavior:'instant'});if(category.closest('#category-breadcrumb'))$('#search').focus();}
+ const parent=e.target.closest('[data-breadcrumb-category]');if(parent){selectCategory(parent.dataset.breadcrumbCategory);$('#subcategory').focus();}
 });
 document.addEventListener('keydown',e=>{if(e.key==='/'&&!/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)&&!$('#detail-dialog').open){e.preventDefault();$('#search').focus();}if(e.key==='Escape'&&document.activeElement===$('#search')&&state.query){state.query='';$('#search').value='';render();}});
 $('#detail-dialog').addEventListener('close',()=>{if(openerId){const opener=document.querySelector(`[data-open="${openerId}"]`);if(opener)opener.focus();else $('#search').focus();openerId=null;}});
@@ -81,9 +111,11 @@ window.addEventListener('hashchange',()=>{const id=location.hash.slice(1);if(dat
 try{
  const catalogueUrl=new URL('./data.json',import.meta.url);catalogueUrl.search=new URL(import.meta.url).search;
  const response=await fetch(catalogueUrl);if(!response.ok)throw new Error('Catalogue unavailable');data=await response.json();
- const categories=[...new Set(data.components.map(x=>x.category))];if(!categories.includes(state.category))state.category='';
+ const categories=data.taxonomy.categories.map(c=>c.name);
+ Object.assign(state,resolveClassification(data.taxonomy,state));
+ $('#mobile-category').innerHTML='<option value="">All categories</option>'+categories.map(category=>`<option value="${escape(category)}">${escape(category)} (${data.components.filter(x=>x.category===category).length})</option>`).join('')+(state.legacy?`<option value="legacy:${escape(state.legacy)}">${escape(state.legacy)} · previous collection</option>`:'');
  saved=saved.filter(id=>data.components.some(x=>x.id===id)||data.families.some(x=>x.id===id));
- $('#categories').innerHTML=categories.map(category=>`<button class="nav-button category-button" data-category-filter="${escape(category)}">${icon(categoryIcons[category])}${escape(category)}<span class="count">${data.components.filter(x=>x.category===category).length}</span></button>`).join('');
+ $('#categories').innerHTML=categories.map(category=>`<button class="nav-button category-button" data-category-filter="${escape(category)}">${icon(categoryIcons[category])}${escape(category)}<span class="count" title="Total entries in category">${data.components.filter(x=>x.category===category).length}</span></button>`).join('');
  $('#total-count').textContent=data.components.length;$('#snapshot-date').textContent='Snapshot · '+formatDate(data.asOf);$('#results').setAttribute('aria-busy','false');render();
  const deepLink=location.hash.slice(1);if(deepLink&&deepLink!=='catalogue')openDetail(deepLink);
 }catch(error){$('#results').setAttribute('aria-busy','false');$('#load-error').hidden=false;$('#result-count').textContent='Collection unavailable';$('#export-button').disabled=true;}
