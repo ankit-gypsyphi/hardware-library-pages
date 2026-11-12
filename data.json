@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-11-06",
-  "familyCount": 30,
+  "asOf": "2026-11-13",
+  "familyCount": 33,
   "components": [
     {
       "id": "xiao-esp32s3-seeed",
@@ -7840,6 +7840,105 @@
       "productLinks": [],
       "purchaseSource": null,
       "contents": null
+    },
+    {
+      "id": "zh-04y-4pin-cable",
+      "name": "ZH-04Y 4-pin cable, 1.5 mm pitch",
+      "category": "Cables & connectors",
+      "summary": "Four-pin female housing with a 300 mm wire harness, advertised 1.5 mm pitch and 28 AWG.",
+      "tags": [
+        "ZH-04Y",
+        "4 pin",
+        "1.5 mm",
+        "28 AWG",
+        "Robu"
+      ],
+      "specs": {
+        "Housing": "ZH-04Y, female, 4 pins",
+        "Advertised pitch": "1.5 mm",
+        "Advertised wire length": "300 mm",
+        "Advertised wire gauge": "28 AWG",
+        "Pinout / polarity": "Unverified"
+      },
+      "note": "Receipt confirmed; physical dimensions, wire colours, pinout, continuity and mating compatibility remain unverified.",
+      "links": [],
+      "catalogueId": "zh-04y-4pin-cable",
+      "status": "recorded",
+      "remaining": 10,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/zh-04y-4pin-cable/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "id": "bonka-1000mah-1s-lipo",
+      "name": "Bonka 1000 mAh 1S LiPo battery",
+      "category": "Power",
+      "summary": "Single-cell lithium polymer pack with advertised 1000 mAh capacity and 25C rating.",
+      "tags": [
+        "1S LiPo",
+        "3.7 V nominal",
+        "1000 mAh",
+        "Robu",
+        "Brand: Bonka"
+      ],
+      "specs": {
+        "Advertised capacity": "1000 mAh",
+        "Nominal voltage": "3.7 V",
+        "Configuration": "1S lithium polymer",
+        "Advertised discharge rating": "25C; untested",
+        "Connector / protection": "Unverified"
+      },
+      "note": "Receipt confirmed; capacity, discharge rating, protection, charging limits and connector polarity remain unverified.",
+      "links": [],
+      "catalogueId": "bonka-1000mah-1s-lipo",
+      "status": "recorded",
+      "remaining": 2,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bonka-1000mah-1s-lipo/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "id": "bonka-1500mah-1s-lipo",
+      "name": "Bonka 1500 mAh 1S LiPo battery",
+      "category": "Power",
+      "summary": "Single-cell lithium polymer pack with advertised 1500 mAh capacity and 25C rating.",
+      "tags": [
+        "1S LiPo",
+        "3.7 V nominal",
+        "1500 mAh",
+        "Robu",
+        "Brand: Bonka"
+      ],
+      "specs": {
+        "Advertised capacity": "1500 mAh",
+        "Nominal voltage": "3.7 V",
+        "Configuration": "1S lithium polymer",
+        "Advertised discharge rating": "25C; untested",
+        "Connector / protection": "Unverified"
+      },
+      "note": "Receipt confirmed; capacity, discharge rating, protection, charging limits and connector polarity remain unverified.",
+      "links": [],
+      "catalogueId": "bonka-1500mah-1s-lipo",
+      "status": "recorded",
+      "remaining": 2,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bonka-1500mah-1s-lipo/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
     }
   ],
   "families": [
@@ -9169,6 +9268,105 @@
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "id": "zh-04y-4pin-cable",
+      "name": "ZH-04Y 4-pin cable, 1.5 mm pitch",
+      "category": "Cables & connectors",
+      "summary": "Four-pin female housing with a 300 mm wire harness, advertised 1.5 mm pitch and 28 AWG.",
+      "tags": [
+        "ZH-04Y",
+        "4 pin",
+        "1.5 mm",
+        "28 AWG",
+        "Robu"
+      ],
+      "specs": {
+        "Housing": "ZH-04Y, female, 4 pins",
+        "Advertised pitch": "1.5 mm",
+        "Advertised wire length": "300 mm",
+        "Advertised wire gauge": "28 AWG",
+        "Pinout / polarity": "Unverified"
+      },
+      "note": "Receipt confirmed; physical dimensions, wire colours, pinout, continuity and mating compatibility remain unverified.",
+      "links": [],
+      "catalogueId": "zh-04y-4pin-cable",
+      "status": "recorded",
+      "remaining": 10,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/zh-04y-4pin-cable/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "id": "bonka-1000mah-1s-lipo",
+      "name": "Bonka 1000 mAh 1S LiPo battery",
+      "category": "Power",
+      "summary": "Single-cell lithium polymer pack with advertised 1000 mAh capacity and 25C rating.",
+      "tags": [
+        "1S LiPo",
+        "3.7 V nominal",
+        "1000 mAh",
+        "Robu",
+        "Brand: Bonka"
+      ],
+      "specs": {
+        "Advertised capacity": "1000 mAh",
+        "Nominal voltage": "3.7 V",
+        "Configuration": "1S lithium polymer",
+        "Advertised discharge rating": "25C; untested",
+        "Connector / protection": "Unverified"
+      },
+      "note": "Receipt confirmed; capacity, discharge rating, protection, charging limits and connector polarity remain unverified.",
+      "links": [],
+      "catalogueId": "bonka-1000mah-1s-lipo",
+      "status": "recorded",
+      "remaining": 2,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bonka-1000mah-1s-lipo/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null
+    },
+    {
+      "id": "bonka-1500mah-1s-lipo",
+      "name": "Bonka 1500 mAh 1S LiPo battery",
+      "category": "Power",
+      "summary": "Single-cell lithium polymer pack with advertised 1500 mAh capacity and 25C rating.",
+      "tags": [
+        "1S LiPo",
+        "3.7 V nominal",
+        "1500 mAh",
+        "Robu",
+        "Brand: Bonka"
+      ],
+      "specs": {
+        "Advertised capacity": "1500 mAh",
+        "Nominal voltage": "3.7 V",
+        "Configuration": "1S lithium polymer",
+        "Advertised discharge rating": "25C; untested",
+        "Connector / protection": "Unverified"
+      },
+      "note": "Receipt confirmed; capacity, discharge rating, protection, charging limits and connector polarity remain unverified.",
+      "links": [],
+      "catalogueId": "bonka-1500mah-1s-lipo",
+      "status": "recorded",
+      "remaining": 2,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bonka-1500mah-1s-lipo/README.md",
       "productLinks": [],
       "purchaseSource": null,
       "contents": null

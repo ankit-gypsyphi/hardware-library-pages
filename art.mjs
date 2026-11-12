@@ -11,6 +11,7 @@ const caSocket=(x,y,female=false)=>`<g transform="translate(${x} ${y})"><rect wi
 const caClip=(color)=>`<g transform="rotate(-16 71 38)"><path d="M39 26h32l17 10-17 11H39z" fill="${color}" stroke="${caEdge}" stroke-width="1.2"/><path d="m40 27 21 2-5 15H39" fill="#ffffff" opacity=".15"/><path d="m71 31 25 3 17 6-3 5-14-4-25 1z" fill="${caMetal}" stroke="${caEdge}" stroke-width="1.2"/><path d="m82 42 4-3 4 3 4-3 4 3 4-2" stroke="#61717a" stroke-width="1.4"/><circle cx="76" cy="37" r="3" fill="#e5edef" stroke="${caEdge}"/><path d="M39 31v12" stroke="${color}" stroke-width="6"/><path d="m76 33 19 3" stroke="#eff4f4" stroke-width="2"/></g>`;
 const caHoles=(x,y,cols,rows,step=7)=>Array.from({length:rows},(_,r)=>Array.from({length:cols},(_,c)=>`<circle cx="${x+c*step}" cy="${y+r*step}" r="1.55" fill="#58676a"/>`).join('')).join('');
 const cableProfiles={
+ 'zh-04y-4pin-cable':['zhHarness',{}],
  'aliexpress-prototyping-stock--resistors-th':['resistors',{}],
  'aliexpress-prototyping-stock--resistors-smd':['smd-resistors',{}],
  'aliexpress-prototyping-stock--capacitors':['capacitors',{}],
@@ -40,6 +41,7 @@ const cableProfiles={
  'tools-and-consumables--ft232rl':['serial-adapter',{}],
 };
 const cableDrawings={
+ zhHarness:()=>`<g transform="rotate(-10 120 82)">${['#687c80','#a6b3ac','#879797','#c6cec6'].map((c,i)=>`<path d="M${93+i*14} 62C${72+i*16} 100 ${106+i*15} 108 ${91+i*17} 135" stroke="${c}" stroke-width="4" fill="none"/><path d="M${91+i*17} 135v10" stroke="#c7bc95" stroke-width="2"/>`).join('')}<rect x="78" y="24" width="78" height="42" rx="4" fill="#e5e6dc" stroke="#73858a" stroke-width="1.5"/><rect x="91" y="19" width="51" height="9" rx="2" fill="#cbd0c7" stroke="#73858a"/>${[0,1,2,3].map(i=>`<rect x="${86+i*17}" y="33" width="12" height="15" rx="1.5" fill="#475a61"/><path d="M${92+i*17} 38v6" stroke="#cdb77d" stroke-width="2"/>`).join('')}<path d="M82 54h69" stroke="#b0bbb5" stroke-width="2"/></g>`,
  alligator:o=>`<path d="M39 36C13 81 48 131 100 132s82-25 86-45" stroke="#bf4d45" stroke-width="5" fill="none"/><path d="M51 66C21 96 65 116 119 112s51-29 52-58" stroke="#34434b" stroke-width="5" fill="none"/>${caClip('#cf534a')}<g transform="translate(11 36)">${caClip('#34434b')}</g><g transform="translate(180 53) rotate(12)">${caSocket(0,0,o.female)}</g><g transform="translate(161 28) rotate(-7)">${caSocket(0,0,o.female)}</g>`,
  dupont:o=>['#d95b4c','#e1b84c','#38899e','#424b53'].map((c,i)=>`<g transform="translate(${i*18} 0)"><path d="M58 42C24 126 125 153 128 70" stroke="${c}" stroke-width="4" fill="none"/><g transform="translate(52 18) rotate(9)">${caSocket(0,0,o.female)}</g><g transform="translate(123 41) rotate(-5)">${caSocket(0,0,true)}</g></g>`).join(''),
  'usb-cable':()=>`<path d="M71 56C33 113 82 150 135 132S179 87 175 57" stroke="#34414b" stroke-width="9" fill="none"/><path d="M71 56C33 113 82 150 135 132S179 87 175 57" stroke="#6e7c84" stroke-width="2" fill="none"/><g transform="rotate(13 73 39)"><rect x="57" y="30" width="30" height="35" rx="5" fill="#3f4b53"/><rect x="60" y="12" width="24" height="23" rx="2" fill="#c6d0d5" stroke="${caEdge}"/><path d="M65 19h5v5h-5zm10 0h5v5h-5z" fill="#55636e"/></g><g transform="rotate(-12 175 46)"><rect x="161" y="38" width="27" height="29" rx="5" fill="#3f4b53"/><rect x="163" y="25" width="23" height="17" rx="8" fill="#c6d0d5" stroke="${caEdge}"/><rect x="168" y="29" width="13" height="5" rx="2.5" fill="#25313a"/></g>`,
@@ -96,10 +98,13 @@ const electronicsProfiles={
  'aliexpress-displays--ips-19':['elIps',{}],
  'aliexpress-displays--esp32-tft32':['elTftBoard',{}],
  'wly104050-lipo':['elLipo',{}],
+ 'bonka-1000mah-1s-lipo':['bonkaLipo',{capacity:'1000'}],
+ 'bonka-1500mah-1s-lipo':['bonkaLipo',{capacity:'1500'}],
  'tp4056-charger':['elCharger',{}],
  'tools-and-consumables--ams1117':['elRegulator',{}],
 };
 const electronicsDrawings={
+ bonkaLipo:o=>elGroup(elRect(65,43,110,96,'#b8c4c8',5)+elRect(69,46,102,89,'#dce1df',3)+elRect(65,43,110,10,'#b8a46c',2)+elPath('M84 43C69 18 95 16 103 26M98 43C92 22 117 20 124 28','#586c72',3)+elRect(77,65,86,58,'#314b50',3)+`<text x="120" y="82" text-anchor="middle" fill="#e0e7de" font-family="Arial,sans-serif" font-size="11" font-weight="700">BONKA</text><text x="120" y="101" text-anchor="middle" fill="#e0e7de" font-family="Arial,sans-serif" font-size="15" font-weight="700">${o.capacity}</text><text x="120" y="115" text-anchor="middle" fill="#c5d4ce" font-family="Arial,sans-serif" font-size="9">mAh · 1S · 3.7 V</text>`+elPath('M72 56v72M168 56v72','#f1f3eb',2),-8),
  elXiao:(o={})=>{
   let s=elRect(77,29,86,108,'#202e35',9)+elRect(80,31,80,103,'#27343b',7,'#5b656a',.6)+elPads(74,42,7,13,true)+elPads(158,42,7,13,true)+elUsb(101,24,38);
   if(o.plus){
