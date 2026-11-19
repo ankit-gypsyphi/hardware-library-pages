@@ -1,6 +1,6 @@
 {
   "asOf": "2026-11-19",
-  "familyCount": 34,
+  "familyCount": 37,
   "components": [
     {
       "id": "xiao-esp32s3-seeed",
@@ -9476,6 +9476,165 @@
           "subcategory": "Microcontrollers"
         }
       ]
+    },
+    {
+      "id": "robodo-sg90-micro-servo",
+      "name": "Robodo SG90 micro servo",
+      "category": "Motors & actuators",
+      "summary": "Compact SG90 servo with a blue plastic body and three-wire lead.",
+      "tags": [
+        "SG90",
+        "9 g class",
+        "Plastic gears",
+        "Gift",
+        "Brand: Robodo"
+      ],
+      "specs": {
+        "Model / listing brand": "SG90 / Robodo; TowerPro appears in listing title",
+        "Reference voltage": "4.8 V listing value; unit untested",
+        "Supplier torque / speed": "1.8 kg·cm; 0.12 s/60° at 4.8 V",
+        "Supplier nominal dimensions": "23 × 12.2 × 29 mm; not measured",
+        "Gear / control reference": "Plastic gears; analog",
+        "Travel / current / limits": "Unverified",
+        "Accessories": "Horn and screw quantities unknown"
+      },
+      "note": "Four individual gift servos are recorded. Physical condition, allocation and function are unverified. Listing and supplier figures are reference claims; genuine TowerPro manufacture is not established. Separate from the Arduino kit’s uninspected servo.",
+      "links": [
+        {
+          "title": "Robodo SG90 supplier reference",
+          "url": "https://robodo.in/products/towerpro-sg90-9g-mini-servo-9-gram-servo-for-rc-robotics"
+        }
+      ],
+      "catalogueId": "robodo-sg90-micro-servo",
+      "status": "recorded",
+      "remaining": 4,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/robodo-sg90-micro-servo/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon identity reference · B00MTFFAE0",
+          "url": "https://www.amazon.in/dp/B00MTFFAE0",
+          "kind": "reference",
+          "note": "Owner-supplied identity link; this gift does not establish the donor’s purchase seller."
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Servo motors",
+      "legacyCategory": "Motors & actuators",
+      "categoryPaths": [
+        {
+          "category": "Motors & actuators",
+          "subcategory": "Servo motors"
+        }
+      ]
+    },
+    {
+      "id": "mpu9250-imu-module",
+      "name": "MPU9250 IMU module",
+      "category": "Sensors & input",
+      "summary": "Motion-sensing breakout listed with a gyroscope, accelerometer and magnetometer.",
+      "tags": [
+        "MPU9250",
+        "I²C",
+        "9-axis listing",
+        "Gift"
+      ],
+      "specs": {
+        "Model": "MPU9250; owner-confirmed",
+        "Listed sensing": "Gyroscope, accelerometer and magnetometer; untested",
+        "Listed interface": "I²C",
+        "Listing board form": "Blue PCB; ten connection holes; two mounting holes",
+        "Board voltage / pinout": "Unverified",
+        "Chip identity / sensing function": "Not tested",
+        "Accessories": "Header and accessory quantities unknown"
+      },
+      "note": "One received gift module is recorded. The URL says MPU6050, but its current listing and owner confirmation identify MPU9250. The listing photo has MPU-9250/6500 silkscreen. Physical revision, magnetometer operation, condition and availability remain unverified.",
+      "links": [],
+      "catalogueId": "mpu9250-imu-module",
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/mpu9250-imu-module/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon identity reference · B0BSV9MFMP",
+          "url": "https://www.amazon.in/dp/B0BSV9MFMP",
+          "kind": "reference",
+          "note": "Owner-supplied identity link; this gift does not establish the donor’s purchase seller."
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Inertial sensors",
+      "legacyCategory": "Sensors",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Inertial sensors"
+        }
+      ]
+    },
+    {
+      "id": "robodo-ttp223b-touch-sensor",
+      "name": "Robodo TTP223B touch module",
+      "category": "Sensors & input",
+      "summary": "Single capacitive touch input on a blue square board with a circular touch pad.",
+      "tags": [
+        "TTP223B",
+        "Digital touch",
+        "TTP22301",
+        "Gift",
+        "Brand: Robodo"
+      ],
+      "specs": {
+        "Variant": "Robodo TTP22301; blue square module",
+        "Supplier supply range": "2–5.5 V DC; untested",
+        "Interface": "GND, VCC and digital SIG",
+        "Supplier default output": "Low idle; high when touched",
+        "Nominal board dimensions": "24 × 24 × 2 mm; unmeasured",
+        "Gift quantity basis": "1 individual module; linked retail pack contains 5",
+        "Physical revision / accessories": "Unverified"
+      },
+      "note": "One individual gift module is recorded, not the five-piece retail pack. Physical condition, allocation, sensitivity and function remain unverified. Distinct from the small red TTP223 module.",
+      "links": [
+        {
+          "title": "Robodo TTP22301 supplier reference",
+          "url": "https://robodo.in/products/ttp223b-digital-touch-sensor-capacitive-touch-switch-module-for-arduino"
+        }
+      ],
+      "catalogueId": "robodo-ttp223b-touch-sensor",
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/robodo-ttp223b-touch-sensor/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon identity reference · B0929DSJF4",
+          "url": "https://www.amazon.in/dp/B0929DSJF4",
+          "kind": "reference",
+          "note": "Five-piece retail listing identifies the model; owner-reported gift is one individual module. Donor purchase seller unknown."
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Buttons & encoders",
+      "legacyCategory": "Sensors",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Buttons & encoders"
+        }
+      ]
     }
   ],
   "families": [
@@ -11412,6 +11571,165 @@
           "subcategory": "Microcontrollers"
         }
       ]
+    },
+    {
+      "id": "robodo-sg90-micro-servo",
+      "name": "Robodo SG90 micro servo",
+      "category": "Motors & actuators",
+      "summary": "Compact SG90 servo with a blue plastic body and three-wire lead.",
+      "tags": [
+        "SG90",
+        "9 g class",
+        "Plastic gears",
+        "Gift",
+        "Brand: Robodo"
+      ],
+      "specs": {
+        "Model / listing brand": "SG90 / Robodo; TowerPro appears in listing title",
+        "Reference voltage": "4.8 V listing value; unit untested",
+        "Supplier torque / speed": "1.8 kg·cm; 0.12 s/60° at 4.8 V",
+        "Supplier nominal dimensions": "23 × 12.2 × 29 mm; not measured",
+        "Gear / control reference": "Plastic gears; analog",
+        "Travel / current / limits": "Unverified",
+        "Accessories": "Horn and screw quantities unknown"
+      },
+      "note": "Four individual gift servos are recorded. Physical condition, allocation and function are unverified. Listing and supplier figures are reference claims; genuine TowerPro manufacture is not established. Separate from the Arduino kit’s uninspected servo.",
+      "links": [
+        {
+          "title": "Robodo SG90 supplier reference",
+          "url": "https://robodo.in/products/towerpro-sg90-9g-mini-servo-9-gram-servo-for-rc-robotics"
+        }
+      ],
+      "catalogueId": "robodo-sg90-micro-servo",
+      "status": "recorded",
+      "remaining": 4,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/robodo-sg90-micro-servo/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon identity reference · B00MTFFAE0",
+          "url": "https://www.amazon.in/dp/B00MTFFAE0",
+          "kind": "reference",
+          "note": "Owner-supplied identity link; this gift does not establish the donor’s purchase seller."
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Servo motors",
+      "legacyCategory": "Motors & actuators",
+      "categoryPaths": [
+        {
+          "category": "Motors & actuators",
+          "subcategory": "Servo motors"
+        }
+      ]
+    },
+    {
+      "id": "mpu9250-imu-module",
+      "name": "MPU9250 IMU module",
+      "category": "Sensors & input",
+      "summary": "Motion-sensing breakout listed with a gyroscope, accelerometer and magnetometer.",
+      "tags": [
+        "MPU9250",
+        "I²C",
+        "9-axis listing",
+        "Gift"
+      ],
+      "specs": {
+        "Model": "MPU9250; owner-confirmed",
+        "Listed sensing": "Gyroscope, accelerometer and magnetometer; untested",
+        "Listed interface": "I²C",
+        "Listing board form": "Blue PCB; ten connection holes; two mounting holes",
+        "Board voltage / pinout": "Unverified",
+        "Chip identity / sensing function": "Not tested",
+        "Accessories": "Header and accessory quantities unknown"
+      },
+      "note": "One received gift module is recorded. The URL says MPU6050, but its current listing and owner confirmation identify MPU9250. The listing photo has MPU-9250/6500 silkscreen. Physical revision, magnetometer operation, condition and availability remain unverified.",
+      "links": [],
+      "catalogueId": "mpu9250-imu-module",
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/mpu9250-imu-module/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon identity reference · B0BSV9MFMP",
+          "url": "https://www.amazon.in/dp/B0BSV9MFMP",
+          "kind": "reference",
+          "note": "Owner-supplied identity link; this gift does not establish the donor’s purchase seller."
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Inertial sensors",
+      "legacyCategory": "Sensors",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Inertial sensors"
+        }
+      ]
+    },
+    {
+      "id": "robodo-ttp223b-touch-sensor",
+      "name": "Robodo TTP223B touch module",
+      "category": "Sensors & input",
+      "summary": "Single capacitive touch input on a blue square board with a circular touch pad.",
+      "tags": [
+        "TTP223B",
+        "Digital touch",
+        "TTP22301",
+        "Gift",
+        "Brand: Robodo"
+      ],
+      "specs": {
+        "Variant": "Robodo TTP22301; blue square module",
+        "Supplier supply range": "2–5.5 V DC; untested",
+        "Interface": "GND, VCC and digital SIG",
+        "Supplier default output": "Low idle; high when touched",
+        "Nominal board dimensions": "24 × 24 × 2 mm; unmeasured",
+        "Gift quantity basis": "1 individual module; linked retail pack contains 5",
+        "Physical revision / accessories": "Unverified"
+      },
+      "note": "One individual gift module is recorded, not the five-piece retail pack. Physical condition, allocation, sensitivity and function remain unverified. Distinct from the small red TTP223 module.",
+      "links": [
+        {
+          "title": "Robodo TTP22301 supplier reference",
+          "url": "https://robodo.in/products/ttp223b-digital-touch-sensor-capacitive-touch-switch-module-for-arduino"
+        }
+      ],
+      "catalogueId": "robodo-ttp223b-touch-sensor",
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/robodo-ttp223b-touch-sensor/README.md",
+      "productLinks": [
+        {
+          "title": "Amazon identity reference · B0929DSJF4",
+          "url": "https://www.amazon.in/dp/B0929DSJF4",
+          "kind": "reference",
+          "note": "Five-piece retail listing identifies the model; owner-reported gift is one individual module. Donor purchase seller unknown."
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Buttons & encoders",
+      "legacyCategory": "Sensors",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Buttons & encoders"
+        }
+      ]
     }
   ],
   "taxonomy": {
@@ -11433,7 +11751,8 @@
           "Presence & motion",
           "Temperature & humidity",
           "Light sensors",
-          "Buttons & encoders"
+          "Buttons & encoders",
+          "Inertial sensors"
         ]
       },
       {
@@ -11451,6 +11770,12 @@
           "Battery packs",
           "Battery chargers",
           "Voltage regulators"
+        ]
+      },
+      {
+        "name": "Motors & actuators",
+        "subcategories": [
+          "Servo motors"
         ]
       },
       {

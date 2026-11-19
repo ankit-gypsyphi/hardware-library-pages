@@ -78,6 +78,9 @@ const elScreen=(x,y,w,h,tone='blue')=>{
  return elRect(x,y,w,h,bg,1.4,'#1c2932',.8)+elPath(`M${x+8} ${y+9}h${Math.round(w*.4)}M${x+8} ${y+15}h${Math.round(w*.26)}`,fg,1.8)+elPath(`M${x+8} ${y+h-10}h${w-16}`,fg,.6)+elPath(`m${x+9} ${y+h-15} ${w*.14} -${h*.16} ${w*.14} ${h*.07} ${w*.16} -${h*.26} ${w*.14} ${h*.12} ${w*.15} -${h*.1}`,fg,1.4)+elPath(`M${x+2} ${y+2}h${w-4}`,'#ffffff',.5);
 };
 const electronicsProfiles={
+ 'robodo-ttp223b-touch-sensor':['ttp223bTouch',{}],
+ 'robodo-sg90-micro-servo':['sg90Servo',{}],
+ 'mpu9250-imu-module':['mpu9250Module',{}],
  'arduino-starter-kit-uno-r3':['arduinoStarterBox',{}],
  'xiao-esp32s3-seeed':['elXiao',{}],
  'xiao-esp32s3-plus-seeed':['elXiao',{plus:true}],
@@ -105,6 +108,41 @@ const electronicsProfiles={
  'tools-and-consumables--ams1117':['elRegulator',{}],
 };
 const electronicsDrawings={
+ ttp223bTouch:()=>elGroup(
+  elRect(63,25,119,119,'#245c7b',1,'#20445b',1.4)+
+  [[72,34],[173,34],[72,135],[173,135]].map(([x,y])=>elHole(x,y)).join('')+
+  elRect(58,62,17,39,'#27343e',1)+[0,1,2].map(i=>elPath(`M40 ${69+i*12}H63`,'#c8c1a3',3)).join('')+
+  elChip(82,55,14,24)+elSmd(80,91,11)+elSmd(82,104,9)+
+  elRect(81,118,10,6,'#b5ce83',1,'#d5e1ba',1)+
+  [30,25,20,15,10,5].map(r=>elCircle(139,83,r,'none','#e8e6d3',1.6)).join('')+
+  elCircle(139,83,1.5,'#e8e6d3','none')+
+  elPath('M105 47v73M107 47h12M107 119h12','#b9d5d9',.8)+
+  `<text x="124" y="134" text-anchor="middle" fill="#e0eceb" font-family="Arial,sans-serif" font-size="8">TTP223B</text>`,-11),
+ // Listing-matched silhouettes; supplied accessories and live function are unverified.
+ sg90Servo:()=>elGroup(
+  ['#8c5038','#ce493d','#e3a534'].map((c,i)=>elPath(`M148 ${111+i*4}C208 ${133+i*2} 208 ${67+i*3} ${188+i*3} 37C${161+i*3} 2 ${149+i*3} 41 ${172+i*3} 43L199 ${31+i*4}`,c,3.7)).join('')+
+  elRect(194,24,26,19,'#242c31',2)+[0,1,2].map(i=>elRect(212,27+i*5,5,3,'#d2c6a1',0,'none')).join('')+
+  elPath('M65 60L80 49H152V126L139 138H65Z','#164582',1.3,'#174a9a')+
+  elRect(65,60,74,78,'#235cba',2,'#163b78',1.4)+
+  elPath('M69 64H134V132H69Z','#467bba',1,'#2f6fc4')+
+  elRect(70,39,68,26,'#2864bd',2,'#164582',1.2)+
+  elPath('M70 39L83 31H149L138 39Z','#164582',1,'#3876c8')+
+  elRect(48,61,112,9,'#2252a2',1,'#163b78',1)+
+  elCircle(57,65,3,'#182f56')+elCircle(151,65,3,'#182f56')+
+  elCircle(113,34,14,'#1b4893')+elRect(108,20,10,16,'#edece2',1,'#adb6b8',.8)+
+  elPath('M74 72v54M132 73v51','#78a4d2',1.3)+
+  elRect(79,83,51,42,'#303426',0,'#d2c794',1)+
+  `<text x="104" y="97" text-anchor="middle" fill="#e7e1b8" font-family="Arial,sans-serif" font-size="8">MICRO SERVO</text><text x="104" y="111" text-anchor="middle" fill="#e7e1b8" font-family="Arial,sans-serif" font-size="12" font-weight="700">SG90</text><text x="104" y="121" text-anchor="middle" fill="#e7e1b8" font-family="Arial,sans-serif" font-size="7">9g</text>`,-8),
+ mpu9250Module:()=>elGroup(
+  elRect(33,34,174,103,'#2057b5',2,'#173b7c',1.3)+
+  elPath('M37 38H203V133H37Z','#5c8cce',.8)+
+  Array.from({length:10},(_,i)=>elCircle(45+i*16.6,45,5,'#d2b574','#a2864b',.7)+elCircle(45+i*16.6,45,3.2,'#263a54','none')).join('')+
+  elHole(49,120)+elHole(191,120)+
+  [0,1,2].map(i=>elPath(`M${55+i*8} 56v${29+i*8}h${46-i*8}M${181-i*8} 57v${28+i*8}h-${41-i*8}`,'#3879c9',1.2)).join('')+
+  elChip(106,72,28,28)+elRect(162,79,25,16,'#28313a',1)+
+  [[72,69],[85,69],[73,99],[87,99],[144,75],[144,104],[171,62]].map(([x,y])=>elSmd(x,y,8)).join('')+
+  elRect(105,109,31,10,'#c3bb91',1,'#dce0cf',1)+
+  `<text x="120" y="130" text-anchor="middle" fill="#e6edf0" font-family="Arial,sans-serif" font-size="9" font-weight="700">MPU-9250/6500</text>`,-8),
  // Back-panel packaging from the owner photo; the enclosed components are unverified.
  arduinoStarterBox:()=>elGroup(
   elPath('M27 32H202L214 43V133H39L27 122Z','#8f654d',1.3,'#ac4632')+
