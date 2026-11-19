@@ -78,6 +78,7 @@ const elScreen=(x,y,w,h,tone='blue')=>{
  return elRect(x,y,w,h,bg,1.4,'#1c2932',.8)+elPath(`M${x+8} ${y+9}h${Math.round(w*.4)}M${x+8} ${y+15}h${Math.round(w*.26)}`,fg,1.8)+elPath(`M${x+8} ${y+h-10}h${w-16}`,fg,.6)+elPath(`m${x+9} ${y+h-15} ${w*.14} -${h*.16} ${w*.14} ${h*.07} ${w*.16} -${h*.26} ${w*.14} ${h*.12} ${w*.15} -${h*.1}`,fg,1.4)+elPath(`M${x+2} ${y+2}h${w-4}`,'#ffffff',.5);
 };
 const electronicsProfiles={
+ 'arduino-starter-kit-uno-r3':['arduinoStarterBox',{}],
  'xiao-esp32s3-seeed':['elXiao',{}],
  'xiao-esp32s3-plus-seeed':['elXiao',{plus:true}],
  'raspberry-pi-5':['elPi',{}],
@@ -104,6 +105,18 @@ const electronicsProfiles={
  'tools-and-consumables--ams1117':['elRegulator',{}],
 };
 const electronicsDrawings={
+ // Back-panel packaging from the owner photo; the enclosed components are unverified.
+ arduinoStarterBox:()=>elGroup(
+  elPath('M27 32H202L214 43V133H39L27 122Z','#8f654d',1.3,'#ac4632')+
+  elRect(27,28,175,96,'#e9e6d9',2,'#b8b2a1',1.2)+
+  elPath('M30 31H199M30 31V120','#f8f5e9',1.8)+
+  `<text x="37" y="45" fill="#716e60" font-family="Arial,sans-serif" font-size="10" font-weight="700">ARDUINO STARTER KIT</text>
+   <text x="37" y="56" fill="#a35c47" font-family="Arial,sans-serif" font-size="6">15 PROJECTS · UNO R3</text>`+
+  Array.from({length:7},(_,i)=>elPath(`M37 ${65+i*5}h${58-i%3*7}M113 ${65+i*5}h${35-i%2*5}M157 ${65+i*5}h${31-i%3*4}`,'#999787',1.4)).join('')+
+  elRect(36,106,112,11,'#817e6b',0,'none')+
+  `<text x="40" y="114" fill="#f5f0df" font-family="Arial,sans-serif" font-size="7" font-weight="700">ARDUINO.CC/STARTERKIT</text>`+
+  elPath('M165 124q14-24 28 0','#bbb6a5',.9)+
+  elPath('M39 124v9M202 32v92l12 9','#793c2d',1),-6),
  bonkaLipo:o=>elGroup(elRect(65,43,110,96,'#b8c4c8',5)+elRect(69,46,102,89,'#dce1df',3)+elRect(65,43,110,10,'#b8a46c',2)+elPath('M84 43C69 18 95 16 103 26M98 43C92 22 117 20 124 28','#586c72',3)+elRect(77,65,86,58,'#314b50',3)+`<text x="120" y="82" text-anchor="middle" fill="#e0e7de" font-family="Arial,sans-serif" font-size="11" font-weight="700">BONKA</text><text x="120" y="101" text-anchor="middle" fill="#e0e7de" font-family="Arial,sans-serif" font-size="15" font-weight="700">${o.capacity}</text><text x="120" y="115" text-anchor="middle" fill="#c5d4ce" font-family="Arial,sans-serif" font-size="9">mAh · 1S · 3.7 V</text>`+elPath('M72 56v72M168 56v72','#f1f3eb',2),-8),
  elXiao:(o={})=>{
   let s=elRect(77,29,86,108,'#202e35',9)+elRect(80,31,80,103,'#27343b',7,'#5b656a',.6)+elPads(74,42,7,13,true)+elPads(158,42,7,13,true)+elUsb(101,24,38);

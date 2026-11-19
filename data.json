@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-11-13",
-  "familyCount": 33,
+  "asOf": "2026-11-19",
+  "familyCount": 34,
   "components": [
     {
       "id": "xiao-esp32s3-seeed",
@@ -9427,6 +9427,55 @@
           "subcategory": "Battery packs"
         }
       ]
+    },
+    {
+      "id": "arduino-starter-kit-uno-r3",
+      "name": "Arduino Starter Kit — UNO R3",
+      "category": "Controllers & computing",
+      "summary": "Classic Arduino learning kit, identified from its UNO R3 box and 15-project contents list.",
+      "tags": [
+        "UNO R3 kit",
+        "15 projects",
+        "Contents unverified",
+        "Gift",
+        "Brand: Arduino"
+      ],
+      "specs": {
+        "Recorded unit": "1 kit; individual contents unverified",
+        "Board listed on box": "Arduino UNO Rev. 3; enclosed board not inspected",
+        "Book listed on box": "170 pages; 15 projects",
+        "Prototyping parts listed": "400-hole breadboard, wooden base, USB cable and jumper wires",
+        "Display listed": "16 × 2 character LCD",
+        "Actuators listed": "Small DC motor (6/9 V) and servo",
+        "Physical SKU / book language": "Unverified; English text visible on packaging",
+        "Condition / completeness": "Unknown"
+      },
+      "note": "One received gift kit is recorded. Printed package contents are reference information; no separate board or loose-part stock, complete contents or tested function is established. The illustration depicts the photographed packaging.",
+      "links": [
+        {
+          "title": "Arduino legacy Starter Kit — manufacturer reference",
+          "url": "https://store.arduino.cc/products/arduino-starter-kit-multi-language"
+        }
+      ],
+      "catalogueId": "arduino-starter-kit-uno-r3",
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/arduino-starter-kit-uno-r3/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Microcontrollers",
+      "legacyCategory": "Compute",
+      "categoryPaths": [
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Microcontrollers"
+        }
+      ]
     }
   ],
   "families": [
@@ -11312,6 +11361,55 @@
         {
           "category": "Power",
           "subcategory": "Battery packs"
+        }
+      ]
+    },
+    {
+      "id": "arduino-starter-kit-uno-r3",
+      "name": "Arduino Starter Kit — UNO R3",
+      "category": "Controllers & computing",
+      "summary": "Classic Arduino learning kit, identified from its UNO R3 box and 15-project contents list.",
+      "tags": [
+        "UNO R3 kit",
+        "15 projects",
+        "Contents unverified",
+        "Gift",
+        "Brand: Arduino"
+      ],
+      "specs": {
+        "Recorded unit": "1 kit; individual contents unverified",
+        "Board listed on box": "Arduino UNO Rev. 3; enclosed board not inspected",
+        "Book listed on box": "170 pages; 15 projects",
+        "Prototyping parts listed": "400-hole breadboard, wooden base, USB cable and jumper wires",
+        "Display listed": "16 × 2 character LCD",
+        "Actuators listed": "Small DC motor (6/9 V) and servo",
+        "Physical SKU / book language": "Unverified; English text visible on packaging",
+        "Condition / completeness": "Unknown"
+      },
+      "note": "One received gift kit is recorded. Printed package contents are reference information; no separate board or loose-part stock, complete contents or tested function is established. The illustration depicts the photographed packaging.",
+      "links": [
+        {
+          "title": "Arduino legacy Starter Kit — manufacturer reference",
+          "url": "https://store.arduino.cc/products/arduino-starter-kit-multi-language"
+        }
+      ],
+      "catalogueId": "arduino-starter-kit-uno-r3",
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/arduino-starter-kit-uno-r3/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Microcontrollers",
+      "legacyCategory": "Compute",
+      "categoryPaths": [
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Microcontrollers"
         }
       ]
     }
