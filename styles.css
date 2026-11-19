@@ -227,3 +227,31 @@ body:has(dialog[open]){overflow:hidden}
 .classification-paths{margin:16px 0;font-size:12px;line-height:1.6;color:var(--muted)}
 .classification-paths summary{cursor:pointer;color:var(--accent);min-height:32px}
 .classification-paths ul{padding-left:20px}
+
+/* Kit part identification: independently fitted cards and a separate shared-mm comparison. */
+.kit-guide-intro{padding:18px 18px 12px;border-top:1px solid var(--line)}
+.kit-guide-intro h4{margin:0 0 8px;font-size:16px;font-weight:550}
+.kit-guide-intro p,.kit-size-comparison>p,.kit-illustration-note{font-size:12px;line-height:1.75;color:var(--muted);margin:0}
+.kit-size-comparison,.kit-quantity-list{margin:0 16px 18px;border:1px solid var(--line);border-radius:5px;overflow:hidden}
+.kit-size-comparison summary,.kit-quantity-list summary{padding:13px 14px;cursor:pointer;font-size:12px;font-weight:550;color:var(--accent-hover);background:var(--panel);min-height:44px;box-sizing:border-box}
+.kit-size-comparison>p{padding:12px 14px}
+.kit-scale-scroll{max-width:100%;overflow:auto;overscroll-behavior-x:contain;background:#e9eae2;scrollbar-width:thin}
+.kit-scale-scroll>svg{display:block;width:672px;height:auto;max-width:none;flex:none}
+.kit-part-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:0 16px 16px}
+.kit-part-card{border:1px solid var(--line);border-radius:5px;overflow:hidden;min-width:0;background:var(--panel)}
+.kit-part-image{position:relative;height:180px;display:flex;align-items:center;justify-content:center;padding:18px;background:radial-gradient(ellipse at 45% 35%,#f4f3ea,#d7ddd1);box-sizing:border-box;border-bottom:1px solid var(--line)}
+.kit-part-image>svg{width:100%;height:100%;max-width:100%;filter:drop-shadow(1px 3px 2px #22332926)}
+.kit-part-number{position:absolute;left:10px;top:8px;color:#647461;font-size:10px;font-variant-numeric:tabular-nums;letter-spacing:.07em}
+.kit-part-copy{padding:13px 14px 15px}
+.kit-part-heading{display:flex;gap:10px;justify-content:space-between;align-items:flex-start}
+.kit-part-heading h4{font-size:13px;line-height:1.5;font-weight:550;margin:0;overflow-wrap:anywhere}
+.kit-part-heading h4 span{display:block;color:var(--accent-hover);font-size:15px}
+.kit-part-quantity{flex:none;font-size:12px;font-weight:550;color:var(--accent-hover);font-variant-numeric:tabular-nums;background:var(--drawer);padding:2px 6px;border:1px solid var(--line);border-radius:3px}
+.kit-part-hint{font-size:11px;line-height:1.7;color:var(--ink);margin:10px 0}
+.kit-part-size{font-size:11px;line-height:1.6;color:var(--accent-hover);margin:10px 0 0}
+.kit-dimension-source{display:inline-flex;align-items:center;gap:5px;font-size:10px;color:var(--muted);padding:6px 0;text-decoration:underline;text-underline-offset:3px}
+.kit-dimension-source svg{width:10px;height:10px}
+.kit-part-record{font-size:10px;line-height:1.65;color:var(--muted);border-top:1px solid var(--line);padding-top:9px;margin:8px 0 0}
+.kit-illustration-note{padding:0 18px 18px;font-size:11px}
+.kit-quantity-list .contents-table{border-top:1px solid var(--line)}
+@media(max-width:540px){.kit-part-grid{grid-template-columns:minmax(0,1fr);padding:0 12px 12px;gap:12px}.kit-part-image{height:195px}.kit-guide-intro{padding:16px 13px 12px}.kit-size-comparison,.kit-quantity-list{margin-inline:12px}.kit-part-copy{padding:13px}.kit-dimension-source{min-height:30px}.kit-scale-scroll{width:100%}}

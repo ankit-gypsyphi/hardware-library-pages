@@ -446,3 +446,633 @@ export function artwork(_category, id='') {
  const body=drawing ? drawing(profile[1] || {}) : '<rect x="75" y="34" width="90" height="94" rx="6" fill="#e7ecef" stroke="#a7b5bd" stroke-width="1.5" stroke-dasharray="5 5"/><path d="M101 65h38m-38 12h29m-29 12h34" stroke="#acb9bf" stroke-width="3"/>';
  return `<svg viewBox="0 0 240 164" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-artwork="${drawing?profile[0]:'unidentified'}"><ellipse cx="120" cy="147" rx="65" ry="5" fill="#234761" opacity=".07"/>${body}</svg>`;
 }
+
+// Arduino kit identification references; source/limits: component illustration-reference-2026-11-20.json.
+export const kitPartProfiles = [
+ {
+  "key": "book",
+  "part": "Projects book",
+  "detailMatch": null,
+  "kind": "book",
+  "w": 150,
+  "h": 210,
+  "measured": false,
+  "dimensioned": false,
+  "size": "Size not documented",
+  "source": null,
+  "hint": "Printed projects book; illustrated cover is representative."
+ },
+ {
+  "key": "uno",
+  "part": "Arduino UNO Rev. 3",
+  "detailMatch": null,
+  "kind": "uno",
+  "w": 68.6,
+  "h": 53.4,
+  "measured": false,
+  "dimensioned": true,
+  "size": "68.6 × 53.4 mm board",
+  "source": "https://store.arduino.cc/products/arduino-uno-rev3",
+  "hint": "Teal board, long socketed chip, square USB-B port and black barrel jack."
+ },
+ {
+  "key": "usb",
+  "part": "USB cable",
+  "detailMatch": null,
+  "kind": "usb",
+  "w": 95,
+  "h": 62,
+  "measured": false,
+  "dimensioned": false,
+  "size": "Size not documented",
+  "source": null,
+  "hint": "Reference USB-A to USB-B cable; received connectors and cable length unverified."
+ },
+ {
+  "key": "breadboard",
+  "part": "Breadboard",
+  "detailMatch": null,
+  "kind": "breadboard",
+  "w": 82,
+  "h": 53,
+  "measured": false,
+  "dimensioned": true,
+  "size": "82 × 53 mm body",
+  "source": "https://www.arduino.cc/en/uploads/Main/BreadboardSolidWire.pdf",
+  "hint": "White 400-point board, centre channel and red/blue power rails."
+ },
+ {
+  "key": "base",
+  "part": "Assembly base",
+  "detailMatch": null,
+  "kind": "base",
+  "w": 150,
+  "h": 100,
+  "measured": false,
+  "dimensioned": false,
+  "size": "Size not documented",
+  "source": null,
+  "hint": "Wooden mounting base; cut-outs and outline are representative."
+ },
+ {
+  "key": "battery-snap",
+  "part": "9 V battery snap",
+  "detailMatch": null,
+  "kind": "snap",
+  "w": 26,
+  "h": 13,
+  "measured": false,
+  "dimensioned": true,
+  "size": "26 × 13 mm body",
+  "source": "https://www.arduino.cc/documents/datasheets/9vBatterySnap.PDF",
+  "hint": "Black snap with two different metal terminals and red/black wires."
+ },
+ {
+  "key": "solid-wire",
+  "part": "Solid-core jumper wires",
+  "detailMatch": null,
+  "kind": "solidWire",
+  "w": 75,
+  "h": 32,
+  "measured": false,
+  "dimensioned": false,
+  "size": "Size not documented",
+  "source": null,
+  "hint": "A sample of the assorted solid-core wires; colours and lengths vary."
+ },
+ {
+  "key": "stranded-wire",
+  "part": "Stranded jumper wires",
+  "detailMatch": null,
+  "kind": "strandedWire",
+  "w": 65,
+  "h": 32,
+  "measured": false,
+  "dimensioned": false,
+  "size": "Size not documented",
+  "source": null,
+  "hint": "One red and one black flexible wire; length and ends unverified."
+ },
+ {
+  "key": "phototransistor",
+  "part": "Phototransistors",
+  "detailMatch": null,
+  "kind": "photo",
+  "w": 5,
+  "h": 8.6,
+  "measured": false,
+  "dimensioned": false,
+  "size": "Size not documented",
+  "source": null,
+  "hint": "Representative two-lead phototransistor. Exact package unknown; may resemble a clear LED."
+ },
+ {
+  "key": "potentiometer",
+  "part": "Potentiometers",
+  "detailMatch": null,
+  "kind": "pot",
+  "w": 10,
+  "h": 10,
+  "measured": false,
+  "dimensioned": false,
+  "size": "Size not documented",
+  "source": null,
+  "hint": "Representative three-terminal trimmer with an adjustment shaft; supplied style unverified."
+ },
+ {
+  "key": "pushbutton",
+  "part": "Pushbuttons",
+  "detailMatch": null,
+  "kind": "button",
+  "w": 6.2,
+  "h": 6.2,
+  "measured": false,
+  "dimensioned": true,
+  "size": "6.2 × 6.2 mm body",
+  "source": "https://www.arduino.cc/documents/datasheets/Button.pdf",
+  "hint": "Square tactile switch with a round plunger and four legs; plunger height varies."
+ },
+ {
+  "key": "tmp36",
+  "part": "Temperature sensor",
+  "detailMatch": null,
+  "kind": "tmp36",
+  "w": 4.83,
+  "h": 4.825,
+  "measured": false,
+  "dimensioned": true,
+  "size": "≈4.83 × 4.83 mm body",
+  "source": "https://www.arduino.cc/en/uploads/Main/TemperatureSensor.pdf",
+  "hint": "Flat-faced black TO-92 body with three legs. Match the marking, not just the shape."
+ },
+ {
+  "key": "tilt",
+  "part": "Tilt sensor",
+  "detailMatch": null,
+  "kind": "tilt",
+  "w": 6.7,
+  "h": 9.8,
+  "measured": false,
+  "dimensioned": true,
+  "size": "6.7 × 9.8 mm side",
+  "source": "https://content.arduino.cc/assets/TiltSensor.PDF",
+  "hint": "BL-XT660 reference: black rectangular case and four legs. Received model unverified."
+ },
+ {
+  "key": "lcd",
+  "part": "Character LCD",
+  "detailMatch": null,
+  "kind": "lcd",
+  "w": 80,
+  "h": 36,
+  "measured": false,
+  "dimensioned": true,
+  "size": "80 × 36 mm board",
+  "source": "https://content.arduino.cc/assets/LCDscreen.PDF",
+  "hint": "Green board, metal bezel and a 16 × 2 character window."
+ },
+ {
+  "key": "led-white",
+  "part": "LED — bright white",
+  "detailMatch": null,
+  "kind": "led",
+  "w": 5,
+  "h": 8.7,
+  "measured": false,
+  "dimensioned": true,
+  "size": "Ø5 × 8.7 mm lens",
+  "source": "https://content.arduino.cc/assets/LED(white).pdf",
+  "hint": "Clear lens, two legs; white is its emitted light, not an opaque white case.",
+  "color": "#dce8e8",
+  "legs": 2
+ },
+ {
+  "key": "led-rgb",
+  "part": "LED — RGB",
+  "detailMatch": null,
+  "kind": "led",
+  "w": 5,
+  "h": 7.7,
+  "measured": false,
+  "dimensioned": true,
+  "size": "Ø5 × 7.7 mm lens",
+  "source": "https://content.arduino.cc/assets/LED(RGB).pdf",
+  "hint": "Frosted clear lens and four legs; emits red, green and blue.",
+  "color": "#e5e8df",
+  "legs": 4
+ },
+ {
+  "key": "led-red",
+  "part": "LED — red",
+  "detailMatch": null,
+  "kind": "led",
+  "w": 5,
+  "h": 8.6,
+  "measured": false,
+  "dimensioned": true,
+  "size": "Ø5 × 8.6 mm lens",
+  "source": "https://content.arduino.cc/assets/LED(red).pdf",
+  "hint": "Red lens and two legs; flange and internal metal cup shown.",
+  "color": "#cf302e",
+  "legs": 2
+ },
+ {
+  "key": "led-green",
+  "part": "LED — green",
+  "detailMatch": null,
+  "kind": "led",
+  "w": 5,
+  "h": 8.6,
+  "measured": false,
+  "dimensioned": true,
+  "size": "Ø5 × 8.6 mm lens",
+  "source": "https://content.arduino.cc/assets/Leds(Green).pdf",
+  "hint": "Green lens and two legs.",
+  "color": "#47a858",
+  "legs": 2
+ },
+ {
+  "key": "led-yellow",
+  "part": "LED — yellow",
+  "detailMatch": null,
+  "kind": "led",
+  "w": 5,
+  "h": 8.6,
+  "measured": false,
+  "dimensioned": false,
+  "size": "Size not documented",
+  "source": null,
+  "hint": "Representative yellow-lens LED; exact body dimensions unverified.",
+  "color": "#ecc234",
+  "legs": 2
+ },
+ {
+  "key": "led-blue",
+  "part": "LED — blue",
+  "detailMatch": null,
+  "kind": "led",
+  "w": 5,
+  "h": 8.6,
+  "measured": false,
+  "dimensioned": true,
+  "size": "Ø5 × 8.6 mm lens",
+  "source": "https://content.arduino.cc/assets/LED(blue).pdf",
+  "hint": "Blue lens and two legs.",
+  "color": "#3276bd",
+  "legs": 2
+ },
+ {
+  "key": "dc-motor",
+  "part": "Small DC motor",
+  "detailMatch": null,
+  "kind": "motor",
+  "w": 30.5,
+  "h": 24,
+  "measured": false,
+  "dimensioned": true,
+  "size": "30.5 mm long × Ø24 mm body",
+  "source": "https://content.arduino.cc/assets/DCmotor.PDF",
+  "hint": "Reference metal motor can with output shaft/pinion; supplied shaft accessory unverified."
+ },
+ {
+  "key": "servo",
+  "part": "Small servo motor",
+  "detailMatch": null,
+  "kind": "servo",
+  "w": 22.9,
+  "h": 22.2,
+  "measured": false,
+  "dimensioned": true,
+  "size": "22.9 × 22.2 mm side; 12.3 mm deep",
+  "source": "https://content.arduino.cc/assets/servoMotor.PDF",
+  "hint": "Black SM-S2309S reference body, white horn and three-wire lead; actual servo model unverified."
+ },
+ {
+  "key": "piezo",
+  "part": "Piezo capsule",
+  "detailMatch": null,
+  "kind": "piezo",
+  "w": 22,
+  "h": 22,
+  "measured": false,
+  "dimensioned": false,
+  "size": "Size not documented",
+  "source": null,
+  "hint": "Representative black piezo capsule with a sound opening; exact dimensions unverified."
+ },
+ {
+  "key": "hbridge",
+  "part": "H-bridge motor driver",
+  "detailMatch": null,
+  "kind": "dip",
+  "w": 20,
+  "h": 7.1,
+  "measured": false,
+  "dimensioned": true,
+  "size": "20 × 7.1 mm body, maximum",
+  "source": "https://content.arduino.cc/assets/H-bridge_motor_driver.PDF",
+  "hint": "L293D: long black package with 16 legs and an end notch.",
+  "pins": 16,
+  "mark": "L293D"
+ },
+ {
+  "key": "opto",
+  "part": "Optocoupler",
+  "detailMatch": null,
+  "kind": "dip",
+  "w": 7.3,
+  "h": 6.5,
+  "measured": false,
+  "dimensioned": true,
+  "size": "7.3 × 6.5 mm body, nominal",
+  "source": "https://www.arduino.cc/documents/datasheets/Optocouplers.pdf",
+  "hint": "4N35: short black package with six legs and an orientation dot.",
+  "pins": 6,
+  "mark": "4N35"
+ },
+ {
+  "key": "mosfet",
+  "part": "MOSFET transistors",
+  "detailMatch": null,
+  "kind": "mosfet",
+  "w": 10.415,
+  "h": 15.04,
+  "measured": false,
+  "dimensioned": true,
+  "size": "≈10.42 × 15.04 mm body + tab",
+  "source": "https://content.arduino.cc/assets/MosfetTransistor.pdf",
+  "hint": "IRF520 family: three legs, black body and exposed metal mounting tab."
+ },
+ {
+  "key": "capacitor",
+  "part": "Capacitors",
+  "detailMatch": null,
+  "kind": "capacitor",
+  "w": 6.3,
+  "h": 11,
+  "measured": false,
+  "dimensioned": false,
+  "size": "Size not documented",
+  "source": null,
+  "hint": "Representative radial 100 µF electrolytic. Stripe marks the negative side; size and voltage unknown."
+ },
+ {
+  "key": "diode",
+  "part": "Diodes",
+  "detailMatch": null,
+  "kind": "diode",
+  "w": 4.7,
+  "h": 2.35,
+  "measured": false,
+  "dimensioned": true,
+  "size": "≈4.7 × Ø2.35 mm body",
+  "source": "https://content.arduino.cc/assets/Diodes.pdf",
+  "hint": "1N4007: black axial body with a pale cathode band at one end."
+ },
+ {
+  "key": "gels",
+  "part": "Transparent colour gels",
+  "detailMatch": null,
+  "kind": "gels",
+  "w": 70,
+  "h": 55,
+  "measured": false,
+  "dimensioned": false,
+  "size": "Size not documented",
+  "source": null,
+  "hint": "Three translucent sheets: red, green and blue. Sheet dimensions unknown."
+ },
+ {
+  "key": "header",
+  "part": "Male pin strip",
+  "detailMatch": null,
+  "kind": "header",
+  "w": 101.6,
+  "h": 2.54,
+  "measured": false,
+  "dimensioned": false,
+  "size": "Size not documented",
+  "source": null,
+  "hint": "One strip with 40 metal pins in a black carrier; actual pitch not verified."
+ },
+ {
+  "key": "resistor-220",
+  "part": "Resistors",
+  "detailMatch": "220 Ω",
+  "kind": "resistor",
+  "w": 6.3,
+  "h": 2.3,
+  "measured": false,
+  "dimensioned": false,
+  "size": "Size not documented",
+  "source": null,
+  "hint": "Representative 4-band resistor; value colours shown, gold tolerance band is illustrative. Size and tolerance unverified.",
+  "bands": [
+   "red",
+   "red",
+   "brown"
+  ]
+ },
+ {
+  "key": "resistor-560",
+  "part": "Resistors",
+  "detailMatch": "560 Ω",
+  "kind": "resistor",
+  "w": 6.3,
+  "h": 2.3,
+  "measured": false,
+  "dimensioned": false,
+  "size": "Size not documented",
+  "source": null,
+  "hint": "Representative 4-band resistor; value colours shown, gold tolerance band is illustrative. Size and tolerance unverified.",
+  "bands": [
+   "green",
+   "blue",
+   "brown"
+  ]
+ },
+ {
+  "key": "resistor-1k",
+  "part": "Resistors",
+  "detailMatch": "1 kΩ",
+  "kind": "resistor",
+  "w": 6.3,
+  "h": 2.3,
+  "measured": false,
+  "dimensioned": false,
+  "size": "Size not documented",
+  "source": null,
+  "hint": "Representative 4-band resistor; value colours shown, gold tolerance band is illustrative. Size and tolerance unverified.",
+  "bands": [
+   "brown",
+   "black",
+   "red"
+  ]
+ },
+ {
+  "key": "resistor-4k7",
+  "part": "Resistors",
+  "detailMatch": "4.7 kΩ",
+  "kind": "resistor",
+  "w": 6.3,
+  "h": 2.3,
+  "measured": false,
+  "dimensioned": false,
+  "size": "Size not documented",
+  "source": null,
+  "hint": "Representative 4-band resistor; value colours shown, gold tolerance band is illustrative. Size and tolerance unverified.",
+  "bands": [
+   "yellow",
+   "violet",
+   "red"
+  ]
+ },
+ {
+  "key": "resistor-10k",
+  "part": "Resistors",
+  "detailMatch": "10 kΩ",
+  "kind": "resistor",
+  "w": 6.3,
+  "h": 2.3,
+  "measured": false,
+  "dimensioned": false,
+  "size": "Size not documented",
+  "source": null,
+  "hint": "Representative 4-band resistor; value colours shown, gold tolerance band is illustrative. Size and tolerance unverified.",
+  "bands": [
+   "brown",
+   "black",
+   "orange"
+  ]
+ },
+ {
+  "key": "resistor-1m",
+  "part": "Resistors",
+  "detailMatch": "1 MΩ",
+  "kind": "resistor",
+  "w": 6.3,
+  "h": 2.3,
+  "measured": false,
+  "dimensioned": false,
+  "size": "Size not documented",
+  "source": null,
+  "hint": "Representative 4-band resistor; value colours shown, gold tolerance band is illustrative. Size and tolerance unverified.",
+  "bands": [
+   "brown",
+   "black",
+   "green"
+  ]
+ },
+ {
+  "key": "resistor-10m",
+  "part": "Resistors",
+  "detailMatch": "10 MΩ",
+  "kind": "resistor",
+  "w": 6.3,
+  "h": 2.3,
+  "measured": false,
+  "dimensioned": false,
+  "size": "Size not documented",
+  "source": null,
+  "hint": "Representative 4-band resistor; value colours shown, gold tolerance band is illustrative. Size and tolerance unverified.",
+  "bands": [
+   "brown",
+   "black",
+   "blue"
+  ]
+ }
+];
+
+const kpEscape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const kpRect=(x,y,w,h,fill,rx=.3,stroke='none',sw=.15)=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${rx}" fill="${fill}" stroke="${stroke}" stroke-width="${sw}"/>`;
+const kpCircle=(x,y,r,fill,stroke='none',sw=.15)=>`<circle cx="${x}" cy="${y}" r="${r}" fill="${fill}" stroke="${stroke}" stroke-width="${sw}"/>`;
+const kpLine=(d,color,width=.3)=>`<path d="${d}" fill="none" stroke="${color}" stroke-width="${width}" stroke-linecap="round" stroke-linejoin="round"/>`;
+const kpText=(x,y,text,size,fill='#d9dedb',anchor='middle')=>`<text x="${x}" y="${y}" font-family="Arial,sans-serif" font-size="${size}" fill="${fill}" text-anchor="${anchor}">${kpEscape(text)}</text>`;
+const kpMany=(n,f)=>Array.from({length:n},(_,i)=>f(i)).join('');
+const kpBands={black:'#252629',brown:'#72492c',red:'#c83c32',orange:'#e28737',yellow:'#dfc73c',green:'#328956',blue:'#3b67ba',violet:'#985297'};
+export function kitPartProfile(itemId,row){
+ if(itemId!=='arduino-starter-kit-uno-r3')return null;
+ return kitPartProfiles.find(p=>p.part===row.part&&(!p.detailMatch||p.detailMatch===row.detail))||null;
+}
+function kpDefinitions(id){return `<defs>
+ <linearGradient id="${id}-metal" x2="0" y2="1"><stop stop-color="#8e9699"/><stop offset=".18" stop-color="#eef0ee"/><stop offset=".43" stop-color="#adb7b9"/><stop offset=".72" stop-color="#e1e4e3"/><stop offset="1" stop-color="#7a868a"/></linearGradient>
+ <linearGradient id="${id}-dark" x2="1" y2="1"><stop stop-color="#52585b"/><stop offset=".25" stop-color="#303538"/><stop offset=".8" stop-color="#171b1e"/><stop offset="1" stop-color="#414649"/></linearGradient>
+ <linearGradient id="${id}-white" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset=".48" stop-color="#e9e8df"/><stop offset="1" stop-color="#b2b8b5"/></linearGradient>
+ <linearGradient id="${id}-gold" x2="1" y2="0"><stop stop-color="#93713c"/><stop offset=".4" stop-color="#edd797"/><stop offset="1" stop-color="#a78343"/></linearGradient>
+ <linearGradient id="${id}-glass" x2="1" y2="0"><stop stop-color="#fff" stop-opacity=".55"/><stop offset=".22" stop-color="#fff" stop-opacity=".2"/><stop offset=".7" stop-color="#fff" stop-opacity=".02"/><stop offset="1" stop-color="#16333f" stop-opacity=".25"/></linearGradient>
+ </defs>`;}
+function kpDrawing(p,id,bodyOnly=false){
+ const metal=`url(#${id}-metal)`,dark=`url(#${id}-dark)`,white=`url(#${id}-white)`,gold=`url(#${id}-gold)`,glass=`url(#${id}-glass)`;
+ const w=p.w,h=p.h,lead=(d,sw=.45)=>kpLine(d,'#8d9b9f',sw)+kpLine(d,'#e3e8e4',sw*.28);
+ switch(p.kind){
+ case 'book':return kpRect(3,3,w,h,'#a8b2ad',1)+kpRect(1,1,w-3,h-3,'#ece9df',1)+kpMany(9,i=>kpLine(`M${w-1} ${10+i*21}v14`,'#bfc2ba',.7))+kpRect(0,0,w-4,h-4,'#eae6db',1)+kpRect(0,0,8,h-4,'#a4c5c0',0)+kpText(w/2,32,'ARDUINO',12,'#008b90')+kpText(w/2,52,'PROJECTS BOOK',8,'#008b90')+kpLine('M24 108h35v-24h41v57h27M24 151h27v21h49v-14h27','#d75d36',1.2)+kpCircle(59,108,4,'none','#d75d36',1)+kpCircle(100,141,4,'none','#d75d36',1)+kpText(w/2,191,'STARTER KIT',7,'#606963');
+ case 'uno':{
+  const sockets=(x,y,n)=>kpRect(x,y,n*2.54,2.7,dark,.2)+kpMany(n,i=>kpRect(x+.65+i*2.54,y+.6,1.1,1.1,'#111719',.05,'#8e9997',.15));
+  return `<path d="M0 0H65.8l2.8 2.8v47.4l-2.8 3.2H0Z" fill="#078f96" stroke="#06616b" stroke-width=".4"/>`+
+   kpMany(12,i=>kpLine(`M${15+i*3.5} 13v${6+i%4*2}h${9-i%5}`,'#58b2ac',.22))+
+   [[3.5,3.5],[3.5,49.8],[65,5],[65,47]].map(([x,y])=>kpCircle(x,y,1.65,'#c2a75b')+kpCircle(x,y,1,'#e1e3d9')).join('')+
+   sockets(21,1.1,10)+sockets(48,1.1,8)+sockets(22,49.1,8)+sockets(48,49.1,6)+
+   kpRect(-2,8,16,12.2,metal,.5,'#586c72',.25)+kpRect(-2,9.2,2,9.8,dark,.2)+kpLine('M1 10h10v8H1', '#f8f9f6',.25)+
+   kpRect(-1,36,13,9,dark,.6)+kpCircle(0,40.5,3.2,'#171d20','#a0aaac',.5)+
+   kpRect(31,30,36,9,dark,.7)+kpMany(14,i=>lead(`M${31.8+i*2.54} 28.8v1.2m0 9v1.4`,.75))+
+   kpText(49,35.4,'ATMEGA328P',1.7)+kpCircle(33,32,0.5,'#878d88')+
+   kpRect(18,18,7,7,dark,.4)+kpMany(4,i=>lead(`M${18.6+i*1.6} 17v1m0 7v1`,.6))+
+   kpRect(21,37,5,9,dark,.3)+kpCircle(15,35,2.2,metal)+kpCircle(15,42,2.2,metal)+
+   kpRect(5,24,5,3.8,metal,.6)+kpRect(6.4,25.1,2.3,1.4,'#cf6154',.4)+
+   kpMany(7,i=>kpRect(28+i*3.5,18+i%2*4,2,1.2,'#d3c3a0',.1,'#e7e7dd',.25))+
+   kpText(49,13,'ARDUINO',3.2,'#f3f7ec')+kpText(52,23,'UNO',5,'#f3f7ec')+kpText(43,47,'ANALOG IN',1.2,'#e3f4ed')+
+   kpRect(60,22,5.1,5.1,dark,.3)+kpMany(6,i=>kpCircle(61+i%2*2.54,23+Math.floor(i/2)*1.5,.45,gold));}
+ case 'breadboard':{
+  const holes=(x,y,n,rows)=>kpMany(rows,r=>kpMany(n,c=>kpRect(x+c*2.54,y+r*2.54,.9,.9,'#727b77',.12)));
+  return kpRect(0,0,w,h,white,1.5,'#c4c8c2',.3)+kpRect(2,24.6,78,3.8,'#b6bdb7',.3)+holes(3.7,10.2,30,5)+holes(3.7,30,30,5)+holes(9,2,25,2)+holes(9,46.5,25,2)+kpLine('M7 1H74M7 46H74','#d15249',.35)+kpLine('M7 6.7H74M7 51.4H74','#4b84b1',.35)+kpMany(6,i=>kpText(5+i*12.7,9,String(1+i*5),1.3,'#69766e'));}
+ case 'lcd':return kpRect(0,0,w,h,'#257b4e',1,'#175534',.3)+[[2.5,2.5],[77.5,2.5],[2.5,33.5],[77.5,33.5]].map(([x,y])=>kpCircle(x,y,1.65,gold)+kpCircle(x,y,1.1,'#dfe4db')).join('')+kpMany(16,i=>kpCircle(7.5+i*2.54,3,0.9,gold)+kpCircle(7.5+i*2.54,3,.45,'#263e2e'))+kpRect(4,7,72,26,dark,1)+kpRect(7.75,12.25,64.5,14.5,'#b0be79',.3,'#070e0a',.25)+kpMany(2,r=>kpMany(16,c=>kpRect(11+c*3.65,14+r*5.05,2.95,4.35,'#9cac6c',.05)))+kpLine('M6 8H74M6 31H74','#747b78',.25);
+ case 'usb':return kpLine('M21 27C-2 76 70 79 78 34','#232b2e',4)+kpLine('M21 27C-2 76 70 79 78 34','#748086',.7)+kpRect(12,8,18,23,dark,2)+kpRect(14,0,14,12,metal,.5,'#7d898b',.35)+kpRect(17,3,3,3,'#435054')+kpRect(23,3,3,3,'#435054')+kpMany(4,i=>kpLine(`M15 ${26+i*1.7}h12`,'#171f22',.6))+kpRect(68,16,22,22,dark,2)+`<path d="M72 16V5l3-3h9l3 3v11Z" fill="${metal}" stroke="#76878b" stroke-width=".3"/>`+kpRect(76,5,7,8,'#34474e',.2)+kpRect(77.2,6,4.6,6,'#e4e6de',.2);
+ case 'base':return kpRect(0,0,w,h,'#bf9664',3,'#77573e',1)+kpMany(12,i=>kpLine(`M5 ${7+i*7.5}q36 -3 69 0t69 0`,'#ae8556',.5))+kpRect(7,9,60,81,'none',1,'#876643',.8)+kpRect(75,9,66,81,'none',1,'#876643',.8)+[[11,13],[62,13],[11,86],[62,86],[80,13],[136,86]].map(([x,y])=>kpCircle(x,y,1.8,'#4f4437')).join('')+kpText(108,55,'ARDUINO',5,'#805b39');
+ case 'snap':return (!bodyOnly?kpLine('M26 4C47 2 46 30 60 27','#bb3630',1.1)+kpLine('M26 9C42 7 42 35 59 32','#292f32',1.1)+lead('M60 27l6-2M59 32h7',.6):'')+kpRect(0,0,26,13,dark,6,'#151b1d',.25)+kpCircle(6.5,6.5,3.5,metal,'#899293',.2)+kpCircle(6.5,6.5,1.9,'#768587','#dde2df',.4)+`<path d="m16 3 5-1 3 4-1 4-5 1-3-4Z" fill="${metal}" stroke="#a6afab" stroke-width=".3"/>`+kpCircle(19.5,6.5,2.2,'#424d4e','#f0f0e9',.5);
+ case 'solidWire':return ['#c84538','#e5b638','#4b985e','#4886b7','#f4ece0','#9c7965'].map((c,i)=>{const x=3+i*11,y=3+i%3*5;return lead(`M${x} ${y+11}v13m7-13v13`,.65)+kpLine(`M${x} ${y+11}V${y}h7v11`,c,1.3);}).join('');
+ case 'strandedWire':return ['#bc3b34','#252d31'].map((c,i)=>kpLine(`M5 ${8+i*9}C18 ${-5+i*10} 44 ${35+i*3} 58 ${15+i*9}`,c,1.8)+lead(`M5 ${8+i*9}l-4 1m57 ${6+i*0}l5-1`,.7)).join('');
+ case 'photo':return (!bodyOnly?lead('M1.2 7v15M3.8 7v13',.45):'')+`<path d="M0 8V2.5A2.5 2.5 0 0 1 5 2.5V8Z" fill="#a3c2bf" fill-opacity=".65" stroke="#718e8d" stroke-width=".15"/>`+kpRect(1.1,4,2.8,2.5,'#4e6465',.2)+kpCircle(2.5,4.7,.65,'#212c31')+kpLine('M.8 5V2.5q0-1.3 1.3-1.5','#fff',.3)+kpRect(-.35,7.6,5.7,1,glass,.1);
+ case 'pot':return lead('M1 9v5M5 9v5M9 9v5',.55)+kpRect(0,0,10,10,'#256faf',1,'#244a64',.3)+kpRect(1,1,8,8,'#76afd0',.6)+kpCircle(5,5,3.7,white,'#8c9b9e',.25)+kpRect(3.7,-5,2.6,10,white,.5,'#aeb7b3',.15)+kpMany(4,i=>kpLine(`M${4+i*.65} -4v8`,'#bdc6c1',.12))+kpLine('M4 -4h2','#676f70',.45);
+ case 'button':return (!bodyOnly?lead('M.8 1h-1.6v2m1.6 2h-1.6v2M5.4 1H7v2M5.4 5H7v2',.45):'')+kpRect(0,0,6.2,6.2,dark,.35)+kpRect(.15,.15,5.9,5.9,metal,.35)+[[.8,.8],[5.4,.8],[.8,5.4],[5.4,5.4]].map(([x,y])=>kpCircle(x,y,.5,'#c3cbca','#6c787a',.1)).join('')+kpCircle(3.1,3.1,1.75,dark,'#22282a',.15)+kpCircle(3.1,2.95,1.35,'#434a4a');
+ case 'tmp36':return (!bodyOnly?kpMany(3,i=>lead(`M${1.14+i*1.27} ${h}v12.7`,.4)):'')+kpRect(0,0,w,h,dark,.7,'#1f2a2e',.16)+kpLine(`M.4 .7H${w-.4}`,'#6b7477',.18)+kpText(w/2,2.2,'TMP',.8)+kpText(w/2,3.3,'36',.8);
+ case 'tilt':return (!bodyOnly?kpMany(4,i=>lead(`M${.7+i*1.7} 9.8v${i%2?4:3}`, .45)):'')+kpRect(0,0,w,h,dark,.3,'#171e21',.2)+kpLine('M.5 .4H6.2V9.3','#687276',.18)+kpLine('M.4 8.8H6.3','#090f12',.2);
+ case 'led':{
+  const rgb=p.legs===4, flange=rgb?5.6:p.key==='led-white'?5.8:5.9;
+  const legs=kpMany(p.legs,i=>lead(`M${rgb?.55+i*1.3:1.23+i*2.54} ${h-2}v${rgb?(i===1?24:21):p.key==='led-blue'?(i?27:29):(i?17:19)}`, .45));
+  return (!bodyOnly?legs:'')+`<path d="M0 ${h-.7}V2.5A2.5 2.5 0 0 1 5 2.5V${h-.7}Z" fill="${p.color}" fill-opacity=".88" stroke="${p.color}" stroke-width=".15"/>`+kpRect((5-flange)/2,h-.9,flange,.9,p.color,.1)+kpLine(`M1.2 ${h-1}V4.8h2.3v${h-5.8}`,'#9baba4',.35)+kpRect(2,4.2,1.5,1.3,'#aab5ae',.15)+`<path d="M.35 ${h-1.2}V2.5a2.15 2.15 0 0 1 4.3 0v${h-3.7}Z" fill="${glass}"/>`+kpLine('M.9 4V2.4q0-1.3 1.3-1.5','#fff',.35);}
+ case 'motor':return (!bodyOnly?lead('M0 12h-11.5',2)+kpRect(-11.5,9,4,6,gold,.1)+kpMany(5,i=>kpLine(`M-11.5 ${9.5+i*1.1}h4`,'#8e723b',.2)):'')+kpRect(0,0,30.5,24,metal,4,'#7f8b8e',.25)+kpRect(27.5,1.5,3,21,'#d4d3c5',.7)+kpLine('M3 1v22M26 2v20','#7b888b',.3)+kpRect(6,3,7,2.2,'#3b4548',1)+kpRect(6,18.8,7,2.2,'#3b4548',1)+(!bodyOnly?lead('M30.5 6h3M30.5 18h3',1):'');
+ case 'servo':return (!bodyOnly?kpRect(-4,4,30.9,2.2,dark,.4)+kpCircle(-2,5,0.8,'#929b94')+kpCircle(25,5,.8,'#929b94')+kpLine('M3 22c0 7 32 12 33 0','#252e32',1)+kpLine('M4.2 22c0 6 32 11 33-1','#ba3931',.8)+kpLine('M5.4 22c0 5 32 10 33-2','#e8cfa9',.8)+kpRect(34,16,6,6,white,.6):'')+kpRect(0,0,w,h,dark,1,'#172126',.3)+kpLine(`M.6 4.3H${w-.6}M.6 19.4H${w-.6}`,'#6c7475',.25)+kpRect(3,7,17,10,'#343c3f',.5)+kpText(11.5,11,'MICRO',1.3)+kpText(11.5,14,'SERVO',1.3)+(!bodyOnly?kpCircle(6,-.8,3.7,white,'#a1a9a4',.15)+kpRect(-2,-2.4,16,3.2,white,1.6)+kpCircle(6,-.8,1,metal)+kpMany(6,i=>kpCircle(-.7+i*2.6,-.8,.4,'#76817f')):'');
+ case 'piezo':return (!bodyOnly?lead('M7 20v10M15 20v8',.6):'')+kpCircle(11,11,11,dark,'#171f22',.3)+kpCircle(11,11,9.8,'#353d40','#5d686b',.3)+kpCircle(11,11,2.7,'#10191c','#4b575b',.3)+kpText(11,6,'+',2.4,'#a8b2af')+kpLine('M3 9a8 8 0 0 1 9-6','#697376',.4);
+ case 'dip':return (!bodyOnly?kpMany(p.pins/2,i=>lead(`M${(w-(p.pins/2-1)*2.54)/2+i*2.54} 0v-2.2m0 ${h+2.2}v2.2`,.65)):'')+kpRect(0,0,w,h,dark,.5,'#192025',.2)+kpLine(`M.7 .6H${w-.7}`,'#656c6e',.18)+`<path d="M0 ${h/2-1}a1 1 0 0 1 0 2" fill="#10171b" stroke="#788182" stroke-width=".15"/>`+kpCircle(1.4,h-1.2,.3,'#8b9290')+kpText(w/2,h*.59,p.mark,Math.min(1.7,w*.16),'#afb5af');
+ case 'mosfet':return (!bodyOnly?kpMany(3,i=>lead(`M${2.667+i*2.54} ${h}v13.5`,.7)):'')+kpRect(0,0,w,h,metal,.35,'#7f8d92',.2)+kpCircle(w/2,3,1.8,'#eff0e7','#929fa1',.3)+kpRect(0,5.6,w,h-5.6,dark,.5)+kpLine(`M.5 6.2H${w-.5}`,'#616d73',.2)+kpText(w/2,9.3,'IRF520',1.2)+kpText(w/2,12,'REF',.75,'#798782');
+ case 'capacitor':return (!bodyOnly?lead('M1.7 11v16M4.4 11v13',.45):'')+kpRect(0,0,w,h,dark,1,'#1c262b',.2)+kpRect(w-1.5,.5,1.1,h-1,'#c6d2cc',.3)+kpMany(4,i=>kpLine(`M${w-1.3} ${2+i*2}h.65`,'#384d51',.18))+`<ellipse cx="${w/2}" cy=".8" rx="${w/2}" ry=".8" fill="${metal}"/>`+kpLine(`M${w/2-1.2} .4l2.4 .7m0-.7-2.4 .7`,'#8b9797',.15)+kpText(w/2-.5,6,'100',1)+kpText(w/2-.5,8,'µF',.9);
+ case 'diode':return (!bodyOnly?lead(`M0 ${h/2}h-6M${w} ${h/2}h6`,.45):'')+kpRect(0,0,w,h,dark,h/3,'#252e31',.12)+kpRect(w-.9,.1,.55,h-.2,'#d7dbd5',.08)+kpLine(`M.5 .35H${w-1.1}`,'#737b7d',.15);
+ case 'gels':return ['#d23e36','#388c58','#3970b5'].map((c,i)=>`<g transform="translate(${i*14} ${i*8})">${kpRect(0,0,43,35,c,.4,c,.3)}${kpRect(1,1,41,33,'#fff',.3).replace('fill="#fff"','fill="#fff" opacity=".08"')}${kpLine('M2 32 40 3','#fff',.35)}</g>`).join('');
+ case 'header':return kpRect(0,0,w,2.54,dark,.2)+kpMany(40,i=>lead(`M${1.27+i*2.54} 0v-6m0 8.54v3`,.6)+kpRect(.95+i*2.54,.65,.64,1.2,gold,.05));
+ case 'resistor':return (!bodyOnly?lead(`M0 ${h/2}h-5.5M${w} ${h/2}h5.5`,.4):'')+`<path d="M0 .6Q0 0 .9 0l1 .3h${w-3.8}l1-.3q.9 0 .9 .6v${h-1.2}q0 .6-.9 .6l-1-.3H1.9l-1 .3Q0 ${h} 0 ${h-.6}Z" fill="#d7be91" stroke="#a38b65" stroke-width=".12"/>`+p.bands.map((b,i)=>kpRect(.9+i*1.05,.15,.5,h-.3,kpBands[b],.02)).join('')+kpRect(w-.9,.1,.4,h-.2,gold,.05)+kpLine(`M.5 .4H${w-.5}`,'#fff8df',.12);
+ default:return '';
+ }
+}
+function kpBounds(p){
+ const bounds={book:[0,0,153,213],uno:[-2,0,70.6,53.4],usb:[0,-1,96,66],base:[0,0,150,100],snap:[0,0,67,35],solidWire:[0,0,70,38],strandedWire:[0,0,67,37],photo:[-.5,0,6,23],pot:[-.5,-5,11,20],button:[-1,0,8.2,7.5],tmp36:[0,0,p.w,p.h+13],tilt:[0,0,6.7,14],led:[-.5,0,6,p.h+(p.key==='led-blue'?30:25)],motor:[-12,0,46,24],servo:[-4,-5,45,37],piezo:[0,0,22,31],dip:[0,-2.5,p.w,p.h+5],mosfet:[0,0,p.w,p.h+14],capacitor:[0,-.3,p.w,28],diode:[-6,0,p.w+12,p.h],gels:[0,0,72,52],header:[0,-6.5,101.6,13],resistor:[-5.5,0,p.w+11,p.h]};
+ return bounds[p.kind]||[0,0,p.w,p.h];
+}
+export function kitPartArtwork(profile){
+ if(!profile)return '';
+ const p=profile,id='kit-card-'+p.key,[x,y,w,h]=kpBounds(p),padding=Math.max(w,h)*.1;
+ return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${x-padding} ${y-padding} ${w+padding*2} ${h+padding*2}" role="img" aria-label="${kpEscape(p.part+(p.detailMatch?' '+p.detailMatch:'')+'. '+p.hint)}" data-kit-art="${p.key}">${kpDefinitions(id)}${kpDrawing(p,id)}</svg>`;
+}
+// Shared millimetre coordinates. No per-object resizing; only translation is permitted.
+export function kitScaleLayout(){
+ const placed=[];let x=8,y=19,rowHeight=0;
+ for(const p of kitPartProfiles.filter(p=>p.dimensioned)){
+  const cellW=Math.max(52,p.w+12),cellH=Math.max(38,p.h+21);
+  if(x+cellW>216){x=8;y+=rowHeight;rowHeight=0;}
+  placed.push({profile:p,x:x+(cellW-p.w)/2,y,cellW,cellH});x+=cellW;rowHeight=Math.max(rowHeight,cellH);
+ }
+ return {width:224,height:y+rowHeight+9,placed};
+}
+export function kitScaleArtwork(){
+ const {width,height,placed}=kitScaleLayout();
+ return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="672" height="${height*3}" role="img" aria-label="Eighteen reference part bodies at one common millimetre scale. Wires, leads, horns and unknown sizes are omitted."><rect width="100%" height="100%" fill="#e9eae2"/>${kpMany(22,i=>kpLine(`M${8+i*10} 8v${height-14}`,'#d9ddd3',.15))}${kpMany(Math.floor(height/10),i=>kpLine(`M8 ${8+i*10}H216`,'#d9ddd3',.15))}${kpLine('M8 9H108','#44564e',.4)}${kpMany(11,i=>kpLine(`M${8+i*10} 7v4`,'#44564e',.3)+(i%2===0?kpText(8+i*10,5,i*10,2.7,'#3d5047'):''))}${kpText(115,10,'mm',3,'#3d5047','start')}${placed.map(({profile:p,x,y,cellH})=>{const id='kit-scale-'+p.key;return kpDefinitions(id)+`<g transform="translate(${x} ${y})" data-scale-part="${p.key}" data-width-mm="${p.w}" data-height-mm="${p.h}">${kpDrawing(p,id,true)}</g>`+kpText(x+p.w/2,y+Math.max(p.h+6,24),p.part,3,'#30483b')+kpText(x+p.w/2,y+Math.max(p.h+11,29),`${p.w.toFixed(2).replace(/\.?0+$/,'')} × ${p.h.toFixed(2).replace(/\.?0+$/,'')} mm`,2.7,'#5b6d61');}).join('')}</svg>`;
+}
