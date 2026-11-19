@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-20",
   "familyCount": 37,
   "components": [
     {
@@ -9444,13 +9444,14 @@
         "Recorded unit": "1 kit; individual contents unverified",
         "Board listed on box": "Arduino UNO Rev. 3; enclosed board not inspected",
         "Book listed on box": "170 pages; 15 projects",
-        "Prototyping parts listed": "400-hole breadboard, wooden base, USB cable and jumper wires",
+        "Prototyping parts listed": "Breadboard (400 points in Arduino reference), wooden-base reference, USB cable and jumper wires",
         "Display listed": "16 × 2 character LCD",
         "Actuators listed": "Small DC motor (6/9 V) and servo",
         "Physical SKU / book language": "Unverified; English text visible on packaging",
-        "Condition / completeness": "Unknown"
+        "Condition / completeness": "Unknown",
+        "Contents reference": "37 item types; 215 listed units from the box, not a physical count"
       },
-      "note": "One received gift kit is recorded. Printed package contents are reference information; no separate board or loose-part stock, complete contents or tested function is established. The illustration depicts the photographed packaging.",
+      "note": "One received gift kit is recorded. The full contents table uses printed box counts and labelled online reference details; it does not establish separate board/loose-part stock, physical completeness or tested function. Five 100 µF capacitors are printed on the box; the current Arduino page lists three. The illustration depicts the photographed packaging.",
       "links": [
         {
           "title": "Arduino legacy Starter Kit — manufacturer reference",
@@ -9467,7 +9468,203 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/arduino-starter-kit-uno-r3/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null,
+      "contents": {
+        "total": 215,
+        "coverage": "complete",
+        "basis": "All 37 printed box rows are listed; 215 is their calculated unit sum, counting the book and 40-pin strip as one unit each. Box quantities take priority: five 100 µF capacitors, versus three on Arduino’s current page. Online part numbers and colours are reference details. Actual contents and function are unverified.",
+        "rows": [
+          {
+            "part": "Projects book",
+            "detail": "170 pages; 15 guided projects",
+            "quantity": 1
+          },
+          {
+            "part": "Arduino UNO Rev. 3",
+            "detail": "UNO R3 printed on box; enclosed board not inspected",
+            "quantity": 1
+          },
+          {
+            "part": "USB cable",
+            "detail": "Connector types not verified on received cable",
+            "quantity": 1
+          },
+          {
+            "part": "Breadboard",
+            "detail": "400 tie points in Arduino reference; box only names breadboard",
+            "quantity": 1
+          },
+          {
+            "part": "Assembly base",
+            "detail": "Easy-to-assemble base; wooden construction in Arduino reference",
+            "quantity": 1
+          },
+          {
+            "part": "9 V battery snap",
+            "detail": "Connector only; a 9 V battery is an extra requirement",
+            "quantity": 1
+          },
+          {
+            "part": "Solid-core jumper wires",
+            "detail": "70 individual wires",
+            "quantity": 70
+          },
+          {
+            "part": "Stranded jumper wires",
+            "detail": "Arduino reference splits these into one black and one red wire",
+            "quantity": 2
+          },
+          {
+            "part": "Phototransistors",
+            "detail": "Model not specified; do not substitute photoresistors/LDRs",
+            "quantity": 6
+          },
+          {
+            "part": "Potentiometers",
+            "detail": "10 kΩ",
+            "quantity": 3
+          },
+          {
+            "part": "Pushbuttons",
+            "detail": "Momentary project buttons; exact received form not inspected",
+            "quantity": 10
+          },
+          {
+            "part": "Temperature sensor",
+            "detail": "TMP36 in Arduino reference; physical marking not inspected",
+            "quantity": 1
+          },
+          {
+            "part": "Tilt sensor",
+            "detail": "Model not specified",
+            "quantity": 1
+          },
+          {
+            "part": "Character LCD",
+            "detail": "16 × 2 characters",
+            "quantity": 1
+          },
+          {
+            "part": "LED — bright white",
+            "detail": "White",
+            "quantity": 1
+          },
+          {
+            "part": "LED — RGB",
+            "detail": "One RGB LED, not three separate LEDs",
+            "quantity": 1
+          },
+          {
+            "part": "LED — red",
+            "detail": "Red",
+            "quantity": 8
+          },
+          {
+            "part": "LED — green",
+            "detail": "Green",
+            "quantity": 8
+          },
+          {
+            "part": "LED — yellow",
+            "detail": "Yellow",
+            "quantity": 8
+          },
+          {
+            "part": "LED — blue",
+            "detail": "Blue",
+            "quantity": 3
+          },
+          {
+            "part": "Small DC motor",
+            "detail": "6/9 V printed on box; operating condition untested",
+            "quantity": 1
+          },
+          {
+            "part": "Small servo motor",
+            "detail": "Model and travel unspecified; not added to the separate SG90 gift stock",
+            "quantity": 1
+          },
+          {
+            "part": "Piezo capsule",
+            "detail": "Current Arduino reference: PKM22EPP-40; exact kit model unverified",
+            "quantity": 1
+          },
+          {
+            "part": "H-bridge motor driver",
+            "detail": "L293D in Arduino reference; physical marking not inspected",
+            "quantity": 1
+          },
+          {
+            "part": "Optocoupler",
+            "detail": "4N35 in Arduino reference; physical marking not inspected",
+            "quantity": 1
+          },
+          {
+            "part": "MOSFET transistors",
+            "detail": "IRF520 in Arduino reference; exact suffix unverified",
+            "quantity": 2
+          },
+          {
+            "part": "Capacitors",
+            "detail": "100 µF; box: 5, current Arduino page: 3; voltage rating unverified",
+            "quantity": 5
+          },
+          {
+            "part": "Diodes",
+            "detail": "1N4007 in Arduino reference; physical marking not inspected",
+            "quantity": 5
+          },
+          {
+            "part": "Transparent colour gels",
+            "detail": "Red, green and blue",
+            "quantity": 3
+          },
+          {
+            "part": "Male pin strip",
+            "detail": "40 × 1; count as one strip, not 40 loose pieces",
+            "quantity": 1
+          },
+          {
+            "part": "Resistors",
+            "detail": "220 Ω",
+            "quantity": 20
+          },
+          {
+            "part": "Resistors",
+            "detail": "560 Ω",
+            "quantity": 5
+          },
+          {
+            "part": "Resistors",
+            "detail": "1 kΩ",
+            "quantity": 5
+          },
+          {
+            "part": "Resistors",
+            "detail": "4.7 kΩ",
+            "quantity": 5
+          },
+          {
+            "part": "Resistors",
+            "detail": "10 kΩ",
+            "quantity": 20
+          },
+          {
+            "part": "Resistors",
+            "detail": "1 MΩ",
+            "quantity": 5
+          },
+          {
+            "part": "Resistors",
+            "detail": "10 MΩ",
+            "quantity": 5
+          }
+        ],
+        "missing": [
+          "Physical contents, remaining quantities and function have not been verified.",
+          "Exact servo, piezo and phototransistor models, capacitor voltage rating and received component markings remain unverified."
+        ],
+        "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/arduino-starter-kit-uno-r3/README.md"
+      },
       "subcategory": "Microcontrollers",
       "legacyCategory": "Compute",
       "categoryPaths": [
@@ -11539,13 +11736,14 @@
         "Recorded unit": "1 kit; individual contents unverified",
         "Board listed on box": "Arduino UNO Rev. 3; enclosed board not inspected",
         "Book listed on box": "170 pages; 15 projects",
-        "Prototyping parts listed": "400-hole breadboard, wooden base, USB cable and jumper wires",
+        "Prototyping parts listed": "Breadboard (400 points in Arduino reference), wooden-base reference, USB cable and jumper wires",
         "Display listed": "16 × 2 character LCD",
         "Actuators listed": "Small DC motor (6/9 V) and servo",
         "Physical SKU / book language": "Unverified; English text visible on packaging",
-        "Condition / completeness": "Unknown"
+        "Condition / completeness": "Unknown",
+        "Contents reference": "37 item types; 215 listed units from the box, not a physical count"
       },
-      "note": "One received gift kit is recorded. Printed package contents are reference information; no separate board or loose-part stock, complete contents or tested function is established. The illustration depicts the photographed packaging.",
+      "note": "One received gift kit is recorded. The full contents table uses printed box counts and labelled online reference details; it does not establish separate board/loose-part stock, physical completeness or tested function. Five 100 µF capacitors are printed on the box; the current Arduino page lists three. The illustration depicts the photographed packaging.",
       "links": [
         {
           "title": "Arduino legacy Starter Kit — manufacturer reference",
@@ -11562,7 +11760,203 @@
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/arduino-starter-kit-uno-r3/README.md",
       "productLinks": [],
       "purchaseSource": null,
-      "contents": null,
+      "contents": {
+        "total": 215,
+        "coverage": "complete",
+        "basis": "All 37 printed box rows are listed; 215 is their calculated unit sum, counting the book and 40-pin strip as one unit each. Box quantities take priority: five 100 µF capacitors, versus three on Arduino’s current page. Online part numbers and colours are reference details. Actual contents and function are unverified.",
+        "rows": [
+          {
+            "part": "Projects book",
+            "detail": "170 pages; 15 guided projects",
+            "quantity": 1
+          },
+          {
+            "part": "Arduino UNO Rev. 3",
+            "detail": "UNO R3 printed on box; enclosed board not inspected",
+            "quantity": 1
+          },
+          {
+            "part": "USB cable",
+            "detail": "Connector types not verified on received cable",
+            "quantity": 1
+          },
+          {
+            "part": "Breadboard",
+            "detail": "400 tie points in Arduino reference; box only names breadboard",
+            "quantity": 1
+          },
+          {
+            "part": "Assembly base",
+            "detail": "Easy-to-assemble base; wooden construction in Arduino reference",
+            "quantity": 1
+          },
+          {
+            "part": "9 V battery snap",
+            "detail": "Connector only; a 9 V battery is an extra requirement",
+            "quantity": 1
+          },
+          {
+            "part": "Solid-core jumper wires",
+            "detail": "70 individual wires",
+            "quantity": 70
+          },
+          {
+            "part": "Stranded jumper wires",
+            "detail": "Arduino reference splits these into one black and one red wire",
+            "quantity": 2
+          },
+          {
+            "part": "Phototransistors",
+            "detail": "Model not specified; do not substitute photoresistors/LDRs",
+            "quantity": 6
+          },
+          {
+            "part": "Potentiometers",
+            "detail": "10 kΩ",
+            "quantity": 3
+          },
+          {
+            "part": "Pushbuttons",
+            "detail": "Momentary project buttons; exact received form not inspected",
+            "quantity": 10
+          },
+          {
+            "part": "Temperature sensor",
+            "detail": "TMP36 in Arduino reference; physical marking not inspected",
+            "quantity": 1
+          },
+          {
+            "part": "Tilt sensor",
+            "detail": "Model not specified",
+            "quantity": 1
+          },
+          {
+            "part": "Character LCD",
+            "detail": "16 × 2 characters",
+            "quantity": 1
+          },
+          {
+            "part": "LED — bright white",
+            "detail": "White",
+            "quantity": 1
+          },
+          {
+            "part": "LED — RGB",
+            "detail": "One RGB LED, not three separate LEDs",
+            "quantity": 1
+          },
+          {
+            "part": "LED — red",
+            "detail": "Red",
+            "quantity": 8
+          },
+          {
+            "part": "LED — green",
+            "detail": "Green",
+            "quantity": 8
+          },
+          {
+            "part": "LED — yellow",
+            "detail": "Yellow",
+            "quantity": 8
+          },
+          {
+            "part": "LED — blue",
+            "detail": "Blue",
+            "quantity": 3
+          },
+          {
+            "part": "Small DC motor",
+            "detail": "6/9 V printed on box; operating condition untested",
+            "quantity": 1
+          },
+          {
+            "part": "Small servo motor",
+            "detail": "Model and travel unspecified; not added to the separate SG90 gift stock",
+            "quantity": 1
+          },
+          {
+            "part": "Piezo capsule",
+            "detail": "Current Arduino reference: PKM22EPP-40; exact kit model unverified",
+            "quantity": 1
+          },
+          {
+            "part": "H-bridge motor driver",
+            "detail": "L293D in Arduino reference; physical marking not inspected",
+            "quantity": 1
+          },
+          {
+            "part": "Optocoupler",
+            "detail": "4N35 in Arduino reference; physical marking not inspected",
+            "quantity": 1
+          },
+          {
+            "part": "MOSFET transistors",
+            "detail": "IRF520 in Arduino reference; exact suffix unverified",
+            "quantity": 2
+          },
+          {
+            "part": "Capacitors",
+            "detail": "100 µF; box: 5, current Arduino page: 3; voltage rating unverified",
+            "quantity": 5
+          },
+          {
+            "part": "Diodes",
+            "detail": "1N4007 in Arduino reference; physical marking not inspected",
+            "quantity": 5
+          },
+          {
+            "part": "Transparent colour gels",
+            "detail": "Red, green and blue",
+            "quantity": 3
+          },
+          {
+            "part": "Male pin strip",
+            "detail": "40 × 1; count as one strip, not 40 loose pieces",
+            "quantity": 1
+          },
+          {
+            "part": "Resistors",
+            "detail": "220 Ω",
+            "quantity": 20
+          },
+          {
+            "part": "Resistors",
+            "detail": "560 Ω",
+            "quantity": 5
+          },
+          {
+            "part": "Resistors",
+            "detail": "1 kΩ",
+            "quantity": 5
+          },
+          {
+            "part": "Resistors",
+            "detail": "4.7 kΩ",
+            "quantity": 5
+          },
+          {
+            "part": "Resistors",
+            "detail": "10 kΩ",
+            "quantity": 20
+          },
+          {
+            "part": "Resistors",
+            "detail": "1 MΩ",
+            "quantity": 5
+          },
+          {
+            "part": "Resistors",
+            "detail": "10 MΩ",
+            "quantity": 5
+          }
+        ],
+        "missing": [
+          "Physical contents, remaining quantities and function have not been verified.",
+          "Exact servo, piezo and phototransistor models, capacitor voltage rating and received component markings remain unverified."
+        ],
+        "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/arduino-starter-kit-uno-r3/README.md"
+      },
       "subcategory": "Microcontrollers",
       "legacyCategory": "Compute",
       "categoryPaths": [
