@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-11-20",
-  "familyCount": 37,
+  "asOf": "2026-11-23",
+  "familyCount": 42,
   "components": [
     {
       "id": "xiao-esp32s3-seeed",
@@ -297,9 +297,10 @@
         "Manufacturer": "Seeed Studio",
         "SKU": "102010671",
         "Exact board revision": "Unverified",
-        "Archived board schematic": "Not yet available"
+        "Archived board schematic": "Not yet available",
+        "Receipt": "All ordered items received; owner confirmed 23 November 2026"
       },
-      "note": "Four recorded remaining. Full receipt and physical count are unconfirmed. Do not substitute the regular S3 schematic or pin mapping.",
+      "note": "Full receipt confirmed. Five Plus boards acquired; one gifted leaves four recorded remaining. Allocation, independent count and function remain unverified.",
       "links": [],
       "catalogueId": "xiao-esp32s3-plus-seeed",
       "status": "recorded",
@@ -1413,9 +1414,10 @@
         "Diameter": "1.75 mm",
         "Colour": "Gray",
         "Format": "Reusable spool",
-        "Purchased": "1 order unit; net mass not verified"
+        "Purchased": "1 order unit; net mass not verified",
+        "Receipt status": "Received; see recorded stock"
       },
-      "note": "Receipt confirmed 19 October. Remaining mass and printing performance are not measured.",
+      "note": "Received purchases are recorded by spool/refill unit. Remaining mass and availability are unknown.",
       "id": "bambu-filaments--pla-gray",
       "links": [],
       "status": "recorded",
@@ -1591,9 +1593,10 @@
         "Material": "PETG HF",
         "Colour": "Red",
         "Format": "Reusable spool",
-        "Ordered": "1 spool; net mass not verified"
+        "Ordered": "1 spool; net mass not verified",
+        "Receipt status": "Received; see recorded stock"
       },
-      "note": "Received, confirmed 22 October. Exact receipt date, physical labels, remaining net mass and print performance remain unverified. PETG Translucent documents do not describe this material.",
+      "note": "Received purchases are recorded by spool/refill unit. Remaining mass and availability are unknown.",
       "id": "bambu-filaments--petg-hf-red",
       "links": [],
       "status": "recorded",
@@ -1638,9 +1641,10 @@
         "Material": "PETG HF",
         "Colour": "Yellow",
         "Format": "Reusable spool",
-        "Ordered": "1 spool; net mass not verified"
+        "Ordered": "1 spool; net mass not verified",
+        "Receipt status": "Received; see recorded stock"
       },
-      "note": "Received, confirmed 22 October. Exact receipt date, physical labels, remaining net mass and print performance remain unverified. PETG Translucent documents do not describe this material.",
+      "note": "Received purchases are recorded by spool/refill unit. Remaining mass and availability are unknown.",
       "id": "bambu-filaments--petg-hf-yellow",
       "links": [],
       "status": "recorded",
@@ -1685,9 +1689,10 @@
         "Material": "PETG HF",
         "Colour": "Orange",
         "Format": "Reusable spool",
-        "Ordered": "1 spool; net mass not verified"
+        "Ordered": "1 spool; net mass not verified",
+        "Receipt status": "Received; see recorded stock"
       },
-      "note": "Received, confirmed 22 October. Exact receipt date, physical labels, remaining net mass and print performance remain unverified. PETG Translucent documents do not describe this material.",
+      "note": "Received purchases are recorded by spool/refill unit. Remaining mass and availability are unknown.",
       "id": "bambu-filaments--petg-hf-orange",
       "links": [],
       "status": "recorded",
@@ -1732,9 +1737,10 @@
         "Material": "PETG HF",
         "Colour": "White",
         "Format": "Reusable spool",
-        "Ordered": "1 spool; net mass not verified"
+        "Ordered": "1 spool; net mass not verified",
+        "Receipt status": "Received; see recorded stock"
       },
-      "note": "Received, confirmed 22 October. Exact receipt date, physical labels, remaining net mass and print performance remain unverified. PETG Translucent documents do not describe this material.",
+      "note": "Received purchases are recorded by spool/refill unit. Remaining mass and availability are unknown.",
       "id": "bambu-filaments--petg-hf-white",
       "links": [],
       "status": "recorded",
@@ -1779,9 +1785,10 @@
         "Material": "PETG HF",
         "Colour": "Black",
         "Format": "Reusable spool",
-        "Ordered": "1 spool; net mass not verified"
+        "Ordered": "1 spool; net mass not verified",
+        "Receipt status": "Received; see recorded stock"
       },
-      "note": "Received, confirmed 22 October. Exact receipt date, physical labels, remaining net mass and print performance remain unverified. PETG Translucent documents do not describe this material.",
+      "note": "Received purchases are recorded by spool/refill unit. Remaining mass and availability are unknown.",
       "id": "bambu-filaments--petg-hf-black",
       "links": [],
       "status": "recorded",
@@ -1814,7 +1821,7 @@
       "catalogueId": "bambu-filaments",
       "name": "PLA Basic · Black",
       "category": "3D printing",
-      "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in black. Awaiting delivery.",
+      "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in black.",
       "tags": [
         "PLA Basic",
         "Black",
@@ -1827,18 +1834,21 @@
         "Material": "PLA Basic",
         "Colour": "Black",
         "Format": "Reusable spool",
-        "Purchased quantity": "1 spool",
+        "Purchased quantity": "2 received spools; 2 additional incoming",
         "Advertised net mass": "1 kg; not independently weighed",
-        "Receipt status": "Not yet received; owner-confirmed"
+        "Receipt status": "Received; see recorded stock",
+        "Expected delivery": "2026-11-24",
+        "Consumption": "1 earlier spool exhausted; 1 recorded remaining",
+        "Incoming quantity": "2"
       },
-      "note": "Owner confirmed receipt November 5. Exact delivery date and remaining mass unknown. One PLA Basic Black spool exhausted; its source lot is unknown.",
+      "note": "Received purchases are recorded by spool/refill unit. Remaining mass and availability are unknown. Incoming purchase expected 2026-11-24.",
       "id": "bambu-filaments--pla-black",
       "links": [],
       "status": "recorded",
       "remaining": 1,
       "available": null,
       "quantityBasis": "recorded",
-      "incoming": null,
+      "incoming": 2,
       "documents": [
         {
           "title": "Bambu PLA Basic TDS V3.0",
@@ -1877,7 +1887,7 @@
       "catalogueId": "bambu-filaments",
       "name": "PLA Basic · Blue",
       "category": "3D printing",
-      "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in blue. Awaiting delivery.",
+      "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in blue.",
       "tags": [
         "PLA Basic",
         "Blue",
@@ -1891,9 +1901,9 @@
         "Format": "Reusable spool",
         "Purchased quantity": "1 spool",
         "Advertised net mass": "1 kg; not independently weighed",
-        "Receipt status": "Not yet received; owner-confirmed"
+        "Receipt status": "Received; see recorded stock"
       },
-      "note": "Owner confirmed receipt November 5. Exact delivery date and remaining mass unknown. One PLA Basic Black spool exhausted; its source lot is unknown.",
+      "note": "Received purchases are recorded by spool/refill unit. Remaining mass and availability are unknown.",
       "id": "bambu-filaments--pla-blue",
       "links": [],
       "status": "recorded",
@@ -1939,7 +1949,7 @@
       "catalogueId": "bambu-filaments",
       "name": "PLA Basic · Gold",
       "category": "3D printing",
-      "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in gold. Awaiting delivery.",
+      "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in gold.",
       "tags": [
         "PLA Basic",
         "Gold",
@@ -1953,9 +1963,9 @@
         "Format": "Reusable spool",
         "Purchased quantity": "1 spool",
         "Advertised net mass": "1 kg; not independently weighed",
-        "Receipt status": "Not yet received; owner-confirmed"
+        "Receipt status": "Received; see recorded stock"
       },
-      "note": "Owner confirmed receipt November 5. Exact delivery date and remaining mass unknown. One PLA Basic Black spool exhausted; its source lot is unknown.",
+      "note": "Received purchases are recorded by spool/refill unit. Remaining mass and availability are unknown.",
       "id": "bambu-filaments--pla-gold",
       "links": [],
       "status": "recorded",
@@ -2001,7 +2011,7 @@
       "catalogueId": "bambu-filaments",
       "name": "PLA Basic · Bambu Green",
       "category": "3D printing",
-      "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in bambu green. Awaiting delivery.",
+      "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in bambu green.",
       "tags": [
         "PLA Basic",
         "Bambu Green",
@@ -2015,9 +2025,9 @@
         "Format": "Reusable spool",
         "Purchased quantity": "1 spool",
         "Advertised net mass": "1 kg; not independently weighed",
-        "Receipt status": "Not yet received; owner-confirmed"
+        "Receipt status": "Received; see recorded stock"
       },
-      "note": "Owner confirmed receipt November 5. Exact delivery date and remaining mass unknown. One PLA Basic Black spool exhausted; its source lot is unknown.",
+      "note": "Received purchases are recorded by spool/refill unit. Remaining mass and availability are unknown.",
       "id": "bambu-filaments--pla-bambu-green",
       "links": [],
       "status": "recorded",
@@ -2063,7 +2073,7 @@
       "catalogueId": "bambu-filaments",
       "name": "PLA Basic · Indigo Purple",
       "category": "3D printing",
-      "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in indigo purple. Awaiting delivery.",
+      "summary": "Bambu Lab PLA Basic with a reusable spool, purchased in indigo purple.",
       "tags": [
         "PLA Basic",
         "Indigo Purple",
@@ -2077,9 +2087,9 @@
         "Format": "Reusable spool",
         "Purchased quantity": "1 spool",
         "Advertised net mass": "1 kg; not independently weighed",
-        "Receipt status": "Not yet received; owner-confirmed"
+        "Receipt status": "Received; see recorded stock"
       },
-      "note": "Owner confirmed receipt November 5. Exact delivery date and remaining mass unknown. One PLA Basic Black spool exhausted; its source lot is unknown.",
+      "note": "Received purchases are recorded by spool/refill unit. Remaining mass and availability are unknown.",
       "id": "bambu-filaments--pla-indigo-purple",
       "links": [],
       "status": "recorded",
@@ -2125,7 +2135,7 @@
       "catalogueId": "bambu-filaments",
       "name": "PLA Matte · Dark Red",
       "category": "3D printing",
-      "summary": "Bambu Lab PLA Matte with a reusable spool, purchased in dark red. Awaiting delivery.",
+      "summary": "Bambu Lab PLA Matte with a reusable spool, purchased in dark red.",
       "tags": [
         "PLA Matte",
         "Dark Red",
@@ -2139,9 +2149,9 @@
         "Format": "Reusable spool",
         "Purchased quantity": "1 spool",
         "Advertised net mass": "1 kg; not independently weighed",
-        "Receipt status": "Not yet received; owner-confirmed"
+        "Receipt status": "Received; see recorded stock"
       },
-      "note": "Owner confirmed receipt November 5. Exact delivery date and remaining mass unknown. One PLA Basic Black spool exhausted; its source lot is unknown.",
+      "note": "Received purchases are recorded by spool/refill unit. Remaining mass and availability are unknown.",
       "id": "bambu-filaments--pla-matte-dark-red",
       "links": [],
       "status": "recorded",
@@ -2181,9 +2191,10 @@
       "specs": {
         "Material": "PLA Basic",
         "Colour": "Jade White",
-        "Spool format / net mass": "Not specified in order evidence"
+        "Spool format / net mass": "Not specified in order evidence",
+        "Receipt status": "Received; see recorded stock"
       },
-      "note": "Receipt does not establish an independent physical recount, current availability, remaining material mass or tested function.",
+      "note": "Received purchases are recorded by spool/refill unit. Remaining mass and availability are unknown.",
       "id": "bambu-filaments--pla-jade-white",
       "links": [],
       "status": "recorded",
@@ -2211,6 +2222,276 @@
       "contents": null,
       "subcategory": "PLA filament",
       "legacyCategory": "Fabrication",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "PLA filament"
+        }
+      ]
+    },
+    {
+      "catalogueId": "bambu-filaments",
+      "name": "PLA Basic · Cyan",
+      "category": "3D printing",
+      "summary": "PLA Basic · Cyan.",
+      "tags": [
+        "WOL3D",
+        "Brand: Bambu Lab"
+      ],
+      "specs": {
+        "Material": "PLA Basic",
+        "Colour": "Cyan",
+        "Format": "With spool",
+        "Remaining mass": "Unknown",
+        "Colour depiction": "Illustrative; printed appearance unverified",
+        "Unit": "spool",
+        "Expected delivery": "2026-11-24",
+        "Incoming quantity": "1"
+      },
+      "note": "Shipment expected 2026-11-24. Receipt remains unconfirmed. Incoming purchase expected 2026-11-24.",
+      "id": "bambu-filaments--pla-cyan",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": 1,
+      "documents": [
+        {
+          "title": "Bambu PLA Basic TDS V3.0",
+          "url": "https://store.bblcdn.com/s7/default/b189de92249a4b9ebed28b8ea1f080f0/Bambu_PLA_Basic_Technical_Data_Sheet.pdf",
+          "kind": "PDF",
+          "sha256": "05b504148050e17c02d2f20f1a4b718b4e35d43af1c406da34127711762ff939"
+        },
+        {
+          "title": "Bambu PLA Basic SDS 2025 07 24",
+          "url": "https://store.bblcdn.com/s7/default/6e47ce4e48b54b20b3afd3be7539ac27/SDS20250724A00_Bambu_PLA_Basic.pdf",
+          "kind": "PDF",
+          "sha256": "895a2a5f72f18176740873e8891edf9430637f46bfb44a7228398bac9ad6ffa8"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "PLA filament",
+      "legacyCategory": "3D printing",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "PLA filament"
+        }
+      ]
+    },
+    {
+      "catalogueId": "bambu-filaments",
+      "name": "PLA Basic · Magenta",
+      "category": "3D printing",
+      "summary": "PLA Basic · Magenta.",
+      "tags": [
+        "WOL3D",
+        "Brand: Bambu Lab"
+      ],
+      "specs": {
+        "Material": "PLA Basic",
+        "Colour": "Magenta",
+        "Format": "With spool",
+        "Remaining mass": "Unknown",
+        "Colour depiction": "Illustrative; printed appearance unverified",
+        "Unit": "spool",
+        "Expected delivery": "2026-11-24",
+        "Incoming quantity": "1"
+      },
+      "note": "Shipment expected 2026-11-24. Receipt remains unconfirmed. Incoming purchase expected 2026-11-24.",
+      "id": "bambu-filaments--pla-magenta",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": 1,
+      "documents": [
+        {
+          "title": "Bambu PLA Basic TDS V3.0",
+          "url": "https://store.bblcdn.com/s7/default/b189de92249a4b9ebed28b8ea1f080f0/Bambu_PLA_Basic_Technical_Data_Sheet.pdf",
+          "kind": "PDF",
+          "sha256": "05b504148050e17c02d2f20f1a4b718b4e35d43af1c406da34127711762ff939"
+        },
+        {
+          "title": "Bambu PLA Basic SDS 2025 07 24",
+          "url": "https://store.bblcdn.com/s7/default/6e47ce4e48b54b20b3afd3be7539ac27/SDS20250724A00_Bambu_PLA_Basic.pdf",
+          "kind": "PDF",
+          "sha256": "895a2a5f72f18176740873e8891edf9430637f46bfb44a7228398bac9ad6ffa8"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "PLA filament",
+      "legacyCategory": "3D printing",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "PLA filament"
+        }
+      ]
+    },
+    {
+      "catalogueId": "bambu-filaments",
+      "name": "PLA Basic · Sunflower Yellow",
+      "category": "3D printing",
+      "summary": "PLA Basic · Sunflower Yellow.",
+      "tags": [
+        "WOL3D",
+        "Brand: Bambu Lab"
+      ],
+      "specs": {
+        "Material": "PLA Basic",
+        "Colour": "Sunflower Yellow",
+        "Format": "With spool",
+        "Remaining mass": "Unknown",
+        "Colour depiction": "Illustrative; printed appearance unverified",
+        "Unit": "spool",
+        "Expected delivery": "2026-11-24",
+        "Incoming quantity": "1"
+      },
+      "note": "Shipment expected 2026-11-24. Receipt remains unconfirmed. Incoming purchase expected 2026-11-24.",
+      "id": "bambu-filaments--pla-sunflower-yellow",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": 1,
+      "documents": [
+        {
+          "title": "Bambu PLA Basic TDS V3.0",
+          "url": "https://store.bblcdn.com/s7/default/b189de92249a4b9ebed28b8ea1f080f0/Bambu_PLA_Basic_Technical_Data_Sheet.pdf",
+          "kind": "PDF",
+          "sha256": "05b504148050e17c02d2f20f1a4b718b4e35d43af1c406da34127711762ff939"
+        },
+        {
+          "title": "Bambu PLA Basic SDS 2025 07 24",
+          "url": "https://store.bblcdn.com/s7/default/6e47ce4e48b54b20b3afd3be7539ac27/SDS20250724A00_Bambu_PLA_Basic.pdf",
+          "kind": "PDF",
+          "sha256": "895a2a5f72f18176740873e8891edf9430637f46bfb44a7228398bac9ad6ffa8"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "PLA filament",
+      "legacyCategory": "3D printing",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "PLA filament"
+        }
+      ]
+    },
+    {
+      "catalogueId": "bambu-filaments",
+      "name": "PLA Basic · Red refill",
+      "category": "3D printing",
+      "summary": "PLA Basic · Red refill.",
+      "tags": [
+        "WOL3D",
+        "Brand: Bambu Lab"
+      ],
+      "specs": {
+        "Material": "PLA Basic",
+        "Colour": "Red",
+        "Format": "Refill",
+        "Remaining mass": "Unknown",
+        "Colour depiction": "Illustrative; printed appearance unverified",
+        "Unit": "refill",
+        "Expected delivery": "2026-11-24",
+        "Incoming quantity": "1"
+      },
+      "note": "Shipment expected 2026-11-24. Receipt remains unconfirmed. Incoming purchase expected 2026-11-24.",
+      "id": "bambu-filaments--pla-red-refill",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": 1,
+      "documents": [
+        {
+          "title": "Bambu PLA Basic TDS V3.0",
+          "url": "https://store.bblcdn.com/s7/default/b189de92249a4b9ebed28b8ea1f080f0/Bambu_PLA_Basic_Technical_Data_Sheet.pdf",
+          "kind": "PDF",
+          "sha256": "05b504148050e17c02d2f20f1a4b718b4e35d43af1c406da34127711762ff939"
+        },
+        {
+          "title": "Bambu PLA Basic SDS 2025 07 24",
+          "url": "https://store.bblcdn.com/s7/default/6e47ce4e48b54b20b3afd3be7539ac27/SDS20250724A00_Bambu_PLA_Basic.pdf",
+          "kind": "PDF",
+          "sha256": "895a2a5f72f18176740873e8891edf9430637f46bfb44a7228398bac9ad6ffa8"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "PLA filament",
+      "legacyCategory": "3D printing",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "PLA filament"
+        }
+      ]
+    },
+    {
+      "catalogueId": "bambu-filaments",
+      "name": "PLA Basic · Dusk Glare",
+      "category": "3D printing",
+      "summary": "PLA Basic · Dusk Glare.",
+      "tags": [
+        "WOL3D",
+        "Brand: Bambu Lab"
+      ],
+      "specs": {
+        "Material": "PLA Basic",
+        "Colour": "Dusk Glare",
+        "Format": "With spool",
+        "Remaining mass": "Unknown",
+        "Colour depiction": "Illustrative; printed appearance unverified",
+        "Unit": "spool",
+        "Expected delivery": "2026-11-24",
+        "Incoming quantity": "1"
+      },
+      "note": "Shipment expected 2026-11-24. Receipt remains unconfirmed. Incoming purchase expected 2026-11-24.",
+      "id": "bambu-filaments--pla-dusk-glare",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": 1,
+      "documents": [
+        {
+          "title": "Bambu PLA Basic TDS V3.0",
+          "url": "https://store.bblcdn.com/s7/default/b189de92249a4b9ebed28b8ea1f080f0/Bambu_PLA_Basic_Technical_Data_Sheet.pdf",
+          "kind": "PDF",
+          "sha256": "05b504148050e17c02d2f20f1a4b718b4e35d43af1c406da34127711762ff939"
+        },
+        {
+          "title": "Bambu PLA Basic SDS 2025 07 24",
+          "url": "https://store.bblcdn.com/s7/default/6e47ce4e48b54b20b3afd3be7539ac27/SDS20250724A00_Bambu_PLA_Basic.pdf",
+          "kind": "PDF",
+          "sha256": "895a2a5f72f18176740873e8891edf9430637f46bfb44a7228398bac9ad6ffa8"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "PLA filament",
+      "legacyCategory": "3D printing",
       "categoryPaths": [
         {
           "category": "3D printing",
@@ -7017,10 +7298,10 @@
       ],
       "specs": {
         "Purchased": "1 pack / 50 swabs",
-        "Receipt": "Unconfirmed; an estimate is not delivery evidence",
+        "Receipt": "Merchant reports delivery on 19 September 2026",
         "Subcategory": "Cleaning supplies"
       },
-      "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
+      "note": "Historical delivery confirmed by email. Remaining consumable quantity is unknown.",
       "id": "tools-and-consumables--foam-swabs",
       "links": [],
       "status": "unreconciled",
@@ -7062,10 +7343,10 @@
       "specs": {
         "Listed size": "4 × 4 inch",
         "Purchased": "1 pack / 100 wipes",
-        "Receipt": "Unconfirmed",
+        "Receipt": "Merchant reports delivery on 20 September 2026",
         "Subcategory": "Cleaning supplies"
       },
-      "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
+      "note": "Historical delivery confirmed by email. Remaining consumable quantity is unknown.",
       "id": "tools-and-consumables--cleanroom-wipes",
       "links": [],
       "status": "unreconciled",
@@ -7389,21 +7670,21 @@
       "category": "3D printing",
       "summary": "Serplex 10-bag filament vacuum kit with manual pump",
       "tags": [
-        "Returned",
-        "Amazon"
+        "Amazon",
+        "Brand: Serplex"
       ],
       "specs": {
         "Unit": "kit / order unit",
         "Subcategory": "Filament storage",
-        "Advertised kit": "Manual pump, 10 bags, 4 sealing clips; returned/refunded",
-        "Disposition": "Returned; 0 remaining / 0 available"
+        "Advertised kit": "Manual pump, 10 bags, 4 sealing clips",
+        "Disposition": "One recorded kit from the new purchase"
       },
-      "note": "Owner confirmed returned. Original purchase history retained. Actual return date unknown. Prior refund evidence retained; no duplicate deduction.",
+      "note": "One newly delivered kit retained. The earlier kit was returned. Two acquired less one returned leaves one recorded kit. Availability and contents count are unknown.",
       "id": "tools-and-consumables--serplex-manual-vacuum",
       "links": [],
       "status": "recorded",
-      "remaining": 0,
-      "available": 0,
+      "remaining": 1,
+      "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
       "documents": [],
@@ -7437,9 +7718,10 @@
       ],
       "specs": {
         "Unit": "kit / order unit",
-        "Subcategory": "Cutting and finishing"
+        "Subcategory": "Cutting and finishing",
+        "Disposition": "Kept; return cancelled"
       },
-      "note": "Return requested October 31 as defective. Pickup/refund unconfirmed; availability remains unknown.",
+      "note": "Owner cancelled the return and kept the kit, confirmed 23 November. Current condition and tested function are unverified.",
       "id": "tools-and-consumables--sunkizzrs-deburring",
       "links": [],
       "status": "recorded",
@@ -7500,6 +7782,540 @@
         {
           "category": "Tools & workshop",
           "subcategory": "Adhesives & applicators"
+        }
+      ]
+    },
+    {
+      "catalogueId": "tools-and-consumables",
+      "name": "Bosch long-nose pliers · 200 mm",
+      "category": "Tools & workshop",
+      "summary": "Bosch long-nose pliers · 200 mm.",
+      "tags": [
+        "Amazon",
+        "Brand: Bosch"
+      ],
+      "specs": {
+        "Unit": "tool"
+      },
+      "note": "Merchant reports delivery. Ordered units provide the receipt baseline. Availability, physical recount and tested function are unknown.",
+      "id": "tools-and-consumables--bosch-long-nose-200",
+      "links": [],
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Hand tools",
+      "legacyCategory": "Tools & workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Hand tools"
+        }
+      ]
+    },
+    {
+      "catalogueId": "tools-and-consumables",
+      "name": "PC4-M5 Bowden pneumatic connectors",
+      "category": "3D printing",
+      "summary": "PC4-M5 Bowden pneumatic connectors.",
+      "tags": [
+        "Amazon"
+      ],
+      "specs": {
+        "Thread": "M5",
+        "Advertised pack": "3 connectors",
+        "Tube outer diameter": "4 mm",
+        "Unit": "three-piece pack"
+      },
+      "note": "Merchant reports delivery. Ordered units provide the receipt baseline. Availability, physical recount and tested function are unknown.",
+      "id": "tools-and-consumables--pc4-m5-bowden",
+      "links": [],
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Filament feed parts",
+      "legacyCategory": "3D printing",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "Filament feed parts"
+        }
+      ]
+    },
+    {
+      "catalogueId": "tools-and-consumables",
+      "name": "Bosch GO 3.0 screwdriver kit",
+      "category": "Tools & workshop",
+      "summary": "Bosch GO 3.0 screwdriver kit.",
+      "tags": [
+        "Amazon",
+        "Brand: Bosch"
+      ],
+      "specs": {
+        "Included bit set": "9 pieces, advertised",
+        "Battery": "2.0 Ah, seller description",
+        "Unit": "kit"
+      },
+      "note": "Merchant reports delivery. Ordered units provide the receipt baseline. Availability, physical recount and tested function are unknown.",
+      "id": "tools-and-consumables--bosch-go-3",
+      "links": [],
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Screwdrivers & toolkits",
+      "legacyCategory": "Tools & workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Screwdrivers & toolkits"
+        }
+      ]
+    },
+    {
+      "catalogueId": "tools-and-consumables",
+      "name": "Serplex PTFE tube · ID 2.5 / OD 4 mm",
+      "category": "3D printing",
+      "summary": "Serplex PTFE tube · ID 2.5 / OD 4 mm.",
+      "tags": [
+        "Amazon",
+        "Brand: Serplex"
+      ],
+      "specs": {
+        "Length": "5 m ordered",
+        "Tube dimensions": "ID 2.5 mm / OD 4 mm",
+        "Included": "Tube cutter",
+        "Unit": "5 m roll with cutter"
+      },
+      "note": "Merchant reports delivery. Ordered units provide the receipt baseline. Availability, physical recount and tested function are unknown.",
+      "id": "tools-and-consumables--serplex-ptfe-2p5-4",
+      "links": [],
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Filament feed parts",
+      "legacyCategory": "3D printing",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "Filament feed parts"
+        }
+      ]
+    },
+    {
+      "catalogueId": "tools-and-consumables",
+      "name": "TEX-RO airtight containers · 4 L",
+      "category": "3D printing",
+      "summary": "TEX-RO airtight containers · 4 L.",
+      "tags": [
+        "Amazon",
+        "Brand: TEX-RO"
+      ],
+      "specs": {
+        "Unit": "set of two containers",
+        "Expected delivery": "2026-11-25",
+        "Incoming quantity": "1"
+      },
+      "note": "Shipment expected 2026-11-25. Receipt remains unconfirmed. Incoming purchase expected 2026-11-25.",
+      "id": "tools-and-consumables--tex-ro-4l-containers",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": 1,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Filament storage",
+      "legacyCategory": "3D printing",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "Filament storage"
+        }
+      ]
+    },
+    {
+      "catalogueId": "tools-and-consumables",
+      "name": "Orei Schuko E/F to India D adaptor",
+      "category": "Power",
+      "summary": "Orei Schuko E/F to India D adaptor.",
+      "tags": [
+        "Amazon",
+        "Brand: Orei"
+      ],
+      "specs": {
+        "Input socket": "Schuko Type E/F",
+        "Output plug": "India Type D",
+        "Unit": "adaptor"
+      },
+      "note": "Merchant reports delivery. Ordered units provide the receipt baseline. Availability, physical recount and tested function are unknown.",
+      "id": "tools-and-consumables--orei-schuko-india",
+      "links": [],
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Power cables & adaptors",
+      "legacyCategory": "Power",
+      "categoryPaths": [
+        {
+          "category": "Power",
+          "subcategory": "Power cables & adaptors"
+        }
+      ]
+    },
+    {
+      "catalogueId": "tools-and-consumables",
+      "name": "FEDUS 16 A Indian-plug to IEC C13 cord",
+      "category": "Power",
+      "summary": "FEDUS 16 A Indian-plug to IEC C13 cord.",
+      "tags": [
+        "Amazon",
+        "Brand: FEDUS"
+      ],
+      "specs": {
+        "Length": "1.8 m",
+        "Connector": "IEC C13 female",
+        "Plug rating": "16 A, seller description",
+        "Unit": "power cord"
+      },
+      "note": "Merchant reports delivery. Ordered units provide the receipt baseline. Availability, physical recount and tested function are unknown.",
+      "id": "tools-and-consumables--fedus-16a-c13",
+      "links": [],
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Power cables & adaptors",
+      "legacyCategory": "Power",
+      "categoryPaths": [
+        {
+          "category": "Power",
+          "subcategory": "Power cables & adaptors"
+        }
+      ]
+    },
+    {
+      "catalogueId": "tools-and-consumables",
+      "name": "Super Lube 52004 synthetic oil",
+      "category": "Tools & workshop",
+      "summary": "Super Lube 52004 synthetic oil.",
+      "tags": [
+        "Amazon",
+        "Brand: Super Lube"
+      ],
+      "specs": {
+        "Formulation": "Synthetic oil without PTFE",
+        "Bottle size": "4 oz advertised",
+        "Unit": "4 oz bottle"
+      },
+      "note": "Merchant reports delivery. Ordered units provide the receipt baseline. Availability, physical recount and tested function are unknown.",
+      "id": "tools-and-consumables--super-lube-52004",
+      "links": [],
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Lubricants",
+      "legacyCategory": "Tools & workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Lubricants"
+        }
+      ]
+    },
+    {
+      "catalogueId": "tools-and-consumables",
+      "name": "CILICAnT indicating silica-gel beads",
+      "category": "3D printing",
+      "summary": "CILICAnT indicating silica-gel beads.",
+      "tags": [
+        "Amazon",
+        "Brand: CILICAnT"
+      ],
+      "specs": {
+        "Bead size": "2–4 mm",
+        "Pack mass": "Unknown",
+        "Unit": "pack"
+      },
+      "note": "Merchant reports delivery. Ordered units provide the receipt baseline. Availability, physical recount and tested function are unknown.",
+      "id": "tools-and-consumables--cilicant-silica-beads",
+      "links": [],
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Filament storage",
+      "legacyCategory": "3D printing",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "Filament storage"
+        }
+      ]
+    },
+    {
+      "catalogueId": "tools-and-consumables",
+      "name": "Premium Magnet discs · Ø6 × 3 mm",
+      "category": "Mechanical hardware",
+      "summary": "Premium Magnet discs · Ø6 × 3 mm.",
+      "tags": [
+        "Amazon",
+        "Brand: Premium Magnet"
+      ],
+      "specs": {
+        "Diameter × thickness": "6 × 3 mm",
+        "Advertised pack contents": "100 magnets",
+        "Grade": "Unverified",
+        "Unit": "100-piece pack"
+      },
+      "note": "Merchant reports delivery. Ordered units provide the receipt baseline. Availability, physical recount and tested function are unknown.",
+      "id": "tools-and-consumables--premium-magnet-6-3",
+      "links": [],
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Magnets",
+      "legacyCategory": "Mechanical hardware",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Magnets"
+        }
+      ]
+    },
+    {
+      "catalogueId": "tools-and-consumables",
+      "name": "Araldite Standard epoxy · 90 g",
+      "category": "Tools & workshop",
+      "summary": "Araldite Standard epoxy · 90 g.",
+      "tags": [
+        "Amazon",
+        "Brand: Araldite"
+      ],
+      "specs": {
+        "Advertised mass": "90 g",
+        "Unit": "kit"
+      },
+      "note": "Merchant reports delivery. Ordered units provide the receipt baseline. Availability, physical recount and tested function are unknown. A financial adjustment was reported; physical return is unconfirmed.",
+      "id": "tools-and-consumables--araldite-standard-90g",
+      "links": [],
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Adhesives & applicators",
+      "legacyCategory": "Tools & workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Adhesives & applicators"
+        }
+      ]
+    },
+    {
+      "catalogueId": "tools-and-consumables",
+      "name": "Bondtite Fast & Clear epoxy · 36 g",
+      "category": "Tools & workshop",
+      "summary": "Bondtite Fast & Clear epoxy · 36 g.",
+      "tags": [
+        "Amazon",
+        "Brand: Bondtite"
+      ],
+      "specs": {
+        "Advertised mass": "36 g",
+        "Unit": "kit"
+      },
+      "note": "Merchant reports delivery. Ordered units provide the receipt baseline. Availability, physical recount and tested function are unknown.",
+      "id": "tools-and-consumables--bondtite-fast-clear-36g",
+      "links": [],
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Adhesives & applicators",
+      "legacyCategory": "Tools & workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Adhesives & applicators"
+        }
+      ]
+    },
+    {
+      "catalogueId": "tools-and-consumables",
+      "name": "Bosch HSS PointTeQ metal drill bits",
+      "category": "Tools & workshop",
+      "summary": "Bosch HSS PointTeQ metal drill bits.",
+      "tags": [
+        "Amazon",
+        "Brand: Bosch"
+      ],
+      "specs": {
+        "Advertised set contents": "13 bits",
+        "Unit": "13-piece set"
+      },
+      "note": "Merchant reports delivery. Ordered units provide the receipt baseline. Availability, physical recount and tested function are unknown.",
+      "id": "tools-and-consumables--bosch-pointteq-13",
+      "links": [],
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Drilling & drill bits",
+      "legacyCategory": "Tools & workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Drilling & drill bits"
+        }
+      ]
+    },
+    {
+      "catalogueId": "tools-and-consumables",
+      "name": "Inditrust keyed drill chuck · 13 mm",
+      "category": "Tools & workshop",
+      "summary": "Inditrust keyed drill chuck · 13 mm.",
+      "tags": [
+        "Amazon",
+        "Brand: Inditrust"
+      ],
+      "specs": {
+        "Unit": "chuck and SDS Plus adaptor set"
+      },
+      "note": "Merchant reports delivery. Ordered units provide the receipt baseline. Availability, physical recount and tested function are unknown.",
+      "id": "tools-and-consumables--inditrust-keyed-chuck-13",
+      "links": [],
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Drilling & drill bits",
+      "legacyCategory": "Tools & workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Drilling & drill bits"
+        }
+      ]
+    },
+    {
+      "catalogueId": "tools-and-consumables",
+      "name": "HP external USB DVD-RW · F6V97AA#ACJ",
+      "category": "Controllers & computing",
+      "summary": "HP external USB DVD-RW · F6V97AA#ACJ.",
+      "tags": [
+        "Amazon",
+        "Brand: HP"
+      ],
+      "specs": {
+        "Unit": "drive"
+      },
+      "note": "Merchant reports delivery. Ordered units provide the receipt baseline. Availability, physical recount and tested function are unknown.",
+      "id": "tools-and-consumables--hp-external-dvd-rw",
+      "links": [],
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Storage & readers",
+      "legacyCategory": "Controllers & computing",
+      "categoryPaths": [
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Storage & readers"
         }
       ]
     },
@@ -7602,16 +8418,17 @@
       "catalogueId": "input-controls",
       "name": "Micro push-button assortment",
       "category": "Sensors & input",
-      "summary": "Assorted miniature tactile switches.",
+      "summary": "25 miniature tactile switch variants, including surface-mount and through-hole styles.",
       "tags": [
         "Unverified",
         "AliExpress"
       ],
       "specs": {
         "Purchased": "1 kit / advertised 125 switches",
-        "Size breakdown / pin arrangement": "Unverified"
+        "Chart contents": "25 variants",
+        "Quantity per variant": "Unknown"
       },
-      "note": "Receipt confirmed 19 October. Individual pack quantities and function remain unverified.",
+      "note": "Kit receipt confirmed on 19 October 2026. Dimensions and form labels come from the seller’s chart. Physical counts and switch function are unverified.",
       "id": "input-controls--micro-buttons",
       "links": [],
       "status": "unreconciled",
@@ -7632,19 +8449,139 @@
       "purchaseSource": null,
       "contents": {
         "total": 125,
-        "coverage": "unitemized",
-        "basis": "Listing advertises 125 pieces. The selected size assortment was not captured in the source evidence.",
+        "coverage": "partial",
+        "basis": "The listing advertises 125 switches. Its chart shows these 25 variants in reading order and gives no quantity per variant.",
         "rows": [
           {
-            "part": "Miniature tactile push buttons",
-            "detail": "Individual switch sizes and pin layouts not recorded",
+            "part": "Tact switch",
+            "detail": "6 × 6 × 3.1 mm · Red round actuator",
+            "quantity": null
+          },
+          {
+            "part": "Tact switch",
+            "detail": "3 × 6 × 2.5 mm · flat",
+            "quantity": null
+          },
+          {
+            "part": "Tact switch",
+            "detail": "3 × 6 × 4.3 mm",
+            "quantity": null
+          },
+          {
+            "part": "Tact switch",
+            "detail": "3 × 6 × 5 mm · Patch",
+            "quantity": null
+          },
+          {
+            "part": "Tact switch",
+            "detail": "2 × 4 mm",
+            "quantity": null
+          },
+          {
+            "part": "Tact switch",
+            "detail": "3 × 6 × 2.5 mm · White actuator on a metal housing with projecting tabs",
+            "quantity": null
+          },
+          {
+            "part": "Tact switch",
+            "detail": "3 × 4 × 2 mm",
+            "quantity": null
+          },
+          {
+            "part": "Tact switch",
+            "detail": "4.5 × 4.5 × 1.5 mm",
+            "quantity": null
+          },
+          {
+            "part": "Tact switch",
+            "detail": "3 × 6 × 3.5 mm",
+            "quantity": null
+          },
+          {
+            "part": "Tact switch",
+            "detail": "3 × 4 × 2.0 mm",
+            "quantity": null
+          },
+          {
+            "part": "Tact switch",
+            "detail": "4 × 4 × 0.8 mm",
+            "quantity": null
+          },
+          {
+            "part": "Tact switch",
+            "detail": "4 × 4 × 1.5 mm",
+            "quantity": null
+          },
+          {
+            "part": "Tact switch",
+            "detail": "6 × 6 × 5 mm · Pin",
+            "quantity": null
+          },
+          {
+            "part": "Tact switch",
+            "detail": "4.5 × 4.5 × 5 mm",
+            "quantity": null
+          },
+          {
+            "part": "Tact switch",
+            "detail": "4.5 × 4.5 × 3.8 mm",
+            "quantity": null
+          },
+          {
+            "part": "Tact switch",
+            "detail": "6 × 6 × 5 mm · Patch",
+            "quantity": null
+          },
+          {
+            "part": "Tact switch",
+            "detail": "3 × 6 × 5 mm · Bent leads",
+            "quantity": null
+          },
+          {
+            "part": "Tact switch",
+            "detail": "6 × 6 × 5 mm · Middle two feet",
+            "quantity": null
+          },
+          {
+            "part": "Tact switch",
+            "detail": "6 × 6 × 4.3 mm",
+            "quantity": null
+          },
+          {
+            "part": "Tact switch",
+            "detail": "6 × 6 × 5 mm · Side two feet",
+            "quantity": null
+          },
+          {
+            "part": "Tact switch",
+            "detail": "6 × 6 × 12 mm · Tall black actuator",
+            "quantity": null
+          },
+          {
+            "part": "Tact switch",
+            "detail": "6 × 6 × 5 mm · Support",
+            "quantity": null
+          },
+          {
+            "part": "Tact switch",
+            "detail": "12 × 12 × 5 mm · Downward leads",
+            "quantity": null
+          },
+          {
+            "part": "Tact switch",
+            "detail": "12 × 12 × 5 mm · Patch",
+            "quantity": null
+          },
+          {
+            "part": "Tact switch",
+            "detail": "12 × 12 × 7.3 mm · Orange actuator",
             "quantity": null
           }
         ],
         "missing": [
-          "Body dimensions and actuator heights",
-          "Contact arrangement and ratings",
-          "Quantity per switch type"
+          "Quantity per variant",
+          "Third dimension for the 2 × 4 mm switch",
+          "Electrical pinouts and contact ratings"
         ],
         "sourceUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/input-controls/README.md"
       },
@@ -7671,9 +8608,9 @@
       "specs": {
         "Family": "Seeed A-02",
         "Band": "2.4 GHz",
-        "Receipt / allocation": "Unconfirmed"
+        "Receipt": "All ordered items received; owner confirmed 23 November 2026"
       },
-      "note": "Three additional antennas are recorded. Board transfers do not imply accessory transfers. Reference gain claims differ and are not specimen measurements.",
+      "note": "Full receipt confirmed. Three antennas received. Allocation, independent count and function remain unverified.",
       "links": [],
       "catalogueId": "seeed-a02-antenna",
       "status": "recorded",
@@ -7723,9 +8660,9 @@
       "specs": {
         "Ordered": "2 packs",
         "Advertised pack size": "2 pieces",
-        "Receipt / allocation": "Unconfirmed"
+        "Receipt": "All ordered items received; owner confirmed 23 November 2026"
       },
-      "note": "Four advertised pieces are recorded. Physical count, fit and thermal performance remain unverified.",
+      "note": "Full receipt confirmed. Two two-piece packs received, four advertised heat sinks. Allocation, independent count and function remain unverified.",
       "links": [],
       "catalogueId": "seeed-xiao-heatsink",
       "status": "recorded",
@@ -8681,18 +9618,18 @@
         "Material / grade": "Neodymium N35; supplier description",
         "Pull force / coating / magnetization": "Not supplied",
         "Supplier SKU": "NDM20102",
-        "Ordered quantity": "10 magnets",
-        "Receipt": "Received; owner confirmed 27 October 2026",
-        "Purchase reconciliation": "10 received previously + 24 incoming = 34 purchased; new receipt unconfirmed",
+        "Ordered quantity": "34 magnets across received purchases",
+        "Receipt": "34 magnets received across two purchases; owner confirmed 23 November",
+        "Purchase reconciliation": "10 previously received + 24 newly confirmed = 34 received",
         "Project allocation": "8 used in HA display",
-        "Recorded unallocated": "2 magnets from 10 received; independent count unknown",
-        "Incoming purchase": "24; physical receipt unconfirmed"
+        "Recorded unallocated": "26 magnets; independent count unknown",
+        "Allocation": "8 used in HA display; 26 recorded unallocated"
       },
-      "note": "Eight received bars allocated to HA display; two recorded unallocated. All ten remain owned. Twenty-four additional ordered bars await receipt confirmation. No new physical count or functional pass.",
+      "note": "34 received bars remain owned; 8 allocated to the HA display, leaving 26 recorded unallocated. Availability and physical recount remain unknown.",
       "id": "onlyscrews-workshop-supplies--magnet-bar-20-10-2",
       "links": [],
       "status": "recorded",
-      "remaining": 10,
+      "remaining": 34,
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
@@ -8931,16 +9868,18 @@
         "Pull force / coating / magnetization": "Not supplied",
         "Supplier SKU": "NDM63",
         "Ordered quantity": "30 magnets",
-        "Receipt": "Received; owner confirmed 27 October 2026"
+        "Receipt": "Received; owner confirmed 27 October 2026",
+        "Expected delivery": "2026-11-24",
+        "Incoming quantity": "12"
       },
-      "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
+      "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown. Incoming purchase expected 2026-11-24.",
       "id": "onlyscrews-workshop-supplies--magnet-disc-6-3",
       "links": [],
       "status": "recorded",
       "remaining": 30,
       "available": null,
       "quantityBasis": "recorded",
-      "incoming": null,
+      "incoming": 12,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
@@ -8968,14 +9907,14 @@
         "Material": "SS304; supplier description",
         "Subcategory": "Washers"
       },
-      "note": "Receipt does not establish an independent physical recount, current availability, remaining material mass or tested function.",
+      "note": "Owner confirmed all items received on 23 November. Actual receipt date, current availability and tested function are unknown.",
       "id": "onlyscrews-workshop-supplies--m2-washer",
       "links": [],
-      "status": "incoming",
-      "remaining": null,
+      "status": "recorded",
+      "remaining": 60,
       "available": null,
-      "quantityBasis": "unreconciled",
-      "incoming": 60,
+      "quantityBasis": "recorded",
+      "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
@@ -9003,14 +9942,14 @@
         "Material": "SS304; supplier description",
         "Subcategory": "Nuts"
       },
-      "note": "Receipt does not establish an independent physical recount, current availability, remaining material mass or tested function.",
+      "note": "Owner confirmed all items received on 23 November. Actual receipt date, current availability and tested function are unknown.",
       "id": "onlyscrews-workshop-supplies--m2-nut",
       "links": [],
-      "status": "incoming",
-      "remaining": null,
+      "status": "recorded",
+      "remaining": 60,
       "available": null,
-      "quantityBasis": "unreconciled",
-      "incoming": 60,
+      "quantityBasis": "recorded",
+      "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
@@ -9038,14 +9977,14 @@
         "Material": "SS304; supplier description",
         "Subcategory": "Screws and bolts"
       },
-      "note": "Receipt does not establish an independent physical recount, current availability, remaining material mass or tested function.",
+      "note": "Owner confirmed all items received on 23 November. Actual receipt date, current availability and tested function are unknown.",
       "id": "onlyscrews-workshop-supplies--m2-pan-20",
       "links": [],
-      "status": "incoming",
-      "remaining": null,
+      "status": "recorded",
+      "remaining": 36,
       "available": null,
-      "quantityBasis": "unreconciled",
-      "incoming": 36,
+      "quantityBasis": "recorded",
+      "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
@@ -9073,14 +10012,14 @@
         "Material": "SS304; supplier description",
         "Subcategory": "Screws and bolts"
       },
-      "note": "Receipt does not establish an independent physical recount, current availability, remaining material mass or tested function.",
+      "note": "Owner confirmed all items received on 23 November. Actual receipt date, current availability and tested function are unknown.",
       "id": "onlyscrews-workshop-supplies--m2-pan-16",
       "links": [],
-      "status": "incoming",
-      "remaining": null,
+      "status": "recorded",
+      "remaining": 36,
       "available": null,
-      "quantityBasis": "unreconciled",
-      "incoming": 36,
+      "quantityBasis": "recorded",
+      "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
@@ -9108,14 +10047,14 @@
         "Material": "SS304; supplier description",
         "Subcategory": "Screws and bolts"
       },
-      "note": "Receipt does not establish an independent physical recount, current availability, remaining material mass or tested function.",
+      "note": "Owner confirmed all items received on 23 November. Actual receipt date, current availability and tested function are unknown.",
       "id": "onlyscrews-workshop-supplies--m2-pan-12",
       "links": [],
-      "status": "incoming",
-      "remaining": null,
+      "status": "recorded",
+      "remaining": 36,
       "available": null,
-      "quantityBasis": "unreconciled",
-      "incoming": 36,
+      "quantityBasis": "recorded",
+      "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
@@ -9143,14 +10082,14 @@
         "Material": "SS304; supplier description",
         "Subcategory": "Screws and bolts"
       },
-      "note": "Receipt does not establish an independent physical recount, current availability, remaining material mass or tested function.",
+      "note": "Owner confirmed all items received on 23 November. Actual receipt date, current availability and tested function are unknown.",
       "id": "onlyscrews-workshop-supplies--m2-pan-10",
       "links": [],
-      "status": "incoming",
-      "remaining": null,
+      "status": "recorded",
+      "remaining": 36,
       "available": null,
-      "quantityBasis": "unreconciled",
-      "incoming": 36,
+      "quantityBasis": "recorded",
+      "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
@@ -9178,14 +10117,14 @@
         "Material": "SS304; supplier description",
         "Subcategory": "Screws and bolts"
       },
-      "note": "Receipt does not establish an independent physical recount, current availability, remaining material mass or tested function.",
+      "note": "Owner confirmed all items received on 23 November. Actual receipt date, current availability and tested function are unknown.",
       "id": "onlyscrews-workshop-supplies--m2-pan-8",
       "links": [],
-      "status": "incoming",
-      "remaining": null,
+      "status": "recorded",
+      "remaining": 36,
       "available": null,
-      "quantityBasis": "unreconciled",
-      "incoming": 36,
+      "quantityBasis": "recorded",
+      "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
@@ -9213,14 +10152,14 @@
         "Material": "SS304; supplier description",
         "Subcategory": "Screws and bolts"
       },
-      "note": "Receipt does not establish an independent physical recount, current availability, remaining material mass or tested function.",
+      "note": "Owner confirmed all items received on 23 November. Actual receipt date, current availability and tested function are unknown.",
       "id": "onlyscrews-workshop-supplies--m2-pan-6",
       "links": [],
-      "status": "incoming",
-      "remaining": null,
+      "status": "recorded",
+      "remaining": 36,
       "available": null,
-      "quantityBasis": "unreconciled",
-      "incoming": 36,
+      "quantityBasis": "recorded",
+      "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
@@ -9248,14 +10187,14 @@
         "Material": "SS304; supplier description",
         "Subcategory": "Screws and bolts"
       },
-      "note": "Receipt does not establish an independent physical recount, current availability, remaining material mass or tested function.",
+      "note": "Owner confirmed all items received on 23 November. Actual receipt date, current availability and tested function are unknown.",
       "id": "onlyscrews-workshop-supplies--m2-pan-5",
       "links": [],
-      "status": "incoming",
-      "remaining": null,
+      "status": "recorded",
+      "remaining": 36,
       "available": null,
-      "quantityBasis": "unreconciled",
-      "incoming": 36,
+      "quantityBasis": "recorded",
+      "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
@@ -9283,14 +10222,14 @@
         "Material": "SS304; supplier description",
         "Subcategory": "Screws and bolts"
       },
-      "note": "Receipt does not establish an independent physical recount, current availability, remaining material mass or tested function.",
+      "note": "Owner confirmed all items received on 23 November. Actual receipt date, current availability and tested function are unknown.",
       "id": "onlyscrews-workshop-supplies--m2-pan-4",
       "links": [],
-      "status": "incoming",
-      "remaining": null,
+      "status": "recorded",
+      "remaining": 36,
       "available": null,
-      "quantityBasis": "unreconciled",
-      "incoming": 36,
+      "quantityBasis": "recorded",
+      "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
@@ -9298,6 +10237,303 @@
       "contents": null,
       "subcategory": "Screws & bolts",
       "legacyCategory": "Fasteners",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Screws & bolts"
+        }
+      ]
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "SS304 hex nut · M6",
+      "category": "Mechanical hardware",
+      "summary": "SS304 hex nut · M6.",
+      "tags": [
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Thread": "M6",
+        "Material": "SS304, supplier description",
+        "Unit": "piece",
+        "Expected delivery": "2026-11-24",
+        "Incoming quantity": "4"
+      },
+      "note": "Shipment expected 2026-11-24. Receipt remains unconfirmed. Incoming purchase expected 2026-11-24.",
+      "id": "onlyscrews-workshop-supplies--m6-nut",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": 4,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Nuts & washers",
+      "legacyCategory": "Mechanical hardware",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Nuts & washers"
+        }
+      ]
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "SS304 hex nut · M5",
+      "category": "Mechanical hardware",
+      "summary": "SS304 hex nut · M5.",
+      "tags": [
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Thread": "M5",
+        "Material": "SS304, supplier description",
+        "Unit": "piece",
+        "Expected delivery": "2026-11-24",
+        "Incoming quantity": "4"
+      },
+      "note": "Shipment expected 2026-11-24. Receipt remains unconfirmed. Incoming purchase expected 2026-11-24.",
+      "id": "onlyscrews-workshop-supplies--m5-nut",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": 4,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Nuts & washers",
+      "legacyCategory": "Mechanical hardware",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Nuts & washers"
+        }
+      ]
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "3M foam tape · 24 mm × 4 m",
+      "category": "Tools & workshop",
+      "summary": "3M foam tape · 24 mm × 4 m.",
+      "tags": [
+        "OnlyScrews",
+        "Brand: 3M"
+      ],
+      "specs": {
+        "Unit": "roll",
+        "Expected delivery": "2026-11-24",
+        "Incoming quantity": "1"
+      },
+      "note": "Shipment expected 2026-11-24. Receipt remains unconfirmed. Incoming purchase expected 2026-11-24.",
+      "id": "onlyscrews-workshop-supplies--3m-foam-tape-24",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": 1,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Adhesives & applicators",
+      "legacyCategory": "Tools & workshop",
+      "categoryPaths": [
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Adhesives & applicators"
+        }
+      ]
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "N35 disc magnets · Ø5 × 1.5 mm",
+      "category": "Mechanical hardware",
+      "summary": "N35 disc magnets · Ø5 × 1.5 mm.",
+      "tags": [
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Diameter": "5 mm",
+        "Thickness": "1.5 mm",
+        "Grade": "N35, supplier description",
+        "Unit": "magnet",
+        "Expected delivery": "2026-11-24",
+        "Incoming quantity": "20"
+      },
+      "note": "Shipment expected 2026-11-24. Receipt remains unconfirmed. Incoming purchase expected 2026-11-24.",
+      "id": "onlyscrews-workshop-supplies--magnet-disc-5-1p5",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": 20,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Magnets",
+      "legacyCategory": "Mechanical hardware",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Magnets"
+        }
+      ]
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "N35 disc magnets · Ø6 × 1.5 mm",
+      "category": "Mechanical hardware",
+      "summary": "N35 disc magnets · Ø6 × 1.5 mm.",
+      "tags": [
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Diameter": "6 mm",
+        "Thickness": "1.5 mm",
+        "Grade": "N35, supplier description",
+        "Unit": "magnet",
+        "Expected delivery": "2026-11-24",
+        "Incoming quantity": "28"
+      },
+      "note": "Shipment expected 2026-11-24. Receipt remains unconfirmed. Incoming purchase expected 2026-11-24.",
+      "id": "onlyscrews-workshop-supplies--magnet-disc-6-1p5",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": 28,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Magnets",
+      "legacyCategory": "Mechanical hardware",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Magnets"
+        }
+      ]
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "608 ZZ shielded bearing",
+      "category": "Mechanical hardware",
+      "summary": "608 ZZ shielded bearing.",
+      "tags": [
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Unit": "bearing",
+        "Expected delivery": "2026-11-24",
+        "Incoming quantity": "16"
+      },
+      "note": "Shipment expected 2026-11-24. Receipt remains unconfirmed. Incoming purchase expected 2026-11-24.",
+      "id": "onlyscrews-workshop-supplies--608-zz-bearing",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": 16,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Bearings",
+      "legacyCategory": "Mechanical hardware",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Bearings"
+        }
+      ]
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "SS304 countersunk screw · M5 × 30 mm",
+      "category": "Mechanical hardware",
+      "summary": "SS304 countersunk screw · M5 × 30 mm.",
+      "tags": [
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Thread": "M5",
+        "Length": "30 mm",
+        "Material": "SS304, supplier description",
+        "Unit": "piece",
+        "Expected delivery": "2026-11-24",
+        "Incoming quantity": "4"
+      },
+      "note": "Shipment expected 2026-11-24. Receipt remains unconfirmed. Incoming purchase expected 2026-11-24.",
+      "id": "onlyscrews-workshop-supplies--m5-csk-30",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": 4,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Screws & bolts",
+      "legacyCategory": "Mechanical hardware",
+      "categoryPaths": [
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Screws & bolts"
+        }
+      ]
+    },
+    {
+      "catalogueId": "onlyscrews-workshop-supplies",
+      "name": "SS304 countersunk screw · M6 × 30 mm",
+      "category": "Mechanical hardware",
+      "summary": "SS304 countersunk screw · M6 × 30 mm.",
+      "tags": [
+        "OnlyScrews"
+      ],
+      "specs": {
+        "Thread": "M6",
+        "Length": "30 mm",
+        "Material": "SS304, supplier description",
+        "Unit": "piece",
+        "Expected delivery": "2026-11-24",
+        "Incoming quantity": "4"
+      },
+      "note": "Shipment expected 2026-11-24. Receipt remains unconfirmed. Incoming purchase expected 2026-11-24.",
+      "id": "onlyscrews-workshop-supplies--m6-csk-30",
+      "links": [],
+      "status": "incoming",
+      "remaining": null,
+      "available": null,
+      "quantityBasis": "unreconciled",
+      "incoming": 4,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Screws & bolts",
+      "legacyCategory": "Mechanical hardware",
       "categoryPaths": [
         {
           "category": "Mechanical hardware",
@@ -9832,6 +11068,181 @@
           "subcategory": "Buttons & encoders"
         }
       ]
+    },
+    {
+      "id": "mini-epoxy-solar-panel-70mm",
+      "name": "Mini epoxy solar panel · 70 × 70 mm",
+      "category": "Power",
+      "summary": "Mini epoxy solar panel · 70 × 70 mm.",
+      "tags": [
+        "Robocraze"
+      ],
+      "specs": {
+        "Dimensions": "70 × 70 mm",
+        "Rated output": "Unverified",
+        "Unit": "panel"
+      },
+      "note": "Merchant reports delivery. Ordered units provide the receipt baseline. Availability, physical recount and tested function are unknown.",
+      "links": [],
+      "catalogueId": "mini-epoxy-solar-panel-70mm",
+      "status": "recorded",
+      "remaining": 2,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/mini-epoxy-solar-panel-70mm/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Solar panels",
+      "legacyCategory": "Power",
+      "categoryPaths": [
+        {
+          "category": "Power",
+          "subcategory": "Solar panels"
+        }
+      ]
+    },
+    {
+      "id": "dfrobot-mp2636-booster-charger",
+      "name": "DFRobot MP2636 power booster and charger module",
+      "category": "Power",
+      "summary": "DFRobot MP2636 power booster and charger module.",
+      "tags": [
+        "Robocraze",
+        "Brand: DFRobot"
+      ],
+      "specs": {
+        "Unit": "module"
+      },
+      "note": "Merchant reports delivery. Ordered units provide the receipt baseline. Availability, physical recount and tested function are unknown.",
+      "links": [],
+      "catalogueId": "dfrobot-mp2636-booster-charger",
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/dfrobot-mp2636-booster-charger/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Battery chargers",
+      "legacyCategory": "Power",
+      "categoryPaths": [
+        {
+          "category": "Power",
+          "subcategory": "Battery chargers"
+        }
+      ]
+    },
+    {
+      "id": "charge-discharge-module-5v-2a",
+      "name": "DC-DC charge-discharge module · 5 V / 2 A",
+      "category": "Power",
+      "summary": "DC-DC charge-discharge module · 5 V / 2 A.",
+      "tags": [
+        "Robocraze"
+      ],
+      "specs": {
+        "Output": "5 V / 2 A, seller rating",
+        "Board revision and charger IC": "Unverified",
+        "Unit": "module"
+      },
+      "note": "Merchant reports delivery. Ordered units provide the receipt baseline. Availability, physical recount and tested function are unknown.",
+      "links": [],
+      "catalogueId": "charge-discharge-module-5v-2a",
+      "status": "recorded",
+      "remaining": 2,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/charge-discharge-module-5v-2a/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Battery chargers",
+      "legacyCategory": "Power",
+      "categoryPaths": [
+        {
+          "category": "Power",
+          "subcategory": "Battery chargers"
+        }
+      ]
+    },
+    {
+      "id": "ttp223-touch-module-robocraze",
+      "name": "TTP223 capacitive touch module",
+      "category": "Sensors & input",
+      "summary": "TTP223 capacitive touch module.",
+      "tags": [
+        "Robocraze"
+      ],
+      "specs": {
+        "Controller": "TTP223, seller description",
+        "Variant": "Robocraze purchase; exact PCB revision unverified",
+        "Unit": "module"
+      },
+      "note": "Merchant reports delivery. Ordered units provide the receipt baseline. Availability, physical recount and tested function are unknown.",
+      "links": [],
+      "catalogueId": "ttp223-touch-module-robocraze",
+      "status": "recorded",
+      "remaining": 2,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/ttp223-touch-module-robocraze/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Buttons & encoders",
+      "legacyCategory": "Sensors & input",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Buttons & encoders"
+        }
+      ]
+    },
+    {
+      "id": "numakers-pla-plus-light-gray",
+      "name": "Numakers PLA+ · Light Gray · 1 kg with spool",
+      "category": "3D printing",
+      "summary": "Numakers PLA+ · Light Gray · 1 kg with spool.",
+      "tags": [
+        "Numakers",
+        "Brand: Numakers"
+      ],
+      "specs": {
+        "Advertised net mass": "1 kg per spool",
+        "Remaining mass": "Unknown",
+        "Unit": "spool"
+      },
+      "note": "Merchant reports delivery. Ordered units provide the receipt baseline. Availability, physical recount and tested function are unknown.",
+      "links": [],
+      "catalogueId": "numakers-pla-plus-light-gray",
+      "status": "recorded",
+      "remaining": 2,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/numakers-pla-plus-light-gray/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "PLA filament",
+      "legacyCategory": "3D printing",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "PLA filament"
+        }
+      ]
     }
   ],
   "families": [
@@ -10130,9 +11541,10 @@
         "Manufacturer": "Seeed Studio",
         "SKU": "102010671",
         "Exact board revision": "Unverified",
-        "Archived board schematic": "Not yet available"
+        "Archived board schematic": "Not yet available",
+        "Receipt": "All ordered items received; owner confirmed 23 November 2026"
       },
-      "note": "Four recorded remaining. Full receipt and physical count are unconfirmed. Do not substitute the regular S3 schematic or pin mapping.",
+      "note": "Full receipt confirmed. Five Plus boards acquired; one gifted leaves four recorded remaining. Allocation, independent count and function remain unverified.",
       "links": [],
       "catalogueId": "xiao-esp32s3-plus-seeed",
       "status": "recorded",
@@ -10773,15 +12185,14 @@
       "category": "3D printing",
       "summary": "Bambu filament purchases across PLA, PETG and ASA, recorded by exact material, colour and format.",
       "tags": [
-        "Filament",
-        "6 material families"
+        "Filament"
       ],
       "specs": {
         "Selections": "PLA Glow yellow; PLA Basic beige / gray / black / blue / gold / Bambu green / indigo purple; PLA Matte dark red; ASA white; PETG Translucent clear; PETG HF red / yellow / orange / white / black",
-        "Format": "15 reusable-spool purchase lines + 1 refill line",
+        "Format": "Spools and refills are recorded separately",
         "Remaining mass": "Unknown"
       },
-      "note": "Robu and Ideal3D selections are owner-confirmed received. Six Hydrotech PLA spools are awaiting delivery, owner-confirmed on 22 October. Remaining mass and print performance are unverified.",
+      "note": "Earlier purchases are received. Additional PLA units are expected 24 November. Remaining mass and availability are unknown.",
       "links": [],
       "catalogueId": "bambu-filaments",
       "status": "unreconciled",
@@ -11143,6 +12554,22 @@
         {
           "category": "Tools & workshop",
           "subcategory": "Adhesives & applicators"
+        },
+        {
+          "category": "3D printing",
+          "subcategory": "Filament feed parts"
+        },
+        {
+          "category": "Power",
+          "subcategory": "Power cables & adaptors"
+        },
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Lubricants"
+        },
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Magnets"
         }
       ],
       "subcategory": null
@@ -11204,9 +12631,9 @@
       "specs": {
         "Family": "Seeed A-02",
         "Band": "2.4 GHz",
-        "Receipt / allocation": "Unconfirmed"
+        "Receipt": "All ordered items received; owner confirmed 23 November 2026"
       },
-      "note": "Three additional antennas are recorded. Board transfers do not imply accessory transfers. Reference gain claims differ and are not specimen measurements.",
+      "note": "Full receipt confirmed. Three antennas received. Allocation, independent count and function remain unverified.",
       "links": [],
       "catalogueId": "seeed-a02-antenna",
       "status": "recorded",
@@ -11256,9 +12683,9 @@
       "specs": {
         "Ordered": "2 packs",
         "Advertised pack size": "2 pieces",
-        "Receipt / allocation": "Unconfirmed"
+        "Receipt": "All ordered items received; owner confirmed 23 November 2026"
       },
-      "note": "Four advertised pieces are recorded. Physical count, fit and thermal performance remain unverified.",
+      "note": "Full receipt confirmed. Two two-piece packs received, four advertised heat sinks. Allocation, independent count and function remain unverified.",
       "links": [],
       "catalogueId": "seeed-xiao-heatsink",
       "status": "recorded",
@@ -11593,6 +13020,14 @@
         {
           "category": "Mechanical hardware",
           "subcategory": "Screws & bolts"
+        },
+        {
+          "category": "Tools & workshop",
+          "subcategory": "Adhesives & applicators"
+        },
+        {
+          "category": "Mechanical hardware",
+          "subcategory": "Bearings"
         }
       ],
       "subcategory": null
@@ -12124,6 +13559,181 @@
           "subcategory": "Buttons & encoders"
         }
       ]
+    },
+    {
+      "id": "mini-epoxy-solar-panel-70mm",
+      "name": "Mini epoxy solar panel · 70 × 70 mm",
+      "category": "Power",
+      "summary": "Mini epoxy solar panel · 70 × 70 mm.",
+      "tags": [
+        "Robocraze"
+      ],
+      "specs": {
+        "Dimensions": "70 × 70 mm",
+        "Rated output": "Unverified",
+        "Unit": "panel"
+      },
+      "note": "Merchant reports delivery. Ordered units provide the receipt baseline. Availability, physical recount and tested function are unknown.",
+      "links": [],
+      "catalogueId": "mini-epoxy-solar-panel-70mm",
+      "status": "recorded",
+      "remaining": 2,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/mini-epoxy-solar-panel-70mm/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Solar panels",
+      "legacyCategory": "Power",
+      "categoryPaths": [
+        {
+          "category": "Power",
+          "subcategory": "Solar panels"
+        }
+      ]
+    },
+    {
+      "id": "dfrobot-mp2636-booster-charger",
+      "name": "DFRobot MP2636 power booster and charger module",
+      "category": "Power",
+      "summary": "DFRobot MP2636 power booster and charger module.",
+      "tags": [
+        "Robocraze",
+        "Brand: DFRobot"
+      ],
+      "specs": {
+        "Unit": "module"
+      },
+      "note": "Merchant reports delivery. Ordered units provide the receipt baseline. Availability, physical recount and tested function are unknown.",
+      "links": [],
+      "catalogueId": "dfrobot-mp2636-booster-charger",
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/dfrobot-mp2636-booster-charger/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Battery chargers",
+      "legacyCategory": "Power",
+      "categoryPaths": [
+        {
+          "category": "Power",
+          "subcategory": "Battery chargers"
+        }
+      ]
+    },
+    {
+      "id": "charge-discharge-module-5v-2a",
+      "name": "DC-DC charge-discharge module · 5 V / 2 A",
+      "category": "Power",
+      "summary": "DC-DC charge-discharge module · 5 V / 2 A.",
+      "tags": [
+        "Robocraze"
+      ],
+      "specs": {
+        "Output": "5 V / 2 A, seller rating",
+        "Board revision and charger IC": "Unverified",
+        "Unit": "module"
+      },
+      "note": "Merchant reports delivery. Ordered units provide the receipt baseline. Availability, physical recount and tested function are unknown.",
+      "links": [],
+      "catalogueId": "charge-discharge-module-5v-2a",
+      "status": "recorded",
+      "remaining": 2,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/charge-discharge-module-5v-2a/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Battery chargers",
+      "legacyCategory": "Power",
+      "categoryPaths": [
+        {
+          "category": "Power",
+          "subcategory": "Battery chargers"
+        }
+      ]
+    },
+    {
+      "id": "ttp223-touch-module-robocraze",
+      "name": "TTP223 capacitive touch module",
+      "category": "Sensors & input",
+      "summary": "TTP223 capacitive touch module.",
+      "tags": [
+        "Robocraze"
+      ],
+      "specs": {
+        "Controller": "TTP223, seller description",
+        "Variant": "Robocraze purchase; exact PCB revision unverified",
+        "Unit": "module"
+      },
+      "note": "Merchant reports delivery. Ordered units provide the receipt baseline. Availability, physical recount and tested function are unknown.",
+      "links": [],
+      "catalogueId": "ttp223-touch-module-robocraze",
+      "status": "recorded",
+      "remaining": 2,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/ttp223-touch-module-robocraze/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Buttons & encoders",
+      "legacyCategory": "Sensors & input",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Buttons & encoders"
+        }
+      ]
+    },
+    {
+      "id": "numakers-pla-plus-light-gray",
+      "name": "Numakers PLA+ · Light Gray · 1 kg with spool",
+      "category": "3D printing",
+      "summary": "Numakers PLA+ · Light Gray · 1 kg with spool.",
+      "tags": [
+        "Numakers",
+        "Brand: Numakers"
+      ],
+      "specs": {
+        "Advertised net mass": "1 kg per spool",
+        "Remaining mass": "Unknown",
+        "Unit": "spool"
+      },
+      "note": "Merchant reports delivery. Ordered units provide the receipt baseline. Availability, physical recount and tested function are unknown.",
+      "links": [],
+      "catalogueId": "numakers-pla-plus-light-gray",
+      "status": "recorded",
+      "remaining": 2,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/numakers-pla-plus-light-gray/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "PLA filament",
+      "legacyCategory": "3D printing",
+      "categoryPaths": [
+        {
+          "category": "3D printing",
+          "subcategory": "PLA filament"
+        }
+      ]
     }
   ],
   "taxonomy": {
@@ -12163,7 +13773,9 @@
         "subcategories": [
           "Battery packs",
           "Battery chargers",
-          "Voltage regulators"
+          "Voltage regulators",
+          "Solar panels",
+          "Power cables & adaptors"
         ]
       },
       {
@@ -12201,7 +13813,8 @@
           "Standoffs & spacers",
           "Mixed fastener kits",
           "Springs",
-          "Magnets"
+          "Magnets",
+          "Bearings"
         ]
       },
       {
@@ -12212,7 +13825,8 @@
           "PETG filament",
           "ASA filament",
           "Filament storage",
-          "Build-plate supplies"
+          "Build-plate supplies",
+          "Filament feed parts"
         ]
       },
       {
@@ -12234,7 +13848,8 @@
           "Bench aids",
           "Cleaning supplies",
           "Adhesives & applicators",
-          "Safety & extraction"
+          "Safety & extraction",
+          "Lubricants"
         ]
       },
       {

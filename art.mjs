@@ -436,8 +436,300 @@ const intakeDrawings = {
  glueGun:()=>acPath('M51 57h103l22 12-6 30h-41l-11 36H87l9-44H53Z','#3584ad','#255a77',2)+acPath('M69 64h62l-4 21H72Z','#65a4c2','#347b9f')+acPath('M168 69l28 11-27 7Z','#bac7cd','#6d8591')+acPath('M131 96l-6 18h-16l6-23Z','#e6a33d','#ae7328',2)+acRect(26,61,42,12,5,'#e2e9d7','#9cac9a')+acPath('M64 95l-10 33h26','none','#a9bac2',3)+acPath('M91 134c-21 3-18 12-32 12','none','#45585f',3)+acPath('M134 66h13m-16 7h13m-16 7h13','none','#256383',2),
 };
 
-const componentProfiles = { ...intakeProfiles,...cableProfiles, ...electronicsProfiles, ...workshopProfiles, ...accessoryProfiles, ...supplyProfiles};
-const componentDrawings = { ...intakeDrawings,...cableDrawings, ...electronicsDrawings, ...workshopDrawings, ...accessoryDrawings, ...supplyDrawings};
+// Purchase illustrations identify the recorded form; board layout and dimensions are schematic.
+const novemberProfiles = {
+  "mini-epoxy-solar-panel-70mm": [
+    "auditSolar",
+    {}
+  ],
+  "dfrobot-mp2636-booster-charger": [
+    "auditCharger",
+    {
+      "variant": "MP2636"
+    }
+  ],
+  "charge-discharge-module-5v-2a": [
+    "auditCharger",
+    {
+      "variant": "5 V / 2 A"
+    }
+  ],
+  "ttp223-touch-module-robocraze": [
+    "auditTouch",
+    {}
+  ],
+  "tools-and-consumables--bosch-long-nose-200": [
+    "auditLongNose",
+    {}
+  ],
+  "tools-and-consumables--pc4-m5-bowden": [
+    "auditBowden",
+    {}
+  ],
+  "tools-and-consumables--bosch-go-3": [
+    "auditDriver",
+    {}
+  ],
+  "tools-and-consumables--serplex-ptfe-2p5-4": [
+    "auditTube",
+    {}
+  ],
+  "tools-and-consumables--tex-ro-4l-containers": [
+    "auditContainers",
+    {}
+  ],
+  "numakers-pla-plus-light-gray": [
+    "acSpool",
+    {
+      "color": "#b8b9b6",
+      "material": "PLA+"
+    }
+  ],
+  "tools-and-consumables--orei-schuko-india": [
+    "auditAdaptor",
+    {}
+  ],
+  "tools-and-consumables--fedus-16a-c13": [
+    "auditCord",
+    {}
+  ],
+  "tools-and-consumables--super-lube-52004": [
+    "auditBottle",
+    {
+      "label": "52004",
+      "color": "#cfb759"
+    }
+  ],
+  "tools-and-consumables--cilicant-silica-beads": [
+    "auditBeads",
+    {}
+  ],
+  "tools-and-consumables--serplex-manual-vacuum": [
+    "vacuumKit",
+    {
+      "electric": false
+    }
+  ],
+  "tools-and-consumables--premium-magnet-6-3": [
+    "disc-magnets",
+    {}
+  ],
+  "tools-and-consumables--araldite-standard-90g": [
+    "auditEpoxy",
+    {
+      "label": "ARALDITE",
+      "color": "#c64036"
+    }
+  ],
+  "tools-and-consumables--bondtite-fast-clear-36g": [
+    "auditEpoxy",
+    {
+      "label": "BONDTITE",
+      "color": "#4887a5"
+    }
+  ],
+  "tools-and-consumables--bosch-pointteq-13": [
+    "auditDrillBits",
+    {}
+  ],
+  "tools-and-consumables--inditrust-keyed-chuck-13": [
+    "auditChuck",
+    {}
+  ],
+  "tools-and-consumables--hp-external-dvd-rw": [
+    "auditDrive",
+    {}
+  ],
+  "onlyscrews-workshop-supplies--m6-nut": [
+    "intakeNuts",
+    {
+      "washer": false
+    }
+  ],
+  "onlyscrews-workshop-supplies--m5-nut": [
+    "intakeNuts",
+    {
+      "washer": false
+    }
+  ],
+  "onlyscrews-workshop-supplies--3m-foam-tape-24": [
+    "auditTape",
+    {}
+  ],
+  "onlyscrews-workshop-supplies--magnet-disc-5-1p5": [
+    "disc-magnets",
+    {}
+  ],
+  "onlyscrews-workshop-supplies--magnet-disc-6-1p5": [
+    "disc-magnets",
+    {}
+  ],
+  "onlyscrews-workshop-supplies--magnet-disc-6-3": [
+    "disc-magnets",
+    {}
+  ],
+  "onlyscrews-workshop-supplies--608-zz-bearing": [
+    "auditBearing",
+    {}
+  ],
+  "onlyscrews-workshop-supplies--m5-csk-30": [
+    "auditScrew",
+    {
+      "thread": 5
+    }
+  ],
+  "onlyscrews-workshop-supplies--m6-csk-30": [
+    "auditScrew",
+    {
+      "thread": 6
+    }
+  ],
+  "bambu-filaments--pla-black": [
+    "acSpool",
+    {
+      "color": "#353a3c",
+      "material": "PLA Basic",
+      "refill": false
+    }
+  ],
+  "bambu-filaments--pla-cyan": [
+    "acSpool",
+    {
+      "color": "#1bb8d1",
+      "material": "PLA Basic",
+      "refill": false
+    }
+  ],
+  "bambu-filaments--pla-magenta": [
+    "acSpool",
+    {
+      "color": "#ce3a92",
+      "material": "PLA Basic",
+      "refill": false
+    }
+  ],
+  "bambu-filaments--pla-sunflower-yellow": [
+    "acSpool",
+    {
+      "color": "#f2c51a",
+      "material": "PLA Basic",
+      "refill": false
+    }
+  ],
+  "bambu-filaments--pla-red-refill": [
+    "acSpool",
+    {
+      "color": "#c3342b",
+      "material": "PLA Basic",
+      "refill": true
+    }
+  ],
+  "bambu-filaments--pla-dusk-glare": [
+    "acSpool",
+    {
+      "color": "#8975a3",
+      "material": "PLA Basic",
+      "refill": false
+    }
+  ]
+};
+const novemberDrawings = {
+ auditSolar: () => acRect(57,23,126,119,4,'#26334d','#8a929a',3)
+  + Array.from({length:6},(_,i)=>acRect(63,29+i*18,114,14,1,'#384f75','#7486a0',.8)).join('')
+  + acPath('M92 30v105M148 30v105','none','#a8b0c0',1)
+  + acPath('M58 25l123 115','none','#7585a5',1),
+ auditCharger: o => acGroup(120,82,1,-9,
+  acRect(-64,-43,128,86,5,o.variant==='MP2636'?'#273b3b':'#33697b','#8ea5a2',2)
+  + [[-56,-35],[56,-35],[-56,35],[56,35]].map(([x,y])=>acCircle(x,y,3,'#c8ae6b','#e9d7a5')).join('')
+  + acRect(-21,-20,37,34,4,'#34383a','#657274')
+  + acRect(25,-15,21,27,2,'#222d31','#82949a')
+  + acRect(-70,-15,26,28,3,'#bac6c8','#657a82')
+  + acRect(-69,-10,16,18,2,'#314047','#8d9da2')
+  + acRect(-19,22,40,14,2,'#ebe9dd','#b2b9ac')
+  + acText(-43,-27,9,o.variant,'#e3ece5')),
+ auditTouch: () => acGroup(120,80,1.15,-11,
+  acRect(-39,-48,78,96,4,'#b14940','#723c3a',2)
+  + acPath('M-29-36H29V7H-29Z','none','#d5b88a',3)
+  + acCircle(0,-15,17,'none','#d5b88a',2)
+  + acRect(-10,18,20,14,2,'#293b3e','#56696b')
+  + [-22,0,22].map(x=>acCircle(x,40,4,'#cab579','#eee1b0')).join('')
+  + acText(-18,10,7,'TTP223','#f0e2c9')),
+ auditLongNose: () => acGroup(120,83,1,-16,
+  acPath('M-7-15-14-67-3-40 0-15 3-40 14-67 7-15 20 6 13 17-2 2-14 17-23 8Z','#b5c2c5','#687d87',2)
+  + acPath('M-16 12-29 55M15 12l28 43','none','#204f65',15)
+  + acPath('M-16 16-28 53M17 17l24 36','none','#d54236',7)
+  + acCircle(0,-5,6,'#738993','#d9e1df')),
+ auditBowden: () => [-37,35].map(x=>acGroup(120+x,84,.9,x<0?-15:16,
+  acPath('M-13 5h26v40h-26Z','#c5cdd0','#6e8189',1.5)
+  + Array.from({length:7},(_,i)=>acPath(`M-13 ${10+i*4}h26`,'none','#7e929a',1)).join('')
+  + acPath('M-24-15-12-25H13L25-15V10L13 20H-12L-24 10Z','#c1d0d3','#66818c',1.5)
+  + acRect(-20,-39,40,21,6,'#294d69','#182e43')
+  + acEllipse(0,-37,19,8,'#568fba','#28546f')
+  + acEllipse(0,-37,8,4,'#172c38','#80acc2'))).join(''),
+ auditDriver: () => acGroup(112,87,1,-35,
+  acRect(-23,-47,46,98,15,'#225166','#173d4d',2)
+  + acRect(-20,-45,40,35,10,'#367286','#1f4a5e')
+  + acRect(-11,-66,22,23,3,'#798f98','#3f5965')
+  + acPath('M0-66v-19','none','#b6c7ce',6)
+  + acRect(-9,-14,18,32,7,'#cf4e43','#8c312e')
+  + acText(-17,36,8,'GO 3.0','#d1e0df'))
+  + acPath('M173 92v37m10-29v29m10-40v40','none','#aebdc6',4),
+ auditTube: () => Array.from({length:5},(_,i)=>acEllipse(111,79,58-i*6,43-i*4,'none','#b5caca',4)).join('')
+  + acPath('M164 81c28-4 28 26 39 31','none','#b5caca',4)
+  + acRect(166,118,39,17,5,'#df634c','#a54235')+acPath('M172 120l24 10','none','#d8e1dd',3),
+ auditContainers: () => [[64,42],[127,54]].map(([x,y])=>acRect(x,y,57,88,9,'#d9e6df','#8aa69f',2)
+  + acRect(x-4,y-8,65,16,5,'#dfe7df','#819a91',2)+acRect(x+12,y-4,34,7,2,'#7a9a88','#5e8070')
+  + acPath(`M${x+8} ${y+17}v56`,'none','#f4f8f2',3)).join(''),
+ auditAdaptor: () => acGroup(117,81,1,-13,
+  acPath('M-16 35v28M17 35v28M1 7v27','none','#b5bbb7',7)
+  + acRect(-44,-53,88,94,13,'#e9e9e0','#9ba79f',2)
+  + acCircle(0,-13,31,'#b5bdb3','#89988d',2)
+  + acCircle(-13,-13,5,'#3d4c42','#6a7d6c')+acCircle(13,-13,5,'#3d4c42','#6a7d6c')
+  + acRect(-4,-43,8,10,2,'#b4bfb4','#667f71')+acRect(-4,8,8,10,2,'#b4bfb4','#667f71')),
+ auditCord: () => acPath('M72 88C12 111 76 153 131 134S196 85 161 63','none','#36464c',7)
+  + acGroup(67,62,1,-22,acRect(-21,-15,42,51,11,'#34464b','#1b3037',2)
+   + acPath('M-12-14v-20M12-14v-20M0-13v-29','none','#b4bdba',6))
+  + acGroup(171,56,1,26,acPath('M-24-21h48v37L15 28H-15L-24 16Z','#2a3b42','#182b33',2)
+   + acPath('M-12-9h6v11h-6ZM6-9h6v11H6ZM-3 8h6v10h-6Z','#112029','#61727a')),
+ auditBottle: o => acRect(89,38,62,97,12,'#e8ead7','#91a38f',2)
+  + acRect(94,23,52,24,4,'#525e50','#344c3c')+acRect(94,63,52,48,2,o.color,'#9e9665')
+  + acText(99,82,8,'SUPER LUBE','#334c42')+acText(100,99,13,o.label,'#334c42'),
+ auditBeads: () => acPath('M67 26h104l8 110H60Z','#e4e9dd','#92aa98',2)
+  + acPath('M70 34h97M70 41h97','none','#7f9e8b',2)
+  + Array.from({length:30},(_,i)=>acCircle(77+(i%6)*17,63+Math.floor(i/6)*14,5,'#d9983f','#b17c38',.6)).join(''),
+ auditEpoxy: o => [-29,30].map((x,i)=>acGroup(120+x,84,1,i?12:-12,
+  acRect(-17,-47,34,89,5,'#e7e8dd','#92a599')+acRect(-13,40,26,17,3,'#35464c','#24343b')
+  + acRect(-17,-29,34,45,2,i?'#466b88':o.color,'#819796')
+  + acText(-15,-9,5.5,o.label,'#fff')+acText(-10,7,7,i?'B':'A','#fff')
+  + acPath('M-16-40h32','none','#9eaaa1',2))).join(''),
+ auditDrillBits: () => acRect(46,40,148,99,6,'#31566a','#213c4e',2)
+  + acRect(50,44,140,30,3,'#426d7d','#2d5264')
+  + Array.from({length:13},(_,i)=>{const x=57+i*10,y=66-i*2;return acPath(`M${x} 123V${y}l2-6 2 6v57Z`,'#a4b5bd','#6f8996',.5)+acPath(`M${x} ${y+6}l4 5-4 5 4 5-4 5 4 5`,'none','#4d6876',.7)}).join(''),
+ auditChuck: () => acGroup(111,82,1,-20,
+  acRect(-28,-42,56,77,9,'#8099a4','#536f7c',2)+acEllipse(0,-41,28,13,'#c9d5d8','#6c8591')
+  + acEllipse(0,-41,12,6,'#334b57','#819ca6')+acRect(-33,-8,66,20,4,'#283f4c','#526f7c')
+  + acPath('M-20-24v14M-8-25v14M5-25v14M18-24v14','none','#d2dedc',2)
+  + acRect(-9,34,18,36,3,'#afbec2','#6d8792'))
+  + acPath('M165 92h33M181 79v36','none','#92aab6',6),
+ auditDrive: () => acGroup(119,80,1,-8,
+  acRect(-77,-46,154,101,7,'#333f46','#1c2d35',2)
+  + acRect(-72,-41,144,88,5,'#46535a','#5d6b72')
+  + acPath('M-69 42H66','none','#152730',2)+acCircle(49,47,2,'#7fa6a2','#648583')
+  + acCircle(0,0,19,'none','#a6b4b3',1)+acText(-11,5,15,'hp','#b8c5c3')),
+ auditTape: () => acGroup(120,83,1,-15,
+  acEllipse(7,11,56,52,'#c7cec4','#85988b',2)+acEllipse(0,0,56,52,'#e2e5d8','#8fa192',2)
+  + acEllipse(0,0,31,29,'#a1aa91','#7c8b76',2)+acEllipse(0,0,24,22,'#f6f5eb','#a2ae99',2)
+  + acText(-46,-26,10,'3M','#c24b40')+acText(24,33,10,'3M','#c24b40')),
+ auditBearing: () => acGroup(120,81,1,-10,
+  acEllipse(7,12,57,55,'#7c949e','#516f7e',2)+acEllipse(0,0,57,55,'#b9cbd1','#6e8c99',2)
+  + acEllipse(0,0,46,44,'#8199a4','#d6e1e1',2)+acEllipse(0,0,35,34,'#b9cbd1','#607e8d',2)
+  + acEllipse(0,0,20,20,'#f4f6f0','#728f9b',3)+acText(-18,-40,8,'608 ZZ','#3c5966')),
+ auditScrew: o => acGroup(90,47,o.thread===6?1:.85,-20,acScrew({length:78,countersunk:true}))
+  + acGroup(160,49,o.thread===6?.9:.76,20,acScrew({length:78,countersunk:true})),
+};
+
+const componentProfiles = { ...novemberProfiles, ...intakeProfiles,...cableProfiles, ...electronicsProfiles, ...workshopProfiles, ...accessoryProfiles, ...supplyProfiles};
+const componentDrawings = { ...novemberDrawings, ...intakeDrawings,...cableDrawings, ...electronicsDrawings, ...workshopDrawings, ...accessoryDrawings, ...supplyDrawings};
 // Explicit identity selection prevents unrelated parts sharing a category placeholder.
 export function artworkProfile(id) { return componentProfiles[id] || null; }
 export function artwork(_category, id='') {

@@ -17,7 +17,7 @@ export function filterComponents(items, {query='', category='', subcategory='', 
   const terms=normalize(query).trim().split(/\s+/).filter(Boolean);
   const filtered=items.filter(item => paths(item).some(path=>(!category || path.category===category) && (!subcategory || path.subcategory===subcategory))
     && (!legacy || item.legacyCategory===legacy)
-    && (!status || item.status===status)
+    && (!status || item.status===status || (status==='incoming' && item.incoming>0))
     && (scope!=='saved' || saved.includes(item.id))
     && (scope!=='references' || item.documents.length>0)
     && terms.every(term => normalize([item.id,item.name,item.category,item.subcategory,item.legacyCategory,...paths(item).flatMap(p=>[p.category,p.subcategory]),item.summary,item.purchaseSource==='local'?'Bought locally':'',...item.tags,...Object.entries(item.specs).flat(),...(item.contents?.rows||[]).flatMap(row=>[row.part,row.detail])].join(' ')).includes(term)));
@@ -28,7 +28,8 @@ export function filterComponents(items, {query='', category='', subcategory='', 
 export function stockLabel(item) {
   if(item.status==='incoming') return 'Awaiting delivery';
   if(item.remaining==null) return 'Count unconfirmed';
-  return `${item.remaining} ${item.quantityBasis==='expected'?'expected':'recorded'}`;
+  const received = `${item.remaining} ${item.quantityBasis==='expected'?'expected':'recorded'}`;
+  return item.incoming>0 ? `${received} · ${item.incoming} incoming` : received;
 }
 export function csvExport(items) {
   const cell=value=>'"'+String(value??'Unknown').replace(/^[=+@\-\t\r]/,"'$&").replaceAll('"','""')+'"';
