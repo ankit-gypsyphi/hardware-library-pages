@@ -1,5 +1,5 @@
-import {filterComponents,stockLabel,csvExport,viewItems,resolveClassification,classificationLabel} from './catalogue.mjs?v=89b972042ade';
-import {icon,artwork,categoryIcons,kitPartProfile,kitPartArtwork,kitScaleArtwork} from './art.mjs?v=89b972042ade';
+import {filterComponents,stockLabel,csvExport,viewItems,resolveClassification,classificationLabel} from './catalogue.mjs?v=58bc3888a221';
+import {icon,artwork,categoryIcons,kitPartProfile,kitPartArtwork,kitScaleArtwork} from './art.mjs?v=58bc3888a221';
 const $=s=>document.querySelector(s);
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const hydrateIcons=(root=document)=>root.querySelectorAll('[data-icon]').forEach(el=>el.innerHTML=icon(el.dataset.icon));

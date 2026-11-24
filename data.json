@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-23",
+  "asOf": "2026-11-24",
   "familyCount": 42,
   "components": [
     {
@@ -5041,6 +5041,48 @@
         {
           "category": "Wiring & connections",
           "subcategory": "USB cables"
+        }
+      ]
+    },
+    {
+      "catalogueId": "tools-and-consumables",
+      "name": "Crasts USB-A male to USB-C female adapter · Silver",
+      "category": "Wiring & connections",
+      "summary": "Compact silver USB adapter with an exposed USB-A plug; two pieces owner-confirmed.",
+      "tags": [
+        "USB-A male",
+        "USB-C female",
+        "Silver",
+        "Amazon",
+        "Brand: Crasts"
+      ],
+      "specs": {
+        "Plug": "USB-A male, visible in owner photo",
+        "Socket": "USB-C female, family identification; face not pictured",
+        "Colour": "Silver, package label",
+        "Retail pack": "2 pieces, package label",
+        "Data / charging ratings": "Unverified",
+        "Unit": "adapter"
+      },
+      "note": "Two pieces owner-confirmed. Exact historical order and silver ASIN unresolved. Availability, condition, allocation and tested function unknown. Illustration follows the photographed body and male plug.",
+      "id": "tools-and-consumables--usb-a-to-usb-c-adapter",
+      "links": [],
+      "status": "recorded",
+      "remaining": 2,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "USB adapters",
+      "legacyCategory": "Cables & connectors",
+      "categoryPaths": [
+        {
+          "category": "Wiring & connections",
+          "subcategory": "USB adapters"
         }
       ]
     },
@@ -12473,6 +12515,10 @@
         },
         {
           "category": "Wiring & connections",
+          "subcategory": "USB adapters"
+        },
+        {
+          "category": "Wiring & connections",
           "subcategory": "Insulation & cable management"
         },
         {
@@ -13790,6 +13836,7 @@
           "Wire & ribbon cable",
           "Jumper & test leads",
           "USB cables",
+          "USB adapters",
           "Connector harnesses",
           "Pin headers",
           "Connector breakout boards",
