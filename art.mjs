@@ -24,6 +24,7 @@ const cableProfiles={
  'tools-and-consumables--ribbon-cable':['ribbon',{}],
  'tools-and-consumables--dupont-set':['dupont',{female:false}],
  'tools-and-consumables--ff-jumpers':['dupont',{female:true}],
+ 'tools-and-consumables--mm-jumpers-10cm':['dupont',{female:false,farFemale:false}],
  'tools-and-consumables--alligator-male':['alligator',{female:false}],
  'tools-and-consumables--alligator-female':['alligator',{female:true}],
  'tools-and-consumables--male-headers':['header',{female:false}],
@@ -44,7 +45,7 @@ const cableProfiles={
 const cableDrawings={
  zhHarness:()=>`<g transform="rotate(-10 120 82)">${['#687c80','#a6b3ac','#879797','#c6cec6'].map((c,i)=>`<path d="M${93+i*14} 62C${72+i*16} 100 ${106+i*15} 108 ${91+i*17} 135" stroke="${c}" stroke-width="4" fill="none"/><path d="M${91+i*17} 135v10" stroke="#c7bc95" stroke-width="2"/>`).join('')}<rect x="78" y="24" width="78" height="42" rx="4" fill="#e5e6dc" stroke="#73858a" stroke-width="1.5"/><rect x="91" y="19" width="51" height="9" rx="2" fill="#cbd0c7" stroke="#73858a"/>${[0,1,2,3].map(i=>`<rect x="${86+i*17}" y="33" width="12" height="15" rx="1.5" fill="#475a61"/><path d="M${92+i*17} 38v6" stroke="#cdb77d" stroke-width="2"/>`).join('')}<path d="M82 54h69" stroke="#b0bbb5" stroke-width="2"/></g>`,
  alligator:o=>`<path d="M39 36C13 81 48 131 100 132s82-25 86-45" stroke="#bf4d45" stroke-width="5" fill="none"/><path d="M51 66C21 96 65 116 119 112s51-29 52-58" stroke="#34434b" stroke-width="5" fill="none"/>${caClip('#cf534a')}<g transform="translate(11 36)">${caClip('#34434b')}</g><g transform="translate(180 53) rotate(12)">${caSocket(0,0,o.female)}</g><g transform="translate(161 28) rotate(-7)">${caSocket(0,0,o.female)}</g>`,
- dupont:o=>['#d95b4c','#e1b84c','#38899e','#424b53'].map((c,i)=>`<g transform="translate(${i*18} 0)"><path d="M58 42C24 126 125 153 128 70" stroke="${c}" stroke-width="4" fill="none"/><g transform="translate(52 18) rotate(9)">${caSocket(0,0,o.female)}</g><g transform="translate(123 41) rotate(-5)">${caSocket(0,0,true)}</g></g>`).join(''),
+ dupont:o=>['#d95b4c','#e1b84c','#38899e','#424b53'].map((c,i)=>`<g transform="translate(${i*18} 0)"><path d="M58 42C24 126 125 153 128 70" stroke="${c}" stroke-width="4" fill="none"/><g transform="translate(52 18) rotate(9)">${caSocket(0,0,o.female)}</g><g transform="translate(123 41) rotate(-5)">${caSocket(0,0,o.farFemale ?? true)}</g></g>`).join(''),
  'usb-cable':()=>`<path d="M71 56C33 113 82 150 135 132S179 87 175 57" stroke="#34414b" stroke-width="9" fill="none"/><path d="M71 56C33 113 82 150 135 132S179 87 175 57" stroke="#6e7c84" stroke-width="2" fill="none"/><g transform="rotate(13 73 39)"><rect x="57" y="30" width="30" height="35" rx="5" fill="#3f4b53"/><rect x="60" y="12" width="24" height="23" rx="2" fill="#c6d0d5" stroke="${caEdge}"/><path d="M65 19h5v5h-5zm10 0h5v5h-5z" fill="#55636e"/></g><g transform="rotate(-12 175 46)"><rect x="161" y="38" width="27" height="29" rx="5" fill="#3f4b53"/><rect x="163" y="25" width="23" height="17" rx="8" fill="#c6d0d5" stroke="${caEdge}"/><rect x="168" y="29" width="13" height="5" rx="2.5" fill="#25313a"/></g>`,
  ribbon:()=>`<g transform="rotate(-13 120 80)">${['#754e39','#c64b45','#e08d40','#dfc65b','#6b9d73','#478bb7','#8a6998','#969fa6','#e1e6e4','#3f4b54'].map((c,i)=>`<path d="M${72+i*8} 35c-20 51 9 50 0 89" stroke="${c}" stroke-width="7.5" fill="none"/><path d="M${72+i*8} 22v14m0 88v13" stroke="#bcbfbd" stroke-width="3"/>`).join('')}</g>`,
  header:o=>`<g transform="rotate(-23 120 80)"><path d="M40 81 191 69v24L40 105z" fill="#26343e" stroke="#41525d"/><path d="M40 81 51 71l151-12-11 10z" fill="#505e66"/>${Array.from({length:10},(_,i)=>{const x=49+i*15;return o.female?`<path d="m${x} ${79-i*1.2} 5-4 5 1-5 5z" fill="#111b22" stroke="#78868a"/>`:`<path d="M${x+3} ${77-i*1.2}v-23${o.angle?'h15':''}" stroke="#d8bb6c" stroke-width="4"/><path d="M${x+3} ${101-i*1.2}v16" stroke="#d8bb6c" stroke-width="3"/>`;}).join('')}</g>`,
@@ -730,8 +731,86 @@ const novemberDrawings = {
   + acGroup(160,49,o.thread===6?.9:.76,20,acScrew({length:78,countersunk:true})),
 };
 
-const componentProfiles = { ...novemberProfiles, ...intakeProfiles,...cableProfiles, ...electronicsProfiles, ...workshopProfiles, ...accessoryProfiles, ...supplyProfiles};
-const componentDrawings = { ...novemberDrawings, ...intakeDrawings,...cableDrawings, ...electronicsDrawings, ...workshopDrawings, ...accessoryDrawings, ...supplyDrawings};
+// Robu 3829675 illustration references are linked from its component records.
+const robuModuleProfiles = {
+ 'seeed-lipo-rider-plus': ['lipoRiderPlus', {}],
+ 'dfrobot-fit0502': ['fit0502', {}],
+ 'waveshare-esp32-s3-ai-smart-speaker': ['waveshareAudio', {}],
+ 'dfrobot-i2s-microphone': ['sipeedMic', {}],
+};
+const slideSwitchProfiles = {
+ 'input-controls--slide-ss-12d00': ['slideSwitch', {width:84,height:28,lever:13,base:'#a87f50',tilt:-66}],
+ 'input-controls--slide-ss-12f15': ['slideSwitch', {width:107,height:31,lever:34,metal:false,ears:true,lugs:true}],
+ 'input-controls--slide-ss-12d03': ['slideSwitch', {width:99,height:36,lever:32,base:'#a87f50',bent:true}],
+ 'input-controls--slide-js': ['slideSwitch', {doubleRow:true,width:105,height:30,lever:24,smd:true,tilt:-16}],
+ 'input-controls--slide-sk-09': ['slideSwitch', {width:99,height:25,lever:15}],
+ 'input-controls--slide-sk-01': ['slideSwitch', {width:114,height:26,lever:12,side:true,bent:true,blue:true}],
+ 'input-controls--slide-sk-06': ['slideSwitch', {width:144,height:25,lever:15,pins:4}],
+ 'input-controls--slide-sk-08': ['slideSwitch', {width:98,height:32,lever:15,smd:true,blue:true}],
+ 'input-controls--slide-sk-17b': ['slideSwitch', {width:122,height:33,lever:22,clip:true,pins:0}],
+};
+const robuDrawings = {
+ lipoRiderPlus:()=>`<rect x="85" y="17" width="70" height="124" rx="6" fill="#145987" stroke="#0b4163" stroke-width="2"/>
+  <path d="M96 50v37h16m32-37v61h-24m-25 7h31V79h17" stroke="#61a1b1" stroke-width="1.2"/>
+  <path d="M93 24h8m39 0h8m-55 85h8m39 0h8" stroke="#eef2f3" stroke-width="5" stroke-linecap="round"/>
+  <rect x="102" y="12" width="38" height="35" rx="2" fill="#b3bfc4" stroke="#566870" stroke-width="2"/>
+  <path d="M109 17v15m24-15v15" stroke="#e9eef0" stroke-width="4"/>
+  <rect x="107" y="65" width="20" height="19" rx="2" fill="#252e35"/>
+  <rect x="102" y="87" width="18" height="15" rx="2" fill="#566571"/>
+  <path d="M94 75v22m53-43v44" stroke="#e7bc6d" stroke-width="4" stroke-dasharray="3 4"/>
+  <rect x="91" y="121" width="24" height="18" rx="2" fill="#eee9d8" stroke="#b9b49d"/>
+  <rect x="123" y="125" width="26" height="15" rx="4" fill="#cbd5d8" stroke="#57676d" stroke-width="2"/>
+  <path d="M128 138h16" stroke="#2e3c44" stroke-width="3"/>`,
+ fit0502:()=>`<path d="M54 94C29 56 62 21 112 36c67 20 71 0 82-8" stroke="#b34742" stroke-width="3"/>
+  <path d="M54 102C20 63 57 25 110 40c62 18 78 3 84-12" stroke="#28323a" stroke-width="3"/>
+  <rect x="188" y="19" width="17" height="12" rx="2" fill="#eee7d7" stroke="#a49e91"/>
+  <rect x="52" y="64" width="142" height="61" rx="6" fill="#252e35" stroke="#111a20" stroke-width="2"/>
+  <rect x="59" y="70" width="128" height="48" rx="3" fill="#3e4850"/>
+  <ellipse cx="123" cy="94" rx="43" ry="21" fill="#1c2429" stroke="#56626a" stroke-width="2"/>
+  <ellipse cx="123" cy="94" rx="27" ry="15" fill="#293238" stroke="#10191e" stroke-width="3"/>
+  <ellipse cx="123" cy="94" rx="13" ry="8" fill="#4a555a"/>
+  <path d="M58 70h2m126 0h2m-130 49h2m126 0h2" stroke="#9aa7ab" stroke-width="4" stroke-linecap="round"/>`,
+ waveshareAudio:()=>`<circle cx="120" cy="80" r="62" fill="#156296" stroke="#0b4063" stroke-width="3"/>
+  <circle cx="120" cy="80" r="53" stroke="#65add0" stroke-width="1" stroke-dasharray="2 4"/>
+  <path d="M120 36v88m-39-48h80m-62-21v47h51" stroke="#71b4c5" stroke-width="1.2"/>
+  <rect x="106" y="59" width="26" height="26" rx="3" fill="#1d2d38" stroke="#d1dfe3"/>
+  <rect x="65" y="68" width="27" height="26" rx="2" fill="#c1cdd2" stroke="#4b616e"/>
+  <rect x="111" y="19" width="19" height="16" rx="2" fill="#dddfe0" stroke="#657881"/>
+  <rect x="96" y="109" width="49" height="11" rx="2" fill="#1f303d"/>
+  <path d="M101 115h40" stroke="#e7be78" stroke-width="4" stroke-dasharray="2 3"/>
+  <path d="M80 50h5m70 4h5m-8 42h8m-58-45h7m32 34h10" stroke="#d1dadd" stroke-width="5"/>
+  <path d="M78 109h2m79-1h2m-82-64h2m76 0h2" stroke="#edbc70" stroke-width="6" stroke-linecap="round"/>`,
+ sipeedMic:()=>`<path d="M97 119v11m11-8v12m11-11v12m11-12v11m11-12v10m11-15v10" stroke="#d1a456" stroke-width="3"/>
+  <circle cx="120" cy="76" r="49" fill="#242e35" stroke="#141e28" stroke-width="2"/>
+  <path d="M78 95A47 47 0 1 1 163 94M83 102a46 46 0 0 0 74 0" stroke="#d6ac65" stroke-width="3"/>
+  <circle cx="120" cy="76" r="12" fill="#687176" stroke="#e3b96b" stroke-width="2.5"/>
+  <circle cx="120" cy="76" r="4" fill="#151e23"/>
+  <path d="m90 61 12-7m31 2 12 6m-53 26 12 7m27 2 14-8" stroke="#c7d3d5" stroke-width="3"/>`,
+ slideSwitch:o=>{
+  const {width,height,lever,doubleRow=false,metal=true,ears=false,base,bent=false,lugs=false,smd=false,side=false,blue=false,tilt=0,clip=false,pins=3}=o;
+  const x=(240-width)/2, y=72, end=x+width, leverX=side?end-35:x+width*.43;
+  const leads=Array.from({length:pins},(_,i)=>{
+   const pinX=x+(i+1)*width/(pins+1);
+   const pinY=y+height-1;
+   if(lugs)return `<rect x="${pinX-3}" y="${pinY}" width="6" height="13" rx="3" fill="#b79e75" stroke="#6c5b40"/><circle cx="${pinX}" cy="${pinY+9}" r="1.5" fill="#424950"/>`;
+   return `<path d="M${pinX} ${pinY}${smd?'l-6 9h-7':bent?'l-7 10h-4':'v15'}" stroke="#a5a79b" stroke-width="3" stroke-linecap="round"/>`;
+  }).join('');
+  const farLeads=doubleRow?'<path d="M76 67v-7h-6m28 7v-7h-6m29 7v-7h-6" stroke="#a5a79b" stroke-width="3"/>':'';
+  return `<g transform="rotate(${tilt} 120 80)">${leads}${farLeads}
+   ${ears?`<rect x="${x-15}" y="${y-8}" width="${width+30}" height="15" rx="6" fill="#242e35"/><path d="M${x-7} ${y-1}h4m${width+7} 0h4" stroke="#9ca8ac" stroke-linecap="round" stroke-width="3"/>`:''}
+   <rect x="${x}" y="${y}" width="${width}" height="${height}" rx="4" fill="${blue?'#37566d':'#303941'}" stroke="#1d2730" stroke-width="1.5"/>
+   ${base?`<path d="M${x+4} ${y+height-3}h${width-8}" stroke="${base}" stroke-width="5"/>`:''}
+   ${metal?`<path d="M${x+4} ${y+6}h${width-8}" stroke="${blue?'#bacdd7':'#bec7c9'}" stroke-width="11" stroke-linecap="round"/>`:''}
+   ${metal&&!base?`<rect x="${x+width*.28}" y="${y+3}" width="${width*.46}" height="7" rx="2" fill="#222e37"/>`:''}
+   <rect x="${leverX}" y="${y-lever+(side?-4:4)}" width="${side?23:19}" height="${lever}" rx="2" fill="#222c33" stroke="#111b23"/>
+   <path d="M${leverX+4} ${y-lever+(side?0:8)}h9" stroke="#50616b" stroke-width="1.5"/>
+   ${clip?`<path d="M${x+7} ${y+3}v11h33l9-7" stroke="#c9cfd0" stroke-width="5" stroke-linejoin="round"/>`:''}
+   </g>`;
+ },
+};
+
+const componentProfiles = { ...robuModuleProfiles, ...slideSwitchProfiles, ...novemberProfiles, ...intakeProfiles,...cableProfiles, ...electronicsProfiles, ...workshopProfiles, ...accessoryProfiles, ...supplyProfiles};
+const componentDrawings = { ...robuDrawings, ...novemberDrawings, ...intakeDrawings,...cableDrawings, ...electronicsDrawings, ...workshopDrawings, ...accessoryDrawings, ...supplyDrawings};
 // Explicit identity selection prevents unrelated parts sharing a category placeholder.
 export function artworkProfile(id) { return componentProfiles[id] || null; }
 export function artwork(_category, id='') {

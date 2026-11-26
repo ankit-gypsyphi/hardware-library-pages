@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-11-24",
-  "familyCount": 42,
+  "asOf": "2026-11-26",
+  "familyCount": 46,
   "components": [
     {
       "id": "xiao-esp32s3-seeed",
@@ -50,6 +50,34 @@
           "url": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/xiao-esp32s3-seeed/xiao-esp32s3_schematic_v1.1_seeed.pdf",
           "kind": "Archive",
           "sha256": "a9958dc4cbb34664c42799ed79b2e08c5e536d176f371610089f8af730265c67"
+        },
+        {
+          "title": "Seeed XIAO ESP32-S3 series board datasheet · see matching model column",
+          "url": "https://files.seeedstudio.com/wiki/XIAO/Seeed_Studio_XIAO_ESP32-S3_Series_Datasheet-26.11.3.pdf",
+          "kind": "Datasheet",
+          "scope": "family",
+          "sha256": "6953aacbceab787d0a135b19246d2610b50a26b9fd0b922d46e84c618ac68026"
+        },
+        {
+          "title": "Seeed XIAO ESP32-S3 series guide · variant-specific sections",
+          "url": "https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/",
+          "kind": "Guide",
+          "scope": "family",
+          "sha256": "7bea2b5bb018f697f19a5a9b90d8558b21cf47388bba9c40b944344886d674b5"
+        },
+        {
+          "title": "Seeed XIAO ESP32-S3 standard front pinout diagram",
+          "url": "https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/img/XIAO_ESP32-S3_front_pinout.png",
+          "kind": "Pinout",
+          "scope": "product",
+          "sha256": "27a54de4cd855aa5269fbfbc9c49715fcedf104dbf1b7cef7e9a4833b206a8e2"
+        },
+        {
+          "title": "Seeed XIAO ESP32-S3 standard back pinout diagram",
+          "url": "https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/img/XIAO_ESP32-S3_back_pinout.png",
+          "kind": "Pinout",
+          "scope": "product",
+          "sha256": "49dfbb6d873c52990b4985e0533ec04c811b3d180eb266bd476ca013e75b714d"
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/xiao-esp32s3-seeed/README.md",
@@ -297,8 +325,9 @@
         "Manufacturer": "Seeed Studio",
         "SKU": "102010671",
         "Exact board revision": "Unverified",
-        "Archived board schematic": "Not yet available",
-        "Receipt": "All ordered items received; owner confirmed 23 November 2026"
+        "Archived board schematic": "Seeed Plus schematic v1.1",
+        "Receipt": "All ordered items received; owner confirmed 23 November 2026",
+        "Pinout": "Seeed Plus front and back diagrams"
       },
       "note": "Full receipt confirmed. Five Plus boards acquired; one gifted leaves four recorded remaining. Allocation, independent count and function remain unverified.",
       "links": [],
@@ -308,7 +337,63 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Seeed XIAO ESP32-S3 Plus product datasheet · SKU 102010671",
+          "url": "https://files.seeedstudio.com/Bazaar/product_pdf/102010671.pdf",
+          "kind": "Datasheet",
+          "scope": "product",
+          "sha256": "2bceb9637db67e5a48e32899ea09e918adbb439b2565a14a4af78e85fb2d9327"
+        },
+        {
+          "title": "Seeed XIAO ESP32-S3 Plus front pinout diagram",
+          "url": "https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/img/XIAO_ESP32-S3_Plus_front_pinout.png",
+          "kind": "Pinout",
+          "scope": "product",
+          "sha256": "a16289a228731548ccaf7fb31bdf79a12d4cbb69369cf882fc7443fe24dd3b33"
+        },
+        {
+          "title": "Seeed XIAO ESP32-S3 Plus back pinout diagram",
+          "url": "https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/img/XIAO_ESP32-S3_Plus_back_pinout.png",
+          "kind": "Pinout",
+          "scope": "product",
+          "sha256": "17207eb60a5049bfd7b4227475b6b03d8ca6b904e7e2f6e77ecd1569a00d48c7"
+        },
+        {
+          "title": "Seeed XIAO ESP32-S3 Plus pinout workbook",
+          "url": "https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/res/Seeed_Studio_XIAO_ESP32S3_Plus_Pinout.xlsx",
+          "kind": "Pinout",
+          "scope": "product",
+          "sha256": "5dd771ebbb3d0e075b1de7123a354c43e4ee0907b2e3dba0ca9b835b37223cd5"
+        },
+        {
+          "title": "Seeed XIAO ESP32-S3 Plus schematic v1.1 · owned board revision unverified",
+          "url": "https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/res/XIAO_ESP32S3_Plus_V1.1_SCH_260115.pdf",
+          "kind": "Schematic",
+          "scope": "product",
+          "sha256": "5d0213b6258b2658e5edae4d4ee166f6f852e1d0c304bddff5006f6ec6a7d9b9"
+        },
+        {
+          "title": "Seeed XIAO ESP32-S3 Plus hardware overview and pin map",
+          "url": "https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/#xiao-esp32-s3-plus-front",
+          "kind": "Guide",
+          "scope": "product"
+        },
+        {
+          "title": "Seeed XIAO ESP32-S3 series board datasheet · see matching model column",
+          "url": "https://files.seeedstudio.com/wiki/XIAO/Seeed_Studio_XIAO_ESP32-S3_Series_Datasheet-26.11.3.pdf",
+          "kind": "Datasheet",
+          "scope": "family",
+          "sha256": "6953aacbceab787d0a135b19246d2610b50a26b9fd0b922d46e84c618ac68026"
+        },
+        {
+          "title": "Seeed XIAO ESP32-S3 series guide · variant-specific sections",
+          "url": "https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/",
+          "kind": "Guide",
+          "scope": "family",
+          "sha256": "7bea2b5bb018f697f19a5a9b90d8558b21cf47388bba9c40b944344886d674b5"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/xiao-esp32s3-plus-seeed/README.md",
       "productLinks": [
         {
@@ -354,7 +439,22 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Bambu X2D printer specifications",
+          "url": "https://store.bblcdn.com/s1/default/51cfa300ccf54616a32c8de18065851d/X2D_spec.pdf",
+          "kind": "PDF",
+          "scope": "product",
+          "sha256": "a1c78c54f97d47e34a391aa4a2477e7863cd494695f227a21455ee0f2b64d701"
+        },
+        {
+          "title": "Bambu X2D user manual · named components, use and maintenance",
+          "url": "https://csm.bblcdn.com/hub/7c58718aaa2e40edab56efb87419a96a.pdf",
+          "kind": "Manual",
+          "scope": "product",
+          "sha256": "36cfd0319535a3a3243e07f36bb3b205ebef698e3a627660f3255bf6cd28d391"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-x2d-combo-eu/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -398,6 +498,26 @@
           "url": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/raspberry-pi-5/raspberry-pi-5_product-brief.pdf",
           "kind": "Archive",
           "sha256": "10583c80f867e05af185742bb0f80448458c606a32dd3dbefbbcfca480b59ead"
+        },
+        {
+          "title": "Raspberry Pi official 40-pin GPIO header and pin map",
+          "url": "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#gpio",
+          "kind": "Pinout",
+          "scope": "product"
+        },
+        {
+          "title": "Raspberry Pi 5 mechanical drawing",
+          "url": "https://pip-assets.raspberrypi.com/categories/892-raspberry-pi-5/documents/RP-008347-DS-1-raspberry-pi-5-mechanical-drawing.pdf",
+          "kind": "Drawing",
+          "scope": "product",
+          "sha256": "5dd680d6c1f5e7aa9c7b020695e315d04aac862df82ff01d4e9041cd0668d7f2"
+        },
+        {
+          "title": "Raspberry Pi 5 product brief",
+          "url": "https://pip-assets.raspberrypi.com/categories/892-raspberry-pi-5/documents/RP-008348-DS-5-raspberry-pi-5-product-brief.pdf",
+          "kind": "PDF",
+          "scope": "product",
+          "sha256": "f1ca525452e6fa4e9592a6705e41fb811bf12709d0605fd7cc2099c1b25534f3"
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/raspberry-pi-5/README.md",
@@ -462,6 +582,12 @@
           "url": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/esp32-devkit-7semi/esp32_chip_datasheet_espressif.pdf",
           "kind": "Archive",
           "sha256": "a7917e6b47528c9dcab06837a49d452e582751335797db879f1cf2d17cd29adf"
+        },
+        {
+          "title": "7Semi DC-10130 manufacturer board specifications",
+          "url": "https://7semi.com/7semi-esp32-devkit-e-n16-wifi-ble-development-board-16mb-flash/",
+          "kind": "Specifications",
+          "scope": "product"
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/esp32-devkit-7semi/README.md",
@@ -533,6 +659,12 @@
           "url": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/esp32-devkit-7semi/esp32_chip_datasheet_espressif.pdf",
           "kind": "Archive",
           "sha256": "a7917e6b47528c9dcab06837a49d452e582751335797db879f1cf2d17cd29adf"
+        },
+        {
+          "title": "7Semi DC-10131 manufacturer board specifications",
+          "url": "https://7semi.com/7semi-esp32-devkit-ue-n16-wifi-ble-development-board-16mb-flash/",
+          "kind": "Specifications",
+          "scope": "product"
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/esp32-devkit-7semi/README.md",
@@ -1198,9 +1330,11 @@
       "specs": {
         "Advertised capacity": "2500 mAh",
         "Configuration": "1S",
-        "Connector / protection": "Unverified"
+        "Manufacturer specification": "Wiliyoung WLY-104050/3.7/2500 · revision A/0",
+        "Pack envelope (manufacturer)": "10.5 × 40.5 × 53.5 mm maximum",
+        "Connector polarity": "Unverified on the owned packs"
       },
-      "note": "Receipt is confirmed; actual capacity and limits are untested. Exact-pack charging, protection and discharge specifications are still needed.",
+      "note": "The exact SKU has a Wiliyoung specification with charge limits and protection details. Owned unit markings, connector identity and tested capacity remain unverified.",
       "links": [],
       "catalogueId": "wly104050-lipo",
       "status": "unreconciled",
@@ -1208,7 +1342,15 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Wiliyoung WLY-104050 pack specification via Robu · ordered SKU R177572",
+          "url": "https://robu.in/wp-content/uploads/2025/03/R177572.pdf",
+          "kind": "Datasheet",
+          "scope": "product",
+          "sha256": "3f3ea398038f586862c09cf68f420018c90617aa54c198a5827d783849b226ee"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/wly104050-lipo/README.md",
       "productLinks": [
         {
@@ -1604,7 +1746,22 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Bambu PETG HF technical data sheet V1.0",
+          "url": "https://store.bblcdn.com/s6/default/20423d7f839c4a66b9712508549c68b4/Bambu_PETG_HF_TDS.pdf",
+          "kind": "Datasheet",
+          "scope": "product",
+          "sha256": "84621943f7b61b3ab3477f5e93aad804d652d27ef24516b533b81940db3834d6"
+        },
+        {
+          "title": "Bambu PETG HF safety data sheet · G02 series, 24 July 2025",
+          "url": "https://store.bblcdn.com/s7/default/859e223a3eeb4aea96dab858e497152b/SDS20250724G02_Bambu_PETG_HF.pdf",
+          "kind": "SDS",
+          "scope": "product",
+          "sha256": "5b12f0f9c0c4464a452d75d116405903286bc57d16604ec39deccb55f2c7c045"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
       "productLinks": [
         {
@@ -1652,7 +1809,22 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Bambu PETG HF technical data sheet V1.0",
+          "url": "https://store.bblcdn.com/s6/default/20423d7f839c4a66b9712508549c68b4/Bambu_PETG_HF_TDS.pdf",
+          "kind": "Datasheet",
+          "scope": "product",
+          "sha256": "84621943f7b61b3ab3477f5e93aad804d652d27ef24516b533b81940db3834d6"
+        },
+        {
+          "title": "Bambu PETG HF safety data sheet · G02 series, 24 July 2025",
+          "url": "https://store.bblcdn.com/s7/default/859e223a3eeb4aea96dab858e497152b/SDS20250724G02_Bambu_PETG_HF.pdf",
+          "kind": "SDS",
+          "scope": "product",
+          "sha256": "5b12f0f9c0c4464a452d75d116405903286bc57d16604ec39deccb55f2c7c045"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
       "productLinks": [
         {
@@ -1700,7 +1872,22 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Bambu PETG HF technical data sheet V1.0",
+          "url": "https://store.bblcdn.com/s6/default/20423d7f839c4a66b9712508549c68b4/Bambu_PETG_HF_TDS.pdf",
+          "kind": "Datasheet",
+          "scope": "product",
+          "sha256": "84621943f7b61b3ab3477f5e93aad804d652d27ef24516b533b81940db3834d6"
+        },
+        {
+          "title": "Bambu PETG HF safety data sheet · G02 series, 24 July 2025",
+          "url": "https://store.bblcdn.com/s7/default/859e223a3eeb4aea96dab858e497152b/SDS20250724G02_Bambu_PETG_HF.pdf",
+          "kind": "SDS",
+          "scope": "product",
+          "sha256": "5b12f0f9c0c4464a452d75d116405903286bc57d16604ec39deccb55f2c7c045"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
       "productLinks": [
         {
@@ -1748,7 +1935,22 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Bambu PETG HF technical data sheet V1.0",
+          "url": "https://store.bblcdn.com/s6/default/20423d7f839c4a66b9712508549c68b4/Bambu_PETG_HF_TDS.pdf",
+          "kind": "Datasheet",
+          "scope": "product",
+          "sha256": "84621943f7b61b3ab3477f5e93aad804d652d27ef24516b533b81940db3834d6"
+        },
+        {
+          "title": "Bambu PETG HF safety data sheet · G02 series, 24 July 2025",
+          "url": "https://store.bblcdn.com/s7/default/859e223a3eeb4aea96dab858e497152b/SDS20250724G02_Bambu_PETG_HF.pdf",
+          "kind": "SDS",
+          "scope": "product",
+          "sha256": "5b12f0f9c0c4464a452d75d116405903286bc57d16604ec39deccb55f2c7c045"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
       "productLinks": [
         {
@@ -1796,7 +1998,22 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Bambu PETG HF technical data sheet V1.0",
+          "url": "https://store.bblcdn.com/s6/default/20423d7f839c4a66b9712508549c68b4/Bambu_PETG_HF_TDS.pdf",
+          "kind": "Datasheet",
+          "scope": "product",
+          "sha256": "84621943f7b61b3ab3477f5e93aad804d652d27ef24516b533b81940db3834d6"
+        },
+        {
+          "title": "Bambu PETG HF safety data sheet · G02 series, 24 July 2025",
+          "url": "https://store.bblcdn.com/s7/default/859e223a3eeb4aea96dab858e497152b/SDS20250724G02_Bambu_PETG_HF.pdf",
+          "kind": "SDS",
+          "scope": "product",
+          "sha256": "5b12f0f9c0c4464a452d75d116405903286bc57d16604ec39deccb55f2c7c045"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
       "productLinks": [
         {
@@ -2159,7 +2376,22 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Bambu PLA Matte technical data sheet V3.0",
+          "url": "https://store.bblcdn.com/s7/default/5b061f2feeac4ba88f355a33248bbda7/Bambu_PLA_Matte_Technical_Data_Sheet.pdf",
+          "kind": "Datasheet",
+          "scope": "product",
+          "sha256": "544f98056f3a142969983a97dcd75140b447bca397f99e17edeb260cd2d0d3f5"
+        },
+        {
+          "title": "Bambu PLA Matte safety data sheet · A01 series, 24 July 2025",
+          "url": "https://store.bblcdn.eu/s8/default/81812d6bb3ee479d87807105d67eaf62/SDS20250724A01_Bambu_PLA_Matte.pdf",
+          "kind": "SDS",
+          "scope": "product",
+          "sha256": "68206ae495bdd67d9b4f868b8716896b0023b31114e17b84bcca523ac657cc1e"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-filaments/README.md",
       "productLinks": [
         {
@@ -3274,7 +3506,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "USB-IF USB Type-C cable and connector specification · interface reference only",
+          "url": "https://usb.org/usb-type-cr-cable-and-connector-specification",
+          "kind": "Specifications",
+          "scope": "comparison"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/aliexpress-prototyping-stock/README.md",
       "productLinks": [
         {
@@ -4230,7 +4469,8 @@
         "Ordered": "35 inserts",
         "Type": "Slant-knurled brass",
         "Stock confirmation": "100% new / unused stock · owner confirmed 20 October",
-        "Subcategory": "Threaded inserts"
+        "Subcategory": "Threaded inserts",
+        "Outer diameter (supplier)": "4.4 mm"
       },
       "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified.",
       "id": "tools-and-consumables--m3-6-slant-inserts",
@@ -4240,7 +4480,14 @@
       "available": 35,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · M3 × 6 mm heat-set inserts",
+          "url": "https://onlyscrews.in/products/m3-x-6mm-3d-printing-brass-threaded-inserts-dia-3mm-length-6mm",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -4278,7 +4525,8 @@
         "Ordered": "25 inserts",
         "Type": "Slant-knurled brass",
         "Stock confirmation": "100% new / unused stock · owner confirmed 20 October",
-        "Subcategory": "Threaded inserts"
+        "Subcategory": "Threaded inserts",
+        "Outer diameter (supplier)": "4.4 mm"
       },
       "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified.",
       "id": "tools-and-consumables--m3-4-slant-inserts",
@@ -4288,7 +4536,14 @@
       "available": 25,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · M3 × 4 mm heat-set inserts",
+          "url": "https://onlyscrews.in/products/m3-x-4mm-3d-printing-brass-threaded-inserts-dia-3mm-length-4mm",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -4325,7 +4580,8 @@
         "Length": "4 mm",
         "Ordered": "1 insert",
         "Stock confirmation": "100% new / unused stock · owner confirmed 20 October",
-        "Subcategory": "Threaded inserts"
+        "Subcategory": "Threaded inserts",
+        "Outer diameter (supplier)": "4.4 mm"
       },
       "note": "Owner confirmed all fasteners new/unused and 100% in stock on 20 October. Available quantity uses recorded purchase/advertised pack totals; no separate physical recount. Material, measured dimensions and ratings remain unverified. This is separate from the 25 slant-knurled M3 × 4 mm inserts.",
       "id": "tools-and-consumables--m3-4-standard-insert",
@@ -4335,7 +4591,14 @@
       "available": 1,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · M3 × 4 mm standard brass insert",
+          "url": "https://onlyscrews.in/products/m4-x-4mm-brass-threaded-inserts",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -4479,7 +4742,14 @@
       "available": 30,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · M3 × 9 mm nylon standoffs",
+          "url": "https://robocraze.com/products/m3-9mm-black-nylon-double-pass-hexagonal-column-isolation-column-pack-of-10?variant=44589823099104",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -4638,7 +4908,8 @@
         "Conductors": "10",
         "Purchased": "1 m",
         "Gauge": "Seller-described 22 AWG; unmeasured",
-        "Subcategory": "Hook-up wire and ribbon cable"
+        "Subcategory": "Hook-up wire and ribbon cable",
+        "Wire gauge (supplier)": "22 AWG, stranded"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--ribbon-cable",
@@ -4648,7 +4919,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · 10-wire ribbon cable",
+          "url": "https://robocraze.com/products/ribbon-cable-10-wire-1-meter?variant=40192376012953",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -4748,17 +5026,18 @@
       ],
       "specs": {
         "Connector": "Female-to-female",
-        "Purchased": "40 local wires + 2 × 40-wire Robu packs",
+        "Purchased": "40 local wires + 3 × 40-wire Robu packs across two orders",
         "Robu length": "10 cm",
-        "Subcategory": "Jumper wires"
+        "Subcategory": "Jumper wires",
+        "Order unit": "40-wire pack (recorded Robu lot)"
       },
-      "note": "Mixed purchases: includes 40 wires bought locally and two 40-wire Robu packs. The original product link identifies the Robu packs. Remaining quantity, allocation and tested function are not reconciled.",
+      "note": "The recorded balance covers the newly received Robu pack. Earlier local and Robu quantities are unreconciled.",
       "id": "tools-and-consumables--ff-jumpers",
       "links": [],
-      "status": "unreconciled",
-      "remaining": null,
+      "status": "recorded",
+      "remaining": 1,
       "available": null,
-      "quantityBasis": "unreconciled",
+      "quantityBasis": "recorded",
       "incoming": null,
       "documents": [],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
@@ -4795,7 +5074,8 @@
         "Connector": "Alligator / male",
         "Purchased": "1 pack / 10 leads",
         "Listed length": "20 cm",
-        "Subcategory": "Test leads"
+        "Subcategory": "Test leads",
+        "Conductor and insulation (supplier)": "Copper and PVC"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--alligator-male",
@@ -4805,7 +5085,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · Alligator-to-male test leads",
+          "url": "https://robocraze.com/products/10-pin-alligator-clip-to-male-jumper-wire-for-test-lead-20-cm?variant=43031310008544",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -4850,7 +5137,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · Alligator-to-female test leads",
+          "url": "https://robocraze.com/products/alligator-clip-to-female-jumper-cable-20cm-10pin?variant=52806374981856",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -4885,7 +5179,9 @@
         "Pitch": "2.54 mm",
         "Purchased": "2 strips + 4 additional strips",
         "Format": "40 × 1",
-        "Subcategory": "Pin headers"
+        "Subcategory": "Pin headers",
+        "Pin height (supplier)": "6 mm",
+        "Overall dimensions (supplier)": "101 × 2.4 × 11.5 mm"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--male-headers",
@@ -4895,7 +5191,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · 40-pin male header strips",
+          "url": "https://robocraze.com/products/40x1-pin-2-54mm-pitch-male-berg-strip?variant=43046522650848",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -5030,7 +5333,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "USB-IF USB Type-C cable and connector specification · interface reference only",
+          "url": "https://usb.org/usb-type-cr-cable-and-connector-specification",
+          "kind": "Specifications",
+          "scope": "comparison"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -5072,7 +5382,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "USB-IF USB Type-C cable and connector specification · interface reference only",
+          "url": "https://usb.org/usb-type-cr-cable-and-connector-specification",
+          "kind": "Specifications",
+          "scope": "comparison"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -5098,7 +5415,9 @@
       "specs": {
         "Listed diameter": "4 mm",
         "Purchased": "2 × 1 m lengths",
-        "Subcategory": "Insulation"
+        "Subcategory": "Insulation",
+        "Shrink ratio (supplier table)": "2:1",
+        "Shrink temperature (supplier table)": "90 °C"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--heatshrink-4",
@@ -5108,7 +5427,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · 4 mm black heat-shrink",
+          "url": "https://robocraze.com/products/4mm-heat-shrink-tube-black-1-meter?variant=43173635686624",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -5141,7 +5467,9 @@
       "specs": {
         "Listed diameter": "2.5 mm",
         "Purchased": "2 × 1 m lengths",
-        "Subcategory": "Insulation"
+        "Subcategory": "Insulation",
+        "Shrink ratio (supplier table)": "2:1",
+        "Shrink temperature (supplier table)": "90 °C"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--heatshrink-25",
@@ -5151,7 +5479,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · 2.5 mm black heat-shrink",
+          "url": "https://robocraze.com/products/2-5mm-heat-shrink-tube-black-1-meter?variant=43271505608928",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -5279,7 +5614,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · 3 × 7 cm double-sided perfboard",
+          "url": "https://robu.in/product/37-cm-universal-pcb-prototype-board-double-sided/",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -5313,7 +5655,8 @@
       "specs": {
         "Tie points": "170",
         "Purchased": "1 + 5 boards across batches",
-        "Subcategory": "Solderless breadboards"
+        "Subcategory": "Solderless breadboards",
+        "Robocraze model dimensions": "45 × 35 × 9 mm"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--breadboard-mini",
@@ -5323,7 +5666,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · 170-point mini breadboards",
+          "url": "https://robocraze.com/products/mini-breadboard?variant=40192580026521",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -5382,7 +5732,8 @@
         "Model": "MB102",
         "Tie points": "830",
         "Purchased": "1 board",
-        "Subcategory": "Solderless breadboards"
+        "Subcategory": "Solderless breadboards",
+        "Supplier layout": "830 tie points, 170 × 55 × 10 mm; sheet shows split power rails"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--breadboard-830",
@@ -5392,7 +5743,15 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "MB102 830-point breadboard datasheet and connection layout · ThinkRobotics PRO1002",
+          "url": "https://raw.githubusercontent.com/thinkrobotics/DATASHEET/master/PROTOTYPING/PRO1002/m102-830-bread-board.pdf",
+          "kind": "Datasheet",
+          "scope": "product",
+          "sha256": "7ef2ec38664f8052943e8aad9ec0942a9a478465186c1c68aae7aecdb772dde6"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -5435,7 +5794,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · 140-piece U-jumper set",
+          "url": "https://robocraze.com/products/solderless-breadboard-jumper-wire-connectors-140pcs?variant=40192642318489",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -5495,7 +5861,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "FTDI FT232R chip-family datasheet · adapter circuitry unverified",
+          "url": "https://ftdichip.com/wp-content/uploads/2020/08/DS_FT232R.pdf",
+          "kind": "Datasheet",
+          "scope": "component"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -5539,7 +5912,15 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Advanced Monolithic Systems AMS1117 chip-family datasheet · module layout unverified",
+          "url": "https://xonstorage.z8.web.core.windows.net/pdf/advancedmonolithicsystems_ams111733_apr22_xonlink.pdf",
+          "kind": "Datasheet",
+          "scope": "component",
+          "sha256": "1c6e5cc35229d6a4297585d23d8979d6cbbef83243fb2f1cf89c155c0127dae9"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -5583,7 +5964,15 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Ai-Thinker ESP-12F module reference · supplier revision unverified",
+          "url": "https://robu-prod-media.s3.ap-south-1.amazonaws.com/uploads/2019/12/Ai-Thinker-ESP-12F-ESP8266-Serial-WiFi-Module.pdf",
+          "kind": "Datasheet",
+          "scope": "family",
+          "sha256": "c6159c24ed91d4b8d62215c337df8eedc2045296b099f4f724f281cd62fc221e"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -5627,7 +6016,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Robocraze 2.4 GHz PCB antenna seller specifications",
+          "url": "https://robocraze.com/products/2-4ghz-wireless-pcb-antenna-with-ipex-u-fl-connector?variant=53343850660064",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -5672,7 +6068,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Lexar Professional USB-C dual-slot reader family reference · label unverified",
+          "url": "https://www.lexar.com/global/products/Lexar-Professional-USB-C-Dual-Slot-Reader/",
+          "kind": "Specifications",
+          "scope": "comparison"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -5710,7 +6113,22 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "SanDisk Ultra microSD UHS-I family sheet · card generation unverified",
+          "url": "https://documents.sandisk.com/content/dam/asset-library/en_us/assets/public/sandisk/product/memory-cards/ultra-uhs-i-microsd/data-sheet-ultra-uhs-i-microsd.pdf",
+          "kind": "PDF",
+          "scope": "family",
+          "sha256": "e573fdd64d1a1dea604cf08789c3e6de9e8d0688683a01d23d61ed6fd9bde989"
+        },
+        {
+          "title": "SanDisk Ultra microSD UHS-I datasheet · 150 MB/s family, generation unverified",
+          "url": "https://documents.sandisk.com/content/dam/asset-library/en_us/assets/public/sandisk/product/memory-cards/ultra-uhs-i-microsd/data-sheet-ultra-uhs-i-microsd-150mbps.pdf",
+          "kind": "Datasheet",
+          "scope": "family",
+          "sha256": "65de3f585964ac5f514105f2915b01e88b1e6c1cd22176748e37b67f2504eac4"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -5739,7 +6157,10 @@
         "Model": "TH-M61",
         "Listed range": "0–150 mm / 6 inch",
         "Accuracy": "Not independently verified",
-        "Subcategory": "Measurement and inspection"
+        "Subcategory": "Measurement and inspection",
+        "Manufacturer measuring range": "0–150 mm",
+        "Manufacturer resolution": "0.01 mm",
+        "Manufacturer accuracy claim": "±0.02 mm"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--caliper",
@@ -5749,7 +6170,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Themisto TH-M61 manufacturer specifications · measuring modes, range and accuracy",
+          "url": "https://themisto.in/products/themisto-th-m61-digital-vernier-calliper-0-150mm-6",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -5785,7 +6213,8 @@
         "Model": "TH-M100",
         "Type": "Auto-range",
         "Calibration": "Unverified",
-        "Subcategory": "Measurement and inspection"
+        "Subcategory": "Measurement and inspection",
+        "Manufacturer display and ranging": "6000 counts, autoranging"
       },
       "note": "Historical purchase or receipt record only. Remaining quantity, allocation and tested function are not reconciled.",
       "id": "tools-and-consumables--multimeter",
@@ -5795,7 +6224,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Themisto TH-M100 manufacturer specifications · read the listed ranges as supplier claims",
+          "url": "https://themisto.in/products/themisto-th-m100-autorange-digital-multimeter-black-6000-counts",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -5839,7 +6275,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Robocraze Noel adjustable 90 W soldering iron specifications",
+          "url": "https://robocraze.com/products/noel-adjustable-90w-soldering-iron-with-temperature-control?variant=47302827507936",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -5922,7 +6365,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Robu YIHUA 900M I/B/K three-tip set specifications",
+          "url": "https://robu.in/product/yihua-900m-soldering-iron-tip-set/",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -5991,7 +6441,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Robu BAKON 900M-T-I product specifications",
+          "url": "https://robu.in/product/bakon-soldering-iron-tip-900m-t-i/",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -6079,7 +6536,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Robocraze Noel copper desoldering wick specifications",
+          "url": "https://robocraze.com/products/noel-pure-copper-desoldering-wick-wire?variant=47302954909920",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -6200,7 +6664,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Robocraze Multitec MT-111-SS wire stripper and cutter specifications",
+          "url": "https://robocraze.com/products/multitec-mt-111-ss-cutter?variant=43193886605536",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -6503,7 +6974,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Robocraze GripX A3 flexible cutting mat specifications",
+          "url": "https://robocraze.com/products/gripx-a3-flexible-cutting-mat-green?variant=52777372483808",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -6675,7 +7153,15 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Bosch GSB 183-LI operating instructions",
+          "url": "https://www.bosch-professional.com/binary/manualsmedia/o483658v21_160992AA5D_202409.pdf",
+          "kind": "Manual",
+          "scope": "product",
+          "sha256": "f74ded83e0683b1420b9a30927fef1f3234ee2ccb35e6431b846c877374a5237"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -6721,7 +7207,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Currys Business · Bosch X-Line 2607010608 34-piece set contents",
+          "url": "https://business.currys.co.uk/catalogue/domestic-appliances/gardening-tools/power-tools/bosch-classic-x-line-drill-driving-set-34-piece-set/N667810W",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -6887,7 +7380,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Rapid Electronics · Bosch 2607017063 bit set contents and dimensions",
+          "url": "https://www.rapidonline.com/bosch-2607017063-32-piece-screwdriver-bit-set-60-7694",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -7226,7 +7726,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "QUARANT 99.9% IPA · exact 500 mL flip-top product specifications",
+          "url": "https://quarant.co.in/products/quarant-99-9-pure-isopropyl-alcohol-ipa-for-rubbing-or-cleaning-electronics-more-500ml-flip-top-bottle",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [
         {
@@ -7847,7 +8354,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Bosch India hand-tool catalogue · long-nose pliers 1 600 A01 TH8, 200 mm",
+          "url": "https://www.bosch-professional.com/in/media/country_content/services/downloads/catalogues/2025/2025_hand_tools_catalogue_pro-vde_online.pdf",
+          "kind": "PDF",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -7883,7 +8397,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Robocraze PC4-M5 Bowden fitting specifications",
+          "url": "https://robocraze.com/products/pc4-m5-pneumatic-push-in-bowden-extruder-for-2mm-j-head-fitting",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -7909,7 +8430,10 @@
       "specs": {
         "Included bit set": "9 pieces, advertised",
         "Battery": "2.0 Ah, seller description",
-        "Unit": "kit"
+        "Unit": "kit",
+        "Rated voltage (Bosch)": "3.6 V",
+        "No-load speed (Bosch)": "360 rpm",
+        "Hard / soft torque (Bosch)": "5 / 2.5 N·m"
       },
       "note": "Merchant reports delivery. Ordered units provide the receipt baseline. Availability, physical recount and tested function are unknown.",
       "id": "tools-and-consumables--bosch-go-3",
@@ -7919,7 +8443,28 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Bosch GO screwdriver product sheet · regional kit contents can differ",
+          "url": "https://cdn.aabtools.com/datasheets/bosch-go-3-kit-3-6v-professional-cordless-screwdriver-5-mm-0.pdf",
+          "kind": "PDF",
+          "scope": "product",
+          "sha256": "cf3e64582f6cdc73b0346bc42cd48e507e5a43db24759dee8d210196a3797834"
+        },
+        {
+          "title": "Bosch India GO Gen 3 technical data · 06019H2281 regional kit",
+          "url": "https://www.bosch-professional.com/in/en/products/bosch-go-gen3-06019H2281",
+          "kind": "Specifications",
+          "scope": "family"
+        },
+        {
+          "title": "Bosch GO Gen 3 original instructions · tool family 3 601 JH2 2..",
+          "url": "https://www.bosch-professional.com/binary/manualsmedia/o430719v21_160992A7HT_202309.pdf",
+          "kind": "Manual",
+          "scope": "family",
+          "sha256": "9c9ee640519e35a546e7f9d95fd8f4ff5ff5706b76746ef0531da943cfc36bcb"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -8101,7 +8646,22 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Super Lube multi-use synthetic lightweight oil TDS · 52004 uses ISO 68",
+          "url": "https://www.super-lube.com/wp-content/uploads/2025/06/Technical_Data_Sheet_Multi_Use_Synthetic_Lightweight_Oil.pdf",
+          "kind": "PDF",
+          "scope": "product",
+          "sha256": "b1669ec7a490999796d5d1348afa4af3c2d17eb18300ca61c19aedf126e449fc"
+        },
+        {
+          "title": "Super Lube multi-use synthetic lightweight oil SDS · covers ISO 68",
+          "url": "https://www.super-lube.com/wp-content/uploads/2025/06/SDS_Super_Lube_Multi-Use_Synthetic_Lightweight_Oil.pdf",
+          "kind": "SDS",
+          "scope": "product",
+          "sha256": "53ed97f82394daa16066ced805386778f68d76e345fbcc5ea2d2783698f81cf7"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -8137,7 +8697,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Active Packaging · CILICANT 2–4 mm silica-gel bead family",
+          "url": "https://buyactivepack.com/products/cilicant-silica-gel-beads-950ml-bottle?variant=68170671915372",
+          "kind": "Specifications",
+          "scope": "family"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -8209,7 +8776,15 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Pidilite Araldite India product brochure · Standard section",
+          "url": "https://araldite.in/araldite_product_brochure/Silo/Templates/Reality/pdf/Pidilite_Araldite.pdf",
+          "kind": "PDF",
+          "scope": "product",
+          "sha256": "8a9fedba31f13d127583e76c698ff08aabdfa990d88fe99141dc290790862834"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -8244,7 +8819,15 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Astral Bondtite Fast & Clear technical data sheet",
+          "url": "https://www.astraladhesives.com/media/catalog/product/attachment/b/o/bondtite_fast_clear_-_new_tds.pdf",
+          "kind": "Datasheet",
+          "scope": "product",
+          "sha256": "1c3a5cb49b1befcafabdb8a36076523f291344726dbc4592b963dcee33df8e0d"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -8279,7 +8862,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Bosch HSS PointTeQ drill-bit family specifications · set contents vary",
+          "url": "https://www.bosch-professional.com/in/en/hss-pointteq-twist-drill-bits-with-cylindrical-shank-2868253-ocs-ac/",
+          "kind": "Specifications",
+          "scope": "family"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -8347,7 +8937,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "HP F6V97AA USB external DVD-RW datasheet · base model",
+          "url": "https://h20195.www2.hp.com/v2/GetDocument.aspx?docname=c08902244",
+          "kind": "Datasheet",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -8358,6 +8955,47 @@
         {
           "category": "Controllers & computing",
           "subcategory": "Storage & readers"
+        }
+      ]
+    },
+    {
+      "catalogueId": "tools-and-consumables",
+      "name": "10 cm male-to-male jumper wires",
+      "category": "Wiring & connections",
+      "summary": "10 cm male-to-male jumper wires",
+      "tags": [
+        "Robu"
+      ],
+      "specs": {
+        "Order unit": "40-wire pack",
+        "Robu SKU": "44281"
+      },
+      "note": "",
+      "id": "tools-and-consumables--mm-jumpers-10cm",
+      "links": [],
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/tools-and-consumables/README.md",
+      "productLinks": [
+        {
+          "title": "Robu product page",
+          "url": "https://robu.in/product/male-to-male-jumper-wires-40-pcs-10cm/",
+          "kind": "original",
+          "note": "Order SKU 44281"
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Jumper & test leads",
+      "legacyCategory": "Wiring & connections",
+      "categoryPaths": [
+        {
+          "category": "Wiring & connections",
+          "subcategory": "Jumper & test leads"
         }
       ]
     },
@@ -8637,6 +9275,445 @@
       ]
     },
     {
+      "catalogueId": "input-controls",
+      "name": "Slide switch · SS-12D00 1P2T",
+      "category": "Sensors & input",
+      "summary": "Slide switch · SS-12D00 1P2T",
+      "tags": [
+        "Robu"
+      ],
+      "specs": {
+        "Order unit": "switch",
+        "Robu SKU": "1883688"
+      },
+      "note": "",
+      "id": "input-controls--slide-ss-12d00",
+      "links": [],
+      "status": "recorded",
+      "remaining": 10,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [
+        {
+          "title": "SPIDER Automation SS-12D00 model identification · supplier comparison",
+          "url": "https://www.spiderautomation.in/product/slide-switch-ss-12d00-1p2t/",
+          "kind": "Specifications",
+          "scope": "comparison"
+        },
+        {
+          "title": "SS-12D00 model drawing · supplier and terminal variant unverified",
+          "url": "https://akizukidenshi.com/goodsaffix/SS-12D00.pdf",
+          "kind": "Drawing",
+          "scope": "comparison",
+          "sha256": "0d22666af8999bae90f5b0141d6808167077bae57bc212b34800bfe218af0444"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/input-controls/README.md",
+      "productLinks": [
+        {
+          "title": "Robu product page",
+          "url": "https://robu.in/product/1-month-warranty-255/",
+          "kind": "original",
+          "note": "Order SKU 1883688"
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Slide switches",
+      "legacyCategory": "Sensors & input",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Slide switches"
+        }
+      ]
+    },
+    {
+      "catalogueId": "input-controls",
+      "name": "Slide switch · SS-12F15 1P2T",
+      "category": "Sensors & input",
+      "summary": "Slide switch · SS-12F15 1P2T",
+      "tags": [
+        "Robu"
+      ],
+      "specs": {
+        "Order unit": "switch",
+        "Robu SKU": "1883702"
+      },
+      "note": "",
+      "id": "input-controls--slide-ss-12f15",
+      "links": [],
+      "status": "recorded",
+      "remaining": 5,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [
+        {
+          "title": "SPIDER Automation SS-12F15 model identification · supplier comparison",
+          "url": "https://www.spiderautomation.in/product/slide-switch-ss-12f15-1p2t/",
+          "kind": "Specifications",
+          "scope": "comparison"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/input-controls/README.md",
+      "productLinks": [
+        {
+          "title": "Robu product page",
+          "url": "https://robu.in/product/1-month-warranty-254/",
+          "kind": "original",
+          "note": "Order SKU 1883702"
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Slide switches",
+      "legacyCategory": "Sensors & input",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Slide switches"
+        }
+      ]
+    },
+    {
+      "catalogueId": "input-controls",
+      "name": "Slide switch · SS-12D03 1P2T",
+      "category": "Sensors & input",
+      "summary": "Slide switch · SS-12D03 1P2T",
+      "tags": [
+        "Robu"
+      ],
+      "specs": {
+        "Order unit": "switch",
+        "Robu SKU": "1883694"
+      },
+      "note": "",
+      "id": "input-controls--slide-ss-12d03",
+      "links": [],
+      "status": "recorded",
+      "remaining": 5,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [
+        {
+          "title": "SPIDER Automation SS-12D03 model identification · supplier comparison",
+          "url": "https://www.spiderautomation.in/product/slide-switch-ss-12d03-1p2t/",
+          "kind": "Specifications",
+          "scope": "comparison"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/input-controls/README.md",
+      "productLinks": [
+        {
+          "title": "Robu product page",
+          "url": "https://robu.in/product/slide-switch-ss-12d03-1p2t/",
+          "kind": "original",
+          "note": "Order SKU 1883694"
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Slide switches",
+      "legacyCategory": "Sensors & input",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Slide switches"
+        }
+      ]
+    },
+    {
+      "catalogueId": "input-controls",
+      "name": "Slide switch · JS Series DPDT surface mount · 300 mA",
+      "category": "Sensors & input",
+      "summary": "Slide switch · JS Series DPDT surface mount · 300 mA",
+      "tags": [
+        "Robu"
+      ],
+      "specs": {
+        "Order unit": "switch",
+        "Robu SKU": "1883684"
+      },
+      "note": "",
+      "id": "input-controls--slide-js",
+      "links": [],
+      "status": "recorded",
+      "remaining": 5,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [
+        {
+          "title": "SPIDER Automation JS model identification · supplier comparison",
+          "url": "https://www.spiderautomation.in/product/slide-switch-dpdt-surface-mount-js-series-300-ma/",
+          "kind": "Specifications",
+          "scope": "comparison"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/input-controls/README.md",
+      "productLinks": [
+        {
+          "title": "Robu product page",
+          "url": "https://robu.in/product/1-month-warranty-256/",
+          "kind": "original",
+          "note": "Order SKU 1883684"
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Slide switches",
+      "legacyCategory": "Sensors & input",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Slide switches"
+        }
+      ]
+    },
+    {
+      "catalogueId": "input-controls",
+      "name": "Slide switch · SK-09",
+      "category": "Sensors & input",
+      "summary": "Slide switch · SK-09",
+      "tags": [
+        "Robu"
+      ],
+      "specs": {
+        "Order unit": "switch",
+        "Robu SKU": "1883662"
+      },
+      "note": "",
+      "id": "input-controls--slide-sk-09",
+      "links": [],
+      "status": "recorded",
+      "remaining": 5,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [
+        {
+          "title": "SPIDER Automation SK-09 model identification · supplier comparison",
+          "url": "https://www.spiderautomation.in/product/slide-switch-sk-09/",
+          "kind": "Specifications",
+          "scope": "comparison"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/input-controls/README.md",
+      "productLinks": [
+        {
+          "title": "Robu product page",
+          "url": "https://robu.in/product/slide-switch-sk-09/",
+          "kind": "original",
+          "note": "Order SKU 1883662"
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Slide switches",
+      "legacyCategory": "Sensors & input",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Slide switches"
+        }
+      ]
+    },
+    {
+      "catalogueId": "input-controls",
+      "name": "Slide switch · SK-01",
+      "category": "Sensors & input",
+      "summary": "Slide switch · SK-01",
+      "tags": [
+        "Robu"
+      ],
+      "specs": {
+        "Order unit": "switch",
+        "Robu SKU": "1883630"
+      },
+      "note": "",
+      "id": "input-controls--slide-sk-01",
+      "links": [],
+      "status": "recorded",
+      "remaining": 5,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [
+        {
+          "title": "SPIDER Automation SK-01 model identification · supplier comparison",
+          "url": "https://www.spiderautomation.in/product/slide-switch-sk-01/",
+          "kind": "Specifications",
+          "scope": "comparison"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/input-controls/README.md",
+      "productLinks": [
+        {
+          "title": "Robu product page",
+          "url": "https://robu.in/product/1-month-warranty-257/",
+          "kind": "original",
+          "note": "Order SKU 1883630"
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Slide switches",
+      "legacyCategory": "Sensors & input",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Slide switches"
+        }
+      ]
+    },
+    {
+      "catalogueId": "input-controls",
+      "name": "Slide switch · SK-06",
+      "category": "Sensors & input",
+      "summary": "Slide switch · SK-06",
+      "tags": [
+        "Robu"
+      ],
+      "specs": {
+        "Order unit": "switch",
+        "Robu SKU": "1883650"
+      },
+      "note": "",
+      "id": "input-controls--slide-sk-06",
+      "links": [],
+      "status": "recorded",
+      "remaining": 2,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [
+        {
+          "title": "SPIDER Automation SK-06 model identification · supplier comparison",
+          "url": "https://www.spiderautomation.in/product/slide-switch-sk-06/",
+          "kind": "Specifications",
+          "scope": "comparison"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/input-controls/README.md",
+      "productLinks": [
+        {
+          "title": "Robu product page",
+          "url": "https://robu.in/product/slide-switch-sk-06/",
+          "kind": "original",
+          "note": "Order SKU 1883650"
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Slide switches",
+      "legacyCategory": "Sensors & input",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Slide switches"
+        }
+      ]
+    },
+    {
+      "catalogueId": "input-controls",
+      "name": "Slide switch · SK-08",
+      "category": "Sensors & input",
+      "summary": "Slide switch · SK-08",
+      "tags": [
+        "Robu"
+      ],
+      "specs": {
+        "Order unit": "switch",
+        "Robu SKU": "1883654"
+      },
+      "note": "",
+      "id": "input-controls--slide-sk-08",
+      "links": [],
+      "status": "recorded",
+      "remaining": 2,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [
+        {
+          "title": "SPIDER Automation SK-08 model identification · supplier comparison",
+          "url": "https://www.spiderautomation.in/product/slide-switch-sk-08/",
+          "kind": "Specifications",
+          "scope": "comparison"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/input-controls/README.md",
+      "productLinks": [
+        {
+          "title": "Robu product page",
+          "url": "https://robu.in/product/1-month-warranty-260/",
+          "kind": "original",
+          "note": "Order SKU 1883654"
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Slide switches",
+      "legacyCategory": "Sensors & input",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Slide switches"
+        }
+      ]
+    },
+    {
+      "catalogueId": "input-controls",
+      "name": "Slide switch · SK-17B",
+      "category": "Sensors & input",
+      "summary": "Slide switch · SK-17B",
+      "tags": [
+        "Robu"
+      ],
+      "specs": {
+        "Order unit": "switch",
+        "Robu SKU": "1883667"
+      },
+      "note": "",
+      "id": "input-controls--slide-sk-17b",
+      "links": [],
+      "status": "recorded",
+      "remaining": 4,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [
+        {
+          "title": "SPIDER Automation SK-17B model identification · supplier comparison",
+          "url": "https://www.spiderautomation.in/product/slide-switch-sk-17b/",
+          "kind": "Specifications",
+          "scope": "comparison"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/input-controls/README.md",
+      "productLinks": [
+        {
+          "title": "Robu product page",
+          "url": "https://robu.in/product/slide-switch-sk-17b/",
+          "kind": "original",
+          "note": "Order SKU 1883667"
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Slide switches",
+      "legacyCategory": "Sensors & input",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Slide switches"
+        }
+      ]
+    },
+    {
       "id": "seeed-a02-antenna",
       "name": "Seeed A-02 antenna",
       "category": "Controllers & computing",
@@ -8666,6 +9743,12 @@
           "url": "https://files.seeedstudio.com/wiki/XIAO_WiFi/antenna/FPC_Antenna_2.4GHz_1.16dbi_for_XIAO_ESP32S3/res/Datasheet_2.4GHz_FPC_Antenna_1.16dbi_for_XIAO_ESP32S3.pdf",
           "kind": "PDF",
           "sha256": "10a89ebbeab31e97e21f7aa81e3c8cbca87fe249598ff9c9a61028b8edbfa6fb"
+        },
+        {
+          "title": "Seeed 2.4 GHz A-02 FPC antenna specifications",
+          "url": "https://www.seeedstudio.com/2-4GHz-FPC-Antenna-1-16dBi-for-XIAO-ESP32S3-p-6440.html",
+          "kind": "Specifications",
+          "scope": "product"
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/seeed-a02-antenna/README.md",
@@ -8712,7 +9795,14 @@
       "available": null,
       "quantityBasis": "expected",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Seeed XIAO aluminium heat sink dimensions and specifications",
+          "url": "https://www.seeedstudio.com/Aluminum-Heat-Sink-For-XIAO-2pcs-p-5972.html",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/seeed-xiao-heatsink/README.md",
       "productLinks": [
         {
@@ -8800,7 +9890,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "NETGEAR Orbi compatibility matrix · satellite model unconfirmed",
+          "url": "https://kb.netgear.com/000065169/Which-Orbi-routers-and-satellites-are-compatible",
+          "kind": "Guide",
+          "scope": "comparison"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/netgear-orbi-rbr50/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -9045,7 +10142,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Active Packaging · CILICANT orange silica-gel sachet variants · indicator type unconfirmed",
+          "url": "https://buyactivepack.com/products/cilicant-silica-gel-orange",
+          "kind": "Specifications",
+          "scope": "comparison"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/cilicant-silica-gel-5g/README.md",
       "productLinks": [
         {
@@ -9093,7 +10197,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Lifelong LLETK09 62-in-1 set · manufacturer specifications",
+          "url": "https://www.lifelongindiaonline.com/products/lifelong-62-in-1-magnetic-precision-screwdriver-set-tool-kit-for-home-multipurpose-furniture-electronic-repair-extendable-flexible-shaft-for-hard-to-reach-places-laptops-phones-lletk09",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/lifelong-lletk09/README.md",
       "productLinks": [
         {
@@ -9140,7 +10251,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "OnlyScrews PU-coated black gloves · SKU PUCBSG",
+          "url": "https://onlyscrews.in/products/pu-coated-cut-resistant-black-latex-industrial-safety-gloves",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -9181,7 +10299,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "OnlyScrews Prima polycarbonate eyewear · SKU PRPCSG",
+          "url": "https://onlyscrews.in/products/polycarbonate-protective-eyewear-safety-goggles",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -9212,7 +10337,11 @@
         "Spring rate / load": "Not supplied",
         "Supplier SKU": "CS10201.2SS",
         "Ordered quantity": "10 springs",
-        "Receipt": "Received; owner confirmed 27 October 2026"
+        "Receipt": "Received; owner confirmed 27 October 2026",
+        "Spring rate (supplier)": "4.022 N/mm",
+        "Solid length (supplier)": "11.4 mm",
+        "Inner diameter (supplier)": "7.5 mm",
+        "Total coils (supplier)": "8"
       },
       "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
       "id": "onlyscrews-workshop-supplies--spring-10-20-1p2",
@@ -9222,7 +10351,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · SS304 compression spring · 10 × 20 mm",
+          "url": "https://onlyscrews.in/products/od-10mm-free-length-20mm-wire-dia-1-2mm-compression-spring-stainless-steel-304",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -9253,7 +10389,11 @@
         "Spring rate / load": "Not supplied",
         "Supplier SKU": "CS08151SS",
         "Ordered quantity": "10 springs",
-        "Receipt": "Received; owner confirmed 27 October 2026"
+        "Receipt": "Received; owner confirmed 27 October 2026",
+        "Spring rate (supplier)": "4.446 N/mm",
+        "Solid length (supplier)": "5.8 mm",
+        "Inner diameter (supplier)": "5.8 mm",
+        "Total coils (supplier)": "7"
       },
       "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
       "id": "onlyscrews-workshop-supplies--spring-8-15-1",
@@ -9263,7 +10403,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · SS304 compression spring · 8 × 15 mm",
+          "url": "https://onlyscrews.in/products/od-8mm-free-length-15mm-wire-dia-1mm-compression-spring-stainless-steel-304",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -9304,7 +10451,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · SS304 compression spring · 6 × 15 mm",
+          "url": "https://onlyscrews.in/products/od-6mm-free-length-15mm-wire-dia-0-8mm-compression-spring-stainless-steel-304",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -9335,7 +10489,11 @@
         "Spring rate / load": "Not supplied",
         "Supplier SKU": "CS05100.6SS",
         "Ordered quantity": "10 springs",
-        "Receipt": "Received; owner confirmed 27 October 2026"
+        "Receipt": "Received; owner confirmed 27 October 2026",
+        "Spring rate (supplier)": "2.822 N/mm",
+        "Solid length (supplier)": "4.2 mm",
+        "Inner diameter (supplier)": "3.6 mm",
+        "Total coils (supplier)": "6"
       },
       "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
       "id": "onlyscrews-workshop-supplies--spring-5-10-0p6",
@@ -9345,7 +10503,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · SS304 compression spring · 5 × 10 mm",
+          "url": "https://onlyscrews.in/products/od-5mm-free-length-10mm-wire-dia-0-6mm-compression-spring-stainless-steel-304",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -9376,7 +10541,11 @@
         "Spring rate / load": "Not supplied",
         "Supplier SKU": "CS04100.5SS",
         "Ordered quantity": "10 springs",
-        "Receipt": "Received; owner confirmed 27 October 2026"
+        "Receipt": "Received; owner confirmed 27 October 2026",
+        "Spring rate (supplier)": "1.806 N/mm",
+        "Solid length (supplier)": "4 mm",
+        "Inner diameter (supplier)": "2.8 mm",
+        "Total coils (supplier)": "8"
       },
       "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
       "id": "onlyscrews-workshop-supplies--spring-4-10-0p5",
@@ -9386,7 +10555,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · SS304 compression spring · 4 × 10 mm",
+          "url": "https://onlyscrews.in/products/od-4mm-free-length-10mm-wire-dia-0-5mm-compression-spring-stainless-steel-304",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -9427,7 +10603,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · White nylon cable ties · 3.6 × 300 mm",
+          "url": "https://onlyscrews.in/products/3-6mm-x-300mm-12-inch-white-color-multi-purpose-self-locking-nylon-industrial-grade-cable-zip-tie",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -9468,7 +10651,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · White nylon cable ties · 3.6 × 250 mm",
+          "url": "https://onlyscrews.in/products/3-6mm-x-250mm-10-inch-white-color-multi-purpose-self-locking-nylon-industrial-grade-cable-zip-tie",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -9509,7 +10699,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · White nylon cable ties · 3.6 × 200 mm",
+          "url": "https://onlyscrews.in/products/3-6mm-x-2000mm-8-inch-white-color-multi-purpose-self-locking-nylon-industrial-grade-cable-zip-tie-copy",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -9550,7 +10747,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · White nylon cable ties · 3.6 × 150 mm",
+          "url": "https://onlyscrews.in/products/3-6mm-x-150mm-white-color-multi-purpose-self-locking-nylon-industrial-grade-cable-zip-tie",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -9591,7 +10795,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · White nylon cable ties · 2.5 × 100 mm",
+          "url": "https://onlyscrews.in/products/2-5mm-x-100mm-white-color-multi-purpose-self-locking-nylon-industrial-grade-cable-zip-tie",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -9621,7 +10832,10 @@
         "Pull force / coating / magnetization": "Not supplied",
         "Supplier SKU": "NDM10102",
         "Ordered quantity": "10 magnets",
-        "Receipt": "Received; owner confirmed 27 October 2026"
+        "Receipt": "Received; owner confirmed 27 October 2026",
+        "Tolerance (supplier)": "±0.1 mm",
+        "Coating (supplier)": "Ni-Cu-Ni",
+        "Magnetization (supplier)": "Through thickness"
       },
       "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
       "id": "onlyscrews-workshop-supplies--magnet-bar-10-10-2",
@@ -9631,7 +10845,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · N35 bar magnets · 10 × 10 × 2 mm",
+          "url": "https://onlyscrews.in/products/10mm-x-10mm-x-2mm-neodymium-bar-magnet-n35-length-10mm-breadth-10mm-thickness-2mm-copy",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -9665,7 +10886,10 @@
         "Purchase reconciliation": "10 previously received + 24 newly confirmed = 34 received",
         "Project allocation": "8 used in HA display",
         "Recorded unallocated": "26 magnets; independent count unknown",
-        "Allocation": "8 used in HA display; 26 recorded unallocated"
+        "Allocation": "8 used in HA display; 26 recorded unallocated",
+        "Tolerance (supplier)": "±0.1 mm",
+        "Coating (supplier)": "Ni-Cu-Ni",
+        "Magnetization (supplier)": "Through thickness"
       },
       "note": "34 received bars remain owned; 8 allocated to the HA display, leaving 26 recorded unallocated. Availability and physical recount remain unknown.",
       "id": "onlyscrews-workshop-supplies--magnet-bar-20-10-2",
@@ -9675,7 +10899,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · N35 bar magnets · 20 × 10 × 2 mm",
+          "url": "https://onlyscrews.in/products/25mm-x-10mm-x-2mm-neodymium-bar-magnet-n35-length-25mm-breadth-10mm-thickness-2mm-1",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -9705,7 +10936,10 @@
         "Pull force / coating / magnetization": "Not supplied",
         "Supplier SKU": "NDM1052",
         "Ordered quantity": "15 magnets",
-        "Receipt": "Received; owner confirmed 27 October 2026"
+        "Receipt": "Received; owner confirmed 27 October 2026",
+        "Tolerance (supplier)": "±0.1 mm",
+        "Coating (supplier)": "Ni-Cu-Ni",
+        "Magnetization (supplier)": "Through thickness"
       },
       "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
       "id": "onlyscrews-workshop-supplies--magnet-bar-10-5-2",
@@ -9715,7 +10949,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · N35 bar magnets · 10 × 5 × 2 mm",
+          "url": "https://onlyscrews.in/products/10mm-x-5mm-x-2mm-neodymium-bar-magnet-n35-length-20mm-breadth-5mm-thickness-2mm",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -9746,7 +10987,9 @@
         "Pull force / coating / magnetization": "Not supplied",
         "Supplier SKU": "NDM42",
         "Ordered quantity": "10 magnets",
-        "Receipt": "Received; owner confirmed 27 October 2026"
+        "Receipt": "Received; owner confirmed 27 October 2026",
+        "Coating (supplier series)": "Ni-Cu-Ni",
+        "Magnetization (supplier series)": "Axial, poles on flat surfaces"
       },
       "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
       "id": "onlyscrews-workshop-supplies--magnet-disc-4-2",
@@ -9756,7 +10999,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "OnlyScrews Ø4 mm N35 disc series · supplier specifications",
+          "url": "https://onlyscrews.in/products/4mm-diameter-neodymium-disc-magnets-n35",
+          "kind": "Specifications",
+          "scope": "family"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -9787,7 +11037,9 @@
         "Pull force / coating / magnetization": "Not supplied",
         "Supplier SKU": "NDM53",
         "Ordered quantity": "20 magnets",
-        "Receipt": "Received; owner confirmed 27 October 2026"
+        "Receipt": "Received; owner confirmed 27 October 2026",
+        "Coating (supplier series)": "Ni-Cu-Ni",
+        "Magnetization (supplier series)": "Axial, poles on flat surfaces"
       },
       "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
       "id": "onlyscrews-workshop-supplies--magnet-disc-5-3",
@@ -9797,7 +11049,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "OnlyScrews Ø5 mm N35 disc series · supplier specifications",
+          "url": "https://onlyscrews.in/products/5mm-diameter-neodymium-disc-magnets-n35",
+          "kind": "Specifications",
+          "scope": "family"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -9828,7 +11087,9 @@
         "Pull force / coating / magnetization": "Not supplied",
         "Supplier SKU": "NDM102",
         "Ordered quantity": "30 magnets",
-        "Receipt": "Received; owner confirmed 27 October 2026"
+        "Receipt": "Received; owner confirmed 27 October 2026",
+        "Coating (supplier series)": "Ni-Cu-Ni",
+        "Magnetization (supplier series)": "Axial, poles on flat surfaces"
       },
       "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
       "id": "onlyscrews-workshop-supplies--magnet-disc-10-2",
@@ -9838,7 +11099,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "OnlyScrews Ø10 mm N35 disc series · supplier specifications",
+          "url": "https://onlyscrews.in/products/10mm-diameter-neodymium-disc-magnets-n35",
+          "kind": "Specifications",
+          "scope": "family"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -9869,7 +11137,9 @@
         "Pull force / coating / magnetization": "Not supplied",
         "Supplier SKU": "NDM83",
         "Ordered quantity": "20 magnets",
-        "Receipt": "Received; owner confirmed 27 October 2026"
+        "Receipt": "Received; owner confirmed 27 October 2026",
+        "Coating (supplier series)": "Ni-Cu-Ni",
+        "Magnetization (supplier series)": "Axial, poles on flat surfaces"
       },
       "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown.",
       "id": "onlyscrews-workshop-supplies--magnet-disc-8-3",
@@ -9879,7 +11149,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "OnlyScrews Ø8 mm N35 disc series · supplier specifications",
+          "url": "https://onlyscrews.in/products/8mm-diameter-neodymium-disc-magnets-n35",
+          "kind": "Specifications",
+          "scope": "family"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -9912,6 +11189,8 @@
         "Ordered quantity": "30 magnets",
         "Receipt": "Received; owner confirmed 27 October 2026",
         "Expected delivery": "2026-11-24",
+        "Coating (supplier series)": "Ni-Cu-Ni",
+        "Magnetization (supplier series)": "Axial, poles on flat surfaces",
         "Incoming quantity": "12"
       },
       "note": "Owner confirms receipt on 27 October. Balance uses ordered quantity; no independent recount. Exact receipt date, condition, allocation and tested performance are unverified. Availability is unknown. Incoming purchase expected 2026-11-24.",
@@ -9922,7 +11201,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": 12,
-      "documents": [],
+      "documents": [
+        {
+          "title": "OnlyScrews Ø6 mm N35 disc series · supplier specifications",
+          "url": "https://onlyscrews.in/products/6mm-x-3mm-neodymium-disc-magnets-n35-dia-6mm-thickness-3mm",
+          "kind": "Specifications",
+          "scope": "family"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -9957,7 +11243,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · M2 SS304 washer · ID 2.1 / OD 5 / T 0.5 mm",
+          "url": "https://onlyscrews.in/products/m2-washer-ss304",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -9992,7 +11285,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · M2 SS304 hex nut",
+          "url": "https://onlyscrews.in/products/m2-nut-ss-304",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -10027,7 +11327,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "OnlyScrews M2 pan-head collection · M2 × 20 mm Phillips pan-head SS304 screw",
+          "url": "https://onlyscrews.in/collections/m2-pan-head-phillips",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -10062,7 +11369,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · M2 × 16 mm Phillips pan-head SS304 screw",
+          "url": "https://onlyscrews.in/products/m2-x-16mm-phillips-pan-head-ss-304-screw-dia-2mm-length-16mm",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -10097,7 +11411,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "OnlyScrews M2 pan-head collection · M2 × 12 mm Phillips pan-head SS304 screw",
+          "url": "https://onlyscrews.in/collections/m2-pan-head-phillips",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -10132,7 +11453,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "OnlyScrews M2 pan-head collection · M2 × 10 mm Phillips pan-head SS304 screw",
+          "url": "https://onlyscrews.in/collections/m2-pan-head-phillips",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -10167,7 +11495,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · M2 × 8 mm Phillips pan-head SS304 screw",
+          "url": "https://onlyscrews.in/products/m2-x-8mm-phillips-pan-head-ss-304-screw",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -10202,7 +11537,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "OnlyScrews M2 pan-head collection · M2 × 6 mm Phillips pan-head SS304 screw",
+          "url": "https://onlyscrews.in/collections/m2-pan-head-phillips",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -10237,7 +11579,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "OnlyScrews M2 pan-head collection · M2 × 5 mm Phillips pan-head SS304 screw",
+          "url": "https://onlyscrews.in/collections/m2-pan-head-phillips",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -10272,7 +11621,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · M2 × 4 mm Phillips pan-head SS304 screw",
+          "url": "https://onlyscrews.in/products/m2-x-3mm-phillips-pan-head-ss-304-screw",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -10309,7 +11665,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": 4,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · SS304 hex nut · M6",
+          "url": "https://onlyscrews.in/products/m6-hex-nut-ss304",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -10346,7 +11709,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": 4,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · SS304 hex nut · M5",
+          "url": "https://onlyscrews.in/products/m5-nut-ss-304",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -10382,7 +11752,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": 1,
-      "documents": [],
+      "documents": [
+        {
+          "title": "OnlyScrews 3M acrylic foam mounting tape · ordered width and length",
+          "url": "https://onlyscrews.in/products/3m%E2%84%A2-acrylic-foam-double-side-attachment-mounting-tape",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -10410,6 +11787,8 @@
         "Grade": "N35, supplier description",
         "Unit": "magnet",
         "Expected delivery": "2026-11-24",
+        "Coating (supplier series)": "Ni-Cu-Ni",
+        "Magnetization (supplier series)": "Axial, poles on flat surfaces",
         "Incoming quantity": "20"
       },
       "note": "Shipment expected 2026-11-24. Receipt remains unconfirmed. Incoming purchase expected 2026-11-24.",
@@ -10420,7 +11799,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": 20,
-      "documents": [],
+      "documents": [
+        {
+          "title": "OnlyScrews Ø5 mm N35 disc series · supplier specifications",
+          "url": "https://onlyscrews.in/products/5mm-diameter-neodymium-disc-magnets-n35",
+          "kind": "Specifications",
+          "scope": "family"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -10448,6 +11834,8 @@
         "Grade": "N35, supplier description",
         "Unit": "magnet",
         "Expected delivery": "2026-11-24",
+        "Coating (supplier series)": "Ni-Cu-Ni",
+        "Magnetization (supplier series)": "Axial, poles on flat surfaces",
         "Incoming quantity": "28"
       },
       "note": "Shipment expected 2026-11-24. Receipt remains unconfirmed. Incoming purchase expected 2026-11-24.",
@@ -10458,7 +11846,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": 28,
-      "documents": [],
+      "documents": [
+        {
+          "title": "OnlyScrews Ø6 mm N35 disc series · supplier specifications",
+          "url": "https://onlyscrews.in/products/6mm-x-3mm-neodymium-disc-magnets-n35-dia-6mm-thickness-3mm",
+          "kind": "Specifications",
+          "scope": "family"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -10483,6 +11878,8 @@
       "specs": {
         "Unit": "bearing",
         "Expected delivery": "2026-11-24",
+        "Bearing dimensions (supplier)": "8 mm ID × 22 mm OD × 7 mm width",
+        "Shielding (supplier)": "ZZ, two metal shields",
         "Incoming quantity": "16"
       },
       "note": "Shipment expected 2026-11-24. Receipt remains unconfirmed. Incoming purchase expected 2026-11-24.",
@@ -10493,7 +11890,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": 16,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · 608 ZZ shielded bearing",
+          "url": "https://onlyscrews.in/products/608-zz-deep-groove-ball-bearing-6x17x6",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -10531,7 +11935,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": 4,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · SS304 countersunk screw · M5 × 30 mm",
+          "url": "https://onlyscrews.in/products/m5-x-30mm-phillips-csk-ss-304-screw-dia-5mm-length-30mm",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -10569,7 +11980,14 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": 4,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Supplier specifications · SS304 countersunk screw · M6 × 30 mm",
+          "url": "https://onlyscrews.in/products/m6-x-30mm-phillips-csk-ss-304-screw-dia-6mm-length-30mm",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/onlyscrews-workshop-supplies/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -10651,7 +12069,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Robu Bonka 1S 25C 1000 mAh seller specification",
+          "url": "https://robu.in/product/bonka-3-7v-1000mah-25c-1s-lithium-polymer-battery-pack/",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bonka-1000mah-1s-lipo/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -10692,7 +12117,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Robu Bonka 1S 25C 1500 mAh seller specification",
+          "url": "https://robu.in/product/bonka-3-7v-1500mah-25c-1s-lithium-polymer-battery-pack/",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bonka-1500mah-1s-lipo/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -10742,7 +12174,36 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Arduino UNO Rev3 schematic · board listed on kit box",
+          "url": "https://docs.arduino.cc/resources/schematics/A000066-schematics.pdf",
+          "kind": "Schematic",
+          "scope": "component",
+          "sha256": "2c1041200352485393108e03c5117a07d4ea03954654485526c2c56cd01f7a42"
+        },
+        {
+          "title": "Arduino UNO Rev3 datasheet · board listed on kit box",
+          "url": "https://docs.arduino.cc/resources/datasheets/A000066-datasheet.pdf",
+          "kind": "Datasheet",
+          "scope": "component",
+          "sha256": "6bfbbc1b50da5ed84e7311b9639e62cc456e93e70a55d9c2e1eb9b7355212f21"
+        },
+        {
+          "title": "Arduino UNO Rev3 pinout · board listed on kit box",
+          "url": "https://docs.arduino.cc/static/c57a658e0f7afad334f6f73e82dfd83d/A000066-full-pinout.pdf",
+          "kind": "Pinout",
+          "scope": "component",
+          "sha256": "088b4d7d776abf443cb050c31875221aa5fc7f0533470b33e035c249cf240007"
+        },
+        {
+          "title": "Arduino UNO Rev3 datasheet source · kit board",
+          "url": "https://github.com/arduino/docs-content/blob/main/content/hardware/uno/boards/uno-rev3/datasheet/en-datasheet.md",
+          "kind": "Guide",
+          "scope": "component",
+          "sha256": "000210bf21b08a3c45aa3c73a6f140fb5a5f52fff309cf0a52f0304abb64b106"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/arduino-starter-kit-uno-r3/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -10986,7 +12447,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Robodo SG90 seller specifications",
+          "url": "https://robodo.in/products/towerpro-sg90-9g-mini-servo-9-gram-servo-for-rc-robotics",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/robodo-sg90-micro-servo/README.md",
       "productLinks": [
         {
@@ -11035,7 +12503,15 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "InvenSense MPU-9250 chip specification rev. 1.1 · breakout wiring unverified",
+          "url": "https://product.tdk.com/en/system/files/dam/doc/product/sensor/mortion-inertial/imu/data_sheet/ps-mpu-9250a-01-v1.1.pdf",
+          "kind": "PDF",
+          "scope": "component",
+          "sha256": "fb38e76cd5f3b223d5c93046d690bd843c34a9c77f70c04f0052c12436855db9"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/mpu9250-imu-module/README.md",
       "productLinks": [
         {
@@ -11090,7 +12566,21 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Tontek TTP223-BA6 v2.1 chip datasheet · verify the fitted suffix",
+          "url": "https://www.tontek.com.tw/uploads/product/243/TTP223-BA6_V2.1_EN.pdf",
+          "kind": "Datasheet",
+          "scope": "component",
+          "sha256": "9b3adc3dcc42b9f5ce7bc36e406892c9a0134b88919d3e6fc1b8e1eb583ed9b8"
+        },
+        {
+          "title": "Robodo TTP22301 / TTP223B module seller pin labels and specifications",
+          "url": "https://robodo.in/products/ttp223b-digital-touch-sensor-capacitive-touch-switch-module-for-arduino",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/robodo-ttp223b-touch-sensor/README.md",
       "productLinks": [
         {
@@ -11132,7 +12622,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Robocraze 70 × 70 mm mini epoxy solar panel specifications",
+          "url": "https://robocraze.com/products/mini-epoxy-solar-panel-70x70-mm",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/mini-epoxy-solar-panel-70mm/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -11166,7 +12663,28 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "DFRobot DFR0446 module schematic",
+          "url": "https://www.dfrobot.com.cn/images/upload/File/20170802101907536cqv.pdf",
+          "kind": "Schematic",
+          "scope": "product",
+          "sha256": "b7a808e668fb9c87ccfa980a839c2f5b7471ebdc5ab9d08fc3346eccdd547caa"
+        },
+        {
+          "title": "DFRobot DFR0446 module specification",
+          "url": "https://media.digikey.com/pdf/Data%20Sheets/DFRobot%20PDFs/DFR0446_Web.pdf",
+          "kind": "PDF",
+          "scope": "product",
+          "sha256": "0eef3854e96dd0ba1d3a0834a193c171e3fc3ae9e41f2620029efa17f70c63b2"
+        },
+        {
+          "title": "DFRobot DFR0446 module specifications and pin functions",
+          "url": "https://www.dfrobot.com/product-1613.html",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/dfrobot-mp2636-booster-charger/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -11201,7 +12719,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Robocraze 5 V / 2 A charge-discharge module specifications and pinout",
+          "url": "https://robocraze.com/products/dc-dc-charge-discharge-integrated-module-5v-2a",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/charge-discharge-module-5v-2a/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -11236,7 +12761,21 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Tontek TTP223-BA6 v2.1 chip datasheet · verify the fitted suffix",
+          "url": "https://www.tontek.com.tw/uploads/product/243/TTP223-BA6_V2.1_EN.pdf",
+          "kind": "Datasheet",
+          "scope": "component",
+          "sha256": "9b3adc3dcc42b9f5ce7bc36e406892c9a0134b88919d3e6fc1b8e1eb583ed9b8"
+        },
+        {
+          "title": "Robocraze TTP223 module seller pinout and specifications",
+          "url": "https://robocraze.com/products/ttp223-touch-switch-module",
+          "kind": "Pinout",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/ttp223-touch-module-robocraze/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -11272,7 +12811,15 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Numakers PLA+ technical data sheet · linked from the India PLA+ listing",
+          "url": "https://cdn.shopify.com/s/files/1/0574/3912/5673/files/PLA_TDS.pdf?v=1788166074",
+          "kind": "Datasheet",
+          "scope": "product",
+          "sha256": "f558f009177bd5106c0dd54361c94925fe808b9cb7cc2dc9704f197627b7c9c0"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/numakers-pla-plus-light-gray/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -11283,6 +12830,282 @@
         {
           "category": "3D printing",
           "subcategory": "PLA filament"
+        }
+      ]
+    },
+    {
+      "id": "seeed-lipo-rider-plus",
+      "name": "Seeed Studio LiPo Rider Plus charger/booster",
+      "category": "Power",
+      "summary": "Single-cell LiPo charger with USB-C input and 5 V boost output over USB-A.",
+      "tags": [
+        "Robu"
+      ],
+      "specs": {
+        "Order unit": "board",
+        "Robu SKU": "1670436",
+        "Input connector": "USB-C",
+        "5 V output connector": "USB-A, up to 2.4 A (manufacturer)"
+      },
+      "note": "Received. Revision, included accessories and tested function are unverified.",
+      "links": [
+        {
+          "title": "Seeed Studio hardware guide",
+          "url": "https://wiki.seeedstudio.com/Lipo-Rider-Plus/"
+        }
+      ],
+      "catalogueId": "seeed-lipo-rider-plus",
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [
+        {
+          "title": "Seeed LiPo Rider Plus specifications and user guide",
+          "url": "https://wiki.seeedstudio.com/Lipo-Rider-Plus/",
+          "kind": "Guide",
+          "scope": "product",
+          "sha256": "779ccbb9aae26f20ab74657758bb23985c05149e9f4abc68d008110ffbf56f78"
+        },
+        {
+          "title": "ETA9740 chip datasheet distributed by Seeed for the LiPo Rider Plus",
+          "url": "https://raw.githubusercontent.com/SeeedDocument/Lipo-Rider-Plus/master/res/ETA9740_V1.1.pdf",
+          "kind": "Datasheet",
+          "scope": "component",
+          "sha256": "ae4c4d10be8f1025eb1ca9c446fefb0c8eb713229050435210e8f68ac44dc39e"
+        },
+        {
+          "title": "Seeed LiPo Rider Plus schematic and PCB design archive",
+          "url": "https://files.seeedstudio.com/products/106990290/202002729_PCBA_Lipo%20Rider%20Plus_SCH%20%26%20PCB.zip",
+          "kind": "Schematic",
+          "scope": "product",
+          "sha256": "b2bf7bef028613a1509f8b7a5b6f4146049d215230d293f0f996503607c1e7e4"
+        },
+        {
+          "title": "Seeed LiPo Rider Plus visual port and header diagram",
+          "url": "https://files.seeedstudio.com/wiki/Lipo-Rider-Plus/img/Hardware_connection.png",
+          "kind": "Pinout",
+          "scope": "product",
+          "sha256": "9d6929b5e6ea7bdf6fceb7e8b634d57ebf48d8e51d1e1978bc747a584b273c4a"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/seeed-lipo-rider-plus/README.md",
+      "productLinks": [
+        {
+          "title": "Robu product page",
+          "url": "https://robu.in/product/seeed-studio-lipo-rider-plus-charger-booster-5v-2-4a-usb-type-c/",
+          "kind": "original",
+          "note": "Order SKU 1670436"
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Battery chargers",
+      "legacyCategory": "Power",
+      "categoryPaths": [
+        {
+          "category": "Power",
+          "subcategory": "Battery chargers"
+        }
+      ]
+    },
+    {
+      "id": "dfrobot-fit0502",
+      "name": "DFRobot FIT0502 stereo enclosed speaker · 3 W 8 Ω",
+      "category": "Motors & actuators",
+      "summary": "Passive enclosed speaker with attached two-wire lead.",
+      "tags": [
+        "Robu"
+      ],
+      "specs": {
+        "Order unit": "order unit",
+        "Robu SKU": "R261339",
+        "Manufacturer rating": "3 W, 8 Ω",
+        "Manufacturer connector": "JST PH 2.0"
+      },
+      "note": "Received. Revision, included accessories and tested function are unverified.",
+      "links": [
+        {
+          "title": "DFRobot FIT0502 specifications",
+          "url": "https://www.dfrobot.com/product-1506.html"
+        }
+      ],
+      "catalogueId": "dfrobot-fit0502",
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [
+        {
+          "title": "DFRobot FIT0502 manufacturer specification",
+          "url": "https://www.dfrobot.com/product-1506.html",
+          "kind": "Specifications",
+          "scope": "product"
+        },
+        {
+          "title": "DFRobot FIT0502 manufacturer product sheet",
+          "url": "https://www.farnell.com/datasheets/4376732.pdf",
+          "kind": "PDF",
+          "scope": "product",
+          "sha256": "05c5510413744395e02c8f271b09bfd85fce6bd5c2cb8159d82a698c61868ed0"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/dfrobot-fit0502/README.md",
+      "productLinks": [
+        {
+          "title": "Robu product page",
+          "url": "https://robu.in/product/dfrobot-fit0502-stereo-enclosed-speaker-3w-8%cf%89/",
+          "kind": "original",
+          "note": "Order SKU R261339"
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Speakers",
+      "legacyCategory": "Motors & actuators",
+      "categoryPaths": [
+        {
+          "category": "Motors & actuators",
+          "subcategory": "Speakers"
+        }
+      ]
+    },
+    {
+      "id": "waveshare-esp32-s3-ai-smart-speaker",
+      "name": "Waveshare ESP32-S3 AI Smart Speaker Development Board",
+      "category": "Controllers & computing",
+      "summary": "Round ESP32-S3 audio board with dual microphones and an RGB LED ring.",
+      "tags": [
+        "Robu"
+      ],
+      "specs": {
+        "Order unit": "board",
+        "Robu SKU": "R256521",
+        "Manufacturer family": "ESP32-S3-AUDIO-Board",
+        "USB": "USB-C"
+      },
+      "note": "Received. Revision, included accessories and tested function are unverified.",
+      "links": [
+        {
+          "title": "Waveshare ESP32-S3-AUDIO-Board documentation",
+          "url": "https://docs.waveshare.com/ESP32-S3-AUDIO-Board"
+        }
+      ],
+      "catalogueId": "waveshare-esp32-s3-ai-smart-speaker",
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [
+        {
+          "title": "Waveshare ESP32-S3-AUDIO-Board schematic v1.1 · board revision unconfirmed",
+          "url": "https://files.waveshare.com/wiki/ESP32-S3-AUDIO-Board/ESP32-S3-AUDIO-Board_1.1.pdf",
+          "kind": "Schematic",
+          "scope": "product",
+          "sha256": "234b8800137fd56355fbb208a555893fe009cdff353707ccd564f7a82069cc09"
+        },
+        {
+          "title": "Waveshare ESP32-S3-AUDIO-Board interface and pin definitions",
+          "url": "https://docs.waveshare.com/assets/images/Esp32s3_audio_boarddetails-inter-1.1-b330d016d3bccfbfea585aaf6c95600c.webp",
+          "kind": "Pinout",
+          "scope": "product",
+          "sha256": "5862efe903fa2a3218c7282986f4d8d2f958dfdc9bd19d4946d7df2d22e53167"
+        },
+        {
+          "title": "Waveshare ESP32-S3-AUDIO-Board manufacturer hardware guide",
+          "url": "https://docs.waveshare.com/ESP32-S3-AUDIO-Board",
+          "kind": "Guide",
+          "scope": "product"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/waveshare-esp32-s3-ai-smart-speaker/README.md",
+      "productLinks": [
+        {
+          "title": "Robu product page",
+          "url": "https://robu.in/product/esp32-s3-ai-smart-speaker-development-board/",
+          "kind": "original",
+          "note": "Order SKU R256521"
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Microcontrollers",
+      "legacyCategory": "Controllers & computing",
+      "categoryPaths": [
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Microcontrollers"
+        }
+      ]
+    },
+    {
+      "id": "dfrobot-i2s-microphone",
+      "name": "DFRobot I2S Microphone Module",
+      "category": "Sensors & input",
+      "summary": "Round I²S digital MEMS microphone breakout.",
+      "tags": [
+        "Robu"
+      ],
+      "specs": {
+        "Order unit": "module",
+        "Robu SKU": "1074722",
+        "Manufacturer SKU": "SEN0327"
+      },
+      "note": "Received. Revision, included accessories and tested function are unverified.",
+      "links": [
+        {
+          "title": "DFRobot SEN0327 specifications",
+          "url": "https://www.dfrobot.com/product-1954.html"
+        }
+      ],
+      "catalogueId": "dfrobot-i2s-microphone",
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [
+        {
+          "title": "DFRobot SEN0327 specifications and original Sipeed references",
+          "url": "https://www.dfrobot.com/product-1954.html",
+          "kind": "Specifications",
+          "scope": "product"
+        },
+        {
+          "title": "Sipeed I2S microphone v1.0 datasheet · DFRobot SEN0327",
+          "url": "https://dl.sipeed.com/MAIX/HDK/Sipeed-I2S_MIC/Specifications/Sipeed%20I2S_Mic%20Datasheet%20V1.0.pdf",
+          "kind": "Datasheet",
+          "scope": "product",
+          "sha256": "94f56b4fa908ddda5475d534b25f58b944d2cee8240dffdc76c0d25ef98f6113"
+        },
+        {
+          "title": "Sipeed I2S microphone schematic and header · DFRobot SEN0327",
+          "url": "https://dl.sipeed.com/MAIX/HDK/Sipeed-I2S_MIC/I2S_MIC%28Schematic%29.pdf",
+          "kind": "Schematic",
+          "scope": "product",
+          "sha256": "c78e635b609dee52b3254fa73670a09fefd9cdd45e67c2a8ef7bb204e2df2ece"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/dfrobot-i2s-microphone/README.md",
+      "productLinks": [
+        {
+          "title": "Robu product page",
+          "url": "https://robu.in/product/i2s-microphone-module/",
+          "kind": "original",
+          "note": "Order SKU 1074722"
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Microphones",
+      "legacyCategory": "Sensors & input",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Microphones"
         }
       ]
     }
@@ -11336,6 +13159,34 @@
           "url": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/xiao-esp32s3-seeed/xiao-esp32s3_schematic_v1.1_seeed.pdf",
           "kind": "Archive",
           "sha256": "a9958dc4cbb34664c42799ed79b2e08c5e536d176f371610089f8af730265c67"
+        },
+        {
+          "title": "Seeed XIAO ESP32-S3 series board datasheet · see matching model column",
+          "url": "https://files.seeedstudio.com/wiki/XIAO/Seeed_Studio_XIAO_ESP32-S3_Series_Datasheet-26.11.3.pdf",
+          "kind": "Datasheet",
+          "scope": "family",
+          "sha256": "6953aacbceab787d0a135b19246d2610b50a26b9fd0b922d46e84c618ac68026"
+        },
+        {
+          "title": "Seeed XIAO ESP32-S3 series guide · variant-specific sections",
+          "url": "https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/",
+          "kind": "Guide",
+          "scope": "family",
+          "sha256": "7bea2b5bb018f697f19a5a9b90d8558b21cf47388bba9c40b944344886d674b5"
+        },
+        {
+          "title": "Seeed XIAO ESP32-S3 standard front pinout diagram",
+          "url": "https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/img/XIAO_ESP32-S3_front_pinout.png",
+          "kind": "Pinout",
+          "scope": "product",
+          "sha256": "27a54de4cd855aa5269fbfbc9c49715fcedf104dbf1b7cef7e9a4833b206a8e2"
+        },
+        {
+          "title": "Seeed XIAO ESP32-S3 standard back pinout diagram",
+          "url": "https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/img/XIAO_ESP32-S3_back_pinout.png",
+          "kind": "Pinout",
+          "scope": "product",
+          "sha256": "49dfbb6d873c52990b4985e0533ec04c811b3d180eb266bd476ca013e75b714d"
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/xiao-esp32s3-seeed/README.md",
@@ -11583,8 +13434,9 @@
         "Manufacturer": "Seeed Studio",
         "SKU": "102010671",
         "Exact board revision": "Unverified",
-        "Archived board schematic": "Not yet available",
-        "Receipt": "All ordered items received; owner confirmed 23 November 2026"
+        "Archived board schematic": "Seeed Plus schematic v1.1",
+        "Receipt": "All ordered items received; owner confirmed 23 November 2026",
+        "Pinout": "Seeed Plus front and back diagrams"
       },
       "note": "Full receipt confirmed. Five Plus boards acquired; one gifted leaves four recorded remaining. Allocation, independent count and function remain unverified.",
       "links": [],
@@ -11594,7 +13446,63 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Seeed XIAO ESP32-S3 Plus product datasheet · SKU 102010671",
+          "url": "https://files.seeedstudio.com/Bazaar/product_pdf/102010671.pdf",
+          "kind": "Datasheet",
+          "scope": "product",
+          "sha256": "2bceb9637db67e5a48e32899ea09e918adbb439b2565a14a4af78e85fb2d9327"
+        },
+        {
+          "title": "Seeed XIAO ESP32-S3 Plus front pinout diagram",
+          "url": "https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/img/XIAO_ESP32-S3_Plus_front_pinout.png",
+          "kind": "Pinout",
+          "scope": "product",
+          "sha256": "a16289a228731548ccaf7fb31bdf79a12d4cbb69369cf882fc7443fe24dd3b33"
+        },
+        {
+          "title": "Seeed XIAO ESP32-S3 Plus back pinout diagram",
+          "url": "https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/img/XIAO_ESP32-S3_Plus_back_pinout.png",
+          "kind": "Pinout",
+          "scope": "product",
+          "sha256": "17207eb60a5049bfd7b4227475b6b03d8ca6b904e7e2f6e77ecd1569a00d48c7"
+        },
+        {
+          "title": "Seeed XIAO ESP32-S3 Plus pinout workbook",
+          "url": "https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/res/Seeed_Studio_XIAO_ESP32S3_Plus_Pinout.xlsx",
+          "kind": "Pinout",
+          "scope": "product",
+          "sha256": "5dd771ebbb3d0e075b1de7123a354c43e4ee0907b2e3dba0ca9b835b37223cd5"
+        },
+        {
+          "title": "Seeed XIAO ESP32-S3 Plus schematic v1.1 · owned board revision unverified",
+          "url": "https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/res/XIAO_ESP32S3_Plus_V1.1_SCH_260115.pdf",
+          "kind": "Schematic",
+          "scope": "product",
+          "sha256": "5d0213b6258b2658e5edae4d4ee166f6f852e1d0c304bddff5006f6ec6a7d9b9"
+        },
+        {
+          "title": "Seeed XIAO ESP32-S3 Plus hardware overview and pin map",
+          "url": "https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/#xiao-esp32-s3-plus-front",
+          "kind": "Guide",
+          "scope": "product"
+        },
+        {
+          "title": "Seeed XIAO ESP32-S3 series board datasheet · see matching model column",
+          "url": "https://files.seeedstudio.com/wiki/XIAO/Seeed_Studio_XIAO_ESP32-S3_Series_Datasheet-26.11.3.pdf",
+          "kind": "Datasheet",
+          "scope": "family",
+          "sha256": "6953aacbceab787d0a135b19246d2610b50a26b9fd0b922d46e84c618ac68026"
+        },
+        {
+          "title": "Seeed XIAO ESP32-S3 series guide · variant-specific sections",
+          "url": "https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/",
+          "kind": "Guide",
+          "scope": "family",
+          "sha256": "7bea2b5bb018f697f19a5a9b90d8558b21cf47388bba9c40b944344886d674b5"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/xiao-esp32s3-plus-seeed/README.md",
       "productLinks": [
         {
@@ -11640,7 +13548,22 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Bambu X2D printer specifications",
+          "url": "https://store.bblcdn.com/s1/default/51cfa300ccf54616a32c8de18065851d/X2D_spec.pdf",
+          "kind": "PDF",
+          "scope": "product",
+          "sha256": "a1c78c54f97d47e34a391aa4a2477e7863cd494695f227a21455ee0f2b64d701"
+        },
+        {
+          "title": "Bambu X2D user manual · named components, use and maintenance",
+          "url": "https://csm.bblcdn.com/hub/7c58718aaa2e40edab56efb87419a96a.pdf",
+          "kind": "Manual",
+          "scope": "product",
+          "sha256": "36cfd0319535a3a3243e07f36bb3b205ebef698e3a627660f3255bf6cd28d391"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bambu-x2d-combo-eu/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -11684,6 +13607,26 @@
           "url": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/raspberry-pi-5/raspberry-pi-5_product-brief.pdf",
           "kind": "Archive",
           "sha256": "10583c80f867e05af185742bb0f80448458c606a32dd3dbefbbcfca480b59ead"
+        },
+        {
+          "title": "Raspberry Pi official 40-pin GPIO header and pin map",
+          "url": "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#gpio",
+          "kind": "Pinout",
+          "scope": "product"
+        },
+        {
+          "title": "Raspberry Pi 5 mechanical drawing",
+          "url": "https://pip-assets.raspberrypi.com/categories/892-raspberry-pi-5/documents/RP-008347-DS-1-raspberry-pi-5-mechanical-drawing.pdf",
+          "kind": "Drawing",
+          "scope": "product",
+          "sha256": "5dd680d6c1f5e7aa9c7b020695e315d04aac862df82ff01d4e9041cd0668d7f2"
+        },
+        {
+          "title": "Raspberry Pi 5 product brief",
+          "url": "https://pip-assets.raspberrypi.com/categories/892-raspberry-pi-5/documents/RP-008348-DS-5-raspberry-pi-5-product-brief.pdf",
+          "kind": "PDF",
+          "scope": "product",
+          "sha256": "f1ca525452e6fa4e9592a6705e41fb811bf12709d0605fd7cc2099c1b25534f3"
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/raspberry-pi-5/README.md",
@@ -12139,9 +14082,11 @@
       "specs": {
         "Advertised capacity": "2500 mAh",
         "Configuration": "1S",
-        "Connector / protection": "Unverified"
+        "Manufacturer specification": "Wiliyoung WLY-104050/3.7/2500 · revision A/0",
+        "Pack envelope (manufacturer)": "10.5 × 40.5 × 53.5 mm maximum",
+        "Connector polarity": "Unverified on the owned packs"
       },
-      "note": "Receipt is confirmed; actual capacity and limits are untested. Exact-pack charging, protection and discharge specifications are still needed.",
+      "note": "The exact SKU has a Wiliyoung specification with charge limits and protection details. Owned unit markings, connector identity and tested capacity remain unverified.",
       "links": [],
       "catalogueId": "wly104050-lipo",
       "status": "unreconciled",
@@ -12149,7 +14094,15 @@
       "available": null,
       "quantityBasis": "unreconciled",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Wiliyoung WLY-104050 pack specification via Robu · ordered SKU R177572",
+          "url": "https://robu.in/wp-content/uploads/2025/03/R177572.pdf",
+          "kind": "Datasheet",
+          "scope": "product",
+          "sha256": "3f3ea398038f586862c09cf68f420018c90617aa54c198a5827d783849b226ee"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/wly104050-lipo/README.md",
       "productLinks": [
         {
@@ -12659,9 +14612,13 @@
         {
           "category": "Sensors & input",
           "subcategory": "Buttons & encoders"
+        },
+        {
+          "category": "Sensors & input",
+          "subcategory": "Slide switches"
         }
       ],
-      "subcategory": "Buttons & encoders"
+      "subcategory": null
     },
     {
       "id": "seeed-a02-antenna",
@@ -12693,6 +14650,12 @@
           "url": "https://files.seeedstudio.com/wiki/XIAO_WiFi/antenna/FPC_Antenna_2.4GHz_1.16dbi_for_XIAO_ESP32S3/res/Datasheet_2.4GHz_FPC_Antenna_1.16dbi_for_XIAO_ESP32S3.pdf",
           "kind": "PDF",
           "sha256": "10a89ebbeab31e97e21f7aa81e3c8cbca87fe249598ff9c9a61028b8edbfa6fb"
+        },
+        {
+          "title": "Seeed 2.4 GHz A-02 FPC antenna specifications",
+          "url": "https://www.seeedstudio.com/2-4GHz-FPC-Antenna-1-16dBi-for-XIAO-ESP32S3-p-6440.html",
+          "kind": "Specifications",
+          "scope": "product"
         }
       ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/seeed-a02-antenna/README.md",
@@ -12739,7 +14702,14 @@
       "available": null,
       "quantityBasis": "expected",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Seeed XIAO aluminium heat sink dimensions and specifications",
+          "url": "https://www.seeedstudio.com/Aluminum-Heat-Sink-For-XIAO-2pcs-p-5972.html",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/seeed-xiao-heatsink/README.md",
       "productLinks": [
         {
@@ -12947,7 +14917,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Active Packaging · CILICANT orange silica-gel sachet variants · indicator type unconfirmed",
+          "url": "https://buyactivepack.com/products/cilicant-silica-gel-orange",
+          "kind": "Specifications",
+          "scope": "comparison"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/cilicant-silica-gel-5g/README.md",
       "productLinks": [
         {
@@ -12995,7 +14972,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Lifelong LLETK09 62-in-1 set · manufacturer specifications",
+          "url": "https://www.lifelongindiaonline.com/products/lifelong-62-in-1-magnetic-precision-screwdriver-set-tool-kit-for-home-multipurpose-furniture-electronic-repair-extendable-flexible-shaft-for-hard-to-reach-places-laptops-phones-lletk09",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/lifelong-lletk09/README.md",
       "productLinks": [
         {
@@ -13146,7 +15130,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Robu Bonka 1S 25C 1000 mAh seller specification",
+          "url": "https://robu.in/product/bonka-3-7v-1000mah-25c-1s-lithium-polymer-battery-pack/",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bonka-1000mah-1s-lipo/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -13187,7 +15178,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Robu Bonka 1S 25C 1500 mAh seller specification",
+          "url": "https://robu.in/product/bonka-3-7v-1500mah-25c-1s-lithium-polymer-battery-pack/",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/bonka-1500mah-1s-lipo/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -13237,7 +15235,36 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Arduino UNO Rev3 schematic · board listed on kit box",
+          "url": "https://docs.arduino.cc/resources/schematics/A000066-schematics.pdf",
+          "kind": "Schematic",
+          "scope": "component",
+          "sha256": "2c1041200352485393108e03c5117a07d4ea03954654485526c2c56cd01f7a42"
+        },
+        {
+          "title": "Arduino UNO Rev3 datasheet · board listed on kit box",
+          "url": "https://docs.arduino.cc/resources/datasheets/A000066-datasheet.pdf",
+          "kind": "Datasheet",
+          "scope": "component",
+          "sha256": "6bfbbc1b50da5ed84e7311b9639e62cc456e93e70a55d9c2e1eb9b7355212f21"
+        },
+        {
+          "title": "Arduino UNO Rev3 pinout · board listed on kit box",
+          "url": "https://docs.arduino.cc/static/c57a658e0f7afad334f6f73e82dfd83d/A000066-full-pinout.pdf",
+          "kind": "Pinout",
+          "scope": "component",
+          "sha256": "088b4d7d776abf443cb050c31875221aa5fc7f0533470b33e035c249cf240007"
+        },
+        {
+          "title": "Arduino UNO Rev3 datasheet source · kit board",
+          "url": "https://github.com/arduino/docs-content/blob/main/content/hardware/uno/boards/uno-rev3/datasheet/en-datasheet.md",
+          "kind": "Guide",
+          "scope": "component",
+          "sha256": "000210bf21b08a3c45aa3c73a6f140fb5a5f52fff309cf0a52f0304abb64b106"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/arduino-starter-kit-uno-r3/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -13481,7 +15508,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Robodo SG90 seller specifications",
+          "url": "https://robodo.in/products/towerpro-sg90-9g-mini-servo-9-gram-servo-for-rc-robotics",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/robodo-sg90-micro-servo/README.md",
       "productLinks": [
         {
@@ -13530,7 +15564,15 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "InvenSense MPU-9250 chip specification rev. 1.1 · breakout wiring unverified",
+          "url": "https://product.tdk.com/en/system/files/dam/doc/product/sensor/mortion-inertial/imu/data_sheet/ps-mpu-9250a-01-v1.1.pdf",
+          "kind": "PDF",
+          "scope": "component",
+          "sha256": "fb38e76cd5f3b223d5c93046d690bd843c34a9c77f70c04f0052c12436855db9"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/mpu9250-imu-module/README.md",
       "productLinks": [
         {
@@ -13585,7 +15627,21 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Tontek TTP223-BA6 v2.1 chip datasheet · verify the fitted suffix",
+          "url": "https://www.tontek.com.tw/uploads/product/243/TTP223-BA6_V2.1_EN.pdf",
+          "kind": "Datasheet",
+          "scope": "component",
+          "sha256": "9b3adc3dcc42b9f5ce7bc36e406892c9a0134b88919d3e6fc1b8e1eb583ed9b8"
+        },
+        {
+          "title": "Robodo TTP22301 / TTP223B module seller pin labels and specifications",
+          "url": "https://robodo.in/products/ttp223b-digital-touch-sensor-capacitive-touch-switch-module-for-arduino",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/robodo-ttp223b-touch-sensor/README.md",
       "productLinks": [
         {
@@ -13627,7 +15683,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Robocraze 70 × 70 mm mini epoxy solar panel specifications",
+          "url": "https://robocraze.com/products/mini-epoxy-solar-panel-70x70-mm",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/mini-epoxy-solar-panel-70mm/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -13661,7 +15724,28 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "DFRobot DFR0446 module schematic",
+          "url": "https://www.dfrobot.com.cn/images/upload/File/20170802101907536cqv.pdf",
+          "kind": "Schematic",
+          "scope": "product",
+          "sha256": "b7a808e668fb9c87ccfa980a839c2f5b7471ebdc5ab9d08fc3346eccdd547caa"
+        },
+        {
+          "title": "DFRobot DFR0446 module specification",
+          "url": "https://media.digikey.com/pdf/Data%20Sheets/DFRobot%20PDFs/DFR0446_Web.pdf",
+          "kind": "PDF",
+          "scope": "product",
+          "sha256": "0eef3854e96dd0ba1d3a0834a193c171e3fc3ae9e41f2620029efa17f70c63b2"
+        },
+        {
+          "title": "DFRobot DFR0446 module specifications and pin functions",
+          "url": "https://www.dfrobot.com/product-1613.html",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/dfrobot-mp2636-booster-charger/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -13696,7 +15780,14 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Robocraze 5 V / 2 A charge-discharge module specifications and pinout",
+          "url": "https://robocraze.com/products/dc-dc-charge-discharge-integrated-module-5v-2a",
+          "kind": "Specifications",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/charge-discharge-module-5v-2a/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -13731,7 +15822,21 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Tontek TTP223-BA6 v2.1 chip datasheet · verify the fitted suffix",
+          "url": "https://www.tontek.com.tw/uploads/product/243/TTP223-BA6_V2.1_EN.pdf",
+          "kind": "Datasheet",
+          "scope": "component",
+          "sha256": "9b3adc3dcc42b9f5ce7bc36e406892c9a0134b88919d3e6fc1b8e1eb583ed9b8"
+        },
+        {
+          "title": "Robocraze TTP223 module seller pinout and specifications",
+          "url": "https://robocraze.com/products/ttp223-touch-switch-module",
+          "kind": "Pinout",
+          "scope": "product"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/ttp223-touch-module-robocraze/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -13767,7 +15872,15 @@
       "available": null,
       "quantityBasis": "recorded",
       "incoming": null,
-      "documents": [],
+      "documents": [
+        {
+          "title": "Numakers PLA+ technical data sheet · linked from the India PLA+ listing",
+          "url": "https://cdn.shopify.com/s/files/1/0574/3912/5673/files/PLA_TDS.pdf?v=1788166074",
+          "kind": "Datasheet",
+          "scope": "product",
+          "sha256": "f558f009177bd5106c0dd54361c94925fe808b9cb7cc2dc9704f197627b7c9c0"
+        }
+      ],
       "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/numakers-pla-plus-light-gray/README.md",
       "productLinks": [],
       "purchaseSource": null,
@@ -13778,6 +15891,282 @@
         {
           "category": "3D printing",
           "subcategory": "PLA filament"
+        }
+      ]
+    },
+    {
+      "id": "seeed-lipo-rider-plus",
+      "name": "Seeed Studio LiPo Rider Plus charger/booster",
+      "category": "Power",
+      "summary": "Single-cell LiPo charger with USB-C input and 5 V boost output over USB-A.",
+      "tags": [
+        "Robu"
+      ],
+      "specs": {
+        "Order unit": "board",
+        "Robu SKU": "1670436",
+        "Input connector": "USB-C",
+        "5 V output connector": "USB-A, up to 2.4 A (manufacturer)"
+      },
+      "note": "Received. Revision, included accessories and tested function are unverified.",
+      "links": [
+        {
+          "title": "Seeed Studio hardware guide",
+          "url": "https://wiki.seeedstudio.com/Lipo-Rider-Plus/"
+        }
+      ],
+      "catalogueId": "seeed-lipo-rider-plus",
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [
+        {
+          "title": "Seeed LiPo Rider Plus specifications and user guide",
+          "url": "https://wiki.seeedstudio.com/Lipo-Rider-Plus/",
+          "kind": "Guide",
+          "scope": "product",
+          "sha256": "779ccbb9aae26f20ab74657758bb23985c05149e9f4abc68d008110ffbf56f78"
+        },
+        {
+          "title": "ETA9740 chip datasheet distributed by Seeed for the LiPo Rider Plus",
+          "url": "https://raw.githubusercontent.com/SeeedDocument/Lipo-Rider-Plus/master/res/ETA9740_V1.1.pdf",
+          "kind": "Datasheet",
+          "scope": "component",
+          "sha256": "ae4c4d10be8f1025eb1ca9c446fefb0c8eb713229050435210e8f68ac44dc39e"
+        },
+        {
+          "title": "Seeed LiPo Rider Plus schematic and PCB design archive",
+          "url": "https://files.seeedstudio.com/products/106990290/202002729_PCBA_Lipo%20Rider%20Plus_SCH%20%26%20PCB.zip",
+          "kind": "Schematic",
+          "scope": "product",
+          "sha256": "b2bf7bef028613a1509f8b7a5b6f4146049d215230d293f0f996503607c1e7e4"
+        },
+        {
+          "title": "Seeed LiPo Rider Plus visual port and header diagram",
+          "url": "https://files.seeedstudio.com/wiki/Lipo-Rider-Plus/img/Hardware_connection.png",
+          "kind": "Pinout",
+          "scope": "product",
+          "sha256": "9d6929b5e6ea7bdf6fceb7e8b634d57ebf48d8e51d1e1978bc747a584b273c4a"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/seeed-lipo-rider-plus/README.md",
+      "productLinks": [
+        {
+          "title": "Robu product page",
+          "url": "https://robu.in/product/seeed-studio-lipo-rider-plus-charger-booster-5v-2-4a-usb-type-c/",
+          "kind": "original",
+          "note": "Order SKU 1670436"
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Battery chargers",
+      "legacyCategory": "Power",
+      "categoryPaths": [
+        {
+          "category": "Power",
+          "subcategory": "Battery chargers"
+        }
+      ]
+    },
+    {
+      "id": "dfrobot-fit0502",
+      "name": "DFRobot FIT0502 stereo enclosed speaker · 3 W 8 Ω",
+      "category": "Motors & actuators",
+      "summary": "Passive enclosed speaker with attached two-wire lead.",
+      "tags": [
+        "Robu"
+      ],
+      "specs": {
+        "Order unit": "order unit",
+        "Robu SKU": "R261339",
+        "Manufacturer rating": "3 W, 8 Ω",
+        "Manufacturer connector": "JST PH 2.0"
+      },
+      "note": "Received. Revision, included accessories and tested function are unverified.",
+      "links": [
+        {
+          "title": "DFRobot FIT0502 specifications",
+          "url": "https://www.dfrobot.com/product-1506.html"
+        }
+      ],
+      "catalogueId": "dfrobot-fit0502",
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [
+        {
+          "title": "DFRobot FIT0502 manufacturer specification",
+          "url": "https://www.dfrobot.com/product-1506.html",
+          "kind": "Specifications",
+          "scope": "product"
+        },
+        {
+          "title": "DFRobot FIT0502 manufacturer product sheet",
+          "url": "https://www.farnell.com/datasheets/4376732.pdf",
+          "kind": "PDF",
+          "scope": "product",
+          "sha256": "05c5510413744395e02c8f271b09bfd85fce6bd5c2cb8159d82a698c61868ed0"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/dfrobot-fit0502/README.md",
+      "productLinks": [
+        {
+          "title": "Robu product page",
+          "url": "https://robu.in/product/dfrobot-fit0502-stereo-enclosed-speaker-3w-8%cf%89/",
+          "kind": "original",
+          "note": "Order SKU R261339"
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Speakers",
+      "legacyCategory": "Motors & actuators",
+      "categoryPaths": [
+        {
+          "category": "Motors & actuators",
+          "subcategory": "Speakers"
+        }
+      ]
+    },
+    {
+      "id": "waveshare-esp32-s3-ai-smart-speaker",
+      "name": "Waveshare ESP32-S3 AI Smart Speaker Development Board",
+      "category": "Controllers & computing",
+      "summary": "Round ESP32-S3 audio board with dual microphones and an RGB LED ring.",
+      "tags": [
+        "Robu"
+      ],
+      "specs": {
+        "Order unit": "board",
+        "Robu SKU": "R256521",
+        "Manufacturer family": "ESP32-S3-AUDIO-Board",
+        "USB": "USB-C"
+      },
+      "note": "Received. Revision, included accessories and tested function are unverified.",
+      "links": [
+        {
+          "title": "Waveshare ESP32-S3-AUDIO-Board documentation",
+          "url": "https://docs.waveshare.com/ESP32-S3-AUDIO-Board"
+        }
+      ],
+      "catalogueId": "waveshare-esp32-s3-ai-smart-speaker",
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [
+        {
+          "title": "Waveshare ESP32-S3-AUDIO-Board schematic v1.1 · board revision unconfirmed",
+          "url": "https://files.waveshare.com/wiki/ESP32-S3-AUDIO-Board/ESP32-S3-AUDIO-Board_1.1.pdf",
+          "kind": "Schematic",
+          "scope": "product",
+          "sha256": "234b8800137fd56355fbb208a555893fe009cdff353707ccd564f7a82069cc09"
+        },
+        {
+          "title": "Waveshare ESP32-S3-AUDIO-Board interface and pin definitions",
+          "url": "https://docs.waveshare.com/assets/images/Esp32s3_audio_boarddetails-inter-1.1-b330d016d3bccfbfea585aaf6c95600c.webp",
+          "kind": "Pinout",
+          "scope": "product",
+          "sha256": "5862efe903fa2a3218c7282986f4d8d2f958dfdc9bd19d4946d7df2d22e53167"
+        },
+        {
+          "title": "Waveshare ESP32-S3-AUDIO-Board manufacturer hardware guide",
+          "url": "https://docs.waveshare.com/ESP32-S3-AUDIO-Board",
+          "kind": "Guide",
+          "scope": "product"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/waveshare-esp32-s3-ai-smart-speaker/README.md",
+      "productLinks": [
+        {
+          "title": "Robu product page",
+          "url": "https://robu.in/product/esp32-s3-ai-smart-speaker-development-board/",
+          "kind": "original",
+          "note": "Order SKU R256521"
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Microcontrollers",
+      "legacyCategory": "Controllers & computing",
+      "categoryPaths": [
+        {
+          "category": "Controllers & computing",
+          "subcategory": "Microcontrollers"
+        }
+      ]
+    },
+    {
+      "id": "dfrobot-i2s-microphone",
+      "name": "DFRobot I2S Microphone Module",
+      "category": "Sensors & input",
+      "summary": "Round I²S digital MEMS microphone breakout.",
+      "tags": [
+        "Robu"
+      ],
+      "specs": {
+        "Order unit": "module",
+        "Robu SKU": "1074722",
+        "Manufacturer SKU": "SEN0327"
+      },
+      "note": "Received. Revision, included accessories and tested function are unverified.",
+      "links": [
+        {
+          "title": "DFRobot SEN0327 specifications",
+          "url": "https://www.dfrobot.com/product-1954.html"
+        }
+      ],
+      "catalogueId": "dfrobot-i2s-microphone",
+      "status": "recorded",
+      "remaining": 1,
+      "available": null,
+      "quantityBasis": "recorded",
+      "incoming": null,
+      "documents": [
+        {
+          "title": "DFRobot SEN0327 specifications and original Sipeed references",
+          "url": "https://www.dfrobot.com/product-1954.html",
+          "kind": "Specifications",
+          "scope": "product"
+        },
+        {
+          "title": "Sipeed I2S microphone v1.0 datasheet · DFRobot SEN0327",
+          "url": "https://dl.sipeed.com/MAIX/HDK/Sipeed-I2S_MIC/Specifications/Sipeed%20I2S_Mic%20Datasheet%20V1.0.pdf",
+          "kind": "Datasheet",
+          "scope": "product",
+          "sha256": "94f56b4fa908ddda5475d534b25f58b944d2cee8240dffdc76c0d25ef98f6113"
+        },
+        {
+          "title": "Sipeed I2S microphone schematic and header · DFRobot SEN0327",
+          "url": "https://dl.sipeed.com/MAIX/HDK/Sipeed-I2S_MIC/I2S_MIC%28Schematic%29.pdf",
+          "kind": "Schematic",
+          "scope": "product",
+          "sha256": "c78e635b609dee52b3254fa73670a09fefd9cdd45e67c2a8ef7bb204e2df2ece"
+        }
+      ],
+      "recordUrl": "https://github.com/ankit-gypsyphi/hardware-library/blob/main/components/dfrobot-i2s-microphone/README.md",
+      "productLinks": [
+        {
+          "title": "Robu product page",
+          "url": "https://robu.in/product/i2s-microphone-module/",
+          "kind": "original",
+          "note": "Order SKU 1074722"
+        }
+      ],
+      "purchaseSource": null,
+      "contents": null,
+      "subcategory": "Microphones",
+      "legacyCategory": "Sensors & input",
+      "categoryPaths": [
+        {
+          "category": "Sensors & input",
+          "subcategory": "Microphones"
         }
       ]
     }
@@ -13802,7 +16191,9 @@
           "Temperature & humidity",
           "Light sensors",
           "Buttons & encoders",
-          "Inertial sensors"
+          "Inertial sensors",
+          "Slide switches",
+          "Microphones"
         ]
       },
       {
@@ -13827,7 +16218,8 @@
       {
         "name": "Motors & actuators",
         "subcategories": [
-          "Servo motors"
+          "Servo motors",
+          "Speakers"
         ]
       },
       {
